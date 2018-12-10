@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>   
+</head>
+   <body>
+<h1>StepInfo class </h1>
+<div class="mpld-select-language">
+<span class="mpld-header-label">Platform: </span>
+<a class="link mpld-header-field" href="../indexm/sdk-platformIndex-selenium4.htm">Selenium 4</a>
+	<span id="mpld-select-language-label">Language: </span>
+	<span id="mpld-select-language-field">  JavaScript </span>
+	<div class="dropdown-menu">
+		<div class="mpld-dropdown">
+			<a href="javascript:void(0)" 
+				id="change-language-text" 
+				class="link mpld-dropdown-button"> 
+				other languages
+				<span class="fa fa-angle-down"></span>
+			</a>
+			<div id="change-language-menu" class="mpld-dropdown-content"></div>    
+		</div>
+	</div>
+</div><div>When a test terminates, the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a> method returns an object
+with methods/properties defined by the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults">lookupid</span></a> class.
+Within the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults">lookupid</span></a> there is an array of objects which have the properties defined by the class <a class ="link" href="#"><span class="code-label" data-mpld-lookup="stepinfo">lookupid</span></a>.
+Each element of this array describes information for one step in the test.The properties in this class are used to retrieve information for a given step in the test results.</div>
+<div>You can access the array of objects with the step information using the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults$getstepsinfo$mOrP">lookupid</span></a></div>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getapiurls-selenium4-javascript.htm"><span class ="code-label">getApiUrls()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use the object returned by this <span data-mpld-lookup-methodOrProp="stepinfo$getapiurls">method</span> to retrieve URLs for the baseline, checkpoint and diff images.
+You can obtain these images using the REST API.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getappurls-selenium4-javascript.htm"><span class ="code-label">getAppUrls()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use the object returned by this <span data-mpld-lookup-methodOrProp="stepinfo$getappurls">method</span> 
+to retrieve URLs you can use to open the Test Manager in a browser preloaded with this step.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethasbaselineimage-selenium4-javascript.htm"><span class ="code-label">getHasBaselineImage()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns whether the baseline has a baseline image for this step.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getisdifferent-selenium4-javascript.htm"><span class ="code-label">getIsDifferent()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use this method to if the checkpoint did not match a baseline image.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getname-selenium4-javascript.htm"><span class ="code-label">getName()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the name (tag) assigned to the step (in the check method).
+     </dd>
+   </dl>
+<script src="/docs/scripts/mpldlookup.js"></script>
+<script>
+mpld.setPagePlatFormLanguage("selenium4", "javascript");
+mpldLookup.setPagePlatFormLanguage("selenium4", "javascript");
+</script>   </body>
+</html>

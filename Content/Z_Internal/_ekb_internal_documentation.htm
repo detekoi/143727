@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.Not for Output">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">ekb_internal_documentation</h1>
+        <h2 class="title"> class="title"&gt;Running Languages</h2>
+        <h3 class="title">Java</h3>
+        <p>Directory name java</p>
+        <p>environment IntelliJ&#160;IDEA</p>
+        <p>To run script : run from inside the tool</p>
+        <p>File/New/Project/Maven</p>
+        <p>next groupid, artifaxct id whatever</p>
+        <p>add to pom.xml</p>
+        <p>&lt;dependencies&gt;</p>
+        <p>&lt;dependency&gt;</p>
+        <p>&lt;groupId&gt;com.applitools&lt;/groupId&gt;</p>
+        <p>&lt;artifactId&gt;eyes-selenium-java3&lt;/artifactId&gt;</p>
+        <p>&lt;version&gt;RELEASE&lt;/version&gt;</p>
+        <p>&lt;/dependency&gt;</p>
+        <p>&lt;/dependencies&gt;</p>
+        <p>Maven will autodetect the need to import <MadCap:variable name="General.ProductName" /></p>
+        <h3 class="title">Csharp</h3>
+        <p>Directory name csharp</p>
+        <p>environment Visual Studio </p>
+        <p>create a console app</p>
+        <p>Project/Managepackage manager </p>
+        <p>right click name of project in the right pane, properties .NET&#160;Framework 4 Client Profile (or do it when you create the project)</p>
+        <p>search for Eyes.Selenium</p>
+        <p>instal</p>
+        <p>using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+        }
+    }
+}</p>
+        <p>Add the code in the main or in other classes. </p>
+        <p>To run script :</p>
+        <h3 class="title">Javascript</h3>
+        <p>Directory name javascript</p>
+        <p>environment any editor</p>
+        <p>npm init</p>
+        <p>npm install eyes.selenium --save-dev</p>
+        <p>npm install selenium-webdriver</p>
+        <p>&#160;</p>
+        <p>To run script :&#160;node filename.js</p>
+        <p>&#160;</p>
+        <h3 class="title">PHP</h3>
+        <p>Directory name PHP</p>
+        <p>environment : Visual Studio Code</p>
+        <p>To run script :</p>
+        <p>download and copy&#160;selenium-server-standalone-3.8.1.jar to (say)&#160;/PHP</p>
+        <p>cd /PHP</p>
+        <p>&#160;java -jar selenium-server-standalone-3.8.1.jar</p>
+        <p>&#160;</p>
+        <p>to run with firefox need to add something at the end....</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <h3 class="title">Python</h3>
+        <p>Directory name python</p>
+        <p>environment : Visual Studio Code</p>
+        <p>To run script :&#160;</p>
+        <h3 class="title">Ruby</h3>
+        <p>Directory name ruby</p>
+        <p>environment : Visual Studio Code</p>
+        <p>To run script :&#160;ruby filenam.ry</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title"&gt;linking to the web stylesheet</h2>
+        <p>this design inherits some basic css from the <MadCap:variable name="General.CompanyName" /> site using a file common.css</p>
+        <ol class="numbered-list">
+            <li>&#160;On the "internal" target<ol class="numbered-list"><li> set "master style sheet" to common.css which is a local copy of the web common.css (from git). (done once per new target)</li><li>&#160;common.css must link to private.css :&#160;open common.css, from options select stylesheet links select private.css - done every time common.css is updated (or just add @import url('private.css') ; zg the top of the common.css style sheet)</li></ol></li>
+            <li>On the"public" target <ol class="numbered-list"><li><p>in contente/masterpages/&lt;all maser pages&gt; add link to web style</p><p>&lt;link type="text/css" rel="stylesheet" href=""/&gt;</p></li><li> set "master style sheet" to private.css </li></ol></li>
+        </ol>
+        <p>&#160;</p>
+        <p>TBD&#160;- remove from private anything that should come from common or use common classes</p>
+        <h2 class="title"> class="title"&gt;supporting context help from the UI&#160;tool</h2>
+        <h2 class="title">File naming</h2>
+        <p>All file names should use lowercase and "-" and not "_"&#160;or spaces.</p>
+        <p>File names should be names with a leading "_" until they are after review - then the "_" should be removed (this makes it easy to ensure they are not pushed to production by mistake)</p>
+        <p>&#160;</p>
+        <h2 class="title">Running locally</h2>
+        <ol class="numbered-list">
+            <li>run an http-server in a cmd window C:\Users\User\Dropbox\EKB\eyes-knowledgebase-source\Output\User\ekb-online\ekb-internal&gt;</li>
+            <li>run fiddler4 to find all the correct fonts etc.</li>
+            <li>
+                <p>&#160;</p>
+            </li>
+        </ol>
+        <h2 class="title">Creating a build (</h2>
+        <ol class="numbered-list">
+            <li>(Flare)&#160;Project /Build Primary (ekb or ekb-internal)</li>
+            <li>(in Source tree)&#160;Uncommited change Stage all</li>
+            <li>(in Source tree) Commit (top right), put comment, commit (bottom left)</li>
+            <li>(in Heroku https://dashboard.heroku.com/apps/applitools-ekb/deploy/github) Deploy Branch develop</li>
+            <li>View at https://applitools-ekb.herokuapp.com/docs-internal/content/gridhome.htm</li>
+            <li>Collaborate via https://hypothes.is group applitools_ekb_rvwint</li>
+        </ol>
+        <h2 class="title">Annotations</h2>
+        <p>class="padded-section"&#160;where you need extra space around an image</p>
+        <h2 class="title">2nd level index</h2>
+        <h2 class="title">Adding code</h2>
+        <p>in the head add the following</p>
+        <link rel="stylesheet" href="/docs/Resources2/Stylesheets/mpld.css" />
+        <script src="/docs/scripts/jquery.min.js">
+        </script>
+        <script src="/docs/scripts/mpld.js">
+        </script>
+        <p>Where you want to add code add </p><pre class="mpld-section" data-mpld-dir="HelloWorldBatch" data-mpld-file="HelloWorldBatch" data-mpld-section="all"></pre>
+        <p> In the code mark the rows you want to include using</p>
+        <p>//%%%% start name</p>
+        <p>//%%% stop name </p>
+        <p>At the end add </p>
+        <h2 class="title">Dealing with future cross references</h2>
+        <p>1)&#160;I&#160;know I&#160;want to reference a topic, that topic is not yet planned - os we insert the snipped "0quickInserts/_tbdref.flsnp"</p>
+        <p>
+            <MadCap:snippetText src="../0quickInserts/_tbdref.flsnp" />
+        </p>
+        <p>2)&#160;The article has been allocated (on 1_WIP&#160;or 2_ToDo) so now we want an actual link. but only in draft mode. In release mode all text and the link should disappear.</p><pre xml:space="preserve">
+  &lt;span MadCap:conditions="General.ToDo&gt; For more information see 
+     &lt;a class="link" </pre><pre xml:space="preserve">        href="../../2_ToDo/_1test-manager-step-thumbnail.htm"&gt;  
+        Using the Step Thumbnail Commands 
+     &lt;/a&gt;
+  &lt;/span&gt;</pre>
+        <p>3)&#160;If for some</p><pre xml:space="preserve">&lt;span class="app-page"&gt;</pre><pre xml:space="preserve">   &lt;MadCap:xref MadCap:conditions="General.ToDo" </pre><pre xml:space="preserve">   href="../../../2_ToDo/_tm-test-results-batch-steps-view.htm"&gt;</pre><pre xml:space="preserve">    Batch Steps view</pre><pre xml:space="preserve">  &lt;/MadCap:xref&gt;</pre><pre xml:space="preserve">  &lt;MadCap:xref href="javascript:void(0)"&gt;</pre><pre xml:space="preserve">    Batch Steps view&lt;/MadCap:xref&gt;</pre><pre xml:space="preserve">&lt;/span&gt;</pre>
+        <script type="text/javascript">/*<![CDATA[*/			
+				var folder = "/docs/example-code";
+				var myFile = "HelloWorldSimple"; 
+				mpld.setDefaultFile(folder,myFile);
+				/* data-mpld-lang, 	button name, 	sub folder name , 							file suffix */
+				mpld.addLanguage( "java",				"Java",			"java/src/main/java/com/applitools/ekb","	.java");
+				mpld.addLanguage("javascript",			"Javascript",	"javascript",								".js");
+				mpld.addLanguage("ruby",		 	    "Ruby",	        "ruby",							        	".rb");
+				mpld.addLanguage("python",		 	    "Python",	    "python",							        ".py");
+				mpld.addLanguage("csharp",		 	    "C#",	  		"csharp",							        ".cs");
+				mpld.addLanguage("php",		 	   		"PHP",	    	"PHP",							       		".php");
+				/*]]>*/
+			</script>
+    </body>
+</html>

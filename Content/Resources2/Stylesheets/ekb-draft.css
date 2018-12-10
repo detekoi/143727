@@ -1,0 +1,17 @@
+﻿/*<meta conditions="General.draft" />*/
+
+@import url('style-cutdown.min.css');
+
+@import url('ekb-private.css');
+
+MadCap|popupBody
+{
+	width: auto;
+	max-width: 500;
+}
+
+.docs .tbd
+{
+	background-color: #f6fa06 !important;
+	display: inline;
+}

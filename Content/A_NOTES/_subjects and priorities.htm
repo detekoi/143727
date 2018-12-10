@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="4440" MadCap:lastWidth="487" MadCap:conditions="General.Not for Output">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">Subjects and priorities</h1>
+        <p>This is partial but includes everything that is important and will keep you busy for a long time. Numbers next to chaprter indicate priority</p>
+        <p>The following table is a list of all the the subject covered by the EKB, their priority (to being written) and once written where the write can be found.</p>
+        <h2 class="title"> class="title">Get started (1) </h2>
+        <ol class="numbered-list">
+            <li style="background-color: #7fff00;">What is visual UI testing?</li>
+            <li style="background-color: #7fff00;">Run your first visual UI test!  =&gt; refer to existing getting started documentation or integrate it into the docs</li>
+            <li style="background-color: #7fff00;">System overview</li>
+            <li style="background-color: #7fff00;">The workflow</li>
+            <li style="background-color: #7fff00;">Anatomy of a visual UI test)</li>
+            <ul class="bulleted-list" >
+                <li style="background-color: #7fff00;">Cover as little details as possible, for example, don't cover all exceptions thrown by eyes.close just DifferencesFoundException, etc.</li>
+                <li style="background-color: #7fff00;">[In the future we will need to explain visual UI tests with codeless tests as well e.g., SeleniumIDE]</li>
+            </ul>
+            <li style="background-color: #7fff00;">Analyzing test results</li>
+            <ul class="bulleted-list">
+                <li style="background-color: #7fff00;">Overview similar to the videos, explain the test statuses (unresolved, passed, fail)</li>
+                <li style="background-color: #7fff00;">Briefly mention how to handle dynamic data etc.3</li>
+                <li style="background-color: #7fff00;">Mention collaboration abilities + test assignment + refer to the collaboration chapter</li>
+            </ul>
+            <li style="background-color: #7fff00;">Updating baselines</li>
+        </ol>
+        <ul class="bulleted-list" >
+            <li style="background-color: #7fff00;">Overview similar to the videos</li>
+        </ul>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Accepting and rejecting differences (2)</h2>
+        <p>What is a diff?</p>
+        <p>How it is shown in the UI in the different views</p>
+        <p>How the batch header indicates progress of "resolution"</p>
+        <p>Accepting or rejecting diffs</p>
+        <p>Including UI indications, Orange, green, red, labels etc.</p>
+        <p>The test status</p>
+        <p>Default and explicit</p>
+        <p>The batch status</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Understanding baselines (2)</h2>
+        <p style="background-color: #7fff00;">What is a baseline? ok</p>
+        <p style="background-color: #7fff00;">Explain applications, execution environments (OS, hosting apps (e.g., browser), and viewports) ok</p>
+        <p style="background-color: #7fff00;">You can rephrase: A sequence of steps which define the expected appearance of the AUT for given progression of checkpoints while executing a specific test in a specific execution environment.n- ok</p>
+        <p style="background-color: #7fff00;">Highlight that the step is not just the image but it includes annotations of areas to ignore, moving areas, as well as issues and remarks</p>
+        <p><span style="background-color: #ffff00;">Explain how you can see the baseline of a test in the test manager (the baseline of  test result). </span><span style="color: #ff0000;"><span style="background-color: #ffff00;">What is "the baseline" - an I&#160;D? </span></span>
+        </p>
+        <p>Branches would make the definition above more complex so I would avoid them except for a comment that mentions that baselines are specific to branches with a link to more information </p>
+        <p><span style="background-color: #ffff00;">Specifying the test execution - </span><span style="color: #ff0000;"><span style="background-color: #ffff00;">what is doable via the SDK&#160;and what via the TM</span></span>
+        </p>
+        <p><span style="background-color: #adff2f;">Explain the default behavior and how to override it with the SDKs.done.</span>
+        </p>
+        <p><span style="background-color: #ffff00;">How to name execution environments</span> <span style="color: #ff0000;">how has this changed ?</span></p>
+        <p><span style="background-color: #ffff00;">Determining a baseline to compare with</span> <span style="color: #ff0000;">what does thsi mean how has it changed ?</span></p>
+        <p><span style="background-color: #ffff00;">The test execution environment vs the baseline environment, the default baseline environment, how to define</span> <span style="color: #ff0000;">how has this changed ?</span></p>
+        <p>How to update baselines (each of the below is an article on its own, not a section of the same article)</p>
+        <p>&#160;</p>
+        <p>Saving changes to the baseline - done</p>
+        <p><span style="background-color: #adff2f;">Explain the '*' indication on steps and tests, the "save" buttons and how they work. - done </span>
+        </p>
+        <p><span style="background-color: #ffff00;">Mentions baseline history</span> -<span style="color: #ff0000;"> where can we see this ?</span></p>
+        <p><span style="background-color: #ffff00;">Cover how this done from the test manager, step viewer and test editor</span>
+        </p>
+        <p><span style="background-color: #7cfc00;">How to ignore dynamic areas </span><span style="color: #ff0000;">- topic on "tuning the results"</span>
+        </p>
+        <p><span style="background-color: #7cfc00;">Indicate areas to match by layout </span>- <span style="color: #ff0000;">- topic on "tuning the results"</span></p>
+        <p>Indicate moving areas - <span style="color: #ff0000;">- topic on "tuning the results"</span></p>
+        <p><span style="background-color: #ffff00;">Split regions</span><span style="color: #ff0000;"> WHAT&#160;IS&#160;THIS&#160;?</span>
+        </p>
+        <p><span style="background-color: #ffff00;">Automatically adjust regions across steps of a test-</span> <span style="color: #ff0000;"> WHAT&#160;IS&#160;THIS&#160;?</span></p>
+        <p>…</p>
+        <p>Branching and baselines</p>
+        <p>Motivation for having branch specific baselines</p>
+        <p>How to view the baseline history and many other operations on baselines we will have in the future (3)</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Visual checkpoints (2)</h2>
+        <p>What is a checkpoint? Refer to "understanding baselines" for information on how to determine the baseline to compare with.</p>
+        <p>Match levels</p>
+        <p>Checking pages vs components</p>
+        <p>Pros and cons, Check a frame, frame in frame, region in frame, etc</p>
+        <p>Capturing full page and component screenshots</p>
+        <p>Explain the different between viewport screenshots and full body screenshots, show how its defined for pages vs components, etc.</p>
+        <p>Specifying dynamic and moving regions programmatically</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Working with test batches (2)</h2>
+        <p><span style="background-color: #7fff00;">What are batches? done</span>
+        </p>
+        <p style="background-color: #7fff00;">How to define a batch todo n multiple languages</p>
+        <p style="background-color: #7fff00;">Viewing the contents of a batch - allready covered ? what is "contents"</p>
+        <p style="background-color: #7fff00;">Different views, mention step and test filtering but don't go into too much details (refer to test filtering and grouping)</p>
+        <p style="background-color: #7fff00;">Filtering batches - done</p>
+        <p style="background-color: #7fff00;">Renaming batches - done</p>
+        <p style="background-color: #7fff00;">Deleting batches - done</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Test filtering and grouping (2)</h2>
+        <p>&#160;</p>
+        <p>Tests and test steps</p>
+        <p>Built-in test properties (e.g., name, start time, execution environment, stars, etc).</p>
+        <p>Custom properties (and how to define them)</p>
+        <p>Grouping tests</p>
+        <p>Filtering steps (in different views)</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Team collaboration (2)</h2>
+        <p>&#160;</p>
+        <p>Overview</p>
+        <p>Briefly mention the many collaboration features: Issues, remarks, chats, reporting, test assignment etc.</p>
+        <p>How to report issues</p>
+        <p>Refer to integrations</p>
+        <p>How to place remarks on tests</p>
+        <p>How to place remarks on test steps</p>
+        <p>How to assign tests to users</p>
+        <p>How to generate and share reports</p>
+        <p>How to share links to batches, tests and steps</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Working with branches (3)</h2>
+        <p>Motivation</p>
+        <p>How to define a branch</p>
+        <p>Executing branch vs the parent branch</p>
+        <p>Merging branches</p>
+        <p>Rest API, command line tool</p>
+        <p>Explain merge</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Administration (4) - draft</h2>
+        <p>Account</p>
+        <p>Teams</p>
+        <p>Users</p>
+        <p>Upgrading plans</p>
+        <p>Licensing and usage reports</p>
+        <p>Access keys</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Integrations (3)</h2>
+        <p>Authentication</p>
+        <p>LDAP, SAML</p>
+        <p>Single sign-on</p>
+        <p>Links to videos for Jenkins, Jira, TeamCity, TFS, …</p>
+        <p>Step by step documentation (4)</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">Tutorials (5)</h2>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">SDK API references (4)</h2>
+        <p>For all SDK</p>
+        <p>&#160;</p>
+        <h2 class="title"> class="title">REST API reference (4)</h2>
+        <p>  <![CDATA[ ]]></p>
+    </body>
+</html>

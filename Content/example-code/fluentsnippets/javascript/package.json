@@ -1,0 +1,17 @@
+{
+  "name": "fluentsnippet-javascript",
+  "version": "1.0.0",
+  "main": "fluentsnippets.js",
+  "dependencies": {
+    "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {
+    "eyes.selenium": "0.0.83"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

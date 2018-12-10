@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Resources | Applitools</title>
+        <meta name="description" content="Automated Visual Software Testing" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type="text/javascript" src="/js/libs.min.js">
+        </script>
+        <script type="text/javascript" src="../from-site/scripts/app.min.js">
+        </script>
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Applitools Eyes" />
+        <meta name="twitter:description" content="Automated visual application testing and monitoring" />
+        <meta name="twitter:image" content="/images/social/applitools_logo.png" />
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Applitools Eyes" />
+        <meta property="og:description" content="Automated visual application testing and monitoring" />
+        <meta property="og:image" content="/images/social/applitools_logo.png" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:site_name" content="Applitools" />
+        <meta property="”og:type”" content="”website”/" />
+        <meta property="og:url" content="https://applitools.com/" />
+        <link rel="icon" href="/images/favicon.ico" />
+        <!-- Marketo Munchkin -->
+        <!-- remove - no access from local site so it slows down loading of the page
+		<script type="text/javascript" async="" src="//munchkin.marketo.net/151/munchkin.js"></script>
+			<script async="" src="//static.woopra.com/js/w.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+			(function() {
+			var didInit = false;
+    
+			function initMunchkin() {
+			if (didInit === false) {
+			didInit = true;
+			Munchkin.init('687-TER-612');
+			}
+			}
+    
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = '//munchkin.marketo.net/munchkin.js';
+			s.onreadystatechange = function() {
+			if (this.readyState === 'complete' || this.readyState === 'loaded') {
+			initMunchkin();
+			}
+			};
+			s.onload = initMunchkin;
+			document.getElementsByTagName('head')[0].appendChild(s);
+			})();
+		</script><script type="text/javascript" async="" src="//munchkin.marketo.net/munchkin.js"></script>
+		-->
+        <!-- End Marketo Munchkin -->
+        <!-- Google Analytics -->
+        <!--
+		<script>
+			(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+			ga('create', 'UA-42741829-1', 'auto');
+			ga('send', 'pageview');
+    
+		</script>
+		-->
+        <!-- End Google Analytics -->
+        <!-- Facebook Pixel Code -->
+        <!--
+		<script>
+			!function(f, b, e, v, n, t, s) {
+			if (f.fbq)return;
+			n = f.fbq = function() {
+			n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+			}(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '1376919929081686');
+			fbq('track', 'PageView');
+		</script>
+		<noscript>
+			&lt;img height="1" width="1" src="https://www.facebook.com/tr?id=1376919929081686&amp;ev=PageView&amp;noscript=1"/&gt;
+		</noscript>\-->
+        <!-- End Facebook Pixel Code -->
+        <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/style.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="navbar-container">
+            <div class="message-container ">
+            </div>
+            <div class="navbar ">
+                <div class="page-container"><a class="logo" href="/"><img src="/images/applitools.png" /></a>
+                    <button class="btn fa fa-bars btn-dropdown-menu">
+                    </button>
+                    <ul class="navbar-menu">
+                        <li><a class="link navbar-underline " href="/features">Features</a>
+                        </li>
+                        <li><a class="link navbar-underline " href="/pricing">Pricing</a>
+                        </li>
+                        <li><a class="link navbar-underline " href="/customers">Customers</a>
+                        </li>
+                        <li><a class="link navbar-underline active" href="/resources">Resources</a>
+                        </li>
+                        <li class="hidden-lg hidden-xl"><a class="link navbar-underline " href="/about">About</a>
+                        </li>
+                        <li><a class="link navbar-underline " href="/users/login">Sign In</a>
+                        </li>
+                        <li><a class="btn btn-call-to-action" href="/users/register">Free Trial</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page ">
+            <div class="message-container ">
+            </div>
+            <div class="docs">
+                <!-- Docs start -->
+                <MadCap:breadcrumbsProxy />
+                <MadCap:topicToolbarProxy />
+                <MadCap:bodyProxy />
+                <!-- Docs end -->
+            </div>
+            <p>&#160;</p>
+        </div>
+        <div class="footer">
+            <div class="page-container">
+                <div class="panel">
+                    <div class="footer-links hidden-sm hidden-xs">
+                        <div class="menu-container grid">
+                            <div class="row">
+                                <div class="col col-1-4 col-md-1-5">
+                                </div>
+                                <div class="col col-1-5 col-md-1-4">
+                                    <ul class="menu">
+                                        <li class="title">Product</li>
+                                        <li><a class="link" href="/features">Features</a>
+                                        </li>
+                                        <li><a class="link" href="/pricing">Pricing</a>
+                                        </li>
+                                        <li><a class="link" href="/whats-new">What's new?</a>
+                                        </li>
+                                        <li><a class="link" href="http://support.applitools.com/" target="_blank" rel="noopener noreferrer">Support</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col col-1-5 col-md-1-4">
+                                    <ul class="menu">
+                                        <li class="title">Resources</li>
+                                        <li><a class="link" href="/resources/tutorial">Get started!</a>
+                                        </li>
+                                        <li><a class="link" href="https://applitools.atlassian.net//wiki/display/Java/Applitools+Eyes+Wiki" target="_blank" rel="noopener noreferrer">Documentation</a>
+                                        </li>
+                                        <li><a class="link" href="http://testautomation.applitools.com/" target="_blank" rel="noopener noreferrer">Blog</a>
+                                        </li>
+                                        <li><a class="link" href="/resources">Library</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col col-1-5 col-md-1-4">
+                                    <ul class="menu">
+                                        <li class="title">Company</li>
+                                        <li><a class="link" href="/about">About</a>
+                                        </li>
+                                        <li><a class="link" href="/contact">Contact us</a>
+                                        </li>
+                                        <li><a class="link" href="/news">News &amp; events</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-networks"><a class="social-button fa fa-facebook" href="https://www.facebook.com/pages/Applitools/163528770501019" target="_blank" rel="noopener noreferrer"></a><a class="social-button fa fa-twitter" href="https://twitter.com/applitoolseyes" target="_blank" rel="noopener noreferrer"></a><a class="social-button fa fa-linkedin" href="http://www.linkedin.com/company/2837526?trk=tyah" target="_blank" rel="noopener noreferrer"></a><a class="social-button fa fa-youtube-play" href="http://www.youtube.com/channel/UCk13Ucc26mWqI4xvsbO13jw" target="_blank" rel="noopener noreferrer"></a>
+                    </div>
+                    <div class="copyright"><a class="link item" href="/terms-of-use">Terms &amp; Conditions</a><span class="spacer">|</span><a class="link item" href="/privacy-policy">Privacy Policy</a><span class="spacer">|</span><span class="item">© 2017 Applitools. All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+			/*	<![CDATA[ */
+			(function () {
+			   var notificationId = "notification-pr-8M-round-2017";
+			   var btnElem = document.querySelector(".navbar-container .message-container .btn-close");
+			   var adElems = document.querySelectorAll(".message-container");
+
+			   if (btnElem) {
+			      btnElem.addEventListener("click", onCloseClick)
+			   }
+
+			   function onCloseClick(e) {
+			       Cookies.set(notificationId, "dismissed");
+
+			       for (var index = 0; index < adElems.length; index++) {
+				      var currElem = adElems[index];
+				      currElem.classList.remove("visible");
+				   }
+				}
+			})();
+/* ]]> */
+		</script>
+        <!--
+        <script type="text/javascript" src="js/highlight-9.9.0.custom.js">
+        </script>
+        <script type="text/javascript" src="../../scripts/app.min.js">
+        </script>
+-->
+    </body>
+</html>

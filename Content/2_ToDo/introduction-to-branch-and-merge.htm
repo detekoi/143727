@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3042" MadCap:lastWidth="666">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">Introduction to branching and merging</h1>
+        <p>The following was moved from then compare-merge-branches page - it needs to be reviewed and perhaps rewritten as a standalone topic.</p>
+        <p><MadCap:variable name="General.ProductName"></MadCap:variable> provides <i>branches</i> as a way to manage multiple versions of a baseline that correspond to multiple versions of an application. You use the features on this page to merge a source branch into a target branch.</p>
+        <p>Typically, you will use baseline branches when you have multiple versions of an application that have a common set of tests. For example you may have Release and Beta versions of your application, or you may develop each feature in a separate branch and then merge then into a main branch when they are ready. Regression tests that test existing features are common to all versions.</p>
+        <p><MadCap:variable name="General.ProductName"></MadCap:variable> branches allows you to:</p>
+        <ul class="bulleted-list">
+            <li>Create a new baseline branch, based on an existing parent branch, so that regressions tests can be executed on existing features that are not expected to change. From day 1 when you start to work on a new feature, <MadCap:variable name="General.ProductName"></MadCap:variable> will compare the current visual behavior of the system to the expected behavior expressed by the baseline, detect and report differences, and allow you to decide if the difference is because of an unexpected impact on existing behavior, or because of new behavior that requires a change in the testing. </li>
+            <li>Update the new branch with new tests and checkpoints, and change or delete existing tests and checkpoints to take into account the new behavior introduced by a new feature.</li>
+            <li>When development of the new feature is complete, including visual UI testing, merge the branch baselines back into the parent branch so that the parent branch will have an up-to-date baseline that defines what the expected result should be after the software is merged.</li>
+            <li>Since the new version may clash in some way with the parent version, especially if in the mean time other changes have been introduced in to the parent branch, <MadCap:variable name="General.ProductName"></MadCap:variable> provides conflict detection and both automatic and manual resolution.</li>
+        </ul>
+        <p>In summary, <MadCap:variable name="General.ProductName"></MadCap:variable> not only verifies the correctness of each version of your software, it also verifies that what is common in different versions is tested against the same baseline, detects visual clashes between versions you may not have not foreseen, and validates that the merged version of the software meets the expectations expressed by the baselines of both the source and target branches.</p>
+        <p>The <i>compare and merge branches</i> page of the <MadCap:variable name="General.ProductUI" /> is the tool to use for this final step where you want to merge the baseline information of your working branch of the new feature (the source branch) into the main development branch (the target branch).</p>
+        <h2 class="title">Workflow</h2>
+        <p>The baseline for a test is defined by the application and test names and by the execution environment. A variant of this baseline that is specific for a given version of the application software is defined by defined the branch name in your test code using the <MadCap:variable name="General.ProductClientAPI"></MadCap:variable>&#160;<span class="code">setBranch()</span> method.  <MadCap:variable name="General.ProductName"></MadCap:variable> will automatically find and use the baseline variant for that branch, creating if it does not yet exist. <span class="tbd">See <MadCap:snippetText src="../0quickInserts/_tbdref.flsnp"></MadCap:snippetText> for details.</span>.</p>
+        <p>Working with <MadCap:variable name="General.ProductName"></MadCap:variable> under a given branch proceeds as normal, You run tests, <MadCap:variable name="General.ProductName"></MadCap:variable> detects differences and you decide if these differences are due to regressions in the application or tests, or bugs in new features or tests. You then update the baseline - these update are saved on the same branch that the test ran on.</p>
+        <p>Finally, the new feature is ready and you want to merge the working branch into the main branch, you will typically take the following steps:</p>
+        <p>&#160;</p>
+    </body>
+</html>

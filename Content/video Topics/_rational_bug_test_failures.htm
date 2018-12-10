@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="927" MadCap:lastWidth="366">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">rational_bug_test_failures</h1>
+        <p>This section explains the rational for the "fail test" and "snooze Failures" features, and gives some typical workflows where the can be useful.</p>
+        <p>.A common question asked by <MadCap:variable name="General.ProductName" /> users is "Ok - <MadCap:variable name="General.ProductName" />has found a mismatch, I've a bug - now what ? Should I&#160;accept the baseline image or not ? On the one hand the actual image is wrong - it should not be the basis for future testing, so I&#160;should reject it. On the other hand I&#160;don't want this mismatch to be reported again - it's already been reported as a bug and should not be reported again.</p>
+        <p>The answer to the question is of course is - "depends" . <MadCap:variable name="General.ProductName" /> supports various options based on the needs of various customers:</p>
+        <ul>
+            <li><b>You can reject the test</b>. In this case, as long as the bug exists, the mismatch will be detected, and it's up to you not to report a bug again.</li>
+            <li><b>You can accept the step, and also tick the "Fail tests" checkbox</b>. The actual image (with the bug) will be saved and used as the basis for further tests, and so the mismatch caused by the bug will not be caught again. But ticking the "Fail test" tells <MadCap:variable name="General.ProductName" /> that it should not detect a mismatch on the marked region again <span class="tbd">(it essentially ignores that area TBD&#160;is this true ?)</span> ), but the step should still count as a failure <span class="tbd">(how can we see that the failure is because of the fail tests and not because of a mismatch ? is it explicit ?)&#160;</span></li>
+            <li><b>You can accept the step, tick the "Fail tests" checkbox and also tick the "snooze failures" checkbox</b>. The actual image (with the bug) will be saved and used as the basis for further tests, a failure will NOT&#160;be reported until after the time you indicate has past (by which time the bug will have been fixed - or so the development team has promised). </li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

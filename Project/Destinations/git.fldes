@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment=""
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="C:\Users\User\Documents\website\public\docs"
+  Port=""
+  ViewUrl="https://applitools-kb.herokuapp.com/docs"
+  Type="file"
+  ProviderType="Git"
+  Database="file:///C:/Users/User/Documents/website/.git"
+  DatabaseRoot="file:///C:/Users/User/Documents/website/public/docs-internal"
+  PushToRemote="false"
+  RemoteRepository="origin"
+  ChangedOnly="false"
+  UploadLogFile="true"
+  RemoveStale="false"></CatapultDestination>

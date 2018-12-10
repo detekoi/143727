@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditionTagExpression="include[General.Online]">
+    <head>
+        <!-- TEMPLATE VERSION 1.2 6/3/2018 -->
+		<title> open</title>
+    </head>
+    <body>
+		<div class="mpld-api">
+
+			<h1 class="title" id="mpld-api-method"> open method</h1>
+			<div class="mpld-select-language">
+				<span class="mpld-header-label">Class: </span>
+				<a class="link mpld-header-field" href="../../index-gen/class-eyes-selenium-javascript.htm">Eyes</a>
+				<span class="mpld-header-label">Platform: </span>
+				<a class="link mpld-header-field" href="../../indexm/sdk-platformIndex-selenium.htm">Selenium</a>
+				<span class="mpld-header-label" id="mpld-select-language-label">Language: </span>
+				<span id="mpld-select-language-field" class="mpld-header-field">  JavaScript </span>
+				<div class="dropdown-menu">
+					<div class="mpld-dropdown">
+						<a href="javascript:void(0)" 
+							id="change-language-text"  
+							class="link mpld-dropdown-button"> 
+							other languages
+							<span class="fa fa-angle-down"></span>
+						</a>
+						<div id="change-language-menu" class="mpld-dropdown-content"></div>                                          
+					</div>
+				</div>
+			</div>
+
+				<div>Call this method to start a test, before calling any of the check methods.</div>
+				<div></div>
+				
+				
+				<h2 class="title" id="mpld-api-syntax">Syntax</h2>
+<pre ><code class="hljs">
+promise = eyes.open(appName, testName, viewportSize)
+promise = eyes.open(driver, appName, testName, viewportSize)
+</code></pre>
+
+				<h3 class="title" id="mpld-api-params">Parameters</h3>
+				<!-- start parametersTemplate -->
+				<dl class="mpld-paramdef parameters-list">     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">appName</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">string</span></span>
+				       <span class="mpld-paramdef-is-optional"></span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">
+				<MadCap:snippetBlock src="../../param-snippets/param-open-appname.flsnp" />
+				</span>
+				     </dd>
+				     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">testName</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">string</span></span>
+				       <span class="mpld-paramdef-is-optional"></span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">The name of the test.
+				This name must be unique within the scope of the application name.
+				It may be any string.</span>
+				     </dd>
+				     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">viewportSize</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">{width: number, height: number}</span></span>
+				       <span class="mpld-paramdef-is-optional"></span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">
+				<MadCap:snippetBlock src="../../param-snippets/param-open-viewportsize.flsnp" />
+				</span>
+				     </dd>
+				     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">driver</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">WebDriver</span></span>
+				       <span class="mpld-paramdef-is-optional"></span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">The web driver.</span>
+				     </dd>
+				</dl>
+				<!-- parametersTemplate -->
+				<h3 class="title" id="mpld-api-return">Return value</h3>
+                <!-- pre compile start -->
+                	<dl class="mpld-paramdef">
+						<dt class="mpld-paramdef-type">  
+							<span class="mpld-paramdef-type-label"> Type: </span>
+							<span class="mpld-paramdef-type-value"> <span class ="code-label">Promise&lt;WebDriver&gt;</span> </span>				
+						</dt>
+                        <dd class="mpld-paramdef-descr">
+							    <MadCap:snippetBlock src="../../return-snippets/return-open.flsnp" />
+                        </dd>
+					</dl>
+			
+<h2 class="title">Remarks</h2>
+
+<MadCap:snippetBlock src="../../remarks-snippets/remarks-open.flsnp" />
+
+
+<!-- Not working yet
+-->
+			<h2 class="title">Example </h2> 
+			<MadCap:snippetBlock src="../../methodexample-snippets/basicexample.flsnp" />
+		</div>
+
+		<script src="/docs/scripts/mpldlookup.js"></script>
+		<script>
+			mpld.setPagePlatFormLanguage("selenium", "javascript");
+			mpldLookup.setPagePlatFormLanguage("selenium", "javascript");
+		</script>
+    </body>
+</html>

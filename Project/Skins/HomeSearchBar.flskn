@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="Component"
+  Comment="HTML5 skin"
+  Anchors="Width,Height"
+  Width="800"
+  Height="600"
+  Top="0"
+  Left="0"
+  Bottom="0"
+  Right="0"
+  Tabs="TOC,Index,Community"
+  DefaultTab="TOC"
+  UseBrowserDefaultSize="True"
+  UseDefaultBrowserSetup="True"
+  EnableResponsiveOutput="True"
+  ComponentType="SearchBar">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Search Bar">
+        <Properties>
+          <Property
+            Name="Width">630px</Property>
+          <Property
+            Name="BorderTop">solid 1px #c0c0c0</Property>
+          <Property
+            Name="BorderRight">solid 1px #c0c0c0</Property>
+          <Property
+            Name="BorderBottom">solid 1px #c0c0c0</Property>
+          <Property
+            Name="BorderLeft">solid 1px #c0c0c0</Property>
+          <Property
+            Name="BorderTopLeftRadius">3px</Property>
+          <Property
+            Name="BorderTopRightRadius">3px</Property>
+          <Property
+            Name="BorderBottomRightRadius">3px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">3px</Property>
+          <Property
+            Name="Height">50px</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Search Bar">
+          <Properties>
+            <Property
+              Name="Width">100%</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Style
+        Name="Search Input">
+        <Properties>
+          <Property
+            Name="Color">#2c2c2c</Property>
+          <Property
+            Name="FontSize">16px</Property>
+          <Property
+            Name="Placeholder">How can we help?</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#3c739a</Property>
+          <Property
+            Name="Width">50px</Property>
+          <Property
+            Name="BackgroundImage">url('tool-search.png')</Property>
+        </Properties>
+      </Style>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="search.png">H4sIAAAAAAAEAAF6AoX9iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAEEfUpiAAAAAXNSR0IArs4c6QAAAjRJREFUWAntlzFLw0AYho0OomILSseOLiLU/gLFRRAHQcHBn+Cmg4uL4KgIboIIUgf9BXUSu6sgDgqlky6CKIJVB6E+X+nVXO4SE2OkSAMPue/93vvuklwvaUeH7ajVass23dRwlkxVKWQvVLt+RujXhAQCNaiMBQHTS2BwSjJmXlWm3aPacu5sBMNKdBznDdOWiutnhKJbIB5zx8o0Kw2SL0bSK2DKeLU/jBk+D8+wAJNwDIVQU8D47GckNwvBawrDpF8B0cnvB+XFUADtSaoO6N/ffpc5RYetRsEJ0WlnIP4y/bVCarb/8cxNuoA9GIdF+IB0qGvFWLUZ0YvQa8s1NQwzMNgUPA1ywQsJQ8XTRwvJH2lCI1B7joQDNoNLe3C1zSYjbJjql0L+/SvyaWE6s6XQczBny2kapiyUoXlptFfhAfo0c1CAeR4OYR0c8XK+gvBFbAO0ThHb7NpasndAlhLIj/0AKvAKT3AJG5BLZAYUnoYq7ELQTjNK/hyuIRt7MhSRK5aNdTdKMfzyOpRf8lqUfoaXAnKr94xECIF+nXAP8yHsdgud5RmbX2l2u6HSdxMOjYRFaG56nlyZeMSjRQmlr9T42cHsZfuWl+lo1Ar0kd1b1kFX1L6anwJpkFUtL+SUlrQEeGTSt7BjSftK9VeFb5YEBeVrYAXkj5R8NZzCHXTDEMhauYIluIETeIQp/hJYvzLIJXswafkSlfdfCeK9A+NMtdUmss2E5LG1D+0OfAI5TcvOZgnZrQAAAABJRU5ErkJggvyTBmN6AgAA</Resource>
+      <Resource
+        Name="tool-search.png">H4sIAAAAAAAEAAFRAa7+iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsSAAALEgHS3X78AAABA0lEQVQ4jbWUfQ2DMBDFH2QCKgEJSEDCJDAnOAEJk8AcVAIS6uDtj91lTT9oGeySS5rS9+Pavl5DEokwAAYAfTD/BGBTgihI+mlITiQdP7F6uXlzJtBFGUKtQKeMeJAfOJJ9DVihtiTw1m57letAt1+C+nDdWRZcXJRJLSZZNUje5VKKF5KomqKPvrdiqRcAV2WjbzjRhZYEALQHYdXxd3D3oz6vE4tRzH/k8gbRJS2qA32ytc7QR7KWHoh62VbADclF1nclsB7JxnKv0H5CkmMNWKuZWO5unUCz8IY81Y9HADOAB4AldMXZTFZ+BTgJvwocwW/HHtpu6BnPALYrK/YtiTcdbiOb4wQ8vgAAAABJRU5ErkJggtHlPcRRAQAA</Resource>
+    </Resources>
+  </Stylesheet>
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="Search Bar">
+            <Properties>
+              <Property
+                Name="Width">630px</Property>
+              <Property
+                Name="BorderTop">solid 1px #c0c0c0</Property>
+              <Property
+                Name="BorderRight">solid 1px #c0c0c0</Property>
+              <Property
+                Name="BorderBottom">solid 1px #c0c0c0</Property>
+              <Property
+                Name="BorderLeft">solid 1px #c0c0c0</Property>
+              <Property
+                Name="BorderTopLeftRadius">3px</Property>
+              <Property
+                Name="BorderTopRightRadius">3px</Property>
+              <Property
+                Name="BorderBottomRightRadius">3px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">3px</Property>
+              <Property
+                Name="Height">50px</Property>
+            </Properties>
+          </Style>
+          <Medium
+            Name="Mobile">
+            <Style
+              Name="Search Bar">
+              <Properties>
+                <Property
+                  Name="Width">100%</Property>
+              </Properties>
+            </Style>
+          </Medium>
+          <Style
+            Name="Search Input">
+            <Properties>
+              <Property
+                Name="Color">#2c2c2c</Property>
+              <Property
+                Name="FontSize">16px</Property>
+              <Property
+                Name="Placeholder">How can we help?</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Search Submit Button">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#3c739a</Property>
+              <Property
+                Name="BackgroundImage">url('search.png')</Property>
+              <Property
+                Name="Width">50px</Property>
+            </Properties>
+          </Style>
+        </Styles>
+        <Resources>
+          <Resource
+            Name="search.png">H4sIAAAAAAAEAAF6AoX9iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAEEfUpiAAAAAXNSR0IArs4c6QAAAjRJREFUWAntlzFLw0AYho0OomILSseOLiLU/gLFRRAHQcHBn+Cmg4uL4KgIboIIUgf9BXUSu6sgDgqlky6CKIJVB6E+X+nVXO4SE2OkSAMPue/93vvuklwvaUeH7ajVass23dRwlkxVKWQvVLt+RujXhAQCNaiMBQHTS2BwSjJmXlWm3aPacu5sBMNKdBznDdOWiutnhKJbIB5zx8o0Kw2SL0bSK2DKeLU/jBk+D8+wAJNwDIVQU8D47GckNwvBawrDpF8B0cnvB+XFUADtSaoO6N/ffpc5RYetRsEJ0WlnIP4y/bVCarb/8cxNuoA9GIdF+IB0qGvFWLUZ0YvQa8s1NQwzMNgUPA1ywQsJQ8XTRwvJH2lCI1B7joQDNoNLe3C1zSYjbJjql0L+/SvyaWE6s6XQczBny2kapiyUoXlptFfhAfo0c1CAeR4OYR0c8XK+gvBFbAO0ThHb7NpasndAlhLIj/0AKvAKT3AJG5BLZAYUnoYq7ELQTjNK/hyuIRt7MhSRK5aNdTdKMfzyOpRf8lqUfoaXAnKr94xECIF+nXAP8yHsdgud5RmbX2l2u6HSdxMOjYRFaG56nlyZeMSjRQmlr9T42cHsZfuWl+lo1Ar0kd1b1kFX1L6anwJpkFUtL+SUlrQEeGTSt7BjSftK9VeFb5YEBeVrYAXkj5R8NZzCHXTDEMhauYIluIETeIQp/hJYvzLIJXswafkSlfdfCeK9A+NMtdUmss2E5LG1D+0OfAI5TcvOZgnZrQAAAABJRU5ErkJggvyTBmN6AgAA</Resource>
+        </Resources>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>

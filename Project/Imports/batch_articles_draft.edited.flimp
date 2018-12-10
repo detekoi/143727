@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-12-05T17:03:47.6234268+02:00"
+  ProjectName="Eyes Knowledge base"
+  ProjectFolder="C:\Users\User\Dropbox\EKB\eyes-knowledgebase-source\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2017-12-05T17:06:55.1071670+02:00">
+  <Files>
+    <Url
+      Source="../../Private/EKB_sources/batch_articles_draft.edited.docx"
+      AbsoluteSource="file:///C:/Users/User/Dropbox/EKB/eyes-knowledgebase-source/Private/EKB_sources/batch_articles_draft.edited.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_1.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_2.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_3.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_4.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_5.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_6.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_7.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_8.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_9.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_10.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_11.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_12.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_13.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_14.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_15.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_16.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/batch_articles_draft.edited/Working With Test Batches_17.png"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/batch_articles_draft.edited/Working With Test Batches.htm"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../TOCs/batch_articles_draft.edited.fltoc"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/batch_articles_draft.edited.css"
+      TimeStamp="05-Dec-17 5:06:19 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1" />
+    <Map
+      From="Heading 2"
+      To="h2" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="HTML Preformatted" />
+    <StyleName
+      Name="Normal (Web)" />
+    <StyleName
+      Name="note" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Comment Reference" />
+    <StyleName
+      Name="ekb-code-inline" />
+    <StyleName
+      Name="generalproductclientapi" />
+    <StyleName
+      Name="generalproductname" />
+    <StyleName
+      Name="generalproductui" />
+    <StyleName
+      Name="HTML Code" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="tbd" />
+  </UsedCharacterStyles>
+</MsWordImport>

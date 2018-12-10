@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditionTagExpression="include[General.Online]">
+    <head>
+        <!-- TEMPLATE VERSION 1.2 6/3/2018 -->
+		<title> setMatchTimeout</title>
+    </head>
+    <body>
+		<div class="mpld-api">
+
+			<h1 class="title" id="mpld-api-method"> setMatchTimeout method</h1>
+			<div class="mpld-select-language">
+				<span class="mpld-header-label">Class: </span>
+				<a class="link mpld-header-field" href="../../index-gen/class-eyes-selenium4-javascript.htm">Eyes</a>
+				<span class="mpld-header-label">Platform: </span>
+				<a class="link mpld-header-field" href="../../indexm/sdk-platformIndex-selenium4.htm">Selenium 4</a>
+				<span class="mpld-header-label" id="mpld-select-language-label">Language: </span>
+				<span id="mpld-select-language-field" class="mpld-header-field">  JavaScript </span>
+				<div class="dropdown-menu">
+					<div class="mpld-dropdown">
+						<a href="javascript:void(0)" 
+							id="change-language-text"  
+							class="link mpld-dropdown-button"> 
+							other languages
+							<span class="fa fa-angle-down"></span>
+						</a>
+						<div id="change-language-menu" class="mpld-dropdown-content"></div>                                          
+					</div>
+				</div>
+			</div>
+
+				<div>Use this method to set  the maximum time Eyes will try to perform a match on the fully captured image.</div>
+				<div>Since a browser can take time to render a page (because it is complex, or because of slow network speeds)
+if Eyes detects mismatches, it will initially assume that the mismatch was because
+the render has not completed yet, and it will retry the match after a short wait.
+You can use this method to determine how much time Eyes
+continue to retry the matching before declaring a mismatch.
+You can overide the default timeout set by this method for a specific step
+by using the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="checksettings$timeout$mOrP">lookupid</span></a> in a fluent <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$check">lookupid</span></a>
+chain. Various other check method variations also take a timeout parameter for the same purpose.</div>
+				
+				
+				<h2 class="title" id="mpld-api-syntax">Syntax</h2>
+<pre ><code class="hljs">
+eyes.setMatchTimeout(ms)
+</code></pre>
+
+				<h3 class="title" id="mpld-api-params">Parameters</h3>
+				<!-- start parametersTemplate -->
+				<dl class="mpld-paramdef parameters-list">     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">ms</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">number</span></span>
+				       <span class="mpld-paramdef-is-optional"></span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">
+				The timeout to set in milliseconds.</span>
+				     </dd>
+				</dl>
+				<!-- parametersTemplate -->
+				<h3 class="title" id="mpld-api-return">Return value</h3>
+                <!-- pre compile start -->
+                	<dl class="mpld-paramdef">
+						<dt class="mpld-paramdef-type">  
+							<span class="mpld-paramdef-type-label"> Type: </span>
+							<span class="mpld-paramdef-type-value"> This method does not return a value. </span>				
+						</dt>
+                        <dd class="mpld-paramdef-descr">
+							    
+                        </dd>
+					</dl>
+			
+<h2 class="title">Remarks</h2>
+
+None.
+
+
+<!-- Not working yet
+-->
+		</div>
+
+		<script src="/docs/scripts/mpldlookup.js"></script>
+		<script>
+			mpld.setPagePlatFormLanguage("selenium4", "javascript");
+			mpldLookup.setPagePlatFormLanguage("selenium4", "javascript");
+		</script>
+    </body>
+</html>

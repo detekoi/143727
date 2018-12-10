@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="Online"
+    BackgroundColor="#90ee90" />
+  <ConditionTag
+    Comment=""
+    Name="PDF"
+    BackgroundColor="#c7c2c2" />
+  <ConditionTag
+    BackgroundColor="#efff00"
+    Name="ToDo"
+    Comment="For placeholders - not printed anywhere" />
+  <ConditionTag
+    BackgroundColor="#ffbc00"
+    Name="Internal"
+    Comment="For things that are only for internal use"
+    OriginalName="Internal" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Not for Output"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="draft"
+    Comment="for things that ar eenat for draft version only" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="SDK"
+    Comment="For anything related to the SDK - allow build without the SDK to make things quicker" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="withToc"
+    Comment="To include a get toc page" />
+</CatapultConditionTagSet>

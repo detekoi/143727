@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="284" MadCap:lastWidth="690">
+    <head>
+    </head>
+    <body>
+        <p>You can see if a change in the <MadCap:glossaryTerm glossTerm="EyesTerms.Term14">match level</MadCap:glossaryTerm> would change the outcome of any differences detected in the image using the <span class="app-item">Match </span>button which is found to the left of the zoom buttons. This button initially shows the match level that was used during the test. Clicking on the button and selecting a different match level will reprocess the images with the selected level and update the display. Note that this has no impact on the match level used for test runs - these depend on the match level set in the SDK and via the match level annotations.</p>
+    </body>
+</html>

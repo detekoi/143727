@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="title"><a name="top"></a>Reviewing test results and updating the baseline</h1>
+        <p>After a test run completes, a team member will typically want to review the results to see which checkpoints matched baseline images and which did not, and to take any necessary corrective action. The Eyes Test Manager provides tools to do the following tasks:</p>
+        <ul class="bulleted-list">
+            <li>View the match results for every step in both detail and summary views.</li>
+            <li>Decide if checks have failed or passed.</li>
+            <li>If a mismatch was caused by an out-of-date baseline image, update the baseline image with the screenshot from the test.</li>
+            <li>Remove baseline images that no longer correspond to an existing checkpoint and add baseline images for new checkpoints.</li>
+            <li>Report and assign bugs to team members.</li>
+            <li>Deal with special cases such as dynamic text such as time of day, which is different on every run, and can cause mismatch detection.</li>
+        </ul>
+        <h2 class="title">Accessing the Eyes Test Manager</h2>
+        <p>To see the results, log in to the Applitools cloud by entering the following link into your browser:</p>
+        <p><a class="link" href="https://applitools.com/users/login" target="_blank" rel="noopener noreferrer">https://applitools.com/users/login</a>
+        </p>
+        <p>You will be prompted for your username and password. After you enter these, the browser will switch to the Eyes Test Manager.</p>
+        <h2 class="title">Test manager screen overview</h2>
+        <p>The Eyes Test Manager screen is divided into two main areas. In the left panel, Test Manager displays information about the batches that were run by your team and allows you to select the “current” batch to review. On the right, Test Manager displays the tests and steps of the batch you selected. More specifically:</p>
+        <ul class="bulleted-list">
+            <li>The batch list panel on the left displays the most recently run batches. Clicking on any entry in the list will make that batch the "current batch". </li>
+            <li>The batch management panel above the batch list provides tools to update, filter and delete entries in the batch list.</li>
+            <li>The main panel displays the tests in the current batch, and the steps in each test. </li>
+            <li>In the toolbar above the main panel, Test Manager provides buttons that allow you to select from a number of different views of this information. Each view displays a different subset of the available information this allows you to focus on the information you need for your current task. Other tools are provided to delete tests, assign tests to team members, filter tests and steps, group tests by differences and more.</li>
+            <li>Above the main panel, Test Manager provides a summary of the results of the current batch and the progress of your review.</li>
+        </ul>
+        <p>&#160;</p>
+        <div><a data-lightbox="img1" href="../../Resources2/Images/test-manager-screenshots/top-level-uitool-areas.png"><img class="block-image" src="../../Resources2/Images/test-manager-screenshots/top-level-uitool-areas.png" /></a>
+        </div>
+        <p>&#160;</p>
+        <h2 class="title">Test manager screen details</h2>
+        <p>The screenshot below is annotated with the main features available in the Test Manager</p>
+        <p>&#160;</p><a data-lightbox="img2" href="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_1.png"><img class="block-image" src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_1.png" /></a>
+        <p>&#160;</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_2.png" />
+                    </td>
+                    <td>
+                        <p>Display how many batches are currently available in the batch list. Provides controls to filter the set of batches you see in the batch list, delete batches and update the batch list with the latest results.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_3.png" />
+                    </td>
+                    <td>
+                        <p>The batch list, with the newer batches at the top of the list. Clicking any entry in the list will make it the current batch and load its information in the main panel. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_4.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>Information about the currently loaded batch and the status of the review process (how many tests are passed, failed and so on).</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>
+                        <p>A toolbar that has three parts:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_5.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>Operations on selected tests and steps.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_6.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>Select which view (of the five available) is used to display the details of the currently selected batch in the main panel (<img class="inline-img" src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_7.png" />) </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_8.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>Buttons to reload the current batch, filter the current batch, group steps by similar differences.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_7.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>The main panel displays the detailed batch, test, and step information - what is displayed in this panel depends on the view selected ( <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_6.png" class="inline-img" /> ).</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_9.png" />
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_10.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>Display a menu with administration options and help.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_11.png" />
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_12.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>Obtain a hyperlink to the current view that can be pasted shared with other users.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_13.png" />
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_14.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>Save all changes you have made to the baseline and make them permanent (i.e., used in further testing). </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_15.png" />
+                            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_16.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>Start a chat session with the Applitools support team.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="title">Reviewing and resolving a test run</h2>
+        <p>The Test Manager provides multiple ways of viewing the test and step results; each such view focuses on different aspects of the results.
+		<span class="tbd"> See&#160;
+			 <a class="link" href="../test-manager/pages/tm-page-test-results-views.htm">Test Manager Views</a>.</span>
+			 In the description that follows, we will use the “Test details” view. You choose this view by pressing the button <img class="inline-img" src="../../Resources2/Images/applitools/batch-view-test-details.png" />. Initially, you will see a screen similar to the one below with a list of the tests in the batch.</p>
+        <p><a data-lightbox="img3" href="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_17.png"><img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_17.png" class="block-image" /></a>
+        </p>
+        <p>If you click on any of the tests, then it will expand, and you will see a series of thumbnail images that represent the “steps” of the test. </p>
+        <p><a data-lightbox="img4" href="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_18.png"><img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_18.png" class="block-image" /></a>
+        </p>
+        <h3 class="title">What is a “step"?</h3>
+        <p>A step corresponds to a checkpoint in the test code. Eyes creates a step in the results for every new checkpoint that it discovers. If you remove a checkpoint in the code, the baseline image that corresponded to the checkpoint still exists in the baseline checkpoint. So, when you view the results you will see steps that correspond to a baseline image and either match or don’t match, and you will also see steps that represent new checkpoints without baseline images or baseline images of deleted checkpoints. The small icons at the top left of each step indicate if there was a mismatch and if there was – what type <MadCap:annotation MadCap:createDate="2018-09-05T14:32:10.5062108+03:00" MadCap:creator="GregMeyers" MadCap:initials="GR" MadCap:comment="Suggestion:\r\nAdd an annotation or key to the image above indicating the mismatch type" MadCap:editor="GregMeyers" MadCap:editDate="2018-09-05T14:43:22.8122099+03:00">(from left to right above: match, missing checkpoint, mismatch, new checkpoint)</MadCap:annotation>. </p>
+        <p>When a Tester reviews the results, he must resolve two types of step mismatches:</p>
+        <ul class="bulleted-list">
+            <li>Steps whose baseline image were paired with a checkpoint but did not match visually, i.e., there is a visual mismatch.</li>
+            <li>Steps for checkpoints without a corresponding baseline image or baseline images without a corresponding checkpoint image. </li>
+        </ul>
+        <h3 class="title">Accepting and rejecting steps.</h3>
+        <p>Eyes provides tools to either “Accept” <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_19.png" class="inline-img" />  or “Reject” <img class="inline-img" src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_20.png" /> a step. These icons appear when you put the cursor over a step thumbnail. We will explain below what exactly accept and reject mean in the context of a particular step result, but in general, they impact two things, the first is if the step is set to "passed" or "failed" and the second is if the baseline image should be replaced by the new checkpoint image or not.</p>
+        <p>
+            <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_21.png" class="block-image" />
+        </p>
+        <p>Note that in addition to the accept and reject commands, some other operations are also available. <MadCap:conditionalText MadCap:conditions="General.ToDo">For more information see <a class="link" href="../../2_ToDo/_1test-manager-step-thumbnail.htm">Using the Step Thumbnail Commands</a>.</MadCap:conditionalText></p>
+        <p>Before going into more details on what accept and reject do, lets first understand the difference in workflow between the very first run of a test and subsequent runs of that test.</p>
+        <h2 class="title">Example: reviewing a test run</h2>
+        <p>The workflow for handling test results the first time you run a test is different from the workflow on subsequent runs. The first time a test is run, there are no baseline images, all the checkpoints are new, and they are automatically set to be the sequence of baseline image. Apart from reviewing the checkpoint images, the Tester is not required to resolve anything. In subsequent runs, the tester has to analyze and resolve all the mismatches.</p>
+        <h3 class="title">Reviewing the first run</h3>
+        <p>After the test is run for the first time, it’s status is "new". The screenshot below shows what this looks like in the Eyes Test Manager. The <img class="inline-img" src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_22.png" />label to the left of the test name indicates the test is new.</p>
+        <p><a data-lightbox="img5" href="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_23.png" class="block-image"><img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_23.png" class="block-image" /></a>
+        </p>
+        <p>The <img class="inline-img" src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_24.png" /> icon in the top left corner of the step thumbnail indicates that the step is a new checkpoint. In a new test, all the checkpoints are assumed to be correct, and the steps have a passed status as indicated by the green bar. </p>
+        <p>The<img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_19.png" /> icon underneath the <img class="inline-img" src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_24.png" />indicates that the checkpoint image captured during the test was accepted as a new baseline image.</p>
+        <p>On the first run of a test, when there is no existing baseline, by default Eyes automatically adds  the checkpoint image to the baseline. This means that in this case, the Tester does not need to take any further action. However, it is good practice for a Tester to review the step images and ensure they look as expected.
+			<span class="tbd"> If required by your workflow, you can change the default via the SDK save new tests method. With this option, all tests, including new test, will start with a status of “unresolved” for the test and all the steps until the Tester has explicitly accepted or rejected them.</span><span class="tbd"><MadCap:snippetText src="../../0quickInserts/_for-more-info.flsnp" />Changing the Default Pass/Fail results fail<a class="link" href="../../2_ToDo/_3topic-api-changing-default-pass-fail.htm"></a></span></p>
+        <h3 class="title">Reviewing subsequent runs</h3>
+        <p>After the first test run, Eyes will have automatically created a baseline with all the checkpoint images captured during that first run. In subsequent test runs, Eyes compares the sequence of captured images to the sequence of images in the baseline, and there are four possible outcomes, as you can see in the following screenshot of a test result: </p>
+        <p><a data-lightbox="img6" href="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_18.png"><img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_18.png" class="block-image" /></a>
+        </p>
+        <p>Note the four different symbols at the top left of each step thumbnail, and the green or orange bars to the left of the thumbnail. The green bar indicates that the test has passed, the orange bar indicates that the Tester is required to resolve the differences, i.e., to investigate the cause of the mismatch and what to do about it. </p>
+        <p>The four possible match results when there is an existing baseline are as follows: </p>
+        <table>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_25.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>The checkpoint image matches the baseline image. In most cases this is the expected result, hence the default green “pass” status. However, in some rare cases, a match can indicate a bug. An example of this is if a new feature was supposed to be displayed but is missing in the UI. In this case, the Tester should reject the step and report the issue. If he does so, then the step will be marked as failed (a red bar) and the baseline image will not be changed. On the next run, after the UI is fixed, the difference will be found, and the Tester can accept the image so that it is updated in the baseline.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_26.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>Eyes did not find a checkpoint image that corresponds to an existing baseline image. If the checkpoint was intentionally removed from the test, then the Tester should accept the step and Test Manager will remove the image from the baseline and pass the step. If this is not intentional, then the Tester can report a bug (in this case, presumably the bug is in the test and not the application).</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_27.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>The checkpoint image does not match the corresponding baseline image. The pink areas in the thumbnail indicate regions where differences were detected. Differences may arise for different reasons, and it is up to the Tester to analyze the differences using the tools that Test Manager provides and to take appropriate actions. Typical scenarios are:</p>
+                    <ol class="numbered-list">
+                        <li>The difference is due to an expected change in the application (e.g., a new feature) and the tester accepts it so that the checkpoint image will replace the obsolete baseline image.</li>
+                        <li>The difference is due to a bug in the application, or perhaps the test, in which case the tester can reject it and reports an issue. </li>
+                        <li>The mismatches are artifacts of the test implementation (for example time of day display that is dynamic and changes on every run), in which case the Tester can choose to accept the step, so that is not marked as a failure and take steps to eliminate or ignore the artifacts.<span class="tbd"> See TBDREF for a discussion of the possible steps he can take. </span></li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_28.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>There is a new checkpoint image with no corresponding baseline image. Typically, this is because of a new checkpoint in which case the Tester will accept the Step. Otherwise, he can reject it and report a bug (probably in the test code and not in the application). Note that we previously saw this icon in the case of a new test with a green bar. In the case of the first run of a test, all the steps are automatically accepted. In the case of a test with an existing baseline, new steps need to be resolved. </p>
+                </td>
+            </tr>
+        </table>
+        <h3 class="title">Accept and reject status</h3>
+        <p>After the user presses the accept or reject buttons, icons appear on the step thumbnail that indicates if accept or reject were pressed. The status of the test is indicated by the color of the bar on the left – a green bar means that the step passed and a red bar means that the test failed. Eyes keeps account which steps have been reviewed (accepted or rejected) and which haven't, and this determines if the test is considered resolved and fully reviewed or not.</p>
+        <p><a data-lightbox="img7" href="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_29.png"><img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_29.png" class="block-image" /></a>
+        </p>
+        <p>Remember that only in the case of a new test, Eyes displays the accept icon automatically, to indicate that Eyes has automatically accepted the step.</p>
+        <h2 class="title">The test and batch status</h2>
+        <p>In addition to the step status that changes when the accept and reject buttons are pressed, Eyes also displays the status of each test and the overall status of the batch. These are updated automatically to reflect the overall state of the test and the batch. </p>
+        <p><a data-lightbox="img8" href="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_30.png"><img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_30.png" class="block-image" /></a>
+        </p>
+        <h3 class="title">Test status</h3>
+        <p>In general, the status of the test has one of the values in the table below. </p>
+        <p>Depending on the circumstances, the color of the icon may change, and there may be additional icons next to it. The possible values are fully described in <a class="link" href="../working-with-test-batches/test-batch-status-values.htm">Test and Batch Status</a>.</p>
+        <table>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/applitools/test-status-06-running.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>The test is running</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/applitools/test-status-14-aborted-nodiffs-nocheck.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>If the test was aborted before it completed</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/applitools/test-status-04-unresolved.PNG" />
+                    </p>
+                </td>
+                <td>
+                    <p>If any of the test steps is unresolved (i.e., there was a mismatch that was not accepted or rejected) </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/applitools/test-status-17-failed-nodiffs-nocheck.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>If there are no unresolved steps in the test and one or more steps failed</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../../Resources2/Images/applitools/test-status-02-passed.PNG" />
+                </td>
+                <td>
+                    <p>If all of the steps in the test passed (either by default or explicitly by the Tester)</p>
+                </td>
+            </tr>
+        </table>
+        <h3 class="title">Overriding the default test status</h3>
+        <p>You can override the default test status by clicking the status label to open the “Override test status” dialog. </p>
+        <img src="../../Resources2/Images/applitools/test-status-override-menu.png" class="block-image" />
+        <p>Choose from one of the following three options: </p>
+        <table>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_37.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>Force the test to be “Passed” irrespective of the pass/fail status of its steps.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_38.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>Force the test to be “Failed” irrespective of the pass/fail status of its steps.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_39.png" />
+                    </p>
+                </td>
+                <td>
+                    <p>Test Manager should infer the pass/fail status of the test from the state of its steps.</p>
+                </td>
+            </tr>
+        </table>
+        <h3 class="title">Batch status</h3>
+        <p>The status of the batch can have one of the following values:</p>
+        <MadCap:snippetBlock src="../../Resources2/Snippets/batch-status-values-table.flsnp" />
+        <p>The tester cannot override the batch status.</p>
+        <p>For a more detailed description of the test and batch status see test-status-values.</p>
+        <h2 class="title">Saving the baseline</h2>
+        <p>Any changes you make to test steps by accepting and rejecting them or by adding or removing annotations are automatically persisted. However, your changes will only apply to subsequent test runs after you explicitly save them to the baseline using the <img class="inline-img" src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_14.png" /> button. </p>
+        <p>The Test Manager indicates that there are unsaved changes in several ways:</p>
+        <ol class="numbered-list">
+            <li>For the step as an asterisk (*)&#160;to the right of the step name</li>
+            <li>For the test as an asterisk (*)&#160;to the right of the test name</li>
+            <li>For the current Batch - an indication of the number of unsaved steps in all the tests of the batch.</li>
+            <li>For a batch in the batch list - the "Unsaved" label to the right of the batch status</li>
+            <li>The <img class="inline-img" src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_14.png" /> icon "pulses". </li>
+        </ol><a data-lightbox="img9" href="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_44.png"><img src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_44.png" class="block-image" /></a>
+        <p>When you hover the cursor over the save button <img class="inline-img" src="../../Resources2/Images/applitools/save-button-closeup.png" /> you are offered the following choices (arrow one below):</p>
+        <ul class="bulleted-list">
+            <li>Save changes to baseline. Choosing this option will save all the unsaved changes in the batch.</li>
+            <li>Save selected tests to baseline. Choosing this option only saves the test(s) whose checkbox has been checked even if they were not changed (arrow two below).</li>
+        </ul>
+        <p>&#160;</p><a data-lightbox="img10" href="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_46.png"><img class="block-image" src="../../Resources2/Images/overview-reviewing-the-results.v4/Reviewing test results and_46.png" /></a>
+    </body>
+</html>

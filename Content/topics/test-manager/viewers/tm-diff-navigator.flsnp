@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="315" MadCap:lastWidth="489">
+    <head>
+    </head>
+    <body>
+        <p>Click on the radar <span class="inline-img"><img src="resources/editor-radar.png" /></span> button, and circles will flash wherever there are differences in the annotations or  images.</p>
+        <p>Click on the <span class="inline-img"><img src="resources/zoom-next-diff-button.png" /></span> button or the <span class="keyboard-shortcut">,</span> key repeatedly to step through all the differences by zooming on each difference in turn. After you see the last difference, the zoom will return to its previous zoom level. Use the  <span class="inline-img"><img src="resources/zoom-prev-diff-button.png" /></span> or the <span class="keyboard-shortcut">.</span> key to navigate the differences in the opposite order. </p>
+    </body>
+</html>

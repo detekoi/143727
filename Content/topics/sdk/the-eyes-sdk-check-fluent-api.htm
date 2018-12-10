@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">The Eyes SDK check Fluent API</h1>
+        <p>You can define checkpoints using two coding styles.   One style is a classical method, typified by calls such as  <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$checkwindow," />, <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$checkregion," /> - we'll refer to this as the checkXXX style, where each XXX is a specific type of target (window, region, frame) and has parameters that allow a certain amount of configuration of how the image is captured. </p>
+        <p>The second style is the Fluent API. In this style, instead of a method for each type of target, a single method,     <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$check," /> is used, and  this takes as a parameter  a chain of methods that define the type of target and optional configuration.  </p>
+        <p>You are not limited to choose between one style or the other. For each checkpoint you can use whichever style is simplest or most convenient. You may find that the target specific methods <span class="code-label">checkXXX</span> are more convenient in the trivial cases where you simply want to check an entire target and don't need any special configuration, whereas the Fluent API&#160;is simpler when you need configuration, especially if it is of the type not supported directly by the <span class="code-label">checkXXX</span> methods.</p>
+        <p>This article provides an overview of the Fluent API, with example snippets. The examples also include some calls to the equivalent <span class="code-label">checkXXX</span>&#160;methods in order to allow a comparison between the two styles.</p>
+        <h2 class="title">Introduction to the Fluent API</h2>
+        <p>In the Fluent API&#160;you create and configure checkpoints using the   
+				 <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$check," />
+		 method. You pass this method a parameter that is created from a chain of methods calls from the 
+		<span data-mpld-lang="java csharp"><MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:target," /> and <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings," /> classes.
+			</span><span data-mpld-lang="javascript"><MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings," />  class.
+			</span>
+					
+		 The particular chain of methods you call, determines the target that will be checked and how it is configured. </p>
+        <p>Let's look at an example to see what this looks like in practice:</p><pre class="mpld-section" data-mpld-section="ex1"></pre>
+        <p>Each method returns a reference to it's object, so that additional calls to methods of that object can be chained directly.  The above sequence is equivalent to:</p><pre class="mpld-section" data-mpld-section="ex2"></pre>
+        <p>In the sections that follow, we will explain the methods available for chaining and where they might be used. Full details are available on the method reference page which you can access by clicking on the method name. </p>
+        <!--
+        <div class="tbd">
+            <p>The previous example defined a single checkpoint. You can define multiple checkpoints with a single   <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$check," /> call by providing multiple targets. Each target is completely independent. Passing the targets in the same <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$check," /> method means that  the image capture and processing may be more efficient in some cases. </p><pre class="mpld-section" data-mpld-section="ex3"></pre>
+            <p data-mpld-lang="java csharp">Note that each target is given an independent tag using the <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$withname," /> method. This allows the user to find the checkpoint in the Test manager test results. This is described in more detail below.</p>
+        </div>
+-->
+        <h2 class="title">Overview</h2>
+        <div><span>To define a checkpoint you first select a target, and then you can optionally configure the image capture and match processing. It is convenient to describe three "families" of methods:</span>
+            <ul class="numbered-list">
+                <li> <MadCap:xref class="link" href="#Defining">Define the target area</MadCap:xref> - this may be the entire window, an area defined by a web element (e.g. an &lt;iframe&gt;, or a &lt;div&gt; elements)&#160;or an  area defined by fixed pixel coordinates.</li>
+                <li>
+                    <MadCap:xref class="link" href="#Configur">Target configuration</MadCap:xref> - optional settings that affect how the image is captured and processed, e.g., the match level, timeout adjustment, whether to match the viewport area or the entire page.</li>
+                <li> <MadCap:xref class="link" href="#Special">Region Configuration</MadCap:xref> – giving special treatment to particular elements or regions in the content, i.e., ignore, floating and match level regions. </li>
+            </ul>
+        </div>
+        <p>For every checkpoint, you have to call one of the method that define the target area. The configuration and  special processing calls are all optional. These methods  are described in more detail in the sections that follow. </p>
+        <h2 class="title"><a name="Defining"></a>Define the target area</h2>
+        <p>The simplest way to define a target is to specify that the entire window should be matched. This is done using the 
+		<span data-mpld-lang="java csharp"><MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:target$window,"></MadCap:snippetText></span><span data-mpld-lang="javascript"><MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:target$window,"></MadCap:snippetText></span> 
+			
+			method:</p><pre class="mpld-section" data-mpld-section="ex3a"></pre>
+        <p>
+			By default this method will match that part of the window that is visible in the viewport. We will soon describe the <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$fully," />
+			method tells Eyes that the entire content of the window should be captured and not just what is visible in the viewport.<![CDATA[ 	]]></p>
+        <div><span>You can also request that Eyes only check a rectangular sub-region of the page. You can define the region in various ways:</span>
+            <ul class="bulleted-list">
+                <li>Provide a  <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:by," /> locator or a <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:webelement," /> reference to an element. Eyes will use the region defined by the CSS box of that element.</li>
+                <li>Provide a rectangular region in pixels.</li>
+                <li>Provide a locator or element to an iframe embedded in the main page, or nested within another iframe, or a region within that iframe.</li>
+            </ul>
+        </div>
+        <p>Here are some examples of targeting a region in the main window :</p><pre class="mpld-section" data-mpld-section="ex4a"></pre>
+        <p>Here are some examples of targeting a frame or a region in a frame :</p><pre class="mpld-section" data-mpld-section="ex4b"></pre>
+        <h2 class="title">Configuration</h2>
+        <div><span>You can configure all of the checkpoints in a test globally using commands such as:</span>
+            <ul class="bulleted-list">
+                <li>
+                    <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$setforcefullpagescreenshot," />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$setmatchlevel," />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$setmatchtimeout," />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$setignorecaret," />
+                </li>
+            </ul>
+        </div>
+        <p>If a particular checkpoint needs a configuration that is different from the default, then you could use the global methods to set the configuration you need before calling <span class="code-label">checkXXX</span>, and then call them again with the default value after calling the <span class="code-label">checkXXX</span>. The Fluent API&#160;provides simple checkpoint specific configuration by chaining configuration methods  to the targeting method;  we will see examples of this below. </p>
+        <p>There are two types of checkpoint configurations. Target configurations affects the overall processing of the target, whereas region configuration defines areas that will be processed differently from the rest of the target. </p>
+        <h3 class="title"><a name="Configur"></a>Target configuration</h3>
+        <div><span>The following target configuration methods are currently available:
+			</span>
+            <ul class="bulleted-list">
+                <li>
+                    <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$fully," /> : Request that all of the content on the page is matched and not just the viewport (i.e., Eyes may need to scroll a region and stitch multiple screenshots into a single image).</li>
+                <li>
+                    <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$matchlevel," /> : Specify the match level that should be used for the target area.</li>
+                <li>
+                    <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$timeout," /> : Specify the maximum amount of time that Eyes should retry capturing the window content if there are mismatches. This is used when a window rendering is slow, and the capture is done before the rendering is complete.</li>
+                <li>
+                    <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$ignorecaret," /> : Requests that Eyes should eliminate mismatches reported because of artifacts introduced by a blinking cursor.</li>
+                <li data-mpld-lang="java csharp">
+                    <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$withname," /> : Specifies a tag for this target.</li>
+            </ul>
+        </div>
+        <p>Each of these methods is optional but should not be called more than once. They may be called in any order.</p>
+        <h4 class="title">
+            <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$fully," /> method</h4><pre class="mpld-section" data-mpld-section="ex5"></pre>
+        <p>If a true value is passed to this method, or no value at all, then Eyes will capture multiple sub-images of the target, at different scrolling offsets so that the captured image includes all of the content in the target area. As shown in the examples, the target may be the entire window, a region of the window, an embedded frame or a region of a frame. The scrolling is always done at the level of the target frame. If a false value is passed as a parameter, or this method is not called then the checkpoint image will only contain the content visible in the viewport.</p>
+        <h4 class="title">
+            <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$matchlevel," /> method</h4>
+        <p>The match level defines what types of mismatches will be reported by the Eyes matching algorithm. The default, <i>strict</i>, reports all mismatches that are visible to the eye. The <i>content</i> match level, is a bit more lenient, for example, it disregards color. The <i>layout</i> match level checks that the general "look" of a target (e.g., text and image elements, their alignment and position relative to each other) but ignores differences such as the actual text.</p>
+        <p>You set the match level for a particular target, by passing the level as a parameter to the <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$matchlevel," /> method. <span data-mpld-lang="java csharp"> Alternatively, you can also call one of the following shortcut methods 
+			<MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$layout," />,
+			<MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$strict," />,
+			<MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$content," />.</span></p><pre class="mpld-section" data-mpld-section="ex6"></pre>
+        <p>The match level you specify here overrides the default strict level or the level defined at the global level using <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$setmatchlevel," />.</p>
+        <h4 class="title">
+            <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$timeout," /> method</h4>
+        <p>If a page render is slow, then Eyes may report mismatches caused by a capture that was done before the rendering was complete. To mitigate this case, when Eyes detects mismatches in a checkpoint, it will retry the capture and matching for up to two seconds.   If the default time (two seconds) is not suitable for a particular target, you can change it for that target as follows:</p><pre class="mpld-section" data-mpld-section="ex7"></pre>
+        <p>Passing this method a value of zero disables the timeout mechanism for this target.</p>
+        <h4 class="title">
+            <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$ignorecaret," /> method</h4>
+        <p>If the target area contains a blinking cursor, then this can cause mismatches, since the cursor may be visible or invisible when the page image is captured. You can call this method to instruct Eyes to detect artifacts caused by a blinking cursor, and not report a mismatch if found:</p><pre class="mpld-section" data-mpld-section="ex8"></pre>
+        <h4 class="title" data-mpld-lang="java csharp">
+            <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$withname," /> method</h4>
+        <p>You can (and should) provide a tag for all checkpoints to describe what it represents. This tag is displayed with the step image in the Test manager, note however that it is not used by Eyes to identify the checkpoint See <MadCap:xref href="../general-concepts/how-eyes-compares-checkpoints.htm" class="link">How Eyes compares checkpoints and baseline images </MadCap:xref>for more details. 
+		</p>
+        <p data-mpld-lang="java csharp">When a check is used with a single target, then the tag can be defined by the first parameter of the <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:check," /> method or by adding this method to the chain of calls. When <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:check," /> defines more than one target, then the <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$withname," /> should be called on each target to assign it its tag:</p><pre class="mpld-section" data-mpld-section="ex9"></pre>
+        <h3 class="title"><a name="Special"></a>Region Configuration</h3>
+        <div><span>Sometimes, specific elements or areas of the target needs to be configured differently from the overall target content. Eyes supports the following types of region configuration:</span>
+            <ul class="bulleted-list">
+                <li> <b>Ignore regions</b>: Specify that one or more areas in the target should be considered matched irrespective of their content. This is useful for example for areas on the screen whose content is different on every run such as a time of day field.</li>
+                <li> <b>Floating regions</b>: Specify that a given <i>inner area</i> can legitimately be positioned anywhere in an enclosing <i>outer area</i>. For example, an icon that is to the right of a variable width text field may move horizontally depending on the size of the text.  </li>
+                <li> <b>Match Level regions</b>: Specify that a region should be matched with a match level that is different from the match level of the rest of the target area.</li>
+            </ul>
+        </div>
+        <p>Unlike the target configuration methods that are called once per target, these methods can be called multiple times, to define multiple regions with different handling.</p>
+        <p class="box-note">You can also define these regions interactively and visually in the Test manager <MadCap:snippetText src="../../0quickInserts/_tbdref.flsnp" />, but defining them in the code is typically more flexible and robust. A region defined in the Test manager will only apply only to the baseline where it was applied, and the area will be defined in hard-coded pixel values. A&#160;region defined in the code  will apply to whatever baseline the test runs with, and can be defined  using an element selector, so the  special handling will apply to that element even if its layout position changes.</p>
+        <h4 class="title">
+            <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$ignore," /> method</h4>
+        <div><span>The regions you specify with this method will ignored, i.e. the area defined by the region be considered "matched" irrespective of their content, or the content of the baseline. You can specify the region in one of several ways:</span>
+            <ul class="bulleted-list">
+                <li> By specifying a <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:by," /> selector.</li>
+                <li> By providing a reference to an element using a <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:webelement," /></li>
+                <li> By providing an explicit top left coordinate and dimension of the area in pixels.</li>
+            </ul>
+            <p>If you want to define more than one area, then you can pass a series of comma-separated values (Example 10a) or pass an array of values (Example 10b), or pass a <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:by," /> that resolves to multiple elements (Example 10c), and you can also call this method multiple times (shown in all the examples).</p>
+        </div><pre class="mpld-section" data-mpld-section="ex10"></pre>
+        <h4 class="title">
+            <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$floating," /> method</h4>
+        <p>A floating region defines that a given inner region area should be checked within the bounds of a larger outer region. The entire outer region will be considered matched if the inner region matches any area within the outer region. For example, you can use a floating region, when a page has a variable width text element, and the neighboring field moves, depending on the length of the neighboring text item.</p>
+        <div><span>You can specify the floating region position and size in different ways:</span>
+            <ul class="bulleted-list">
+                <li>By specifying a <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:by," /> selector</li>
+                <li>By providing a <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:webelement," /></li>
+                <li>By providing an explicit top left coordinate and dimension of the area in pixels.</li>
+            </ul>
+            <p>You can either provide the offsets in each of the directions, or else you can provide a single value that defines the offset for all the directions. The version of the method that takes a single value allows you to pass multiple region objects. </p>
+        </div><pre class="mpld-section" data-mpld-section="ex11"></pre>
+        <h4 class="title">Setting a match level in a region</h4>
+        <p>This configuration method allows you to specify that one or more areas should use a match level that is different from the match level specified at the global and the overall target area. Three methods are provided, to specify the layout, strict and content Match levels. As for other configuration methods, you can define the region by providing using <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:by," /> or by providing a <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:webelement," /> or by providing an explicit area in pixels.</p><pre class="mpld-section" data-mpld-section="ex12"></pre>
+        <p class="box-note">Note that calling one of these methods without a parameter specifies the match level for the entire target, whereas when you call these methods with a region, you are specifying sub-regions that define a different match level than the rest of the target area. To avoid confusion you may choose to always use <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:checksettings$matchlevel," /> to set the target match level and the other methods to define regions that require a match level that is different from the rest of the target area.
+		</p>
+        <h2 class="title">Summary</h2>
+        <p>The “Railroad diagram” below, summarizes how the methods may be called. Imagine that you are traveling on a train that follows the lines between the methods from left to right,  remember you’re not allowed to take sharp corners or travel backward! Any path you can follow is a legitimate chain of call for these methods. </p>
+        <div><span> For simplicity, not all legal paths are shown, for example the methods may be chained in any order. The main point of the diagram is to show the three types of methods, and to show that for a given target:
+		</span>
+            <ul class="bulleted-list">
+                <li>Only one target section method may be used.</li>
+                <li>All the target configuration methods are optional, but should not be called more than once.</li>
+                <li>The region methods are optional and may be called multiple times.</li>
+            </ul>
+			Note that some of the methods appear both as target configuration and as region configuration methods. The difference is that the target configuration methods are called without a parameter (and hence apply to all the target), and the region configurations take one or more regions as a parameter.
+        </div>
+        <img class="block-image" src="images/flexible-syntax-overview.svg">
+        </img>
+        <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/docs/example-code";
+			var myFile = "fluentsnippets"; 
+			mpld.setDefaultFile(folder,myFile);
+			/* data-mpld-lang, 	button name, 	sub folder name , 							file suffix */
+			mpld.addLanguage( "java",				"Java",			"java/src/main/java/com/applitools/ekb","	.java");
+				mpld.addLanguage("javascript",			"Javascript",	"javascript",								".js");
+			//	mpld.addLanguage("ruby",		 	    "Ruby",	        "ruby",							        	".rb");
+			//	mpld.addLanguage("python",		 	    "Python",	    "python",							        ".py");
+				mpld.addLanguage("csharp",		 	    "C#",	  		"csharp/fluentsnippets",							        ".cs");
+			//	mpld.addLanguage("php",		 	   		"PHP",	    	"PHP",							       		".php");
+			/*]]>*/
+		</script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.Not for Output">
+    <head>
+    </head>
+    <body>
+        <h1>Fluent example</h1>
+        <p>This example illustrates several examples of the Fluent check interface for non-trival use cases:</p>
+        <ol class="bulleted-list">
+            <li>Ignore regions</li>
+            <li>Delaying the check.</li>
+            <li>Floating regions</li>
+            <li>Match Level</li>
+            <li>Blinking caret</li>
+        </ol>
+        <div class="sub-header">Ignore regions</div>
+        <p>The start time field will be different each time, so the simplest thing to do is to ignore it, we can do this by picking out the text field using it's id.</p>
+        <p>Match level regions</p>
+        <p>An alternative to ignoring a region is to use a layout match level. This will check that the content contains text, but will not be particular as to the exact content of the text. The test is done by clicking the button four times, each time, one of the Elapsed time fields will be updated with the time that has passed since the page loaded. The example shows several ways that you can define the regions which should have a different layout. They are all functionally equivalent, which you use is a matter of convenience for your particular case. </p>
+        <p>Blinking caret</p>
+        <p>If your test includes an input field then you may get artifacts due to a blinking caret (cursor)&#160;- whether the caret is captured or not is matter of chance. The example shows how you can eliminate artifacts dues to blinking cursors.</p>
+        <p>Floating regions</p>
+        <p>You may have noticed that the logo to the right of the four elapsed time fields jumps to the right When the first elapsed time is entered. We can define a floating region which defines that Eyes will check to see if the content is contained within an enclosing rectange.</p>
+        <p>Delayed timeout</p>
+        <p>If you enter a time in milliseconds into the countdown field, the application counts down to zero and then writes "done" in the countdown field. If you want to check visually that the counter does indeed display the text after the count, then you need to use the timeout method to delay the end of the check until the done has had a change to be rendered. </p>
+        <p>Iframes</p>
+        <p>The application includes an two iframes. The first is the same page as the main page but embedded in an iframe, and the second is of the Applitools documentation getting started page. If you want to just check the countdown frame works in the embedded frame then you can do it as follows:</p>
+        <p>Both I frames include scrollable regions. To fully inspect each of these regions you need to do as follows:</p>
+        <p>&#160;</p>
+    </body>
+</html>

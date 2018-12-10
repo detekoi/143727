@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Poppins'), local('Poppins-Regular'), url(../from-site/fonts/poppins_200.woff2) format('woff2'), url(../from-site/fonts/poppins_200.woff) format('woff'), url(../from-site/fonts/poppins_200.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins'), local('Poppins-Regular'), url(../from-site/fonts/poppins_400.woff2) format('woff2'), url(../from-site/fonts/poppins_400.woff) format('woff'), url(../from-site/fonts/poppins_400.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(../from-site/fonts/poppins_500.woff2) format('woff2'), url(../from-site/fonts/poppins_500.woff) format('woff'), url(../from-site/fonts/poppins_500.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(../from-site/fonts/poppins_600.woff2) format('woff2'), url(../from-site/fonts/poppins_600.woff) format('woff'), url(../from-site/fonts/poppins_600.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

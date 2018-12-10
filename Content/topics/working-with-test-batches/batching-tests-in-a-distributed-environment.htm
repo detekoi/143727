@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link rel="stylesheet" href="/docs/Resources2/Stylesheets/mpld.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    </head>
+    <body>
+        <h1 class="title">Batching Tests in a distributed environment</h1>
+        <p>In the article  <a class="link" href="how-to-group-tests-into-batches.htm">How to group tests into batches using the SDK</a> we described how to batch multiple tests that run in the same execution run so that their results are batched in the Test Manager. In this article, we will explain how to batch the results of tests when they are executed separately. This technique is useful in various circumstances, for example, if your tests are coded in different programming languages or if they need to run on multiple target platforms (e.g., Windows, Mac, and various mobile device) or need to be run concurrently on multiple CPUs or distributed processors.</p>
+        <p>The main difference between this method and the one described in  <a class="link" href="working-with-test-batches-in-overview.htm">Working with test batches</a> is that instead of sharing a BatchInfo object, each test run creates its own BatchInfo object, and the tests are batched by explicitly giving them a common Batch ID.</p>
+        <ol>
+            <li>The first step it to generate a unique ID string; you can do this any way that is convenient, one way is to use a date and time stamp and some machine ID.</li>
+            <p>Remember that since batches are stored on the server for a long time, you need to ensure that the ID&#160;will be unique on the long term.</p>
+            <li>Once you have an ID, you need a way to distribute it to all your test programs, for example, by writing it to a network file or a database.</li>
+            <li>Finally, each test program needs to obtain the ID&#160; (represented in the code below by the call to <code>myGetUniqueBatchID()</code>) and set the BatchInfo batch ID explicitly, as follows:</li>
+        </ol><pre class="mpld-section" data-mpld-dir="HelloWorldBatchID" data-mpld-file="HelloWorldBatchID" data-mpld-section="eyes-batch-id"></pre>
+        <p>You should give the same batch name for all the tests, however even if you don't, it is the batch ID&#160;that binds them together. The information displayed in the Test Manager for each step will reflect the batch name given when the test ran. </p>
+        <p>WARNING: Using this method means that the number of tests in a batch is not limited to a single test run. Reuse of an ID for unrelated tests can cause an unnecessary increase in the number of tests in a batch. This has no functional advantage since the tests are not related – but it may cause severe performance issues and/or failures and so should be avoided. </p>
+        <script src="/docs/scripts/mpld.js"> /*<![CDATA[*/ /*]]>*/</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js">
+        </script>
+        <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/docs/example-code";
+			var myFile = "HelloWorldBatchID"; 
+			mpld.setDefaultFile(folder,myFile);
+			/* data-mpld-lang, 	button name, 	sub folder name , 							file suffix */
+			mpld.addLanguage( "java",				"Java",			"java/src/main/java/com/applitools/ekb","	.java");
+			mpld.addLanguage("javascript",			"Javascript",	"javascript",								".js");
+			mpld.addLanguage("ruby",		 	    "Ruby",	        "ruby",							        	".rb");
+			mpld.addLanguage("python",		 	    "Python",	    "python",							        ".py");
+			mpld.addLanguage("csharp",		 	    "C#",	  		"csharp",							        ".cs");
+			mpld.addLanguage("php",		 	   		"PHP",	    	"PHP",							       		".php");
+			/*]]>*/
+		</script>
+    </body>
+</html>

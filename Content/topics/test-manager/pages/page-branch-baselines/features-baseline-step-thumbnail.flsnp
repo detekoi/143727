@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="982" MadCap:lastWidth="664">
+    <head>
+    </head>
+    <body>
+        <p>If you hover your cursor over the thumbnail a dialog will open showing you information about the step:</p>
+        <p><a data-lightbox="page-branch-baselines/resources/step-hover-information.png" href="resources/step-hover-information.png"><img class="block-image" src="resources/step-hover-information.png"></img></a>
+        </p>
+        <p>
+			If you click on the step thumbnail, then the baseline viewer will be displayed, and you will be able to view the baseline image and any annotations that have been made. See
+			
+			
+			<MadCap:xref class="link" href="../../viewers/tm-baseline-viewer.htm">Test Manager baseline viewer</MadCap:xref>
+			for details.
+		</p>
+        <div>If you hover over the bottom of a thumbnail, you will be offered the following options:
+        <ul class="table-list"><li><span class="table-list-item-name"><img src="resources/step-button-step-viewer.png"></img></span>
+				Clicking on this icon will open the step viewer on this step.
+			</li><li><span class="table-list-item-name"><img src="resources/step-button-more-options.png"></img></span>
+				Clicking on this icon will display a menu that will offer you the following options:
+				
+				<dl><dt><span class="app-item">Filter by same</span></dt><dd> 	Hovering over this option will let you set the filter to show only steps with the same <span class="app-item">Browser</span>, <span class="app-item">OS</span> or <span class="app-item">Viewport </span>as this step (one option only).</dd><dt><span class="app-item">Open in baseline viewer</span></dt><dd> 	Clicking this option will open the baseline viewer on this step. See		
+						<MadCap:xref class="link" href="../../viewers/tm-baseline-viewer.htm">Test Manager baseline viewer</MadCap:xref></dd><dt><span class="app-item">Open in step viewer</span></dt><dd> 	Clicking this option will open the step viewer  on this step.</dd></dl></li></ul></div>
+    </body>
+</html>

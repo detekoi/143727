@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectList>
+    <Object Value="General.ProductName" />
+    <Object Value="General.ProductClientAPI" />
+    <Object Value="General.ProductUI" />
+    <Object Value="Definitions.match area" />
+    <Object Value="Definitions.Eyes Server" />
+    <Object Value="Heading.Level1" />
+    <Object Value="Heading.AnyLevel" />
+    <Object Value="General.CompanyName" />
+    <Object Value="General.ProductServerAPI" />
+    <Object Value="General.StreetAddress" />
+</ObjectList>

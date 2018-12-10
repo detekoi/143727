@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The  example below shows a basic skeleton of an Eyes visual test using Selenium. For a more detailed example and explanation please see <MadCap:xref class="link" href="../../../topics/overview/overview-writing-tests-with-eyes.htm">Writing tests with the Eyes SDK</MadCap:xref>.</p><pre class="mpld-section" data-mpld-dir="HelloWorldBasic" data-mpld-file="HelloWorldBasic" data-mpld-section="all"></pre>
+        <MadCap:snippetBlock src="../../../example-code/HelloWorldBasic/HelloWorldBasicExample.flsnp" />
+    </body>
+</html>

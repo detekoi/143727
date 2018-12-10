@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="1682" MadCap:lastWidth="400">
+    <head>
+    </head>
+    <body>
+        <p>Displayed in the center of the browser window are two images, which represent corresponding steps from the two baselines being compared (referred to as the source and target baselines).  These show the captured images, overlaid with annotations made by your team. In some cases only one of these images will be displayed (see below).</p>
+        <div>There are controls that allow you to refine what you see:
+        <ul class="bulleted-list"><li>
+        Use the <span class="app-item">select image</span><img src="resources/select-image.png" class="inline-img" /> down arrow menu to select if you see only the target image, only the source image, or if you see both images side by side.
+</li><li>You can toggle between seeing only the source or only the target by clicking on the middle of the button instead of opening the menu with the down arrow. Doing this quickly can sometimes make the differences between them standout.		</li><li><MadCap:snippetBlock src="tm-viewer-select-visible-layers.flsnp"></MadCap:snippetBlock></li><li>You can use the <span class="app-item">zoom buttons</span> to adjust the size of the images, i.e. to see the entire image or to zoom in on some detail. This is useful for example if the image is a large scrolled window.  See <MadCap:xref class="link" href="tm-viewer-editor-zoom-controls.htm">Test editor zoom controls</MadCap:xref> for more details.</li></ul></div>
+    </body>
+</html>

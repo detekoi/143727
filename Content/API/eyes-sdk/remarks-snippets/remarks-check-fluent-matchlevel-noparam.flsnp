@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p> This method sets the default match level for this target. This overrides the hard-coded default and the default match level defined by using 
+		<code><a class="link" href="#"> <span data-mpld-lookup="eyes$setmatchlevel">eyes$setmatchlevel</span></a></code>.</p>
+        <div><span>For a given target you may call only one of the following methods that set a target default match level:</span>
+            <ul class="bulleted-list">
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$matchlevel">checksettings$matchlevel</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$strict">checksettings$strict</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$content">checksettings$content</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$layout">checksettings$layout</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$exact">checksettings$exact</span></a></code>
+                </li>
+            </ul>
+        </div>
+        <div><span>To set a match level for a one or more regions within a target use one of the following methods:  </span>
+            <ul class="bulleted-list">
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$strictRegions">checksettings$strictRegions</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$contentRegions">checksettings$contentRegions</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$layoutRegions">checksettings$layoutRegions</span></a></code>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

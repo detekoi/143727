@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="222" MadCap:lastWidth="565">
+    <head>
+    </head>
+    <body>
+        <div class="side-navbar-menu">
+            <div class="side-navbar-content">
+                <MadCap:searchBarProxy data-mc-skin="/Project/Skins/HomeSearchBar.flskn" />
+                <MadCap:snippetBlock src="hamburger-static-menu.flsnp" />
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.Not for Output">
+    <head>
+    </head>
+    <body>
+        <div class="mpld-section" data-mpld-inline="1">
+            <!-- Java -->
+            <div data-mpld-lang="java">
+				<pre class="mpld-code"><code>
+					add code here
+				</code></pre>
+            </div>
+            <!-- JavaScript -->
+            <div data-mpld-lang="javascript">
+				<pre class="mpld-code"><code>
+						add code here
+				</code></pre>
+            </div>
+            <!-- Csharp -->
+            <div data-mpld-lang="csharp">
+				<pre class="mpld-code "><code>
+						add code here
+				</code></pre>
+            </div>
+            <!-- PHP -->
+            <div data-mpld-lang="php">
+				<pre class="mpld-code "><code>
+					add code here
+				</code></pre>
+            </div>
+            <!-- Python -->
+            <div data-mpld-lang="python">
+				<pre class="mpld-code"><code>	
+						add code here	
+				</code></pre>
+            </div>
+            <!-- Ruby -->
+            <div data-mpld-lang="ruby">
+				<pre class="mpld-code"><code>
+						add code here
+				</code></pre>
+            </div>
+        </div>
+    </body>
+</html>

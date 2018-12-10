@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Resources | Applitools</title>
+        <link href="../foundation/css/foundation-float.css" rel="stylesheet" type="text/css" />
+        <link href="../foundation-icons/foundation-icons.css" rel="stylesheet" type="text/css" />
+        <link href="../Stylesheets/TopicStyles.css" rel="stylesheet" type="text/css" />
+        <link href="../Stylesheets/FlareStyles.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="/js/libs.min.js">
+        </script>
+        <script type="text/javascript" src="/js/app.min.js">
+        </script>
+        <meta name="description" content="Automated Visual Software Testing" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Applitools Eyes" />
+        <meta name="twitter:description" content="Automated visual application testing and monitoring" />
+        <meta name="twitter:image" content="/images/social/applitools_logo.png" />
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Applitools Eyes" />
+        <meta property="og:description" content="Automated visual application testing and monitoring" />
+        <meta property="og:image" content="/images/social/applitools_logo.png" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:site_name" content="Applitools" />
+        <meta property="”og:type”" content="”website”/" />
+        <meta property="og:url" content="https://applitools.com/" />
+        <link rel="icon" href="/images/favicon.ico" />
+        <!-- style-cutdown.css is a subset of style.min.used by this project.
+		    accessing style-cutdown.css allows madcap to know about the sytles defined in style.min.css
+			The file is not actually exported in the release version -->
+        <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <!--
+        <link href="../Stylesheets/style-cutdown.css" rel="stylesheet" type="text/css" />
+		-->
+        <!--
+        <link href="/css/style.min.css" rel="stylesheet" type="text/css" />
+		-->
+        <link href="../../Resources2/Stylesheets/mpld.css" rel="stylesheet" type="text/css" />
+        <link href="../../Resources2/Stylesheets/ekb-release.css" rel="stylesheet" type="text/css" />
+		<MadCap:conditionalText MadCap:conditions="General.draft"> 
+            <link href="../../Resources2/Stylesheets/ekb-draft.css" rel="stylesheet" type="text/css" />
+		</MadCap:conditionalText>
+        <link href="../../scripts/lightbox.css" rel="stylesheet" type="text/css" />
+        <script src="../../scripts/mpld.js"> /*<![CDATA[*/ /*]]>*/</script>
+    </head>
+    <body>
+        <div class="off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+
+                <!-- Title bar displayed on small screen only, hidden for medium up -->
+                <div class="title-bar hide-for-medium">
+                    <div class="title-bar-left">
+                        <!-- Button opens element with ID 'offCanvasLeft' which is the left off-canvas area -->
+<!--RM
+                        <button class="menu-icon" type="button" data-open="offCanvasLeft">
+                        </button><span class="title-bar-title">Menu</span>
+-->
+                        <MadCap:snippetBlock src="../Snippets/hamburger-static-menu.flsnp" />
+                    </div>
+                </div>
+
+                <!-- Container for off-canvas element with ID 'offCanvasLeft' -->
+                <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas="">
+                    <!-- Container for Drilldown menu -->
+                    <div id="nav-drilldown">
+                        <!-- Copy of the drilldown menu is inserted here by the script -->
+                    </div>
+                </div>
+
+                <!-- All the visible content of the page is in this 'off-canvas-content' container -->
+                <div class="off-canvas-content" data-off-canvas-content="">
+                    <!-- Page content -->
+                    <section id="page-content">
+                        <!-- header and search box -->
+                        <div class="row" data-equalizer="" id="header-area">
+                            <!-- header area for medium and large devices -->
+                            <div class="show-for-medium medium-6 large-6 columns">
+                                <div data-equalizer-watch="">
+                                </div>
+                            </div>
+                            <div class="show-for-medium medium-6 large-6 columns" id="no-padding">
+                                <div data-equalizer-watch="">
+                                </div>
+                            </div>
+                            <!-- header area for small devices -->
+                            <div class="hide-for-medium small-12 columns" id="yourlogo">
+                            </div>
+                        </div>
+                        <div class="searchcontainer">
+                            <div class="row" id="search-area">
+                                <div id="header-search">
+                                    <MadCap:searchBarProxy />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page ">&#160;</div>
+                        <div class="page ">
+                            <div class="docs page-container">
+                                <MadCap:searchBarProxy data-mc-skin="/Project/Skins/HomeSearchBar.flskn" />
+                                <div class="content-top">
+                                    <MadCap:breadcrumbsProxy />
+                                     <!-- Docs start -->
+                                     <MadCap:topicToolbarProxy class="btn-tools-topic" style="mc-topic-toolbar-items: ;" data-mc-skin="      /Project/Skins/TopicToolBarTools.flskn" />
+                                 </div>
+                            </div>
+                        </div>
+                        <!-- Container for accordion menu and topic body -->
+                        <div class="row">
+                            <!-- Container for accordion menu on left -->
+                            <div class="show-for-medium medium-4 large-3 columns" id="nav-accordion">
+                                <MadCap:menuProxy data-mc-skin="/Project/Skins/Menu.flskn" mc-linked-toc="/Project/TOCs/Online Output-sdk.fltoc" style="mc-toc-depth: -1;mc-context-sensitive: False;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" />
+                            </div>
+                            <!-- Container for topic content on right -->
+                            <div class="small-12 medium-8 large-9 columns" id="topic-content">
+                                <MadCap:breadcrumbsProxy />
+                                <div class="content readable">
+                                   <!-- Docs start -->
+                                   <MadCap:topicToolbarProxy class="btn-previous-topic" style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/TopicToolBarPrev.flskn" />
+                                   <MadCap:topicToolbarProxy class="btn-next-topic" style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/TopicToolBarNext.flskn" />
+                                   <div id="document-body">
+                                       <MadCap:bodyProxy />
+                                   </div>
+                                   <!-- Docs end -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Container for accordion menu and topic body -->
+                        <!-- footer -->
+                        <MadCap:snippetBlock src="../../Resources2/Snippets/site-footer.flsnp" />
+                    </section>
+                    <!-- END page content -->
+                </div>
+                <!-- END off canvas content -->
+            </div>
+            <!-- END off canvas wrapper inner -->
+        </div>
+        <!-- END off canvas wrapper -->
+        <!-- scripts -->
+        <script type="text/javascript" src="../foundation/js/vendor/what-input.js">
+        </script>
+        <script type="text/javascript" src="../foundation/js/vendor/foundation.min.js">
+        </script>
+        <script type="text/javascript" src="../Scripts/foundation-menu-off-canvas-initialisation.js">
+        </script>
+        <script>
+			/*	<![CDATA[ */
+			(function () {
+			   var notificationId = "notification-pr-8M-round-2017";
+			   var btnElem = document.querySelector(".navbar-container .message-container .btn-close");
+			   var adElems = document.querySelectorAll(".message-container");
+
+			   if (btnElem) {
+			      btnElem.addEventListener("click", onCloseClick)
+			   }
+
+			   function onCloseClick(e) {
+			       Cookies.set(notificationId, "dismissed");
+
+			       for (var index = 0; index < adElems.length; index++) {
+				      var currElem = adElems[index];
+				      currElem.classList.remove("visible");
+				   }
+				}
+			})();
+/* ]]> */
+		</script>
+        <script src="/Content/scripts/mpldlookup.js">
+        </script>
+        <script src="/Content/scripts/lightbox.min.js"> /*<![CDATA[*/ /*]]>*/</script>
+        <script>
+			if(typeof mpld !== "undefined"){
+				mpld.start();
+				mpldLookup.setup(mpld);
+			}
+		</script>
+		<MadCap:snippetBlock src="../../Resources2/Snippets/trackers.flsnp" />
+</body>
+</html>

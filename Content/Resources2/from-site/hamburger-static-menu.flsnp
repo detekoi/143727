@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="620" MadCap:lastWidth="747">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li><a href="https://applitools.com/features">Key Features</a>
+            </li>
+            <li><span>Solutions For</span>
+                <ul class="sub-menu">
+                    <li><a href="https://applitools.com/features/test-automation">Test Engineers</a>
+                    </li>
+                    <li><a href="https://applitools.com/features/frontend-development">Developers</a>
+                    </li>
+                    <li><a href="https://applitools.com/features/devops">DevOps</a>
+                    </li>
+                    <li><a href="https://applitools.com/features/digital-transformation">Product &amp; Marketing</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="https://applitools.com/pricing">Pricing</a>
+            </li>
+            <li><a href="https://applitools.com/customers">Customers</a>
+            </li>
+            <li><span>Resources</span>
+                <ul class="sub-menu">
+		    <li><a href="https://applitools.com/resources/tutorial">Get Started!</a>
+		    </li>
+                    <li><a href="https://applitools.com/docs">Documentation</a>
+                    </li>
+                    <li><a href="https://applitools.com/resources">Resource Library</a>
+                    </li>
+                    <li><a href="https://applitools.com/blog">Blog</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="https://applitools.com/about">About</a>
+            </li>
+            <li><a href="https://applitools.com/careers">Careers</a>
+            </li>
+            <li><a href="https://applitools.com/contact">Contact Us</a>
+            </li>
+            <li><a href="https://applitools.com/users/register">Free Trial</a>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="8595" MadCap:lastWidth="1209">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">The Compare &amp; merge branches page</h1>
+        <p>When you want to merge a branch into another branch, you use the <span class="app-page">compare &amp; merge</span> page to initiate a comparison of the baselines in the two branches, to specify how the merge should be done if there is a conflict or you want to override the default and to initiate the merge.</p>
+        <h2 class="title">Overview</h2>
+        <p>After you initiate a compare operation,<MadCap:variable name="General.ProductName" /> will display all the baselines, each with a status that indicates one of three possible outcomes:</p>
+        <p><span class="app-item">New</span>. The baseline appears only in the source. By default, this baseline will be merged "as is" into the target. If you want, you can request that Eyes <u>should not</u> include this baseline in the merged branch.</p>
+        <p><span class="app-item">Changed</span>. The baseline appears in both the source and the target, some steps are different, but there are no conflicts, By&#160;default  when the merge is initiated, <MadCap:variable name="General.ProductName" /> will create target baselines that merges steps from the source and target, You can override this default by specifying that <MadCap:variable name="General.ProductName" /> should take steps only from the target, or only from the source. In the latter case you can set the annotations in the source so that they have any mix of new annotations and annotations from the source or from the target. </p>
+        <p><span class="app-item">Conflict</span>. The baseline appears in both the source and the target, and there is a conflict, e.g., a step was changed in both the source and the target. In this case, there is no default, and you must specify if <MadCap:variable name="General.ProductName" /> should use the target baseline as is or the source baseline. In the latter case, before the merge, you can copy annotations from the target to the source or specify new annotations so that they will appear in the target after the merge.</p>
+        <h2 class="title">Workflow overview</h2>
+        <div>The merge process in <MadCap:variable name="General.ProductName" /> consists of the following steps:
+		<ol class="numbered-list"><li>Navigate to the  <span class="app-page">compare &amp; merge</span> page.</li><li>Select the source and target branches  and click the <span class="app-item">Compare</span> button. Eyes will display the baselines that are only in the source or are different in the source and target. Eyes display next to each baseline a status with a value of <span class="app-item">New</span>, <span class="app-item">Changed </span>or <span class="app-item">Conflict</span>.
+</li><li>You can use the <span class="app-page">compare baselines editor</span> to view the images and annotations of the target and the source baselines, and to edit the source annotations. See <MadCap:xref class="link" href="../viewers/tm-compare-baselines-editor.htm">The compare baselines editor</MadCap:xref>  for more details. </li><li>For baselines with a status of <span class="app-item">New</span> or <span class="app-item">Changed </span> &#160;<MadCap:variable name="General.ProductName" /> can merge the baselines without any user intervention, you can  override the default behavior as will be described below.</li><li>&#160;In the case of baselines with a status of Conflict, the user must decide if the source or target baselines will be used in the merge, Merge is not possible until all the baselines with a conflict have been resolved.</li></ol></div>
+        <p>The steps described above are described in more detail below.</p>
+        <h3 class="title"><a name="Starting"></a>Starting the Comparison</h3>
+        <ul class="numbered-list">
+            <li>To start a merge or compare operation, select <span class="app-item">Compare &amp;&#160;merge branches</span>&#160;from the <span class="app-item">Page navigator</span>. If there is no current active merge session, then the screen will look like the screenshot below. </li><a data-lightbox="compare-merge-first-screen" href="page-compare-merge/compare-merge-first-screen.png"><img class="block-image" src="page-compare-merge/compare-merge-first-screen.png" /></a>
+            <li>If a compare was previously initiated and not merged, then the screen will show the current compare session. You can start a new session by simply setting new source and destination branches. Any conflict resolutions decisions you have made on this page will have been persisted when you made them, so at a later point, it will be possible to continue the previous compare and merge operation where you left off previously.</li>
+            <li>Click in the right selection box (<span class="app-item">Source branch</span>)&#160;and select the source branch  from the list of branches.</li>
+            <p><a data-lightbox="dialog-enter-source-branch" href="page-compare-merge/dialog-enter-source-branch.png"><img class="block-image" src="page-compare-merge/dialog-enter-source-branch.png" /></a>
+            </p>
+            <li>Click on the left selection box (<span class="app-item">Target branch</span>)&#160;and select the branch you want to update with changes from your source branch.</li>
+            <p>In both selection boxes, you can enter text in the search box, and the list of branches will be filtered to only show branches whose name contains that text.</p>
+            <li>Click the <span class="app-item">Compare</span> button and <MadCap:variable name="General.ProductName" /> will display<ul class="bulleted-list"><li> a summary panel</li><li>a list of baselines that are new or are different in the two baselines:</li></ul></li>
+        </ul>
+        <p><a data-lightbox="page-compare-merge-overview" href="page-compare-merge/page-compare-merge-overview.png"><img class="block-image" src="page-compare-merge/page-compare-merge-overview.png" /></a>
+        </p>
+        <h3 class="title">The summary panel</h3>
+        <p>In the summary panel at the top of the page you can see how many changes where detected, and how many of these have a status of new, changed or conflict. You can also see the number of Apps and the variety of operating </p>
+        <h3 class="title"><a name="Checking"></a>Checking changes and resolving conflicts</h3>
+        <div>Immediately after the comparison, the status column in each row will have one of the following values:
+        <dl><dt><span class="app-item">New</span></dt><dd> <MadCap:variable name="General.ProductName" /> found a new baseline in the source which can be added automatically to the target. </dd><dt><span class="app-item">Changed</span></dt><dd><MadCap:variable name="General.ProductName" /> found a baseline that exists in both the source and the target, and the changes in the source can be copied to the target with no conflict.</dd><dt><span class="app-item">Conflict</span></dt><dd><MadCap:variable name="General.ProductName" /> found a conflict between the source and target baselines. You need to resolve this manually.</dd></dl></div>
+        <p>You now need to decide what should be done with each baseline. If you want to see the differences between the baselines for a particular change or to set which annotations should be merged into the target, open the <span class="app-item">merge conflict editor</span> by clicking on the row of the change or by clicking on the <span class="inline-img"><img src="page-compare-merge/compare-edit-source-baseline.png"></img> <![CDATA[ ]]></span>which appears when you hover over a baseline row. See <MadCap:xref class="link" href="../viewers/tm-compare-baselines-editor.htm">The compare baselines editor (compare &amp;&#160;merge page)</MadCap:xref> for more details.</p>
+        <p>Once you've resolved all the differences, you need to tell <MadCap:variable name="General.ProductName" /> if it should use the baseline from the source or from the target. You do this using the following buttons that appear on each row and in the toolbar.</p>
+        <ul class="table-list">
+            <li><span class="table-list-item-name"><img src="page-compare-merge/page-compare-merge-take-target-baseline.png" /></span>
+				Keep the baseline information in the target branch as is, ignore the differences in the source baseline.
+            </li>
+            <li><span class="table-list-item-name"><img src="page-compare-merge/page-compare-merge-take-source-baseline.png" /></span>
+				Merge the information into the source baseline to the target branch.
+</li>
+        </ul>
+        <p>You can specify what to do for each baseline by using the buttons on the row of that baseline. Alternatively, you can click the checkbox on one or more baselines and then click the appropriate tool in the toolbar to take that action for all selected baselines. The latter option is best used in combination with the filter tool <img src="page-compare-merge/filter-changes.png" class="inline-img" /> described below. </p>
+        <p>You can also do the following operations on a set of selected rows:</p>
+        <ul class="table-list">
+            <li><span class="table-list-item-name"><img src="page-compare-merge/delete-selected-source-button.png" /></span> Delete all the selected source baselines.</li>
+            <li><span class="table-list-item-name"><img src="page-compare-merge/undo-conflit-resolution-button.png" /></span> Undo the conflict resolutions for all the selected baselines so that it is in the same state as it was after the compare operation,</li>
+        </ul>
+        <h3 class="title">Filtering the results</h3>
+        <p>You can use the filter tool <img src="page-compare-merge/filter-changes.png" class="inline-img" /> to select criteria which define which rows will be displayed. Then you can select all the visible rows using the <span class="app-item">toggle selection</span> <img src="page-compare-merge/toggle-select.png" class="inline-img" /> button and use the various tools on the toolbar. </p>
+        <div>The filter dialog allows you to select from the following criteria:
+	        <dl><dt><span class="app-item">Filter</span></dt><dd>If you type text into the filter text box, then the display will only include baseline whose test name includes the typed text.            </dd><dt><span class="app-item">Conflict</span></dt><dd> If you check this box, then baselines with a status of <span class="app-item">Conflict </span>will be displayed.
+	            </dd><dt><span class="app-item">Changed</span></dt><dd>If you check this box ,then baselines with a status of <span class="app-item">Changed </span>will be displayed.
+	            </dd><dt><span class="app-item">Ignored</span></dt><dd>If you check this box .then baselines with a status of <span class="app-item">Ignore </span>will be displayed.
+				</dd><dt><span class="app-item">Saved by others</span></dt><dd>If you check this box, then a baseline will only be displayed if it was last saved by someone other than the logged-in team member.
+				</dd></dl></div>
+        <div>Click on <span class="app-item">More filters</span> to add one or more of the following criteria:
+	        <dl><dt><span class="app-item">App</span></dt><dd>Select the application names whose baseline you want to see.</dd><dt><span class="app-item">Browser</span></dt><dd>Select the browsers whose baseline you want to see.</dd><dt><span class="app-item">OS</span></dt><dd>Select the operating systems whose baseline you want to see.</dd><dt><span class="app-item">Source author</span></dt><dd>Select one or more from the following possibilities <span class="app-item">Saved by me</span>, <span class="app-item">Saved by others</span> or one more team members from the list of people shown.</dd><dt><span class="app-item">Status</span></dt><dd>Select one or more from the following possibilities <span class="app-item">Changed</span>, <span class="app-item">Conflict</span>, <span class="app-item">Ignored</span>, <span class="app-item">New</span> or <span class="app-item">Resolved</span>.</dd><dt><span class="app-item">Target author</span></dt><dd>Select one or more from the following possibilities <span class="app-item">Saved by me</span>, <span class="app-item">Saved by others</span> or one more team members from the list of people shown.</dd><dt><span class="app-item">Viewports</span></dt><dd>Select one or more of the viewport sizes that you want to be included in the list of changes.</dd></dl></div>
+        <h3 class="title">Grouping the results</h3>
+        <p>You can group the rows of changes into a hierarchy in the usual way, based on the following criteria:</p>
+        <dl>
+            <dt><span class="app-item">App</span> <![CDATA[ ]]></dt>
+            <dd>The application name.</dd>
+            <dt><span class="app-item">Browser</span> <![CDATA[ ]]></dt>
+            <dd>The browser type.</dd>
+            <dt><span class="app-item">OS</span> <![CDATA[ ]]></dt>
+            <dd>The operating system</dd>
+            <dt><span class="app-item">Saved by</span>
+            </dt>
+            <dd>Which team member saved this baseline.</dd>
+            <dt><span class="app-item">Status</span>
+            </dt>
+            <dd>The merge status value.</dd>
+            <dt><span class="app-item">Test name</span> <![CDATA[ ]]></dt>
+            <dd>The name of the test.</dd>
+            <dt><span class="app-item">Viewport</span>
+            </dt>
+            <dd>The viewport size.</dd>
+        </dl>
+        <h3 class="title">Initiate the merge operation</h3>
+        <p>Once there are no more rows with a status of <span class="app-item">Conflict</span>, the <span class="app-item">Recompare</span> button will change into a <span class="app-item">Merge</span> button. Click on the button, and you will see a confirmation dialog, click <span class="app-item">Yes</span> to continue with the merge or <span class="app-item">Cancel</span> to abort the merge. When the merge is done, the list of baselines will be empty. and you will see a message confirming that the merge completed successfully. It the merge fails, for example because the target or source have changed in a way that creates a conflict since you last did compare, then the page will update and show you the baselines that conflict.</p>
+    </body>
+</html>

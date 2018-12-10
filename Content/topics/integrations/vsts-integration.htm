@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link rel="stylesheet" href="/docs/Resources2/Stylesheets/mpld.css" />
+    </head>
+    <body>
+        <h1 class="title">Installing the Applitools Eyes VSTS Extension</h1>
+        <p>This document describes how you can run a test that implements <MadCap:variable name="General.CompanyName" /> Eyes visual UI testing from within the build environment, and then see the results in the VSTS Build result window. </p>
+        <p>The article assumes that you already have VSTS installed on your system and that you know how to use it. Note that depending on your version of VSTS, some of the steps or screenshots described here may be slightly different.</p>
+        <h2 class="title"> Overview</h2>
+        <p>Once you have done the one time setup described in this article you will be able run your visual UI test from within the VSTS&#160;environment and see the <MadCap:variable name="General.ProductName" /> results within a VSTS build results window as shown below: </p><a data-lightbox="eyes_results_in_vsts" href="../../Resources2/Images/tfs-integration/eyes_results_in_vsts.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/eyes_results_in_vsts.png" /></a>
+        <p>Setting up VSTS&#160;to work with <MadCap:variable name="General.ProductName" /> involves the following steps:</p>
+        <ol class="bulleted-list">
+            <li><a class="link" href="#Preparing">Preparing your Eyes code</a>
+            </li>
+            <li><a class="link" href="#Setup">Setup your VSTS&#160;build</a>
+            </li>
+            <li><a class="link" href="#Install">Install the Eyes Extension</a>
+            </li>
+        </ol>
+        <p>Each of these is described in the sections that follow.</p>
+        <h2 class="title"><a name="Preparing"></a>Preparing your Eyes code</h2>
+        <p>The Eyes extension automatically generates a Batch name and batch ID and assigns them to environment variables. Your code should access the environment variables and use these values, as shown in the following code: </p><pre class="mpld-section" data-mpld-section="eyes-batch-idenv"></pre>
+        <p> The batch name defined by the <MadCap:variable name="General.ProductName" /> Extension is composed of the project name and the build definition name as defined in the VSTS&#160;environment.</p>
+        <p>Note that the extension uses environment variables in two different ways. </p>
+        <p><code>APPLITOOLS_API_KEY</code> is an environment variable that you need to define in your operating system or in VSTS,&#160;as explained in the next section.</p>
+        <p>The environment variables  <code>APPLITOOLS_BATCH_NAME</code> and <code>APPLITOOLS_BATCH_ID</code> are defined and set by the <MadCap:variable name="General.ProductClientAPI" /> VSTS&#160;extension; you should not define these variables in your operating system.</p>
+        <h2 class="title"><a name="Setup"></a>Setup your VSTS&#160;build</h2>
+        <p>The Eyes extension needs access to your Eyes API&#160;key. It obtains the value of the key from an environment variable called <code>APPLITOOLS_API_KEY</code>&#160;You can set the environment key externally via your operating system, or you can do it internally in VSTS&#160;&#160;as follows:</p>
+        <ol class="numbered-list">
+            <li>
+                <p>On the "Builds and Release" page, "Builds" tab select your build by clicking on it.</p><a data-lightbox="setup_step1" href="../../Resources2/Images/tfs-integration/setup_step1.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/setup_step1.png" /></a>
+            </li>
+            <li>
+                <p>Click on the Edit button.</p><a data-lightbox="setup_step2" href="../../Resources2/Images/tfs-integration/setup_step2.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/setup_step2.png" /></a>
+            </li>
+            <li>
+                <p>In the Variables tab, click the Add button.</p>
+            </li><a data-lightbox="setup_step3" href="../../Resources2/Images/tfs-integration/setup_step3.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/setup_step3.png" /></a>
+            <li>
+                <p>In the left input field type the name of the environmental variable APPLITOOLS_API_KEY, and in the right field type your API&#160;key. To obtain your API&#160;key see <a class="link" href="../overview/obtain-api-key.htm">How to obtain your API&#160;key</a>. Click on save, and in the Dialog that opens add a comment and click Save.</p>
+            </li>
+        </ol>
+        <h2 class="title"><a name="Install"></a>Installing the Eyes Extension</h2>
+        <ol class="numbered-list">
+            <li>
+                <p>  Add the Applitools Eyes build task. In VSTS, click on the "Build and Release" tab, then click on the build definition to which you want to add the Eyes task.</p>
+            </li><a data-lightbox="2018-02-21_11-06-20" href="../../Resources2/Images/tfs-integration/2018-02-21_11-06-20.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-06-20.png" /></a>
+            <li>
+                <p> Click on the Edit button.</p>
+            </li><a href="../../Resources2/Images/tfs-integration/2018-02-21_11-07-44_step3.png" data-lightbox="step3"> <img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-07-44_step3.png" /></a>
+            <li>
+                <p>Click on Add Task.</p>
+            </li><a data-lightbox="step4" href="../../Resources2/Images/tfs-integration/2018-02-21_11-08-43_step4.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-08-43_step4.png" /></a>
+            <li>
+                <p>Click on "Check out our Marketplace".</p>
+            </li><a data-lightbox="step5" href="../../Resources2/Images/tfs-integration/2018-02-21_11-10-44_step5.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-10-44_step5.png" /></a>
+            <li>
+                <p>Type "applitools", click the search icon and you should see the Applitools Eyes Integration Extension. Click on the Applitools Eyes Integration Extension.</p>
+            </li><a data-lightbox="step6" href="../../Resources2/Images/tfs-integration/2018-02-21_11-12-04_step6.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-12-04_step6.png" /></a>
+            <li>
+                <p>Click on the Install button.</p>
+            </li><a data-lightbox="step7" href="../../Resources2/Images/tfs-integration/2018-02-21_11-15-02_step7.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-15-02_step7.png" /></a>
+            <li>
+                <p>Wait a bit....</p>
+            </li><a data-lightbox="step8" href="../../Resources2/Images/tfs-integration/2018-02-21_11-15-39_step8.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-15-39_step8.png" /></a>
+            <li>
+                <p>Click "Confirm".</p>
+            </li><a data-lightbox="step9" href="../../Resources2/Images/tfs-integration/2018-02-21_11-16-44_step9.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-16-44_step9.png" /></a>
+            <li>
+                <p>Wait a little bit more...</p>
+            </li><a data-lightbox="step10" href="../../Resources2/Images/tfs-integration/2018-02-21_11-17-46_step10.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-17-46_step10.png" /></a>
+            <li>
+                <p>Click the "Close" button.</p>
+            </li><a data-lightbox="step11" href="../../Resources2/Images/tfs-integration/2018-02-21_11-18-37_step11.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-18-37_step11.png" /></a>
+            <li>
+                <p>Refresh the browser.</p>
+            </li><a data-lightbox="step12" href="../../Resources2/Images/tfs-integration/2018-02-21_11-28-40_step12.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-28-40_step12.png" /></a>
+            <li>
+                <p>Click "Add Task".</p>
+            </li><a data-lightbox="step13" href="../../Resources2/Images/tfs-integration/2018-02-21_11-29-42_step13.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-29-42_step13.png" /></a>
+            <li>
+                <p>In the search box start typing applitools, when the Applitools Build Task appears, put your cursor over it until the "Add" button is displayed and then click it.</p>
+            </li><a data-lightbox="step14" href="../../Resources2/Images/tfs-integration/2018-02-21_11-31-07_step14.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-31-07_step14.png" /></a>
+            <li>
+                <p>The Applitools task appears at the end of the list of tasks.</p>
+            </li><a data-lightbox="step15a" href="../../Resources2/Images/tfs-integration/2018-02-21_11-32-47_step15a.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-32-47_step15a.png" /></a>
+            <li>
+                <p> Drag it up so that it is before the "Build Solution".</p>
+            </li><a data-lightbox="step15b" href="../../Resources2/Images/tfs-integration/2018-02-21_11-33-42_15b.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-33-42_15b.png" /></a>
+            <li>
+                <p>Click "Save &amp;&#160;Queue", click "Save", add a comment in the popup and click "Save".</p>
+            </li><a data-lightbox="step16" href="../../Resources2/Images/tfs-integration/2018-02-21_11-35-43_step16.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-35-43_step16.png" /></a><a data-lightbox="step17" href="../../Resources2/Images/tfs-integration/2018-02-21_11-36-40_step17.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-36-40_step17.png" /></a>
+        </ol>
+        <h2 class="title"><a name="Running"></a>Running your tests</h2>
+        <p>You run your test in VSTS&#160;in the usual way :</p>
+        <ol class="numbered-list">
+            <li>
+                <p>Click the "Queue" button.</p>
+            </li><a data-lightbox="run1" href="../../Resources2/Images/tfs-integration/2018-02-21_11-39-48_step_run_1.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-39-48_step_run_1.png" /></a>
+            <li>
+                <p>Click the "Queue" button on the popup.</p>
+            </li><a data-lightbox="run2" href="../../Resources2/Images/tfs-integration/2018-02-21_11-40-53_run_2.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-21_11-40-53_run_2.png" /></a>
+            <li>
+                <p>Click on the build number of the current job.</p>
+            </li><a data-lightbox="click_build" href="../../Resources2/Images/tfs-integration/2018-02-25_10-15-39_click_build_number.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/2018-02-25_10-15-39_click_build_number.png" /></a>
+            <li>
+                <p>This will bring up the VSTS&#160;Build results window. Click the Applitools tab, and then, when the test is complete, you will see the main panel of the Applitools Test manager with the results of the current build loaded.</p>
+            </li><a data-lightbox="results" href="../../Resources2/Images/tfs-integration/2018-02-22_14-18-17_results_applitools_tab.png"><img class="block-image" src="../../Resources2/Images/tfs-integration/eyes_results_in_vsts.png" /></a>
+        </ol>
+        <p>You will see the results of the current job. To see the results of other builds you can select them from the VSTS "Recently Completed" list. You can also enter full Test manager mode where you can see all the results of all your tests runs. To do this do as follows:</p>
+        <ol class="numbered-list">
+            <li>Click any test to see the steps of that test.</li>
+            <li>Click on the step thumbnail to enter the Test Editor. </li>
+            <li>If you click the <img class="keyboard-shortcut" src="../../Resources2/Images/tfs-integration/2018-02-25_10-32-50-back-button.png" /> button, the display will return to VSTS. If you click the Applitools logo, the display will show the main Test Manager panel where you can see all the runs.</li><a data-lightbox="backbuttons" href="../../Resources2/Images/tfs-integration/2018-02-25_10-28-42-back_buttons.png" class="block-image"><img src="../../Resources2/Images/tfs-integration/2018-02-25_10-28-42-back_buttons.png" class="block-image" /></a>
+        </ol>
+        <script src="/docs/scripts/mpld.js">
+        </script>
+        <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/docs/example-code";
+			var myFile = "HelloWorldBatchIdEnv";
+			mpld.setDefaultFile(folder,myFile);
+			/* data-mpld-lang, 	button name, 	sub folder name , 							file suffix */
+			mpld.addLanguage( "java",				"Java",			"java/src/main/java/com/applitools/ekb","	.java");
+			mpld.addLanguage("javascript",			"Javascript",	"javascript",								".js");
+			mpld.addLanguage("ruby",		 	    "Ruby",	        "ruby",							        	".rb");
+			mpld.addLanguage("python",		 	    "Python",	    "python",							        ".py");
+			mpld.addLanguage("csharp",		 	    "C#",	  		"csharp",							        ".cs");
+			mpld.addLanguage("php",		 	   		"PHP",	    	"PHP",							       		".php");
+		/*]]>*/</script>
+    </body>
+</html>

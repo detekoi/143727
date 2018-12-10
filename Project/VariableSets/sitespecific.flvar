@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="HelloWorld2Site"
+    Comment=""
+    EvaluatedDefinition="https://applitools.com/helloworld2">https://applitools.com/helloworld2</Variable>
+  <Variable
+    Name="scripts"
+    Comment=""
+    EvaluatedDefinition="/docs/scripts">/docs/scripts</Variable>
+  <Variable
+    Name="examples"
+    Comment=""
+    EvaluatedDefinition="/docs/examples">/docs/examples</Variable>
+  <Variable
+    Name="imghref"
+    Comment=""
+    EvaluatedDefinition="The path to an image to be displayed">The path to an image to be displayed</Variable>
+</CatapultVariableSet>

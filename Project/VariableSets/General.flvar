@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="Applitools">Applitools</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber"
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress"
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="ProductName"
+    Comment=""
+    OriginalName="ProductName"
+    EvaluatedDefinition="Eyes">Eyes</Variable>
+  <Variable
+    Name="Fax"
+    Comment=""
+    OriginalName="Fax"
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment=""
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="VersionNumber"
+    OriginalName="VersionNumberDot">1.0</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2015-12-31T09:28:31.1216229-08:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="ProductClientAPI"
+    Comment="The API called by the test program"
+    EvaluatedDefinition="Eyes SDK">Eyes SDK</Variable>
+  <Variable
+    Name="ProductServerAPI"
+    Comment="the API that can be obtain information from the Server"
+    EvaluatedDefinition="Eyes Server API">Eyes Server API</Variable>
+  <Variable
+    Name="ProductUI"
+    Comment="The UI that users use to view and manage match results"
+    EvaluatedDefinition="Eyes Test Manager">Eyes Test Manager</Variable>
+  <Variable
+    Name="VideoStart"
+    Comment="To start a video playback"
+    EvaluatedDefinition="Play">Play</Variable>
+  <Variable
+    Name="VideoStop"
+    Comment="To Stop a Video playback"
+    EvaluatedDefinition="Stop">Stop</Variable>
+</CatapultVariableSet>

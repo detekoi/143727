@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Resources | Applitools</title>
+        <script type="text/javascript" src="../from-site/scripts/libs.min.js">
+        </script>
+        <script type="text/javascript" src="../from-site/scripts/app.min.js">
+        </script>
+        <meta name="description" content="Automated Visual Software Testing" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Applitools Eyes" />
+        <meta name="twitter:description" content="Automated visual application testing and monitoring" />
+        <meta name="twitter:image" content="/images/social/applitools_logo.png" />
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Applitools Eyes" />
+        <meta property="og:description" content="Automated visual application testing and monitoring" />
+        <meta property="og:image" content="../from-site/images/social/applitools_logo.png" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:site_name" content="Applitools" />
+        <meta property="”og:type”" content="”website”/" />
+        <meta property="og:url" content="https://applitools.com/" />
+        <link rel="icon" href="../from-site/images/favicon.ico" />
+        <!-- style-cutdown.css is a subset of style.min.used by this project.
+		    accessing style-cutdown.css allows madcap to know about the sytles defined in style.min.css
+			The file is not actually exported in the release version -->
+        <link href="../from-site/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <!--
+        <link href="../Stylesheets/style-cutdown.css" rel="stylesheet" type="text/css" />
+		-->
+        <!--
+        <link href="/css/style.min.css" rel="stylesheet" type="text/css" />
+		-->
+        <link href="../Stylesheets/mpld.css" rel="stylesheet" type="text/css" />
+        <link href="../../scripts/lightbox.css" rel="stylesheet" type="text/css" />
+        <script src="../../scripts/mpldlookup.js"> /*<![CDATA[*/ /*]]>*/</script>
+        <script src="../../scripts/mpld.js"> /*<![CDATA[*/ /*]]>*/</script>
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../from-site/site-header.flsnp" />
+        <div class="side-navbar-menu">
+            <div class="side-navbar-content">
+                <MadCap:searchBarProxy data-mc-skin="/Project/Skins/HomeSearchBar.flskn" />
+                <div class="sidebar">
+                    <MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" />
+                </div>
+                <MadCap:snippetBlock src="../from-site/hamburger-static-menu.flsnp" />
+            </div>
+        </div>
+        <div class="page ">
+            <div class="docs page-container">
+                <MadCap:searchBarProxy data-mc-skin="/Project/Skins/HomeSearchBar.flskn" />
+                <div class="content-top">
+                    <MadCap:breadcrumbsProxy />
+                    <!-- Docs start -->
+                    <MadCap:topicToolbarProxy class="btn-tools-topic" style="mc-topic-toolbar-items: ;" data-mc-skin="      /Project/Skins/TopicToolBarTools.flskn" />
+                </div>
+                <div class="container">
+                    <div class="sidebar">
+                        <!-- removed mc-linked-toc="/Project/TOCs/Online Output.fltoc" from MadCap:menuProxy-->
+                        <MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" />
+                    </div>
+                    <div class="content readable">
+                        <!-- Docs start -->
+                        <MadCap:topicToolbarProxy class="btn-previous-topic" style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/TopicToolBarPrev.flskn" />
+                        <MadCap:topicToolbarProxy class="btn-next-topic" style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/TopicToolBarNext.flskn" />
+                        <div id="document-body">
+                            <MadCap:bodyProxy />
+                        </div>
+                        <!-- Docs end -->
+                    </div>
+                </div>
+            </div>
+            <MadCap:snippetBlock src="../from-site/site-footer.flsnp" />
+        </div>
+        <script>
+			/*	<![CDATA[ */
+			(function () {
+			   var notificationId = "notification-pr-8M-round-2017";
+			   var btnElem = document.querySelector(".navbar-container .message-container .btn-close");
+			   var adElems = document.querySelectorAll(".message-container");
+
+			   if (btnElem) {
+			      btnElem.addEventListener("click", onCloseClick)
+			   }
+
+			   function onCloseClick(e) {
+			       Cookies.set(notificationId, "dismissed");
+
+			       for (var index = 0; index < adElems.length; index++) {
+				      var currElem = adElems[index];
+				      currElem.classList.remove("visible");
+				   }
+				}
+			})();
+/* ]]> */
+		</script>
+        <script src="../../scripts/lightbox.min.js"> /*<![CDATA[*/ /*]]>*/</script>
+        <script>
+			if(typeof mpld !== "undefined"){
+				mpld.start();
+				mpldLookup.setup(mpld);
+			}
+		</script>
+        <MadCap:snippetBlock src="../from-site/trackers.flsnp" />
+    </body>
+</html>

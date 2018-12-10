@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>   
+</head>
+   <body>
+<h1>Eyes class </h1>
+<div class="mpld-select-language">
+<span class="mpld-header-label">Platform: </span>
+<a class="link mpld-header-field" href="../indexm/sdk-platformIndex-selenium.htm">Selenium</a>
+	<span id="mpld-select-language-label">Language: </span>
+	<span id="mpld-select-language-field">  C# </span>
+	<div class="dropdown-menu">
+		<div class="mpld-dropdown">
+			<a href="javascript:void(0)" 
+				id="change-language-text" 
+				class="link mpld-dropdown-button"> 
+				other languages
+				<span class="fa fa-angle-down"></span>
+			</a>
+			<div id="change-language-menu" class="mpld-dropdown-content"></div>    
+		</div>
+	</div>
+</div><div>This class provides the main methods used to execute tests and checkpoints.</div>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-abortifnotclosed-selenium-csharp.htm"><span class ="code-label">AbortIfNotClosed()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Call this in an exception handler that encloses the entire test to catch cases where <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$open">lookupid</span></a> was called, an exception is thrown,
+and execution stops without calling <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a>.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-addproperty-selenium-csharp.htm"><span class ="code-label">AddProperty()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Adds a custom key name/value property that will be associated with tests.
+You can view these properties and filter and group by these properties in the Test Manager.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setagentid-selenium-csharp.htm"><span class ="code-label">AgentId</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the name and version of the SDK.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setapikey-selenium-csharp.htm"><span class ="code-label">ApiKey</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  your Eyes license key. 
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setappname-selenium-csharp.htm"><span class ="code-label">AppName</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the value of the application name property.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselinebranchname-selenium-csharp.htm"><span class ="code-label">BaselineBranchName</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the name of the branch where the baseline reference will be taken from
+and where new and accepted steps will be saved to.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselineenvname-selenium-csharp.htm"><span class ="code-label">BaselineEnvName</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the name of the environment that will be used to determine the baseline.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbatch-selenium-csharp.htm"><span class ="code-label">Batch</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the batch for this test.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbranchname-selenium-csharp.htm"><span class ="code-label">BranchName</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the branch used for the baseline of this run.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-check-selenium-csharp.htm"><span class ="code-label">Check()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Run a checkpoint. Uses Fluent arguments to specify the various parameters.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelement-selenium-csharp.htm"><span class ="code-label">CheckElement()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Run a checkpoint on the area of a particular element.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkframe-selenium-csharp.htm"><span class ="code-label">CheckFrame()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Run a checkpoint on the area of a particular frame.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregion-selenium-csharp.htm"><span class ="code-label">CheckRegion()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Run a checkpoint only in a particular region of the window.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkwindow-selenium-csharp.htm"><span class ="code-label">CheckWindow()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Runs a checkpoint of the entire application (e.g. browser) window.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-clearproperties-selenium-csharp.htm"><span class ="code-label">ClearProperties()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Clears any custom key name/value properties.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-close-selenium-csharp.htm"><span class ="code-label">Close()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Call this method at the end of the test (after all the checkpoints have been called).
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-eyes-selenium-csharp.htm"><span class ="code-label">Eyes()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This is the constructor for the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="Eyes">lookupid</span></a> class.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setforcefullpagescreenshot-selenium-csharp.htm"><span class ="code-label">ForceFullPageScreenshot</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  whether or not Eyes does scrolling and stitching on scrolled pages.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getviewportsize-selenium-csharp.htm"><span class ="code-label">GetViewportSize()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use this method to retrieve  the current viewport size.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidecaret-selenium-csharp.htm"><span class ="code-label">HideCaret</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  if Eyes should hide the caret (cursor) before an image is captured.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidescrollbars-selenium-csharp.htm"><span class ="code-label">HideScrollbars</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  whether or not Eyes hides the scrollbars before capturing screenshots.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setignorecaret-selenium-csharp.htm"><span class ="code-label">IgnoreCaret</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  whether or not Eyes eliminates mismatches due to blinking cursor artifacts.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-inregion-selenium-csharp.htm"><span class ="code-label">InRegion()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use this to do OCR on a rectangular area in the window.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setisdisabled-selenium-csharp.htm"><span class ="code-label">IsDisabled</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  whether or not interactions with Eyes will be silently ignored.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchlevel-selenium-csharp.htm"><span class ="code-label">MatchLevel</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the default match level to be used for tests.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchtimeout-selenium-csharp.htm"><span class ="code-label">MatchTimeout</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the maximum time Eyes will try to perform a match on the fully captured image.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-open-selenium-csharp.htm"><span class ="code-label">Open()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Call this method to start a test, before calling any of the check methods.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setparentbranchname-selenium-csharp.htm"><span class ="code-label">ParentBranchName</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the parent branch, from which newly created branches get their initial baseline.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setproxy-selenium-csharp.htm"><span class ="code-label">Proxy</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use this method to configure Eyes so that it will interact with the Eyes server via a proxy.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavediffs-selenium-csharp.htm"><span class ="code-label">SaveDiffs</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  if steps that have mismatches should be automatically saved to the baseline or not.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavenewtests-selenium-csharp.htm"><span class ="code-label">SaveNewTests</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  whether or not 'new' tests are saved to the baseline by default.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setscaleratio-selenium-csharp.htm"><span class ="code-label">ScaleRatio</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the scale ratio to be applied to images before matching to compensate for different vertical and horizontal pixels density on some devices.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setserverurl-selenium-csharp.htm"><span class ="code-label">ServerUrl</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the URL of the Eyes server used to process the captured images.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setscrolltoregion-selenium-csharp.htm"><span class ="code-label">SetScrollToRegion()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use this method to set  whether or not Eyes scrolls a region into view before capturing the checkpoint.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setviewportsize-selenium-csharp.htm"><span class ="code-label">SetViewportSize()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use this method to set  the viewport size directly (using the driver).
+Call this method if you want to set the window size before the call to open.
+Then, when calling the open method, don't pass the viewportSize parameter.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchmode-selenium-csharp.htm"><span class ="code-label">StitchMode</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the type of stitching used for full page screenshots.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchoverlap-selenium-csharp.htm"><span class ="code-label">StitchOverlap</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the overlap between sub-images when a scrolled window is stitched.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setwaitbeforescreenshots-selenium-csharp.htm"><span class ="code-label">WaitBeforeScreenshots</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+This property can be used to set and retrieve  the amount of time Eyes waits before capturing a screenshot.
+     </dd>
+   </dl>
+<script src="/docs/scripts/mpldlookup.js"></script>
+<script>
+mpld.setPagePlatFormLanguage("selenium", "csharp");
+mpldLookup.setPagePlatFormLanguage("selenium", "csharp");
+</script>   </body>
+</html>

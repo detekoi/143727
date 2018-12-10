@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="11" MadCap:lastHeight="9690" MadCap:lastWidth="1506">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">The Compare baselines editor </h1>
+        <p>You can use the <span class="app-page">compare baselines editor</span> to view the differences between two variations of a baseline. This editor is used in two ways:</p>
+        <ul class="bulleted-list">
+            <li><a class="link" href="../howto/compare-two-baseline-revisions.htm">When opened from the <span class="app-page">baseline history </span>page</a>, using the <span class="app-item">compare with ....</span> options, you can see the images and annotations of the two revisions. You can not make any changes to the revisions.</li>
+            <li><a class="link" href="../pages/tm-page-compare-merge-branches.htm#Checking">When opened from the <span class="app-page">compare and merge</span> page</a>, you can view the difference between a baseline in a source and target branch. In this case, you can also add, change and delete annotations and you can copy annotations from the target baseline to the source baseline.</li>
+        </ul>
+        <p>This page described the functionality available to you from the  context of the <span class="app-page">compare and merge</span> page. The  baselines revision comparison  UI&#160;works similarly although it can only be used to compare baselines and not to make changes. See <MadCap:xref class="link" href="tm-compare-baselines-viewer.htm">The compare baselines editor (history page)</MadCap:xref> for details.</p>
+        <p>You navigate to this page from the <span class="app-page">compare &amp;&#160;merge page</span> by clicking on any row in the list of differences between the two branches. See <MadCap:xref class="link" href="../pages/tm-page-compare-merge-branches.htm#Checking">Checking changes and resolving conflicts</MadCap:xref></p>
+        <div>Using the tools in the editor, you can:
+	        <ul class="bulleted-list"><li>Control what information is displayed on the page.</li><li>Find the baseline steps that are  different in the source and target or are only in the source.</li><li>Find the pixels and annotations that are different in a given step.</li><li>Copy annotations from the target to the source.</li><li>Add, change or delete annotations.</li><li>Restore annotations to their previous values.</li><li>Save the changes you have made.</li></ul></div>
+        <h2 class="title">Layout</h2>
+        <p>The screenshot below shows the compare baseline editor after it has been opened from the <span class="app-page">baseline history</span> page.</p><a data-lightbox="compare-baselines-editor" href="resources/compare-baselines-editor.png"><img class="block-image" src="resources/compare-baselines-editor.png" /></a>
+        <MadCap:snippetBlock src="tm-step-compare-baseline-layout-text.flsnp" />
+        <h2 class="title">Information</h2>
+        <p>The editor displays textual information about the baselines in three places:</p>
+        <ol>
+            <li>In the summary panel:
+        <div><a data-lightbox="summary-panel-compare-merge-editor" href="resources/compare-baselines-editor-summary.png"><img class="block-image" src="resources/compare-baselines-editor-summary.png" /></a></div>
+        The information shown is :&#160;the name of the test (<span class="app-item">Helo World test</span>), merge target and source branches (<span class="app-item">v1.0 &lt;- default)</span>, the application name (<span class="app-item">Helo World App</span>) and the execution environment.
+				</li>
+            <li>To the left of the target image the page displays :
+        <div><a data-lightbox="image-summary-panel-compare-merge-editor" href="resources/compare-baselines-editor-summary-target.png"><img class="block-image" src="resources/compare-baselines-editor-summary-target.png"></img></a></div>
+        The information shown is :&#160;the &#160;step number and tag (<span class="app-item">2/3</span><span class="app-item"> After enter name</span>), the match level of the step (<span class="app-item">Strict</span>) and the execution environment of the step. The same type of information is displayed to the left of the source.
+		</li>
+            <li>If you click on the information button  <span class="inline-img"><img src="resources/button-compare-editor-information.png" class="inline-img" /></span> then  a dialog will open with the following information:		        
+		        <ul class="bulleted-list"><li>The application and test names</li><li>The execution environment (Browser, OS, Viewport size)</li><li>Details of the source and target baselines (ID, Revision number, Saved, Saved by, Branch)</li></ul></li>
+        </ol>
+        <h2 class="title">Finding differences</h2>
+        <MadCap:snippetBlock src="tm-viewer-finding-differences.flsnp" />
+        <h2 class="title">Changing the source annotations</h2>
+        <div><![CDATA[		        ]]><ul class="bulleted-list"><li>You can add annotations to the baseline in the source branch using the annotations buttons in the same way that you do so in the test results editor<span class="inline-img"><img src="resources/annotation-buttons.png" /></span></li><li>You can delete an annotation by clicking on it and then clicking the <img src="resources/delete-button.png" /> icon.</li><li>Clicking on the <img src="resources/button-compare-editor-add-target-annotations-to-source-.png" class="inline-img" /> button will offer you the following options :
+						<dl><dt><span class="app-item">Add annotations to source</span></dt><dd>Adds all the annotations in the current target step to the source step, keeping any existing annotations in the source.</dd><dt><span class="app-item">Replace source annotations with targets</span></dt><dd>Adds all of the target annotations in the current target step to the source step, deleting any existing annotations in the source step.</dd><dt><span class="app-item">Restore source annotations</span></dt><dd>If you previously changed or delete the source annotations, then this option will restore them to the state they were when last saved.</dd></dl></li></ul></div>
+        <h2 class="title">Change match level</h2>
+        <MadCap:snippetBlock src="tm-match-level-control.flsnp" />
+        <h2 class="title">Wrapping up</h2>
+        <p>If you have made any changes, you must click the <span class="app-item">save button </span><span class="inline-img"><img src="resources/button-compare-editor-save.png" class="inline-img" /></span> to persist the changes and to apply them to the source baseline. When you press on the s<span class="app-item">ave button</span> the display will revert to the <i>Compare and merge branches</i> page. The status on the row you saved will now be <i>Resolved</i>.</p>
+        <p>To exit the baseline compare editor and go back to the page from which you opened the editor, discarding any changes, press the browser back button or the <MadCap:variable name="General.ProductUI" /> return button:</p>
+        <p>
+            <img src="resources/back-button.png" />
+        </p>
+        <p class="box-warning">Exiting this way, and not via the save button, means that any changes that you have made in the baseline compare editor will be lost.</p>
+    </body>
+</html>

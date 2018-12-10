@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1187" MadCap:lastWidth="533" MadCap:conditions="General.Not for Output">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">Branching in <MadCap:variable name="General.ProductName" /></h1>
+        <p>In many projects, the development team works on two or more versions of an application concurrently. For example, the team may be maintaining hot fixes of a production version while developing a Beta version of the next release of the software. In other workflows, features are developed on separate software version control branches  and are then merged back into the main release branch after testing. </p>
+        <p><MadCap:variable name="General.ProductName" /> provides a mechanism called <i>branches</i> to support such workflows. Since each version of the software can have a different look and feel, <MadCap:variable name="General.ProductName" /> provides you with a way to configure a test so that each version of the software is tested against a different baseline. You configure a test by calling the <MadCap:variable name="General.ProductClientAPI" /><span class="code">setBranch()</span> method with the name of your branch. At run time,  <MadCap:variable name="General.ProductName" />  searchs for a matching baseline in the list of baselines associated with that branch. After the test completes, the test results and the baseline  (if it is created or saved), will be associated with that branch. <span class="tbd"><MadCap:snippetText src="../0quickInserts/_for-more-info.flsnp" /><MadCap:snippetText src="../0quickInserts/_tbdref.flsnp" />.</span></p>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>If the run is terminated by an exception (because close was called with a true value) then the result of the test can be obtained within an exception handle that catches the exception by calling  the method 
+			<span class="ekb-code-inline"><a class="link" href="#"><span data-mpld-lookup="exception_gettesttesults"> exception_gettesttesults </span></a></span>
+		on the exception instance.</p>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../Images/applitools/batch-status-001-unresolved.PNG" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>At least one test in the batch is unresolved. i.e., has mismatches or has missing or new steps that the Tester has not explicitly Accepted or Rejected.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../Images/applitools/batch-status-003-failed.PNG" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>All the tests have been resolved, and at least one has the test has a Failed status.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../Images/applitools/batch-status-004-running.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>One or more tests in the batch are still running, but there are no unresolved or failed tests in the batch.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../Images/applitools/batch-status-002-passed.PNG" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>All tests in the batch have completed and passed - there were no mismatches, or the user accepted all mismatches.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

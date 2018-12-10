@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="669" MadCap:lastWidth="463">
+    <head>
+    </head>
+    <body>
+        <div>You can select what information is overlaid on the step image using the  <span class="app-item">select visible layer </span><span class="inline-img"><img src="resources/viewer-select-layers-button.png" class="inline-img" /></span> control . You can choose from the following options:
+	        <dl><dt><span class="app-item">Diffs</span></dt><dd>If you select this option, then pixels with significant differences between the source and target are colored pink.</dd><dt><span class="app-item">Remarks &amp;&#160; Issues</span></dt><dd>Select this option to display remarks and issues added by your team.			</dd><dt><span class="app-item">Regions</span></dt><dd>Select this option to display <MadCap:glossaryTerm glossTerm="EyesTerms.Term14">match level regions</MadCap:glossaryTerm> added by  your team.
+				</dd><dt><span class="app-item">Viewport</span></dt><dd>Select this option to add a boundary box that represents the viewport size relative to the image size (relevant when the image is large than the viewport size).
+				</dd></dl></div>
+    </body>
+</html>

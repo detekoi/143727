@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>You can call this method in two ways - with parameters and without parameters. The meaning of the method, and the way it can be used is different in each case. When the method is called without parameters it sets the default match level for this target. When called with one or more regions as parameters it defines the match level for that region. The sections below provide some more details regarding how to use this method in each of these modes.</p>
+        <h3>Called without parameters</h3>
+        <p> If this method is called without parameters then it sets the default match level for this target. This overrides the hard-coded default and the default match level defined by using 
+		<code><a class="link" href="#"> <span data-mpld-lookup="eyes$setmatchlevel">eyes$setmatchlevel</span></a></code>.</p>
+        <div><span>For a given target you may call only one of the following methods (without parameters) that set a target default match level:</span>
+            <ul class="bulleted-list">
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$matchlevel">checksettings$matchlevel</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$strict">checksettings$strict</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$content">checksettings$content</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$layout">checksettings$layout</span></a></code>
+                </li>
+                <li><code><a class="link" href="#"> <span data-mpld-lookup="checksettings$exact">checksettings$exact</span></a></code>
+                </li>
+            </ul>
+        </div>
+        <h3>Called with parameters</h3>
+        <p>When the method is called with one or more parameters that define one or more regions, then these set the match level for those regions, overiding the defaults set for the target (by calling these methods without a parameter),  set by 
+		<code><a class="link" href="#"> <span data-mpld-lookup="eyes$setmatchlevel">eyes$setmatchlevel</span></a></code>
+ and the hardcoded default match level.</p>
+        <p>
+		You may define multiple regions that have an explicit match level by calling this method multiple times in a chain, or by passing the method multiple regions.</p>
+ 	<MadCap:snippetBlock src="remarks-check-fluent-matchlevel-nooverlap.flsnp" />
+    </body>
+</html>

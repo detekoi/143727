@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="460" MadCap:lastWidth="1059">
+    <head>
+    </head>
+    <body>
+        <p>Use the step navigator to select which step in the baseline you want to see, or to playback an animation that runs through all the steps.</p>
+        <p><a data-lightbox="viewer-timeline.png" href="resources/viewer-timeline.png"><img class="block-image" src="resources/viewer-timeline.png" /></a>
+        </p>
+        <p>The steps that have differences will be colored orange, those that are the same are colored green. You can use the <span class="app-item">Prev diff</span> <img src="resources/editor-prev-diff.png" class="inline-img" /> and <span class="app-item">Next diff</span> <img src="resources/editor-next-diff.png" class="inline-img" /> buttons to navigate only between the steps that have differences, skipping the steps that match. These buttons will be gray if there are no more differences in that direction. See <MadCap:xref class="link" href="tm-viewer-editor-timeline-control.htm">Test editor timeline control</MadCap:xref> for more details about this tool.</p>
+    </body>
+</html>

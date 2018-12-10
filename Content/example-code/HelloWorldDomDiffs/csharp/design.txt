@@ -1,0 +1,33 @@
+Dob Diffs types:
+1) change in path 
+  a) Move from one div to another
+  b) change from <a> to <button>
+2) change class name
+3) add class name
+4) delete class name
+5) change bounding gox (add a lot of text)
+6) CSS property
+7) text element has changed
+
+From
+<style>
+.c1 {
+}
+.c2 {
+}
+.c3 {
+}
+</style>
+
+<div>
+   <h1> Header 1 </h1>
+   <p class="c1"> This is the first sentance </p>
+   <h2> Header 2 </h2>
+   <p class="c2"> This is the second sentance </p>
+   <h3> Header 3 </h3>
+   <p> This is the second sentance </p>
+   <a href="">click here</a>
+</div>
+
+To
+

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="974" MadCap:lastWidth="950">
+    <head>
+    </head>
+    <body>
+        <!--
+		defined for multiple programming languages
+		-->
+        <div class="mpld-section" data-mpld-section="sdk-install" data-mpld-inline="1">
+            <div data-mpld-lang="java">
+                <p> In Java, if you have a test environment that uses Maven, You can add the following dependency in your Maven .pom file to load the Eyes Java Selenium Library. </p><pre class="mpld-code"><code>
+&lt;dependencies&gt;
+   &lt;dependency&gt;
+      &lt;groupId&gt;com.applitools&lt;/groupId&gt;
+      &lt;artifactId&gt;eyes-selenium-java3&lt;/artifactId&gt;
+      &lt;version&gt;RELEASE&lt;/version&gt;
+  &lt;/dependency&gt;
+&lt;/dependencies&gt;
+				</code></pre>
+                <p>Alternately: </p>
+                <ol>
+                    <li> Download the latest version of the Eyes Java Selenium SDK from <a class="link" href="https://store.applitools.com/download/eyes_selenium_java3/">here</a> and extract it to a folder of your choice.
+					</li>
+                    <li>			Add the extracted files to your path.	</li>
+                </ol>
+            </div>
+            <div data-mpld-lang="javascript">
+                <!-- Javascript --><pre class="mpld-code"><code>npm init
+npm install eyes.selenium --save-dev
+npm install selenium-webdriver
+npm install chromedriver</code></pre>
+            </div>
+            <!-- Csharp --><pre class="mpld-code " data-mpld-lang="csharp"><code>		
+In Visual Studio, in the NuGet console Browse for Eyes.Selenium and install it
+					</code></pre>
+            <!-- PHP --><pre class="mpld-code " data-mpld-lang="php"><code>		
+Run the following command in a shell
+  composer require applitools/eyes.sdk.php:dev-master
+
+If you don't have any installed packages create a composer.json file with the following content
+{
+"require": {
+"applitools/eyes.sdk.php": "dev-master"
+}
+}
+And then run:
+composer install
+			</code></pre>
+            <!-- Python --><pre class="mpld-code " data-mpld-lang="python"><code>		
+Run the following command in a shell
+	pip install eyes-selenium
+			</code></pre>
+            <!-- Ruby --><pre class="mpld-code " data-mpld-lang="ruby"><code>		
+Run the following command in a shell
+	gem install eyes_selenium				
+			</code></pre>
+        </div>
+    </body>
+</html>

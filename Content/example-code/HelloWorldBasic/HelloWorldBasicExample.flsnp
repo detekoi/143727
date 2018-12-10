@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div><span> The main points to note are:</span>
+            <ul class="numbered-list">
+                <li>The first step is to instantiate an object of the 
+					<code><span data-mpld-lookup="eyes"></span></code> 
+					class. Using this object, you call various  methods and properties to configure and run your visual tests.	When the constructor is called without a parameter, the tests will access the Eyes server on the public cloud. To access a different server you can pass an appropriate URL&#160;to the 
+					<code><span data-mpld-lookup="eyes"></span></code> constructor. 
+				</li>
+                <li>In order to do a visual test you have to provide your API&#160;Key. If the environment variable <span class="code-label">APPLITOOLS_API_KEY</span>&#160;is set to your key then you don't need to call the <code><span data-mpld-lookup="setapikey"></span></code><span data-mpld-lookup-methodOrProp="setapikey"></span>. To obtain your key see <MadCap:xref class="link" href="../../topics/overview/obtain-api-key.htm">How to obtain your API&#160;key.</MadCap:xref></li>
+                <li>You access the web page you are testing, and provide mouse and keyboard events using the platform driver. In this example we create a chrome driver.</li>
+                <li>Now you start a test. The first parameter you pass is the webdriver you created previously. You also pass two strings, an application name and test name that together uniquely identifier this test, and optionally, the viewport size, which defines the viewport of the widow in which the application run. These three values, along with the browser and operating system type determine the baseline. The baselines provides the reference images to which , your test checkpoints images will be compared. For more information on this see <MadCap:xref class="link" href="../../topics/general-concepts/using-viewports-in-eyes.htm">Using viewports in Eyes</MadCap:xref>. The method returns a web driver which is a clone of the web driver you passed as a parameter. In most cases you should use this returned web driver instance for further calls to the web driver.</li>
+                <li>Now you use the web driver to navigate the browser to the test URL.</li>
+                <li>Next comes the heart of visual testing  - telling <code><span data-mpld-lookup="eyes">eyes</span></code> to capture a screenshot image and to send it to the Eyes server for processing. The <code><span data-mpld-lookup="checkwindow">checkwindow</span></code> method used here is the simplest way to execute a checkpoint, when what you want is to test the entire window. In cases where parts of the window need to be ignored, or need special processing, use the <code><span data-mpld-lookup="check">check</span></code> method and the Fluent API methods. You may call as many check points as you want, typically you will call the web driver to surf to different pages, click buttons or menus, enter text and so on to fully exercise your UI and call <code><span data-mpld-lookup="checkwindow">checkwindow</span></code> or <code><span data-mpld-lookup="check">check</span></code> in each state. </li>
+                <li>When you're done calling all your test points, call the <code><span data-mpld-lookup="close">close</span></code> method. If you pass a false value to this method then it will return the results of the test. If you don't pass a parameter or pass a true value then if the test passes then the method will return normally, if there are any mismatches, or new or missing check points, then an exception will be thrown. See the <code><span data-mpld-lookup="close">close</span></code> method page for more details.</li>
+                <li>Since an exception may be thrown during the test, the call to <code><span data-mpld-lookup="close">close</span></code> may be skipped, so always wrap your test in an exception handler and call <code><span data-mpld-lookup="abortifnotclosed">abortifnotclosed</span></code> to correctly terminate the test.</li>
+                <li>Finally you should quit your web driver.</li>
+            </ul>
+        </div>
+    </body>
+</html>

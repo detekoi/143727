@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title>Eyes GitHub Integration</title>
+        <link rel="stylesheet" href="/docs/Resources2/Stylesheets/mpld.css" />
+    </head>
+    <body>
+        <h1 class="title">Applitools Eyes GitHub integration</h1>
+        <h2 class="title">Introduction</h2>
+        <p>The Eyes GitHub integration builds on the branching capabilities in Eyes, and on the GitHub pull request.</p>
+        <p> Eyes supports multiple branches, each of which can consist of multiple test <MadCap:glossaryTerm glossTerm="EyesTerms.Term4">baselines</MadCap:glossaryTerm>.   Eyes supports creating a new branch based on an existing branch, independent updates to the baselines in each branch, comparing branches to detect conflicts, and finally merging of the baselines in branches.</p>
+        <div>GitHub integrates with Eyes in the following aspects: </div>
+        <ul class="bulleted-list">
+            <li>Applitools visual UI tests are automatically configured to use and save baselines in branches whose name is derived from the Git branch names.</li>
+            <li>All visual UI tests that are in a specific CI build, are automatically batched together, with a batch name that includes the Git commit information.</li>
+            <li>The GitHub pull request panel includes a status indicating the latest visual UI test results and merge status.</li>
+            <li>When the user initiates a GitHub pull-request merge, this will also trigger an Eyes branch merge. </li>
+        </ul>
+        <div>The remainder of this article has two parts. The first three sections describe the one time setup required to start using the integration:<![CDATA[ 	        ]]><ul class="bulleted-list"><li><MadCap:xref class="link" href="#Installing">How to configure the Eyes GitHub integration</MadCap:xref></li><li><a class="link" href="#Configuration">How to configure your CI</a></li><li><a class="link" href="#Prepare">How to prepare your code</a></li></ul></div>
+        <div>The remainder of the article describe how you can use this integration in your daily development workflow:
+	        <ul class="bulleted-list"><li><a class="link" href="#Working">Working with GitHub</a></li><li><a class="link" href="#How">How to review branch differences and resolve them</a></li></ul></div>
+        <p>This article focuses on the Eyes GitHub integration and assumes that you are already acquainted with GitHub and a CI system that is integrated with GitHub. </p>
+        <h2 class="title">Getting started</h2>
+        <h3 class="title"><a name="Installing"></a>How to configure the Eyes GitHub integration</h3>
+        <div>
+		There are two steps to integrating <MadCap:variable name="General.ProductName" /> with GitHub:
+		<ul class="bulleted-list"><li> <em>Adding a GitHub server</em>. This only needs to be done on an account that has an on-premise <MadCap:variable name="General.ProductName" /> or GitHub server. It only needs to be done once per account. </li><li><em>Configure your team's repositories</em>. This needs to be done by every team in the account.</li></ul></div>
+        <div>
+			In any case, the first step is to navigate to your<span class="app-page"> Admin/Team</span> page:
+		<ul class="numbered-list"><li>Use the <MadCap:glossaryTerm glossTerm="EyesTerms.Term15">Page navigator</MadCap:glossaryTerm>  to display the <span class="app-page">Admin </span>page. (You will only see this page in the <span class="app-item">Page navigator</span> if you have Admin privileges). 
+		</li><li>Select the  <span class="app-page">Teams </span>&#160;tile.</li><li>Click on the row of the team you want to configure.</li><li>Scroll down the page to find the GITHUB&#160;section:
+			<p><a data-lightbox="github-integ-step4" href="images/github-integ-team-page-github-section.png"><img class="block-image" src="images/github-integ-team-page-github-section.png" /></a></p></li><li><em>Add a github server to integrate with.</em>
+If your organization uses an Eyes Cloud server and github.com, then you can skip this step. If your organization has a GitHub Enterprise servers  or if you have an on-premise <MadCap:variable name="Definitions.Eyes Server" /> then this step needs to be done once for all the teams in the account. 			In the server selection menu, look for, and select your GitHub server. If it is not on the list, then click on the Add button. This will open up a wizard which will guide you through the rest of the process; you will need the domain name of your GitHub server to start this process.
+		</li><li><em>Configure your team's repositories.</em> 
+			Click the <span class="app-item">Manage repositories</span> button. This will open up a wizard which will guide you through the rest of the process.</li></ul></div>
+        <h3 class="title"><a name="Configuration"></a>How to configure your CI<br /></h3>
+        <p>Your CI needs to be set up to configure the Eyes SDK with information related to the GitHub pull-request. For detailed instructions on how to configure a variety of popular CI platforms see <a class="link" href="github-integration-ci-setup.htm">Configuring your CI&#160;for the Eyes GitHub integration</a>. </p>
+        <h3 class="title"><a name="Prepare"></a>How to prepare your code</h3>
+        <p>The SDK uses the value of the environment variable <span class="code-label">APPLITOOLS_API_KEY</span> to obtain the Applitools API key and the value <span class="code-label">APPLITOOLS_BATCH_ID</span> to obtain the batch ID. Older versions of the SDK do not do this. We recommend updating your SDK. If this is not possible then add the following code to your test after the eyes instance variable has been instantiated and before the test is opened.</p><pre class="mpld-section" data-mpld-section="eyes-batch-idonlyenv"></pre>
+        <h2 class="title"><a name="Working"></a>Working with GitHub</h2>
+        <p>Once your system is set up as described above, you use your CI and GitHub in the usual way. A CI job is normally triggered by a push to your repository, this, in turn, will then run your visual UI tests. </p>
+        <p>The Eyes GitHub integration is based on the GitHub pull request.&#160; When there is an open pull request, Eyes adds the following functionality to your GitHub workflow:</p>
+        <ul class="bulleted-list">
+            <li>When your CI initiates a build that includes an Eyes test, Eyes detects that the run is associated with a GitHub pull request and will search for a baseline to use as a reference. Eyes will check for a matching baseline in the following order:</li>
+            <ul class="numbered-list">
+                <li>On a branch that corresponds to the repository name and source branch defined by the pull request.</li>
+                <li>If there is no such branch, it will create a branch and populate it with the latest baseline for that test from the repository name and target branch defined by the pull request.</li>
+                <li>
+                   If there is no such baseline the test will be marked as "New".
+                </li>
+            </ul>
+            <li>Eyes sends GitHub status information that is displayed on the GitHub pull request panel as shown below.&#160; Note the two items with the Applitools&#160; logo <img class="inline-img" src="../../Resources2/Images/github-integration/gh-applitool-logo.png" /> . These display icons based on the status values sent by Eyes. </li>
+            <div>(If the link at the top right says “Show all checks” instead of “Hide all checks” then click it so that the two items will be visible.) </div>
+        </ul>
+        <p><a data-lightbox="some-checks-havnt-completed-yet" href="../../Resources2/Images/github-integration/some-checks-havnt-completed-yet.png"><img class="block-image" src="../../Resources2/Images/github-integration/some-checks-havnt-completed-yet.png" /></a>
+        </p>
+        <ul class="bulleted-list">
+            <li>The item labeled “tests/applitools” indicates the results of the visual UI test that ran as part of this build. In this case, the <img class="inline-img" src="images/github-integ-red-X.png" /> indicates that some differences were found and need to be resolved. 
+				A 
+			<img class="inline-img" src="images/github-integ-green-tick.png" />  would indicate that all the visual UI tests passed. 
+				If you click on the “Details” link, then the browser will switch to the Test results screen of the Eyes Test Manager, showing the results of the tests in the most recent build related to that pull request. 
+				If you click "Accept" on all the steps of all the tests, then when you go back to the GitHub Pull panel the <img class="inline-img" src="images/github-integ-red-X.png"  /> will be replaced by a <img class="inline-img" src="images/github-integ-green-tick.png"/> (passed).
+				</li>
+            <li>The item, labeled “scm/applitools” represents the merge conflict status.&#160; In this example, the <img class="inline-img" src="images/github-integ-yellow-spot.png" /> &#160;indicates that baseline conflicts have not yet been checked. 
+					A <img class="inline-img" src="images/github-integ-red-X.png"  /> would indicate that there are merge conflicts. After you resolve any conflicts Eyes will send an updated status to GitHub, and you will see a 
+					<img class="inline-img" src="images/github-integ-green-tick.png"  /> icon instead of the <img class="inline-img" src="images/github-integ-yellow-spot.png" /> on the “scm/Applitools” item. 
+					If you click on the “Details” link, then your browser will navigate to the Merge branches screen in the Test Manager. 
+					See <a class="link" href="#How">How to review branch differences and resolve them</a> for more details. </li>
+            <li>You can merge the baseline changes of the source branch with the target branch in two ways: </li>
+            <ol class="numbered-list">
+                <li>By clicking on the Merge button in the Merge Branches screen in the Test Manager (enabled only after all conflicts have been resolved). This operation is independent of any merge process  in Git, and occurs immediately, even if the GitHub merge was not done.</li>
+                <li>Merge the GitHub pull-request as usual. This will first merge the Git files and, once this has completed successfully, Eyes will be notified that it should merge the visual UI test baselines.</li>
+            </ol>
+        </ul>
+        <h3 class="title"><a name="How"></a>How to review branch differences and resolve them</h3>
+        <p>Merging an Eyes source branch with a target branch results in adding new baselines  to the target branch or updating its existing baselines according to baseline changes found in the source branch. Changes can include both updated baseline images as well as new, changed or removed annotations (e.g., an added ignore region). Eyes knows how to compare two baselines and determine if they can be merged automatically or if some sort of manual user resolution is required. For example, an ignore region added to a source baseline step that did not change in the target baseline can be automatically added to the target baseline, but if another ignore region was added to the same step in the target baseline, user intervention is required to determine whether to keep only one of the added regions, or to keep both of them.</p>
+        <p>As described above, the item on the GitHub pull-request page marked “scm/applitools” indicates the merge status of the Eyes baselines in the source branch.</p>
+        <p><a data-lightbox="github-integration/gh-pull-request-scm-item" href="../../Resources2/Images/github-integration/gh-pull-request-scm-item.png"><img class="block-image" src="../../Resources2/Images/github-integration/gh-pull-request-scm-item.png" /></a>
+        </p>
+        <p>When you click on the “Details” link on this item, the browser will switch to the Test Manager "Merge branch" page  preloaded with the source and target branches derived from the pull-request. If there are no conflicts, then the Test Manager will first display a pop-up window stating this. </p>
+        <p><a data-lightbox="tm-merge-no-conflict-found-popup" href="../../Resources2/Images/github-integration/tm-merge-no-conflict-found-popup.png"><img class="block-image" src="../../Resources2/Images/github-integration/tm-merge-no-conflict-found-popup.png" /></a>
+        </p>
+        <p>Press  “Got it!” to remove the pop-up.</p>
+        <p>A full description of merging is not within the scope of this article; we will only briefly mention the main features available on the merge branches page.</p>
+        <p>The merge branches page shows all the baselines that have changed in the source branch with respect to the target branch. That is, either they don't exist in the target branch, or they exist in the target branch but have changed in the source branch. Note that baselines that have changed in the target branch and were not changed in the source branch will not be listed and are ignored in the merge process. </p>
+        <p><a data-lightbox="tm-merge-with-conflict" href="../../Resources2/Images/github-integration/tm-merge-with-conflict.png"><img class="block-image" src="../../Resources2/Images/github-integration/tm-merge-with-conflict.png" /></a>
+        </p>
+        <p>At the far left of each row, the status can show a value of “Conflict” indicating that the baseline needs resolving by the user. </p>
+        <p>You resolve conflicts by using the buttons at the right of each row,  which allow you to choose if you want to replace the target baseline with the source baseline or to keep the target baseline unchanged.  Choosing one of these will turn the “Conflict” status into a “Resolved” status. You can also compare the two baselines and manually edit the source baseline to include the changes from both branches.</p>
+        <p>An alternative to resolving each test individually is to use the checkbox at the start of each row to select rows and then use the buttons in the toolbar at the top left of the window to choose how to resolve the selected rows. The toolbar also has buttons that allow you to delete selected baselines in the source branch or to undo the resolution made for the selected baselines.</p>
+        <p>Once you have resolved all conflicts, the status of the scm/applitools item in the GitHub pull-request page will change to green (passed), and you can proceed to merge  the branches, either from within test manager by clicking the Merge button, or via the GitHub pull-request page as described above.</p>
+        <script src="/docs/scripts/mpld.js">
+        </script>
+        <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/docs/example-code";
+			var myFile = "HelloWorldBatchIdOnly";
+			mpld.setDefaultFile(folder,myFile);
+			mpld.setDefaultLanguages();
+		/*]]>*/</script>
+    </body>
+</html>

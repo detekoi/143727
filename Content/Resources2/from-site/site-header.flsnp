@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="navbar-container">
+            <div class="message-container ">
+            </div>
+            <div class="navbar ">
+                <div class="page-container"><a class="logo" href="https://applitools.com"><MadCap:snippetBlock src="../../images/applitools-logo-svg.flsnp" /></a>
+                    <button class="btn fa fa-bars btn-dropdown-menu">
+                    </button>
+                    <ul class="navbar-menu">
+                        <li><span class="link">Product</span>
+                            <div class="sub-menu">
+                                <div class="horizontal-sub-menu">
+                                    <div class="key-features">
+                                        <div class="header-section-title">Key Features</div>
+                                        <ul>
+                                            <li><a class="link" href="https://applitools.com/features#visual-ai">Visual AI</a>
+                                            </li>
+                                            <li><a class="link" href="https://applitools.com/features#auto-test-management">Automatic Test Management</a>
+                                            </li>
+                                            <li><a class="link" href="https://applitools.com/features#analytics">Dashboard &amp; Analytics</a>
+                                            </li>
+                                            <li><a class="link" href="https://applitools.com/features#integrations">Ecosystem Integrations</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="solutions">
+                                        <div class="header-section-title">Solutions For</div>
+                                        <ul>
+                                            <li><a class="link" href="https://applitools.com/features/test-automation">Test Engineers</a>
+                                            </li>
+                                            <li><a class="link" href="https://applitools.com/features/frontend-development">Developers</a>
+                                            </li>
+                                            <li><a class="link" href="https://applitools.com/features/devops">DevOps</a>
+                                            </li>
+                                            <li><a class="link" href="https://applitools.com/features/digital-transformation">Product &amp; Marketing</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a class="link navbar-underline " href="https://applitools.com/pricing">Pricing</a>
+                        </li>
+                        <li><a class="link navbar-underline " href="https://applitools.com/customers">Customers</a>
+                        </li>
+                        <li><span class="link active">Resources</span>
+                            <ul class="sub-menu resources-menu">
+                                <li><a class="link" href="https://applitools.com/resources/tutorial">Get Started!</a>
+                                </li>
+                                <li><a class="link" href="https://applitools.com/docs">Documentation</a>
+                                </li>
+                                <li><a class="link" href="https://applitools.com/resources">Resource Library</a>
+                                </li>
+                                <li><a class="link" href="https://applitools.com/blog">Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="hidden-lg hidden-xl"><a class="link navbar-underline " href="https://applitools.com/about">About</a>
+                        </li>
+                        <li><a class="link navbar-underline" href="https://applitools.com/users/login">Sign In</a>
+                        </li>
+                        <li><a class="btn btn-call-to-action" href="https://applitools.com/users/register">Free Trial</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

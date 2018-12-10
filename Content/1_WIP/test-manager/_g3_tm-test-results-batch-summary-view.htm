@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="3511" MadCap:lastWidth="452">
+    <head>
+    </head>
+    <body>
+        <h1 class="title"><a name="top"></a>Batch summary view</h1>
+        <p>
+            <MadCap:xref class="link" href="../../../0quickInserts/under-construction.htm">This Page is Under-Construction</MadCap:xref>
+        </p>
+        <p>This view provides summary information at the batch level in chart form, and also allows some filtering of the results. </p>
+        <p>Note that unless stated otherwise, tests that are still running are not taken into account in the information displayed. In the cases were tests were aborted, the results reflect the results available for that test (before the abort occurred) , the fact that not all the steps in the test were processed is not taken into account in the figured displayed. <span class="tbd">TBD&#160;Doron to confirm.</span></p>
+        <p>The information displayed is as follows :</p>
+        <dl>
+            <dt><span class="app-item">Baseline Status</span>
+            </dt>
+            <dd>Displays the number of tests in the <span class="app-item">Saved </span>state. Graphically compares it relatively to the number of <span class="app-item">unsaved </span>and <span class="app-item">unchanged </span>tests<span class="tbd">TBD:&#160;Should the gray label  be Unchanged and not Unsaved. Answer it refers to things that are not changed - but were not "Saved" - i.e accepted/rejected ??</span></dd>
+            <dt><span class="app-item">Diff Status</span>
+            </dt>
+            <dd>Displays the number of Resolved tests (test that were accepted implicitly or explicitly, or rejected explicitly).  Graphically compares the relative number of Accepted, Rejected and Unresolved steps.  </dd>
+            <dt><span class="app-item">Test</span>
+            </dt>
+            <dd>Displays the total number of tests. Graphically compares the number of tests that have completed, are still running and have aborted. <span class="tbd">TBD. I&#160;assume that "running" can only refer to tests that are running in the server - not to tests that have not yet completed in the test script. Should we mention this as a note ?) </span>T<span class="tbd">BD&#160;are failed tests considered "completed"&#160;or "aborted"</span></dd>
+            <dt><span class="app-item">Concurrency</span>
+            </dt>
+            <dd>Shows the number of concurrent sessions used when running this batch relative to the maximum number of concurrent sessions available to your team in your account.<span class="tbd"> TBD:&#160;correct ?</span></dd>
+            <dt><span class="app-item">Checkpoints</span>
+            </dt>
+            <dd>Shows the total number of checkpoints in the batch, with a graphic breakdown to checkpoints that matched the baseline, mismatched the baseline or are new (irrespective if and how they were resolved as pass or failed). <span class="tbd">TBD&#160;what about checkpoints that were missing (-),</span></dd>
+            <dt><span class="app-item">Test Status</span>
+            </dt>
+            <dd>Shows the number of passed test, and compares them graphically to the number of failed and unresolved tests. <span class="tbd">TBD&#160;what about aborted ? </span></dd>
+            <dt><span class="app-item">Browsers</span>
+            </dt>
+            <dd>Displays the number of tests <span class="tbd">(TBD&#160;test or steps?)&#160;</span> that Passed, Failed or are still Unresolved for every browser type that participated in the batch.  </dd>
+            <dt><span class="app-item">Operating systems</span>
+            </dt>
+            <dd>Displays the number of tests <span class="tbd">(TBD&#160;test or steps?)&#160;</span> that Passed, Failed and are still Unresolved for every operating system type that participated in the batch. </dd>
+            <dt><span class="app-item">Viewports</span>
+            </dt>
+            <dd><span class="tbd"> TBD: will be updated to Viewports - need update to put image</span>. Displays the number of tests that were run for each variation of viewport size.</dd>
+            <dt><span class="app-item">Test Assignment</span>
+            </dt>
+            <dd> Displays the number of tests that were assigned to each team member, and how many were not assigned to any </dd>
+            <dt><span class="app-item">Team member</span>
+            </dt>
+            <dd>Broken down by the test state of  Passed / Failed / Unresolved</dd>
+            <dt><span class="app-item">Issues and Remarks</span>
+            </dt>
+            <dd>Shows the number of issues and remarks there are in the steps of the batch broken down to remarks and issues that are new to this batch run, and those that already exists from previous runs. Does not include remarks at the test level.</dd>
+        </dl>
+    </body>
+</html>

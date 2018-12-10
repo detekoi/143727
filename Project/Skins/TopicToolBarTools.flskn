@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="MarginBottom">33px</Property>
+          <Property
+            Name="MarginRight">-4px</Property>
+          <Property
+            Name="Float">right</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Toolbar">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="Print">
+            <Properties>
+              <Property
+                Name="BorderTop">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BackgroundImage">url('tool-print.png')</Property>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">0px</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('tool-print.png')</Property>
+        </Properties>
+      </Style>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="ic_print.png">H4sIAAAAAAAEAAFIA7f8iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAEEfUpiAAAAAXNSR0IArs4c6QAAAwJJREFUWAntV01oE0EUziabFatB9KKiRfAmipRa8JJfhIBgQhFysaAHMYgX6cGDB0uKF8W/m6JQiIpFWD2JoEio+Tl5lvRQz5JeEjyYhpBk/d6S2c7O7E+slBbswmbe+97PvHnv7cwkEHB6ksnkhBO+jmUymbF1biupWCx2neZXWBAUWqvVeqYoSjgUCr34iofJtmLMZrMRNm+QiGg0epYBNDabzYdYxTsek+hEIhEjUKUfwzCwOsWA1eKQfwTsNOgq8dIDxUkJ3DTAKgWbgfqp3+8fYTw/Iu6xWq2m85hEezUkn19mKEXABE4jkvMa+EowGFwql8tmBs0088rUVe1226okL+v1eq9g+IXViJeZdDweP4FZ5iXBEEBHnIH8dqFQMDuEYGkJ+Xw+XK/X59ycIIl33GT/Ky4lEVkuIhlu3TZdrVav8cmS+gDtuoxMf+SVGA3n04xmo1VPBmx4hPenXsZosnE00ptcLrcb38shpstHcICBLuNewnVdX0NLX2Q6Ug6YQBwrlcoysBkRlxxgKYuaps2KisR3u93LqMIDXsY72EUCVGGtVCqtkiNeEYaXgJkQ9v4VXmbRSNRNJGrBAgQCDj7hlUppU/NxcMumDIZfApP9hJO7jOFHhP6Z53fo7ZEBaTsRw0JB9+MYOS/io/Do6R/o329euk5dZNNXVfUYvt1xbFH3bQIfhg5RXJoeQ80zAH4z8XG5OWLHEqTT6T04nOcx5WG8YdyNNKTz99+EABtaXAR2v4b0E79yWP6xXby1mA0QsJ9LpVInyRR0kW4b6KUL2Kqk3dTR/b8G4OSUrjMI4oYo821CnEBao9G4JxqOwuPr+YC71JKXrm8AnU5HRR334Su4So6wipeoadjNKfubgCxODgaDc9AzA4APmCmGaOcWgI6JnsNgAZ9SnzdCIFd43o2mCSE7iPP7FC7MU+DTOFVn4NNm4hgAuvU9tOgNDP8E2YxGYYarXcV/pu/Qp7coTk5+HAMggfBEkJHjAubJYrKjWLWnzo5wW2TgDxUQ+rRC2xymAAAAAElFTkSuQmCCyDs28UgDAAA=</Resource>
+      <Resource
+        Name="tool-print.png">H4sIAAAAAAAEAAFHAbj+iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAAA+UlEQVQ4jc2UwW3DMAxFnwMPkBG8Qd27CWgEj9AROkJG8QgeQQAHqLOBskE2UA+RUkJJi0jNIf9Gkfz8pER1MUYyRMQBjjp4VfXZ2BXOWsKb+P6XiodH2ETkJq5U+G88nbCLMSIiIzDzMw//YL6NX1Q1dNM0jcAXcAJCo7AB2ANjn5QdVXWsYTBdrUnIBnzkGa4NZDlnTQoDvMotq+rGpV2AOdlA8bAbV29vjaevXiaczZlX1cNf62f83hwPmXAF3kRkq1R3VSkigUvryy4N9D1VGxoIhyTKqWro4XprnyJybiBc7HjufV/u3rdkYfyOYu9LQk8dfJnzDffmWYpTn018AAAAAElFTkSuQmCCc0XJYEcBAAA=</Resource>
+    </Resources>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="Print" />
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="Toolbar">
+            <Properties>
+              <Property
+                Name="MarginBottom">33px</Property>
+              <Property
+                Name="MarginRight">-4px</Property>
+              <Property
+                Name="Float">right</Property>
+            </Properties>
+          </Style>
+          <Medium
+            Name="Mobile">
+            <Style
+              Name="Toolbar">
+              <Properties>
+                <Property
+                  Name="Display">none</Property>
+              </Properties>
+            </Style>
+          </Medium>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>

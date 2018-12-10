@@ -1,0 +1,6 @@
+./**/csharp/bin
+./**/csharp/obj
+./**/csharp/packages
+./**/java/target
+./**/javascript/node_modules
+./**/PHP/vendor

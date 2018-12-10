@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UrlList>
+    <Url Source="1_WIP/test-manager/page-branch-baselines/baseline-pages-filtering.flsnp" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/features-baseline-step-thumbnail.flsnp" />
+    <Url Source="1_WIP/test-manager/common/sorting-columns.flsnp" />
+    <Url Source="1_WIP/test-manager/common/navigate-to-baselines-history-page.flsnp" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/a-visual-test-is-identified-by.flsnp" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/app-and-tests-app-filter.flsnp" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/app-and-tests-test-filter.flsnp" />
+    <Url Source="0quickInserts/inline-code.flsnp" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/control-select-baseline-view.flsnp" />
+    <Url Source="1_WIP/test-manager/common/control-select-branch.flsnp" />
+    <Url Source="1_WIP/test-manager/common/featurelist-on-baseline-pages.flsnp" />
+    <Url Source="1_WIP/test-manager/common/navigate-to-test-baselines-page.flsnp" />
+    <Url Source="index-wip1.flsnp" />
+    <Url Source="Resources2/Snippets/hamburger-static-menu.flsnp" />
+    <Url Source="Resources2/Snippets/site-hamburger-menu.flsnp" />
+    <Url Source="Resources2/Snippets/supported-platforms.flsnp" />
+    <Url Source="Resources2/Snippets/site-footer.flsnp" />
+    <Url Source="OldStuff/_api-eyes-open-parameters.flsnp" />
+    <Url Source="API/Eyes_SDK/return-snippets/close-return.flsnp" />
+    <Url Source="topics/overview/getting-the-sdk.flsnp" />
+</UrlList>

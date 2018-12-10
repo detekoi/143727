@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="6000" MadCap:lastWidth="1206">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">The baseline details view</h1>
+        <p>The <span class="app-page"><a class="link" href="../tm-page-branch-baselines.htm"> branch baseline</a></span> and 
+			<span class="app-page"><a class="link" href="../tm-page-test-baselines.htm"> test baseline</a></span> pages provides tools in the toolbar that allow you to choose from three different views:</p>
+        <MadCap:snippetBlock src="control-select-baseline-view.flsnp" />
+        <p> This article describes the <span class="app-page">baseline details</span> view. </p>
+        <h2 class="title">Page layout</h2>
+        <p>When you first enter this page make sure that the branch is set to the branch you are interested in.
+		See <MadCap:xref class="link" href="../../common/control-select-branch.htm">Selecting a branch on a page</MadCap:xref> for more details. </p>
+        <p>In this view, the baselines in the branch are laid out as a table with one row per baseline:</p>
+        <p><a data-lightbox="page-branch-baseline-information-line" href="resources/page-branch-baseline-view-baseline-information.png"><img class="block-image" src="resources/page-branch-baseline-view-baseline-information.png"></img></a>
+        </p>
+        <p>The row for each baseline includes the following columns of information:</p>
+        <dl>
+            <dt><span class="app-item">Name</span>
+            </dt>
+            <dd>The test name</dd>
+            <dt><span class="app-item">App</span>
+            </dt>
+            <dd>The application name.</dd>
+            <dt><span class="app-item">OS</span>
+            </dt>
+            <dd>The operating system the test that created the baseline ran on.</dd>
+            <dt><span class="app-item">Browser</span>
+            </dt>
+            <dd>The browser the test that created the baseline displayed on (for web-based systems).</dd>
+            <dt><span class="app-item">Viewport</span>
+            </dt>
+            <dd>The viewport size that was active when the test that created the baseline started.</dd>
+            <dt><span class="app-item">Saved</span>
+            </dt>
+            <dd>The date and time when the baseline was most recent saved.</dd>
+            <dt><span class="app-item">Saved by</span>
+            </dt>
+            <dd>The name of the team member that did the most recent save to the baseline (empty if the baseline was created and saved automatically).</dd>
+            <dt><span class="app-item">Test runs</span>
+            </dt>
+            <dd>The number of test runs executed using this baseline (this will have a value of 0 if the baseline was only created and has not yet been used as a reference for another test).</dd>
+        </dl>
+        <MadCap:snippetBlock src="../../common/sorting-columns.flsnp" />
+        <p>Each line in the baseline has two controls:</p>
+        <ul class="table-list">
+            <li><span class="table-list-item-name"><img class="inline-img" src="resources/checkbox-ticked.png" /></span>
+				Use this checkbox, to select a baseline , and then :
+				<ul class="bulleted-list"><li> Click  
+						<img src="resources/button-baseline-copy-to-branch.png" class="inline-img" /> 
+						in the toolbar to copy the selected baselines to another branch. (See	
+						<MadCap:xref class="link" href="../../howto/copying-baselines-between-branches.htm">Copying baselines between branches</MadCap:xref>.)					</li><li>
+						Click
+						<img src="resources/button-delete-baseline.png" class="inline-img" /> 
+						in the toolbar to delete the selected baselines. (See 		
+						<MadCap:xref class="link" href="../../howto/deleting-baselines.htm">Deleting baselines.</MadCap:xref>)
+					</li></ul><p>You can also use the toolbox filter and checkbox controls to select all  rows that meet some criteria. </p></li>
+            <li><span class="table-list-item-name"><img class="inline-img" src="resources/baseline-row-menu.png" /></span>
+				The menu button appears at the right end of a row when you hover the cursor over that row. When clicked, the menu offers the following options:				
+				<dl><dt><span class="app-item">Show last run</span></dt><dd>
+						Display the					
+						<span class="app-page">Test results</span>
+						page for the test run that ran most recently against this baseline. This option will be grayed out if a test has  not run against this baseline. See <MadCap:xref class="link" href="../../howto/view-the-latest-run-of-a-test.htm">View the results of the latest run of a baseline</MadCap:xref></dd><dt><span class="app-item">Show saved run</span></dt><dd>
+						Display the			
+						<span class="app-page">test result</span>
+						page for the test run that most recently updated this baseline. See				
+						<MadCap:xref class="link" href="../../howto/view-test-run-that-updated-baseline.htm">View a test run which updated a baseline results</MadCap:xref>.
+					</dd><dt><span class="app-item">Show history</span></dt><dd>
+						Display the
+						<span class="app-page">Baseline history</span>
+						page with a list of the revisions of this baseline. See
+						<MadCap:xref class="link" href="../tm-page-baseline-history.htm">The Baseline history page</MadCap:xref>.
+					</dd><dt><span class="app-item">Delete</span></dt><dd>
+						Delete this baseline. See	
+						<MadCap:xref class="link" href="../../howto/deleting-baselines.htm">Deleting Baselines</MadCap:xref>.
+					</dd></dl></li>
+        </ul>
+        <p>If there are many baselines, then you can use the following tools to adjust what baselines you see and how they are ordered:</p>
+        <ol class="bulleted-list">
+            <li>Use the filter
+				<span class="inline-img"><img src="resources/button-baseline-filter.png" class="inline-img"></img></span>	tool in the toolbar, 		to limit the baselines that you see, to those that meet the criteria you specify. </li>
+            <li>Sort the rows by any column by clicking on the column header.</li>
+            <li>Organize the baselines into a hierarchy by using the	
+				<span class="inline-img"><img src="resources/button-group-by.png" class="inline-img"></img></span>			.</li>
+        </ol>
+        <p>See
+			<MadCap:xref class="link" href="baseline-filtering-grouping.htm">Filtering and grouping in baseline views</MadCap:xref>
+			
+			for more information on these options.
+</p>
+        <h2 class="title">Step thumbnail features</h2>
+        <p>By default when you open this page, it shows one row of information for each baseline. If you click on any baseline row, then that row will expand to display a thumbnail for each step in the baseline. </p>
+        <p class="box-note">The difference between this view (baseline details view with displayed thumbnails), and the baseline step view is that in this view the steps are always grouped by test. You can use sorting by any column to compare the images by another criteria. In the step view all the steps are shown, and you can organize them into any convenient hierarchy, by any of the supported criteria, irrespective of the what test they ran in.</p>
+        <p>
+            <MadCap:snippetBlock src="features-baseline-step-thumbnail.flsnp" /><![CDATA[		]]></p>
+    </body>
+</html>

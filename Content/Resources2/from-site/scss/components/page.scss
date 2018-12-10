@@ -1,0 +1,41 @@
+@import "../common/variables";
+
+.page {
+  top: $navbar-height;
+  background: $c-background-1;
+  position: relative;
+  transition: right 0.3s, left 0.3s;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  &.unpadded {
+    top: 0;
+  }
+}
+
+.page-container {
+  width: $screen-xl-min - $window-padding;
+  margin: 0 auto;
+}
+
+@media (max-width: $screen-lg-max) {
+  .page-container {
+    width: $screen-lg-min - $window-padding;
+  }
+}
+
+@media (max-width: $screen-md-max) {
+  .page {
+    top: $navbar-height-mobile;
+
+    &.slide-left {
+      overflow: hidden;
+      position: absolute;
+    }
+  }
+
+  .page-container {
+    width: auto;
+  }
+}

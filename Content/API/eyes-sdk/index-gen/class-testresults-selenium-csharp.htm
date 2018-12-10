@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>   
+</head>
+   <body>
+<h1>TestResults class </h1>
+<div class="mpld-select-language">
+<span class="mpld-header-label">Platform: </span>
+<a class="link mpld-header-field" href="../indexm/sdk-platformIndex-selenium.htm">Selenium</a>
+	<span id="mpld-select-language-label">Language: </span>
+	<span id="mpld-select-language-field">  C# </span>
+	<div class="dropdown-menu">
+		<div class="mpld-dropdown">
+			<a href="javascript:void(0)" 
+				id="change-language-text" 
+				class="link mpld-dropdown-button"> 
+				other languages
+				<span class="fa fa-angle-down"></span>
+			</a>
+			<div id="change-language-menu" class="mpld-dropdown-content"></div>    
+		</div>
+	</div>
+</div><div>Encapsulates the results of a visual test including summary information and checkpoint-specific details.
+An object of this class is returned by the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a>  method upon test completion.</div>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getappurls-selenium-csharp.htm"><span class ="code-label">AppUrls</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns an object with a set of URLs that you can use to access the Test manager in a browser, preloaded with the results of this test.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchid-selenium-csharp.htm"><span class ="code-label">BatchId</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the unique batch id of the test batch.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-delete-selenium-csharp.htm"><span class ="code-label">Delete()</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Remove the test results from the server.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getduration-selenium-csharp.htm"><span class ="code-label">Duration</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the amount of time the test ran.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getid-selenium-csharp.htm"><span class ="code-label">Id</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the ID of the test.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-isnew-selenium-csharp.htm"><span class ="code-label">IsNew</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns whether or not this is a new test, i.e., no existing baseline was found for this test.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmatches-selenium-csharp.htm"><span class ="code-label">Matches</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the  number of test steps where the checkpoint image matched the baseline image.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmismatches-selenium-csharp.htm"><span class ="code-label">Mismatches</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the  number of test steps where the checkpoint image did not match the baseline image.
+This includes new steps - i.e., steps where a baseline corresponding to the checkpoint was not found. 
+It does not include missing steps, you can obtain this value using the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults$getmissing$mOrP">lookupid</span></a>.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmissing-selenium-csharp.htm"><span class ="code-label">Missing</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the  number of test steps where an image corresponding to the checkpoint image was not found in the baseline.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstartedat-selenium-csharp.htm"><span class ="code-label">StartedAt</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the date and time when the test started.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstatus-selenium-csharp.htm"><span class ="code-label">Status</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns a status that represents the results of the test.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getsteps-selenium-csharp.htm"><span class ="code-label">Steps</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the total number of steps in the result.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstepsinfo-selenium-csharp.htm"><span class ="code-label">StepsInfo</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns an array of objects with information on all of the steps in the test.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-geturl-selenium-csharp.htm"><span class ="code-label">Url</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns a URL which if opened in a browser will display the results of this test in the test manager.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostdisplaysize-selenium-csharp.htm"><span class ="code-label">hostDisplaySize</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Return the viewport size used to identify the baseline.
+     </dd>
+   </dl>
+<script src="/docs/scripts/mpldlookup.js"></script>
+<script>
+mpld.setPagePlatFormLanguage("selenium", "csharp");
+mpldLookup.setPagePlatFormLanguage("selenium", "csharp");
+</script>   </body>
+</html>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditionTagExpression="include[General.Online]">
+    <head>
+        <!-- TEMPLATE VERSION 1.2 6/3/2018 -->
+		<title> setMatchLevel</title>
+    </head>
+    <body>
+		<div class="mpld-api">
+
+			<h1 class="title" id="mpld-api-method"> setMatchLevel method</h1>
+			<div class="mpld-select-language">
+				<span class="mpld-header-label">Class: </span>
+				<a class="link mpld-header-field" href="../../index-gen/class-eyes-selenium4-javascript.htm">Eyes</a>
+				<span class="mpld-header-label">Platform: </span>
+				<a class="link mpld-header-field" href="../../indexm/sdk-platformIndex-selenium4.htm">Selenium 4</a>
+				<span class="mpld-header-label" id="mpld-select-language-label">Language: </span>
+				<span id="mpld-select-language-field" class="mpld-header-field">  JavaScript </span>
+				<div class="dropdown-menu">
+					<div class="mpld-dropdown">
+						<a href="javascript:void(0)" 
+							id="change-language-text"  
+							class="link mpld-dropdown-button"> 
+							other languages
+							<span class="fa fa-angle-down"></span>
+						</a>
+						<div id="change-language-menu" class="mpld-dropdown-content"></div>                                          
+					</div>
+				</div>
+			</div>
+
+				<div>Use this method to set  the default match level to be used for tests.</div>
+				<div>You can set a specific match level for a particular step, overiding the default set by this method, using the check fluent interface method
+<a class ="link" href="#"><span class="code-label" data-mpld-lookup="checksettings$matchlevel">lookupid</span></a>.
+You can also define that specific regions in a target have
+a particular match level using the methods
+<a class ="link" href="#"><span class="code-label" data-mpld-lookup="checksettings$strict">lookupid</span></a>, <a class ="link" href="#"><span class="code-label" data-mpld-lookup="checksettings$content">lookupid</span></a>, <a class ="link" href="#"><span class="code-label" data-mpld-lookup="checksettings$layout">lookupid</span></a>.
+</div>
+				
+				
+				<h2 class="title" id="mpld-api-syntax">Syntax</h2>
+<pre ><code class="hljs">
+eyes.setMatchLevel(matchLevel)
+</code></pre>
+
+				<h3 class="title" id="mpld-api-params">Parameters</h3>
+				<!-- start parametersTemplate -->
+				<dl class="mpld-paramdef parameters-list">     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">matchLevel</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">MatchLevel</span></span>
+				       <span class="mpld-paramdef-is-optional"></span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">The required match level.</span>
+				     </dd>
+				</dl>
+				<!-- parametersTemplate -->
+				<h3 class="title" id="mpld-api-return">Return value</h3>
+                <!-- pre compile start -->
+                	<dl class="mpld-paramdef">
+						<dt class="mpld-paramdef-type">  
+							<span class="mpld-paramdef-type-label"> Type: </span>
+							<span class="mpld-paramdef-type-value"> This method does not return a value. </span>				
+						</dt>
+                        <dd class="mpld-paramdef-descr">
+							    
+                        </dd>
+					</dl>
+			
+<h2 class="title">Remarks</h2>
+
+Possible match levels values are:
+<ul class="bulleted-list">
+<li><span class ="code-label">MatchLevel.None</span></li>
+<li><span class ="code-label">MatchLevel.Strict</span></li>
+<li><span class ="code-label">MatchLevel.Layout</span></li>
+<li><span class ="code-label">MatchLevel.Content</span></li>
+<li><span class ="code-label">MatchLevel.Exact</span></li>
+</ul>
+
+
+<!-- Not working yet
+-->
+		</div>
+
+		<script src="/docs/scripts/mpldlookup.js"></script>
+		<script>
+			mpld.setPagePlatFormLanguage("selenium4", "javascript");
+			mpldLookup.setPagePlatFormLanguage("selenium4", "javascript");
+		</script>
+    </body>
+</html>

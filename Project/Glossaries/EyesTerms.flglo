@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term1"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Window</Term>
+    </Terms>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term2"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>checkpoint</Term>
+    </Terms>
+    <Definition
+      Link="">A point in the test code at which the screen image is grabbed and compared to a baseline image that corresponds to the check point</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term3"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>mark a rectangular area</Term>
+    </Terms>
+    <Definition
+      Link="">click down, drag the mouse to select a regular area and then release the mouse.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term4"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>baseline</Term>
+    </Terms>
+    <Definition
+      Link="">Defines the sequence of images to which the sequence of images captured at checkpoints will be compared. A test can have multiple baselines, each of which is charachterized by the execution environment it ran on (OS, Browser, Viewport size). A baseline can have instances in multiple branches.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term5"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>tests</Term>
+    </Terms>
+    <Definition
+      Link="">A test in eyes terminology is a named,  sequence of check points that are compared as a unit against a sequence of baseline images associated with the test.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term6"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>test</Term>
+    </Terms>
+    <Definition
+      Link="">A test in Eyes terminology is a named,  sequence of check points that are compared as a unit against a sequence of baseline images associated with the test.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term7"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>batch</Term>
+    </Terms>
+    <Definition
+      Link="">Two or more tests can be grouped together into a "batch" using the SDK set batch method/property. In the [%=General.ProductUI%] Test result page, you can see a list of all the batches that have run.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term8"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>execution environment</Term>
+    </Terms>
+    <Definition
+      Link="">The execution environment is defined by the browser, operating system and viewport size when the test was started. These values, along with the application name, test name and branch name determine the baseline that will be used in a run.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term9"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>row menu</Term>
+    </Terms>
+    <Definition
+      Link="">The row menu is a menu that appears in variousTest manager pages and allows you to select an action on the entity represented by that row. The row menu appears as three vertical dots at the right of a row when you hover over a row.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term10"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>branch</Term>
+    </Terms>
+    <Definition
+      Link="">A branch is a container of baselines, that typically represent the expected results of one version of an application. A branch can be created from a parent branch, so that initially the baselines are identical as the parent, meaning that the expected restuls are the same. As the application in a version changes, the baseline in the branch is updated to represent the changed expectations. A  branch can be merged into a "target branch", the resulting branch consists of baselines from both branchces, and therefore represents expected results signified by the baselines from both branches.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term11"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>annotation</Term>
+    </Terms>
+    <Definition
+      Link="">Annotations are added to baseline steps by a user using the Test manager Test editor. The annotation may be a comment (issue or remark) or a region with special match processing (ignore, floating, strint, content layout).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term12"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>revision</Term>
+    </Terms>
+    <Definition
+      Link="">The baseline information is stored in a series of revisions. The first revision is created when the baseline is created, a new revision is created every time a baselines is changed.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term13"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>match level regions</Term>
+    </Terms>
+    <Definition
+      Link="">The user can define match level regions in a baseline step. This controls that type of matching Eyes will do in that region. For example the user can request to ignore a region or only check layout in areas such as date/time fields where the information can be  different on every test run.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term14"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>match level</Term>
+    </Terms>
+    <Definition
+      Link="">The match level describes the way that Eyes matches two images, or two regions of an image. For example a Strict level checks if images are visibly the same, whereas a Layout level allows different text as long as the general geometry of the area is the same.You set the match level at run time via the SDK, or in the baseline using the test manager.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="EyesTerms.Term15"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>page navigator</Term>
+    </Terms>
+    <Definition
+      Link="">The Page navigator is a control at the top of the Test manager window, that is used to switch between the main pages of the Test manager. It also displays the name of the current page.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

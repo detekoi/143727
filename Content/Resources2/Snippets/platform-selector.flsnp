@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+ 		<div id="mpld-select-platform-lang">
+		 <div class="grid">
+		     <div class="row">
+		         <div class="col col-1-2 col-md-1 col-sm-1 col-xs-1">
+		             <div class="row">
+		                 <div class="col col-1-2 col-sm-1-2 col-xs-1">
+		                     <div class="env-type-title">
+		                         <div class="env-icon">
+		                             <img src="../from-site/web.svg" />
+		                         </div>
+		                         <label class="title">Web</label>
+		                     </div>
+		                     <ul class="v-menu">
+								 <div>Selenium
+										<ul class="bulleted-list">
+					                         <li data-mpld-select-platform-lang="selenium-java">Java</li>
+					                         <li data-mpld-select-platform-lang="selenium-javascript">Javascript</li>
+					                         <li data-mpld-select-platform-lang="selenium-csharp">C#</li>
+					                         <li data-mpld-select-platform-lang="selenium-php">PHP</li>
+					                         <li data-mpld-select-platform-lang="selenium-python">Python</li>
+					                         <li data-mpld-select-platform-lang="selenium-ruby">Ruby</li>
+										</ul>
+								 </div>
+		                         <li>React Storybook</li>
+		                         <li>WebdriverIO</li>
+		                         <li>Watir</li>
+		                         <li>Capybara</li>
+		                         <li>Protractor</li>
+		                         <li>UFT/QTP</li>
+								 <div> LeanFT
+										 <ul class="bulleted-list">
+					                         <li>C#</li>
+					                         <li>avascript</li>
+										 </ul>
+									</div>
+		                         <li>Coded UI</li>
+		                     </ul>
+		                 </div>
+		                 <div class="col col-1-2 col-sm-1-2 col-xs-1">
+		                     <div class="env-type-title">
+		                         <div class="env-icon">
+		                             <img src="../from-site/mobile.svg" />
+		                         </div>
+		                         <label class="title">Mobile</label>
+		                     </div>
+		                     <ul class="v-menu">
+								 <div> Appium native 
+									 <ul  class="bulleted-list">
+				                         <li>C#</li>
+				                         <li>Java</li>
+				                         <li>Javascript</li>
+				                         <li>PHP</li>
+				                         <li>Python</li>
+				                         <li>Ruby</li>
+									 </ul>
+								 </div>
+								 <div> Appium web
+									 <ul class="bulleted-list">
+				                         <li>C#</li>
+				                         <li>Java</li>
+				                         <li>Javascript</li>
+				                         <li>PHP</li>
+				                         <li>Python</li>
+				                         <li>Ruby</li>
+									 </ul>
+								</div>
+								<div>
+			                         <li>XCUI (Objective-C)</li>
+			                         <li>XCUI (Swift)</li>
+								 </div>
+		                         <li>Espresso</li>
+		                         <li>Calabash iOS</li>
+		                         <li>Calabash Android</li>
+		                     </ul>
+		                 </div>
+		             </div>
+		         </div>
+		         <div class="col col-1-2 col-md-1 col-sm-1 col-xs-1">
+		             <div class="row">
+		                 <div class="col col-1-2 col-sm-1-2 col-xs-1">
+		                     <div class="env-type-title">
+		                         <div class="env-icon">
+		                             <img src="../from-site/screenshots.svg" />
+		                         </div>
+		                         <label class="title">Screenshots</label>
+		                     </div>
+		                     <ul class="v-menu">
+		                         <li>CLI</li>
+		                         <li>C#</li>
+		                         <li>Java</li>
+		                         <li>Javascript</li>
+		                         <li>PHP</li>
+		                         <li>Python</li>
+		                         <li>Ruby</li>
+								 <div>
+									 <ul>
+				                         <li>Objective-C</li>
+				                         <li>swift</li>
+									 </ul>
+								 </div>
+		                     </ul>
+		                 </div>
+		                 <div class="col col-1-2 col-sm-1-2 col-xs-1">
+		                     <div class="env-type-title">
+		                         <div class="env-icon">
+		                             <img src="../from-site/other.svg" />
+		                         </div>
+		                         <label class="title">Other</label>
+		                     </div>
+		                     <ul class="v-menu">
+		                         <li>Windows UFT</li>
+		                         <li>Windows Coded UI</li>
+		                         <li>Windows Apps</li>
+		                         <li>PDF Forms</li>
+		                         <li>REST API</li>
+		                     </ul>
+		                 </div>
+		             </div>
+		         </div>
+		     </div>
+		 </div>
+		</div>
+    </body>
+</html>

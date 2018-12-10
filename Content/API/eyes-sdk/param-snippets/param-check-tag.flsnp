@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The tag defines a name for the checkpoint in the <MadCap:variable name="General.ProductUI" />. It can be any string. You may change the tag value without impacting testing in any way, since it is <i>not</i> used to identify the baseline step that corresponds to the checkpoint - <MadCap:variable name="General.ProductName" /> matches steps based on their content and position in the sequences of images of the test. </p>
+    </body>
+</html>

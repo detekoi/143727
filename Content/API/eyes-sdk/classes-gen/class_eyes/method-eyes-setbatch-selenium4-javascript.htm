@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditionTagExpression="include[General.Online]">
+    <head>
+        <!-- TEMPLATE VERSION 1.2 6/3/2018 -->
+		<title> setBatch</title>
+    </head>
+    <body>
+		<div class="mpld-api">
+
+			<h1 class="title" id="mpld-api-method"> setBatch method</h1>
+			<div class="mpld-select-language">
+				<span class="mpld-header-label">Class: </span>
+				<a class="link mpld-header-field" href="../../index-gen/class-eyes-selenium4-javascript.htm">Eyes</a>
+				<span class="mpld-header-label">Platform: </span>
+				<a class="link mpld-header-field" href="../../indexm/sdk-platformIndex-selenium4.htm">Selenium 4</a>
+				<span class="mpld-header-label" id="mpld-select-language-label">Language: </span>
+				<span id="mpld-select-language-field" class="mpld-header-field">  JavaScript </span>
+				<div class="dropdown-menu">
+					<div class="mpld-dropdown">
+						<a href="javascript:void(0)" 
+							id="change-language-text"  
+							class="link mpld-dropdown-button"> 
+							other languages
+							<span class="fa fa-angle-down"></span>
+						</a>
+						<div id="change-language-menu" class="mpld-dropdown-content"></div>                                          
+					</div>
+				</div>
+			</div>
+
+				<div>Use this method to set  the batch for this test.</div>
+				<div>In the Test manager, all the results of tests that were batched together are shown together
+and the can be managed and manipulated together as a group.
+For more information, see <a class="link" href="/Content/topics/working-with-test-batches/working-with-test-batches-in-overview.htm">How to organize your tests with batches</a>.
+The batch information is defined by an instance of the class <a class ="link" href="#"><span class="code-label" data-mpld-lookup="batchinfo">lookupid</span></a>.</div>
+				
+				
+				<h2 class="title" id="mpld-api-syntax">Syntax</h2>
+<pre ><code class="hljs">
+eyes.setBatch(batchOrName, batchId, batchDate)
+</code></pre>
+
+				<h3 class="title" id="mpld-api-params">Parameters</h3>
+				<!-- start parametersTemplate -->
+				<dl class="mpld-paramdef parameters-list">     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">batchOrName</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">BatchInfo|string</span></span>
+				       <span class="mpld-paramdef-is-optional"></span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">
+				This parameter can be either a batch name string or a <a class ="link" href="#"><span class="code-label" data-mpld-lookup="batchinfo">lookupid</span></a> object.
+				If it is an BatchInfo object then the batch takes it's properties from that object.
+				If the parameter is a non empty string, then it will be used as the batch name of the internally generated batch object.
+				If the parameter value is falsy, and the environment value <span class ="code-label">APPLITOOLS_BATCH_NAME</span> is defined
+				then the value of the environment variable will be used as the batch name.
+				Otherwise an internal name will be generated.</span>
+				     </dd>
+				     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">batchId</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">string</span></span>
+				       <span class="mpld-paramdef-is-optional"> [Optional ]   </span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">If the first parameter is a batch name string (and not a BatchInfo object),
+				then the value passed for this parameter will be used as the id of the created object.
+				If the value is a falsy value or is not passed and the environment variable <span class ="code-label">APPLITOOLS_BATCH_ID</span> is defined
+				then the value of the environment variable will be used as the ID. Otherwise, an internal id will be generated.</span>
+				     </dd>
+				     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">batchDate</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">string</span></span>
+				       <span class="mpld-paramdef-is-optional"> [Optional ]   </span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">If the first parameter is a batch name string (and not a BatchInfo object)
+				then the value passed for this parameter will be used as the start date of the created object.
+				It should be in the same format as <span class ="code-label">Date().toUTCString()</span>.
+				If the value is a falsy value or is nor passed, then the current date and time will be used.</span>
+				     </dd>
+				</dl>
+				<!-- parametersTemplate -->
+				<h3 class="title" id="mpld-api-return">Return value</h3>
+                <!-- pre compile start -->
+                	<dl class="mpld-paramdef">
+						<dt class="mpld-paramdef-type">  
+							<span class="mpld-paramdef-type-label"> Type: </span>
+							<span class="mpld-paramdef-type-value"> This method does not return a value. </span>				
+						</dt>
+                        <dd class="mpld-paramdef-descr">
+							    
+                        </dd>
+					</dl>
+			
+<h2 class="title">Remarks</h2>
+
+None.
+
+
+<!-- Not working yet
+-->
+		</div>
+
+		<script src="/docs/scripts/mpldlookup.js"></script>
+		<script>
+			mpld.setPagePlatFormLanguage("selenium4", "javascript");
+			mpldLookup.setPagePlatFormLanguage("selenium4", "javascript");
+		</script>
+    </body>
+</html>

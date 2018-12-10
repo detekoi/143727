@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="3585" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <div class="notes">typical workflow</div>
+        <p>&#160;</p>
+        <ol class="numbered-list">
+            <li><span class="tbd">TBD(need to mention somewhere that the default is without scrolling -need call to not here though)</span>
+            </li>
+            <li><span class="tbd">TBD(dealing with floating menues and chat windows)</span>
+            </li>
+            <li><span class="tbd">TBD(scrolling VS&#160;CSS&#160;transitions</span>)</li>
+            <li><span class="tbd">TBD(scrolling in I=Frames is different from an application perspective since they have an independent DOM, Selenium has a switchcontest API&#160;to deal with this)</span>
+            </li>
+        </ol>
+        <h1 class="title">transcript https://applitools.com/resources/tutorial/selenium/java#step-4</h1>
+        <h1 class="title">Terminology</h1>
+        <h2 class="title"> class="title">batches tests and steps</h2>
+        <p>By default each run of a test is reported as a single entry, but the eyes sdk allows you to group multiple test runs together as a single batch. <span class="internal">You can read more on this in detail here</span></p>
+        <h1 class="title">eyes test manager .</h1>
+        <p>how to update test baselines using the eyes test manager.</p>
+        <ul class="bulleted-list">
+            <li> allows viewing detailed reports of all your visual UI test runs.</li>
+            <li> update test baselines (the images used as the basis for testing).</li>
+        </ul>
+        <h2 class="title"> class="title">ETM: sidebar on the left</h2>
+        <p> list all your test runs from new old .</p>
+        <p>each entry on the left represents a batch of test.</p>
+        <h2 class="title"> class="title">ETM&#160;:&#160;Central Panel</h2>
+        <p>In the central panel you see details of the currently selected batch </p>
+        <h3 class="title">ETM&#160;Test List View</h3>
+        <p>The test list view allows you to easily inspect test and</p>
+        <p>sort tests by operating, browser,viewport and start time</p>
+        <p>[He has not mentioned that each test is typified by these - but actually it doesn't matter - its as if its just metadata]</p>
+        <p>You can easily create test hierarchies by grouping test together by various properties (does not go into details what these are, the video is out of date with respect to the set of properties shown) <span class="internal">(what are test hierarchies - are they important at this point ?)</span></p>
+        <h4>ETM&#160;TEst List View - Test Information</h4>
+        <p>clicking the test will reveal thumbnails of the screen shots sent for validation </p>
+        <h3 class="title">ETM&#160;:&#160;Batch List View</h3>
+        <p>The batch step view shows the thumbnail of all the tests in the entire batch while ignoring the test in which they occurred <span class="internal"> (what does ignoring mean ? how are they ordered ?)</span></p>
+        <p>You can ask <MadCap:variable name="General.ProductName" /> to group together steps with similar differences to on,y see single representative screen shots for each unique difference</p>
+        <h3 class="title">ETM&#160;:&#160;Batch Step View</h3>
+        <p>The batch step by test view shows all batch steps partitioned by tests </p>
+        <p>in all views you can use filters to find the steps, tests and batches of interest<span class="internal"> (does not say by what key not clear from the video either)</span></p>
+        <p>The first time you run a test in a given execution environment it <span class="internal">(what is :it:?) </span>will be marked as new and appear gray to indicate that it's screenshots were used to update the baseline for that environment <span class="internal">(is this still true - are they defined as unresolved </span></p>
+        <p>The + sign in the upper left corner of the thumb print indicates that this is a new step that did not exists in the baseline before and the thumbs up indicates that we have<span class="internal"> (does not say automatically)&#160;</span>approved the image as the basis for the baseline </p>
+        <p>A test with screen shots which match the baseline will appear in green <span class="internal">(now different) </span></p>
+        <p>A test screen that has mismatches will appear as failed and be marked red <span class="internal"> (now different) </span></p>
+        <p>The mismatching step will have a red corner and the differences will be highlighted in pink</p>
+        <h3 class="title">Test Editor</h3>
+        <p>clicking the thumbnail image will open up the test editor</p>
+        <p>which allow us to </p>
+        <p>zoom in on the differences and</p>
+        <p>update the baseline</p>
+        <h2 class="title"> class="title">Timeline</h2>
+        <p>The timeline on the bottom of the screen shows the different checkpoints of the test </p>
+        <h3 class="title">Match Level</h3>
+        <p>and at the left hand of the tool bar you can see the match level used to compare the current and baseline images</p>
+        <p>&#160;</p>
+        <p>Using the display buttonyou can switch to a side by side view that shows both the baseline and current image, or only the baseline image or only the current image</p>
+        <p>you can easily toggle between the baseline and toggle image by clicking the display button or typing the T&#160;on ghe keyboard</p>
+        <p>you can highlight difference by clicking the radar button and zoom in on diffs by pressing the next or prev diff button'</p>
+        <p>We can update the baseline by </p>
+        <p>approving (thumbs up)&#160;the current step</p>
+        <p>OR&#160;</p>
+        <p>approving all steps that have the same difference - <span class="internal">do we just mention this in passing and ref what this means to an article ?</span></p>
+        <p>We can add ignore regions by marking a rectangular area on the image</p>
+        <p>can also do auto adjust regions (<span class="internal">does this mean adding the region to all similar images ?</span>)</p>
+        <p>To save our changes and update our baseline we click the save button</p>
+        <p>next time we run our test it will pass because the new screenshots will match the updated baseline images <span class="internal">(not quite true with the new version)</span></p>
+        <p>&#160;</p>
+        <p>Applications.in JIra there are application specific settings. tests sit in the application namespace. </p>
+        <p>in the future there will be a view of application and tests. batch groups together test runs. application and tests are a static relationship</p>
+        <p>&#160;</p>
+        <p>&lt;script type="application/json" class="js-hypothesis-config"&gt;</p>
+        <p>{"showHighlights": false}</p>
+        <p>&lt;/script&gt;</p>
+        <p>&lt;script src="https://hypothes.is/embed.js" async="async"&gt;&lt;/script&gt;</p>
+        <p>&#160;</p>
+        <h2 class="title">Some more setup</h2>
+        <p>There are some other setup functions that you might want to consider adding to your tests:</p>
+        <p><code>eyes.setHideScrollbars(true);</code>. If you find that <MadCap:variable name="General.ProductName"></MadCap:variable> finds mismatches because the scroll bar in your test changes between runs, and this is not considered an issue, then you can suppress the scroll bars and prevent the mismatch from being reported. </p>
+        <p><code>eyes.setForceFullPageScreenshot(true)</code>. In some browsers, if the viewport is smaller than the window content, then taking a screenshot will only capture the visible portion of the window. If you call this method, then <MadCap:variable name="General.ProductName" /> will use scrolling to automatically take multiple screenshots and to stitch them together into a single image of the entire window content.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

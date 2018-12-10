@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+</head>
+<body>
+		<MadCap:dropDown>
+			<MadCap:dropDownHead>
+				<MadCap:dropDownHotspot>See Demo
+				</MadCap:dropDownHotspot>
+			</MadCap:dropDownHead>
+			<MadCap:dropDownBody>
+				<div class="buttons">
+					<div><a class="positive" onclick="startPlay([%=videoCtrl.url%],[%=videoCtrl.from%],[%=videoCtrl.to%], 'video_115')" href="#" title="click to Play video" alt="click to Play video"><MadCap:variable name="General.VideoStart" /></a><a class="negative" onclick="stopPlay('video_115')" href="#" title="click to Stop video" alt="click to See video"><MadCap:variable name="General.VideoStop" /></a>
+					</div>
+					<div>
+						<video id="video_115">
+						</video>
+					</div>
+				</div>
+			</MadCap:dropDownBody>
+		</MadCap:dropDown>
+</body>
+</html>

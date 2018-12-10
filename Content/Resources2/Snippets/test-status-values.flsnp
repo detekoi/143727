@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="6146" MadCap:lastWidth="686">
+    <head>
+    </head>
+    <body>
+        <p> The test status is displayed in the Test detail view and is composed of  the four components described below.</p>
+        <ul>
+            <li>The text of the status (e.g. Running, New, Passed, Failed etc. see below)</li>
+            <li>
+                <img src="../Images/applitools/test-status-diff-sign.png" class="img-inline" /> An icon that, if it appears, indicates that at least one step had mismatches.</li>
+            <li>
+                <img src="../Images/applitools/test-status-check-mark.png" class="img-inline" /> An icon that, if it appears, indicates that the Tester pressed accept or reject on every single step</li>
+            <li>The color of the text and icons (<span style="color: #0000ff;">blue</span>: Test still running, <span style="color: #f4a460;">Orange </span>test unresolved, <span style="color: #228b22;">green </span>test passed, <span style="color: #ff0000;">red </span>test failed)</li>
+        </ul>
+        <p>The following table defines the possible test state values:</p>
+        <table style="width: 100%;">
+            <col style="width: 188px;" />
+            <col style="width: 332px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="font-weight: bold;">Test details view</td>
+                    <td style="font-weight: bold;">Batch steps by test view</td>
+                    <td style="font-weight: bold;">Meaning</td>
+                </tr>
+                <tr>
+                    <td><span style="color: #1e90ff;"><img src="../Images/applitools/test-status-06-running.png" /></span>
+                    </td>
+                    <td>
+                        <img src="../Images/applitools/test-status-06-running-steps-view.png" />
+                    </td>
+                    <td>
+                        <p>The test is currently running. No further information is available at this point. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Images/applitools/test-status-01-new.PNG" />
+                        <p>
+                            <img src="../Images/applitools/test-status-07-new-failed.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <img src="../Images/applitools/test-status-08-passed_checked-steps-view.PNG" />
+                        <p>
+                            <img src="../Images/applitools/test-status-05-failed-steps-view.PNG" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>This is a new test, i.e. there was no previous baseline. </p>
+                        <p>By default, all steps are considered passed, the baseline is updated from the images captured in the test run, and the check mark is visible in the test status ( <u>even though the Tester did not actually accept or reject every step</u>). You can change this default via the SDK in which case the test will be considered <span style="color: #ff8c00;">Unresolved</span> until all steps are actually resolved by the Tester.<MadCap:snippetText src="../../0quickInserts/_for-more-info.flsnp" class="tbd" /><MadCap:snippetText src="../../0quickInserts/_tbdref.flsnp" /></p>
+                        <p>The status will only be red if the test was explicitly failed by the tester. </p>
+                        <p><span class="tbd">Or one of it's steps was set explicitly to reject ?&#160;not at the moment....)</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="../Images/applitools/test-status-02-passed.PNG" />
+                        </p>
+                        <p>
+                            <img src="../Images/applitools/test-status-03-passed_checked.PNG" />
+                        </p>
+                    </td>
+                    <td>
+                        <img src="../Images/applitools/test-status-09-passed-steps-view.png" />
+                    </td>
+                    <td>
+                        <p>This is not a new test . The test passed either implicitly (no diffs in any step)&#160;or explicitly by the Tester.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span style="color: #ffa500;"><img src="../Images/applitools/test-status-04-unresolved.PNG" /></span>
+                    </td>
+                    <td>
+                        <img src="../Images/applitools/test-status-10-unresolved-steps-view.png" />
+                    </td>
+                    <td>The test contains at least one unresolved step, i.e. at least one step had a status of different (<img src="../Images/applitools/step-diff.png" class="img-inline" />), missing (<img src="../Images/applitools/step-missing.png" class="img-inline" />)&#160;or new (<img src="../Images/applitools/step-new-orange.png" class="img-inline" />) and the Tester has not accept or reject it explicitly.</td>
+                </tr>
+                <tr>
+                    <td style="color: #ff0000;">
+                        <img src="../Images/applitools/test-status-05-failed-checked.PNG" />
+                        <img src="../Images/applitools/test-status-17-failed-nodiffs-nocheck.png" />
+                    </td>
+                    <td>
+                        <img src="../Images/applitools/test-status-05-failed-steps-view.PNG" />
+                    </td>
+                    <td>
+                        <ul>
+                            <li>The Tester resolved all tests (otherwise it would be orange) and has rejected at least one step (upper icon)</li>
+                            <li>Tester directly set the test status to failed (the lower icon)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: #ff0000;">
+                        <img src="../Images/applitools/test-status-16-aborted-nodiffs-nocheck-forced-passed.png" />
+                        <img src="../Images/applitools/test-status-14-aborted-nodiffs-nocheck.png" />
+                        <img src="../Images/applitools/test-status-15-aborted-nodiffs-checked.png" />
+                        <img src="../Images/applitools/test-status-12-aborted-diffs-nocheck.png" />
+                        <img src="../Images/applitools/test-status-13-aborted-diffs-checked.png" />
+                        <img src="../Images/applitools/test-status-13-aborted-diffs-checked-forced-passed.png" />
+                    </td>
+                    <td>&#160;</td>
+                    <td>The test aborted, before all the steps where completed. Initially this will be orange (i.e. need resolution). The final color and the presence of the icons depends on what the tester did as described above in the other cases.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

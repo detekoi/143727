@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="738" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <div class="readable">
+            <p><MadCap:variable name="General.ProductName" /> defines the notion of a <u style="font-style: italic;">test</u> that logically binds together multiple checkpoints and verifies them together as a unit instead of as individually points.</p>
+            <p>For example a test may capture 5 images that show the screen content in 5 different states of the UI</p>
+            <p class="ekb-inserted-image">
+                <img src="../Figures/understanding-steps-1-1st-run.png" class="ekb-inserted-image" />
+            </p>
+            <p>These images are matched to a sequence of corresponding baseline image that define what the screen <u>should</u> look like. The 1st time a test is run, there is no baseline so <MadCap:variable name="General.ProductName" /> takes the captured images and adopts them as the sequence of baseline images for subsequent tests. The Tester can review them to make sure they are correct but this is not enforced by <MadCap:variable name="General.ProductName" /> by default.<span class="tbd">INTERNAL&#160;TBD - they can force it to be unresolved via the SDK&#160;setSaveNewTests()&#160;- no ? refer to it here ?</span></p>
+            <p>Now lets take an example where some changes are made to the application and to the test so that the test now generates a slightly different sequence of images, for example</p>
+            <p>
+                <img src="../Figures/understanding-steps-3-2nd-run.png" class="ekb-inserted-image" />
+            </p>
+            <p>Comparing the two sequences we can see that:</p>
+            <ul>
+                <li>Image C has change to C1 </li>
+                <li>Images F and G have been added</li>
+                <li>Image &#160;B&#160;has been removed</li>
+                <li>Images A, D, and E&#160;have not changed and are in the same order</li>
+            </ul>
+            <p>This will be reflected in the <MadCap:variable name="General.ProductName" /> results which will be as follows:</p>
+            <p>
+                <img src="../Figures/understanding-steps-4-1st-run-result.png" class="ekb-inserted-image" />
+            </p>
+            <p>In <MadCap:variable name="General.ProductName" /> terminology, each such result is called a <i style="text-decoration: underline;">step</i>. For example in the example above there are 7 steps.</p>
+        </div>
+    </body>
+</html>

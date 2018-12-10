@@ -1,0 +1,663 @@
+{
+  "created": "2018-11-28T20:40:15.434Z",
+  "platformId": "selenium",
+  "langId": "javascript",
+  "symbols": {
+    "eyes": {
+      "name": "Eyes",
+      "filename": "class-eyes-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-eyes-selenium-javascript.htm"
+    },
+    "eyes$abortifnotclosed": {
+      "name": "abortIfNotClosed",
+      "filename": "method-eyes-abortifnotclosed-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-abortifnotclosed-selenium-javascript.htm"
+    },
+    "eyes$addproperty": {
+      "name": "addProperty",
+      "filename": "method-eyes-addproperty-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-addproperty-selenium-javascript.htm"
+    },
+    "eyes$addsessioneventhandler": {
+      "name": "addSessionEventHandler",
+      "filename": "method-eyes-addsessioneventhandler-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-addsessioneventhandler-selenium-javascript.htm"
+    },
+    "eyes$check": {
+      "name": "check",
+      "filename": "method-eyes-check-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-check-selenium-javascript.htm"
+    },
+    "eyes$checkelement": {
+      "name": "checkElement",
+      "filename": "method-eyes-checkelement-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelement-selenium-javascript.htm"
+    },
+    "eyes$checkelementby": {
+      "name": "checkElementBy",
+      "filename": "method-eyes-checkelementby-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelementby-selenium-javascript.htm"
+    },
+    "eyes$checkframe": {
+      "name": "checkFrame",
+      "filename": "method-eyes-checkframe-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkframe-selenium-javascript.htm"
+    },
+    "eyes$checkregion": {
+      "name": "checkRegion",
+      "filename": "method-eyes-checkregion-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregion-selenium-javascript.htm"
+    },
+    "eyes$checkregionby": {
+      "name": "checkRegionBy",
+      "filename": "method-eyes-checkregionby-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregionby-selenium-javascript.htm"
+    },
+    "eyes$checkregionbyelement": {
+      "name": "checkRegionByElement",
+      "filename": "method-eyes-checkregionbyelement-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregionbyelement-selenium-javascript.htm"
+    },
+    "eyes$checkwindow": {
+      "name": "checkWindow",
+      "filename": "method-eyes-checkwindow-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkwindow-selenium-javascript.htm"
+    },
+    "eyes$close": {
+      "name": "close",
+      "filename": "method-eyes-close-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-close-selenium-javascript.htm"
+    },
+    "eyes$eyes": {
+      "name": "eyes",
+      "filename": "method-eyes-eyes-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-eyes-selenium-javascript.htm"
+    },
+    "eyes$getagentid": {
+      "name": "getAgentId",
+      "filename": "method-eyes-getagentid-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getagentid-selenium-javascript.htm"
+    },
+    "eyes$getapikey": {
+      "name": "getApiKey",
+      "filename": "method-eyes-getapikey-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getapikey-selenium-javascript.htm"
+    },
+    "eyes$getappname": {
+      "name": "getAppName",
+      "filename": "method-eyes-getappname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getappname-selenium-javascript.htm"
+    },
+    "eyes$getbaselinebranchname": {
+      "name": "getBaselineBranchName",
+      "filename": "method-eyes-getbaselinebranchname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbaselinebranchname-selenium-javascript.htm"
+    },
+    "eyes$getbaselineenvname": {
+      "name": "getBaselineEnvName",
+      "filename": "method-eyes-getbaselineenvname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbaselineenvname-selenium-javascript.htm"
+    },
+    "eyes$getbatch": {
+      "name": "getBatch",
+      "filename": "method-eyes-getbatch-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbatch-selenium-javascript.htm"
+    },
+    "eyes$getbranchname": {
+      "name": "getBranchName",
+      "filename": "method-eyes-getbranchname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbranchname-selenium-javascript.htm"
+    },
+    "eyes$getmatchtimeout": {
+      "name": "getDefaultMatchTimeout",
+      "filename": "method-eyes-getmatchtimeout-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getmatchtimeout-selenium-javascript.htm"
+    },
+    "eyes$getforcefullpagescreenshot": {
+      "name": "getForceFullPageScreenshot",
+      "filename": "method-eyes-getforcefullpagescreenshot-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getforcefullpagescreenshot-selenium-javascript.htm"
+    },
+    "eyes$getrotation": {
+      "name": "getForcedImageRotation",
+      "filename": "method-eyes-getrotation-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getrotation-selenium-javascript.htm"
+    },
+    "eyes$gethidescrollbars": {
+      "name": "getHideScrollbars",
+      "filename": "method-eyes-gethidescrollbars-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-gethidescrollbars-selenium-javascript.htm"
+    },
+    "eyes$gethostos": {
+      "name": "getHostOS",
+      "filename": "method-eyes-gethostos-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-gethostos-selenium-javascript.htm"
+    },
+    "eyes$gethostapp": {
+      "name": "getHostingApp",
+      "filename": "method-eyes-gethostapp-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-gethostapp-selenium-javascript.htm"
+    },
+    "eyes$getignorecaret": {
+      "name": "getIgnoreCaret",
+      "filename": "method-eyes-getignorecaret-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getignorecaret-selenium-javascript.htm"
+    },
+    "eyes$getisdisabled": {
+      "name": "getIsDisabled",
+      "filename": "method-eyes-getisdisabled-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getisdisabled-selenium-javascript.htm"
+    },
+    "eyes$getisopen": {
+      "name": "getIsOpen",
+      "filename": "method-eyes-getisopen-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getisopen-selenium-javascript.htm"
+    },
+    "eyes$getloghandler": {
+      "name": "getLogHandler",
+      "filename": "method-eyes-getloghandler-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getloghandler-selenium-javascript.htm"
+    },
+    "eyes$getparentbranchname": {
+      "name": "getParentBranchName",
+      "filename": "method-eyes-getparentbranchname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getparentbranchname-selenium-javascript.htm"
+    },
+    "eyes$getpositionprovider": {
+      "name": "getPositionProvider",
+      "filename": "method-eyes-getpositionprovider-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getpositionprovider-selenium-javascript.htm"
+    },
+    "eyes$getproxy": {
+      "name": "getProxy",
+      "filename": "method-eyes-getproxy-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getproxy-selenium-javascript.htm"
+    },
+    "eyes$getsavedebugscreenshots": {
+      "name": "getSaveDebugScreenshots",
+      "filename": "method-eyes-getsavedebugscreenshots-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavedebugscreenshots-selenium-javascript.htm"
+    },
+    "eyes$getsavefailedtests": {
+      "name": "getSaveFailedTests",
+      "filename": "method-eyes-getsavefailedtests-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavefailedtests-selenium-javascript.htm"
+    },
+    "eyes$getsavenewtests": {
+      "name": "getSaveNewTests",
+      "filename": "method-eyes-getsavenewtests-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavenewtests-selenium-javascript.htm"
+    },
+    "eyes$getscaleratio": {
+      "name": "getScaleRatio",
+      "filename": "method-eyes-getscaleratio-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getscaleratio-selenium-javascript.htm"
+    },
+    "eyes$getscrollrootelement": {
+      "name": "getScrollRootElement",
+      "filename": "method-eyes-getscrollrootelement-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getscrollrootelement-selenium-javascript.htm"
+    },
+    "eyes$getserverurl": {
+      "name": "getServerUrl",
+      "filename": "method-eyes-getserverurl-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getserverurl-selenium-javascript.htm"
+    },
+    "eyes$getstitchmode": {
+      "name": "getStitchMode",
+      "filename": "method-eyes-getstitchmode-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getstitchmode-selenium-javascript.htm"
+    },
+    "eyes$getviewportsize": {
+      "name": "getViewportSize",
+      "filename": "method-eyes-getviewportsize-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getviewportsize-selenium-javascript.htm"
+    },
+    "eyes$getwaitbeforescreenshots": {
+      "name": "getWaitBeforeScreenshots",
+      "filename": "method-eyes-getwaitbeforescreenshots-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getwaitbeforescreenshots-selenium-javascript.htm"
+    },
+    "eyes$open": {
+      "name": "open",
+      "filename": "method-eyes-open-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-open-selenium-javascript.htm"
+    },
+    "eyes$replacewindow": {
+      "name": "replaceWindow",
+      "filename": "method-eyes-replacewindow-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-replacewindow-selenium-javascript.htm"
+    },
+    "eyes$setagentid": {
+      "name": "setAgentId",
+      "filename": "method-eyes-setagentid-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setagentid-selenium-javascript.htm"
+    },
+    "eyes$setapikey": {
+      "name": "setApiKey",
+      "filename": "method-eyes-setapikey-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setapikey-selenium-javascript.htm"
+    },
+    "eyes$setbaselinebranchname": {
+      "name": "setBaselineBranchName",
+      "filename": "method-eyes-setbaselinebranchname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselinebranchname-selenium-javascript.htm"
+    },
+    "eyes$setbaselineenvname": {
+      "name": "setBaselineEnvName",
+      "filename": "method-eyes-setbaselineenvname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselineenvname-selenium-javascript.htm"
+    },
+    "eyes$setbatch": {
+      "name": "setBatch",
+      "filename": "method-eyes-setbatch-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbatch-selenium-javascript.htm"
+    },
+    "eyes$setbranchname": {
+      "name": "setBranchName",
+      "filename": "method-eyes-setbranchname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbranchname-selenium-javascript.htm"
+    },
+    "eyes$setmatchtimeout": {
+      "name": "setDefaultMatchTimeout",
+      "filename": "method-eyes-setmatchtimeout-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchtimeout-selenium-javascript.htm"
+    },
+    "eyes$setforcefullpagescreenshot": {
+      "name": "setForceFullPageScreenshot",
+      "filename": "method-eyes-setforcefullpagescreenshot-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setforcefullpagescreenshot-selenium-javascript.htm"
+    },
+    "eyes$setrotation": {
+      "name": "setForcedImageRotation",
+      "filename": "method-eyes-setrotation-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setrotation-selenium-javascript.htm"
+    },
+    "eyes$sethidescrollbars": {
+      "name": "setHideScrollbars",
+      "filename": "method-eyes-sethidescrollbars-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidescrollbars-selenium-javascript.htm"
+    },
+    "eyes$sethostos": {
+      "name": "setHostOS",
+      "filename": "method-eyes-sethostos-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethostos-selenium-javascript.htm"
+    },
+    "eyes$sethostapp": {
+      "name": "setHostingApp",
+      "filename": "method-eyes-sethostapp-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethostapp-selenium-javascript.htm"
+    },
+    "eyes$setignorecaret": {
+      "name": "setIgnoreCaret",
+      "filename": "method-eyes-setignorecaret-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setignorecaret-selenium-javascript.htm"
+    },
+    "eyes$setimagecut": {
+      "name": "setImageCut",
+      "filename": "method-eyes-setimagecut-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setimagecut-selenium-javascript.htm"
+    },
+    "eyes$setisdisabled": {
+      "name": "setIsDisabled",
+      "filename": "method-eyes-setisdisabled-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setisdisabled-selenium-javascript.htm"
+    },
+    "eyes$setmatchlevel": {
+      "name": "setMatchLevel",
+      "filename": "method-eyes-setmatchlevel-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchlevel-selenium-javascript.htm"
+    },
+    "eyes$setparentbranchname": {
+      "name": "setParentBranchName",
+      "filename": "method-eyes-setparentbranchname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setparentbranchname-selenium-javascript.htm"
+    },
+    "eyes$setproxy": {
+      "name": "setProxy",
+      "filename": "method-eyes-setproxy-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setproxy-selenium-javascript.htm"
+    },
+    "eyes$setsavedebugscreenshots": {
+      "name": "setSaveDebugScreenshots",
+      "filename": "method-eyes-setsavedebugscreenshots-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavedebugscreenshots-selenium-javascript.htm"
+    },
+    "eyes$setsavenewtests": {
+      "name": "setSaveNewTests",
+      "filename": "method-eyes-setsavenewtests-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavenewtests-selenium-javascript.htm"
+    },
+    "eyes$setscaleratio": {
+      "name": "setScaleRatio",
+      "filename": "method-eyes-setscaleratio-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setscaleratio-selenium-javascript.htm"
+    },
+    "eyes$setscrollrootelement": {
+      "name": "setScrollRootElement",
+      "filename": "method-eyes-setscrollrootelement-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setscrollrootelement-selenium-javascript.htm"
+    },
+    "eyes$setserverurl": {
+      "name": "setServerUrl",
+      "filename": "method-eyes-setserverurl-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setserverurl-selenium-javascript.htm"
+    },
+    "eyes$setstitchmode": {
+      "name": "setStitchMode",
+      "filename": "method-eyes-setstitchmode-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchmode-selenium-javascript.htm"
+    },
+    "eyes$setviewportsize": {
+      "name": "setViewportSize",
+      "filename": "method-eyes-setviewportsize-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setviewportsize-selenium-javascript.htm"
+    },
+    "eyes$setwaitbeforescreenshots": {
+      "name": "setWaitBeforeScreenshots",
+      "filename": "method-eyes-setwaitbeforescreenshots-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setwaitbeforescreenshots-selenium-javascript.htm"
+    },
+    "stepinfo": {
+      "name": "StepInfo",
+      "filename": "class-stepinfo-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-stepinfo-selenium-javascript.htm"
+    },
+    "stepinfo$getapiurls": {
+      "name": "apiUrls",
+      "filename": "method-stepinfo-getapiurls-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getapiurls-selenium-javascript.htm"
+    },
+    "stepinfo$getappurls": {
+      "name": "appUrls",
+      "filename": "method-stepinfo-getappurls-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getappurls-selenium-javascript.htm"
+    },
+    "stepinfo$gethasbaselineimage": {
+      "name": "hasBaselineImage",
+      "filename": "method-stepinfo-gethasbaselineimage-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethasbaselineimage-selenium-javascript.htm"
+    },
+    "stepinfo$gethascheckpointimage": {
+      "name": "hasCheckpointImage",
+      "filename": "method-stepinfo-gethascheckpointimage-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethascheckpointimage-selenium-javascript.htm"
+    },
+    "stepinfo$getisdifferent": {
+      "name": "isDifferent",
+      "filename": "method-stepinfo-getisdifferent-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getisdifferent-selenium-javascript.htm"
+    },
+    "stepinfo$getname": {
+      "name": "name",
+      "filename": "method-stepinfo-getname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getname-selenium-javascript.htm"
+    },
+    "target": {
+      "name": "Target",
+      "filename": "class-target-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-target-selenium-javascript.htm"
+    },
+    "target$floating": {
+      "name": "floating",
+      "filename": "method-target-floating-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-floating-selenium-javascript.htm"
+    },
+    "checksettings": {
+      "name": "Target",
+      "filename": "class-target-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-target-selenium-javascript.htm"
+    },
+    "checksettings$floating": {
+      "name": "floating",
+      "filename": "method-target-floating-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-floating-selenium-javascript.htm"
+    },
+    "target$frame": {
+      "name": "frame",
+      "filename": "method-target-frame-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-frame-selenium-javascript.htm"
+    },
+    "target$fully": {
+      "name": "fully",
+      "filename": "method-target-fully-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-fully-selenium-javascript.htm"
+    },
+    "checksettings$fully": {
+      "name": "fully",
+      "filename": "method-target-fully-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-fully-selenium-javascript.htm"
+    },
+    "target$ignore": {
+      "name": "ignore",
+      "filename": "method-target-ignore-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-ignore-selenium-javascript.htm"
+    },
+    "checksettings$ignore": {
+      "name": "ignore",
+      "filename": "method-target-ignore-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-ignore-selenium-javascript.htm"
+    },
+    "target$ignorecaret": {
+      "name": "ignoreCaret",
+      "filename": "method-target-ignorecaret-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-ignorecaret-selenium-javascript.htm"
+    },
+    "checksettings$ignorecaret": {
+      "name": "ignoreCaret",
+      "filename": "method-target-ignorecaret-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-ignorecaret-selenium-javascript.htm"
+    },
+    "target$matchlevel": {
+      "name": "matchLevel",
+      "filename": "method-target-matchlevel-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-matchlevel-selenium-javascript.htm"
+    },
+    "checksettings$matchlevel": {
+      "name": "matchLevel",
+      "filename": "method-target-matchlevel-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-matchlevel-selenium-javascript.htm"
+    },
+    "target$region": {
+      "name": "region",
+      "filename": "method-target-region-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-region-selenium-javascript.htm"
+    },
+    "target$timeout": {
+      "name": "timeout",
+      "filename": "method-target-timeout-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-timeout-selenium-javascript.htm"
+    },
+    "checksettings$timeout": {
+      "name": "timeout",
+      "filename": "method-target-timeout-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-timeout-selenium-javascript.htm"
+    },
+    "target$window": {
+      "name": "window",
+      "filename": "method-target-window-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-window-selenium-javascript.htm"
+    },
+    "testresults": {
+      "name": "TestResults",
+      "filename": "class-testresults-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-testresults-selenium-javascript.htm"
+    },
+    "testresults$getappurls": {
+      "name": "appUrls",
+      "filename": "method-testresults-getappurls-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getappurls-selenium-javascript.htm"
+    },
+    "testresults$getappname": {
+      "name": "appname",
+      "filename": "method-testresults-getappname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getappname-selenium-javascript.htm"
+    },
+    "testresults$getbatchid": {
+      "name": "batchId",
+      "filename": "method-testresults-getbatchid-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchid-selenium-javascript.htm"
+    },
+    "testresults$getbatchname": {
+      "name": "batchName",
+      "filename": "method-testresults-getbatchname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchname-selenium-javascript.htm"
+    },
+    "testresults$getbranchname": {
+      "name": "branchName",
+      "filename": "method-testresults-getbranchname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getbranchname-selenium-javascript.htm"
+    },
+    "testresults$getduration": {
+      "name": "duration",
+      "filename": "method-testresults-getduration-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getduration-selenium-javascript.htm"
+    },
+    "testresults$gethostapp": {
+      "name": "hostApp",
+      "filename": "method-testresults-gethostapp-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostapp-selenium-javascript.htm"
+    },
+    "testresults$gethostdisplaysize": {
+      "name": "hostDisplaySize",
+      "filename": "method-testresults-gethostdisplaysize-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostdisplaysize-selenium-javascript.htm"
+    },
+    "testresults$gethostos": {
+      "name": "hostOS",
+      "filename": "method-testresults-gethostos-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostos-selenium-javascript.htm"
+    },
+    "testresults$isaborted": {
+      "name": "isAborted",
+      "filename": "method-testresults-isaborted-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-isaborted-selenium-javascript.htm"
+    },
+    "testresults$isdifferent": {
+      "name": "isDifferent",
+      "filename": "method-testresults-isdifferent-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-isdifferent-selenium-javascript.htm"
+    },
+    "testresults$isnew": {
+      "name": "isNew",
+      "filename": "method-testresults-isnew-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-isnew-selenium-javascript.htm"
+    },
+    "testresults$getmatches": {
+      "name": "matches",
+      "filename": "method-testresults-getmatches-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmatches-selenium-javascript.htm"
+    },
+    "testresults$getmismatches": {
+      "name": "mismatches",
+      "filename": "method-testresults-getmismatches-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmismatches-selenium-javascript.htm"
+    },
+    "testresults$getmissing": {
+      "name": "missing",
+      "filename": "method-testresults-getmissing-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmissing-selenium-javascript.htm"
+    },
+    "testresults$getname": {
+      "name": "name",
+      "filename": "method-testresults-getname-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getname-selenium-javascript.htm"
+    },
+    "testresults$getstartedat": {
+      "name": "startedAt",
+      "filename": "method-testresults-getstartedat-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstartedat-selenium-javascript.htm"
+    },
+    "testresults$getstatus": {
+      "name": "status",
+      "filename": "method-testresults-getstatus-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstatus-selenium-javascript.htm"
+    },
+    "testresults$getsteps": {
+      "name": "steps",
+      "filename": "method-testresults-getsteps-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getsteps-selenium-javascript.htm"
+    },
+    "testresults$getstepsinfo": {
+      "name": "stepsInfo",
+      "filename": "method-testresults-getstepsinfo-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstepsinfo-selenium-javascript.htm"
+    },
+    "apiurls": {
+      "name": "apiUrls",
+      "filename": "class-apiurls-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-apiurls-selenium-javascript.htm"
+    },
+    "apiurls$getbaselineimage": {
+      "name": "baselineImage",
+      "filename": "method-apiurls-getbaselineimage-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getbaselineimage-selenium-javascript.htm"
+    },
+    "apiurls$getcheckpointimage": {
+      "name": "checkpointImage",
+      "filename": "method-apiurls-getcheckpointimage-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getcheckpointimage-selenium-javascript.htm"
+    },
+    "apiurls$getcheckpointimagethumbnail": {
+      "name": "checkpointImageThumbnail",
+      "filename": "method-apiurls-getcheckpointimagethumbnail-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getcheckpointimagethumbnail-selenium-javascript.htm"
+    },
+    "apiurls$getdiffimage": {
+      "name": "diffImage",
+      "filename": "method-apiurls-getdiffimage-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getdiffimage-selenium-javascript.htm"
+    },
+    "appurls": {
+      "name": "appUrls",
+      "filename": "class-appurls-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-appurls-selenium-javascript.htm"
+    },
+    "appurls$getstep": {
+      "name": "step",
+      "filename": "method-appurls-getstep-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_appurls/method-appurls-getstep-selenium-javascript.htm"
+    },
+    "appurls$getstepeditor": {
+      "name": "stepEditor",
+      "filename": "method-appurls-getstepeditor-selenium-javascript.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_appurls/method-appurls-getstepeditor-selenium-javascript.htm"
+    },
+    "webelement": {
+      "name": "webdriver.WebElement"
+    },
+    "by": {
+      "name": "webdriver.By"
+    },
+    "stitchmode$css": {
+      "name": "StitchMode.CSS"
+    },
+    "stitchmode$scroll": {
+      "name": "StitchMode.Scroll"
+    },
+    "nullconst": {
+      "name": "null"
+    },
+    "trueconst": {
+      "name": "true"
+    },
+    "falseconst": {
+      "name": "false"
+    },
+    "matchlevel$none": {
+      "name": "MatchLevel.None"
+    },
+    "matchlevel$layout": {
+      "name": "MatchLevel.Layout"
+    },
+    "matchlevel$content": {
+      "name": "MatchLevel.Content"
+    },
+    "matchlevel$strict": {
+      "name": "MatchLevel.Strict"
+    },
+    "matchlevel$exact": {
+      "name": "MatchLevel.Exact"
+    }
+  }
+}

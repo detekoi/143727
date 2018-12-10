@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="MsWord"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterPageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+  MasterStylesheet="/Content/Resources2/Stylesheets/style-cutdown.css"
+  MasterStylesheetOverride="true"
+  ConditionTagExpression="include[General.draft or General.Internal or General.Online or General.PDF or General.ToDo] exclude[&quot;General.Not for Output&quot;] "
+  MasterPage="/Content/Resources/MasterPages/HomePage-withoutsite.flmsp"
+  EmbedImages="true"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    PopupConversion="expand"
+    ExpandingTextConversion="expand"
+    EnableTrackedChanges="true" />
+</CatapultTarget>

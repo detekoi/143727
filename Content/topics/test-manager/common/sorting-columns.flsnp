@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="206" MadCap:lastWidth="689">
+    <head>
+    </head>
+    <body>
+        <p>You can sort the rows of the table by any column. When your cursor is over a column title a
+			<img src="../pages/page-branch-baselines/resources/button-column-sort-down.png" />
+			or
+			<img src="../pages/page-branch-baselines/resources/button-column-sort-up.png" />
+			icon will be displayed. Click on the icon and the column will be sorted upwards or downwards. Click again, and it will be sorted in the opposite direction. The appropriate icon is displayed next to the column that determines the current sorting order.
+</p>
+    </body>
+</html>

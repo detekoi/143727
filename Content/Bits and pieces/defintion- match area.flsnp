@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="620" MadCap:lastWidth="1190">
+    <body>
+        <h1 class="title">Definition - Match Area</h1>
+        <p>A<span class="glossary-term"> <MadCap:variable name="Definitions.match area" /> </span>is a generic term used to define the rectangular area captured and presented to <MadCap:variable name="General.ProductName" /> so that it can check for mismatches. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>More... </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+				The area checked depends on the application platform, for example:
+                <ul><li>In a desktop application it may include the entire operating system window, including the title bar and open and close icons.</li><li>In a Browser, the match area is always the browser viewport where the HTML&#160;is displayed. It excludes any browser user interface elements such as buttons, address bar, search bar, status bar and so on</li><li>In a mobile application it includes anything visible on the mobile screen</li></ul><p>See also Page, Viewport, TBD(add definitions)</p><p>&#160;</p></MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

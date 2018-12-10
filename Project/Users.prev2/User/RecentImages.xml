@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UrlList>
+    <Url Source="1_WIP/test-manager/page-branch-baselines/resources/group-by-example.png" />
+    <Url Source="1_WIP/test-manager/common/images/menu-show-history.png" />
+    <Url Source="1_WIP/test-manager/common/images/vertical-dot-menu.png" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/resources/app-test-app-toggle-all.png" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/resources/app-test-app-delete-menu.png" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/resources/rename-test-example.png" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/resources/application-rename-with-edit-icon.png" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/resources/application-rename.png" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/resources/app-test-app-panel-rename.png" />
+    <Url Source="1_WIP/test-manager/page-apps-tests/resources/app-test-app-panel-overview.png" />
+    <Url Source="1_WIP/test-manager/images/page-history-step-menu.png" />
+    <Url Source="1_WIP/test-manager/images/page-history-overview.png" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/resources/button-delete-baseline.png" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/resources/button-baseline-copy-to-branch.png" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/resources/page-branch-baselines-overview.png" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/resources/button-reaload-baselines.png" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/resources/button-baseline-filter.png" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/resources/button-group-by.png" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/resources/button-baseline-issues-remarks-view.png" />
+    <Url Source="1_WIP/test-manager/page-branch-baselines/resources/button-baseline-steps-view.png" />
+</UrlList>

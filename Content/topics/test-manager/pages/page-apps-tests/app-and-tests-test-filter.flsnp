@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="770" MadCap:lastWidth="505">
+    <head>
+    </head>
+    <body>
+        <ul class="bulleted-list">
+            <li>You can filter the list of tests by typing some characters in the <span class="app-item">Filter tests</span> control (e.g., "v1" below). </li>
+            <li>As you type, the list of tests is updated so that it only contains tests whose name contain the string in the search field. </li>
+            <li> An <img src="resources/filter-cancel.png" class="inline-img" /> appears to the right of the text when the filter is active. </li>
+            <li>To remove the filter and see all of the tests, click on the <img src="resources/filter-cancel.png" class="inline-img" />, or delete all the characters in the text box. </li>
+        </ul>
+        <p>Below you can see an example where the list of tests contains only tests whose name contain the string "v1".</p>
+        <p><a data-lightbox="apps-test-filter-test.png" href="resources/apps-test-filter-test.png"><img class="block-image" src="resources/apps-test-filter-test.png" /></a>
+            <script src="/docs/scripts/mpld.js"> /*<![CDATA[*/ /*]]>*/</script>
+            <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/docs/example-code";
+			var myFile = "HelloWorldSimple"; 
+			mpld.setDefaultFile(folder,myFile);
+			mpld.setDefaultLanguages();
+			/*]]>*/
+		</script>
+        </p>
+    </body>
+</html>

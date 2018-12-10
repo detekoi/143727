@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="11" MadCap:lastHeight="11839" MadCap:lastWidth="1920">
+    <head>
+    </head>
+    <body>
+        <h1 class="title"><a name="top"></a>Test and Batch Status</h1>
+        <p>The test and batch status are displayed in the <MadCap:variable name="General.ProductUI" />. The test status changes to reflect the resolution decisions made by your team for each step in the test. The batch status changes to reflect the status of the tests in the batch. </p>
+        <h2 class="title">Test and Batch status in <MadCap:variable name="General.ProductUI" /></h2>
+        <h3 class="title">Test Status</h3>
+        <p> <MadCap:snippetBlock src="../Resources2/Snippets/test-status-values.flsnp" /></p>
+        <h3 class="title">Manual Override of the test status</h3>
+        <MadCap:snippetBlock src="../Resources2/Snippets/test-status-overide.flsnp" />
+        <h3 class="title">Batch Status</h3>
+        <MadCap:snippetBlock src="../Resources2/Snippets/batch-status-values.flsnp" />
+        <h2 class="title">Controlling Test Status using <MadCap:variable name="General.ProductClientAPI" /></h2>
+        <p>Use the <span class="code">setSaveNewTests()</span> <MadCap:snippetText src="../0quickInserts/_tbdref.flsnp" />API&#160;to force new tests to take an "unresolved" status, instead of defaulting to "passed and update baseline" /</p>
+        <p>Use the <MadCap:snippetText src="../0quickInserts/_tbdref.flsnp" /> command to force an update of the baseline to all the checkpoints in a test, if one step with a mismatch is found. This can be used when you know that the test is being run with a new version of the application with a large amount of UI&#160;updates and you want to force rebuilding of the baseline.</p>
+    </body>
+</html>

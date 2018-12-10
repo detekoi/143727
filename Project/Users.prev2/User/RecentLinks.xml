@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecentLinks>
+    <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
+        <Link Value="C:\Users\User\Documents\eyes-knowledgebase-source\Content\1_WIP\test-manager\howto\_rename-application.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage">
+        <Link Value="C:\Users\User\Dropbox\EKB_madcap_flare\Eyes Knowledge base\Eyes Knowledge base\Content\video Topics\video\Open_bugs_add_remarks_chat.mp4" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
+        <Link Value="C:\Users\User\Documents\eyes-knowledgebase-source\Content\1_WIP\test-manager\viewers\tm-merge-conflict-editor.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
+        <Link Value="C:\Users\User\Documents\eyes-knowledgebase-source\Content\1_WIP\test-manager\page-apps-tests\resources\menu-test-show-last-run.png" />
+    </Dialog>
+    <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
+        <Link Value="C:\Users\User\Documents\eyes-knowledgebase-source\Content\0quickInserts\imgSnippet.flsnp" />
+    </Dialog>
+</RecentLinks>

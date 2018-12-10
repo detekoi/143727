@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="540" MadCap:lastWidth="719">
+    <body>
+        <p>The test status is also button, if the test has been resolved, you can press this button, and then  a dialog will open as follows:</p>
+        <p>
+            <img src="../Images/applitools/step-state-overide.png" />
+        </p>
+        <p>Choose from one of the following 3 options:</p>
+        <table>
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="../Images/applitools/step-state-overide-passed.png" class="img-inline">
+                        </img>
+                    </td>
+                    <td>Force the test to be passed irrespective of the pass/fail status of its steps</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Images/applitools/step-state-overide-failed.png" class="img-inline">
+                        </img>
+                    </td>
+                    <td>Force the test to be failed irrespective of the pass/fail status of its steps</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Images/applitools/step-state-overide-default.png" class="img-inline" />
+                    </td>
+                    <td>The pass/fail status should have the default value derived from the state of its steps</td>
+                </tr>
+            </tbody>
+        </table>
+        <p> <![CDATA[ ]]></p>
+    </body>
+</html>

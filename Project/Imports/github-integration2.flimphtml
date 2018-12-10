@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlImport
+  KeepSourceLinks="true"
+  ProjectName="Eyes Knowledge base"
+  ProjectFolder="C:\Users\User\Documents\eyes-knowledgebase-source\"
+  AutoSync="false"
+  SourceFolders="file:///C:/Users/User/Downloads/github-integration2"
+  ImportResources="true"
+  ImportResourcesLocation="RelativeToDocument"
+  ImportTopics="specific"
+  ImportLinkedHtmlFiles="false"
+  LastImport="2018-03-26T11:28:39.0853238+03:00"
+  ImportTopicsLocation="Content/topics/integrations/"
+  ResourceFolder="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Content/topics/integrations/">
+  <Files>
+    <Url
+      Source="../../../../Downloads/github-integration2"
+      AbsoluteSource="file:///C:/Users/User/Downloads/github-integration2" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/topics/integrations/github-integration2/githubintegration2.html"
+      TimeStamp="26-Mar-18 11:28:27 AM" />
+    <Url
+      Source="../TOCs/github-integration2.fltoc"
+      TimeStamp="26-Mar-18 11:28:38 AM" />
+    <Url
+      Source="../../Content/topics/integrations/github-integration2/images/image5.png"
+      TimeStamp="26-Mar-18 11:20:48 AM" />
+    <Url
+      Source="../../Content/topics/integrations/github-integration2/images/image3.png"
+      TimeStamp="26-Mar-18 11:20:48 AM" />
+    <Url
+      Source="../../Content/topics/integrations/github-integration2/images/image4.png"
+      TimeStamp="26-Mar-18 11:20:48 AM" />
+    <Url
+      Source="../../Content/topics/integrations/github-integration2/images/image2.png"
+      TimeStamp="26-Mar-18 11:20:48 AM" />
+    <Url
+      Source="../../Content/topics/integrations/github-integration2/images/image1.png"
+      TimeStamp="26-Mar-18 11:20:47 AM" />
+  </GeneratedFiles>
+</HtmlImport>

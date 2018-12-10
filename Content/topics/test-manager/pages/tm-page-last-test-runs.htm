@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1 class="header"><a name="top"></a>The Last test runs page</h1>
+        <p>The <span class="app-page"> Last test runs </span>page shows the most recent runs of a test of your choice, across batches, branches, and environments. In other words, it lists the last runs that were made for a given application and test name pair irrespective of when and how they ran. To see the last runs of a test, navigate to  the <span class="app-page">Test results</span> or the <span class="app-page">Apps &amp;&#160;tests </span> pages, and then on the row with the test click on the item row menu <img src="../common/images/vertical-dot-menu.png" /> and select <span class="app-item">Last test runs </span>.</p>
+        <p><a name="fetch-beyond"></a>Since the list of tests is potentially long, the system fetches and displays a fixed number of results from the last three months.  If more information is available on the server, then at the bottom of the list you will see a button similar to the one shown below:</p>
+        <p><a data-lightbox="search-beyond-button.png" href="page-last-test-run/search-beyond-button.png"><img class="block-image" src="page-last-test-run/search-beyond-button.png" /></a>
+        </p>
+        <p>Click on this button to fetch and display the next entries.</p>
+        <h2 class="title">Layout</h2>
+        <p>The page consists of a summary panel, a toolbar, and table that has one row of information for every run of the test:</p>
+        <p><a data-lightbox="last-test-run-overview" href="page-last-test-run/last-test-run-overview.png"><img class="block-image" src="page-last-test-run/last-test-run-overview.png" /></a>
+        </p>
+        <h3 class="title">Summary panel</h3>
+        <div><a data-lightbox="last-test-run-summary-panel" href="page-last-test-run/last-test-run-summary-panel.png"><img class="block-image" src="page-last-test-run/last-test-run-summary-panel.png" /></a>
+        </div>
+        <p>The summary panel displays the test name, the application name, the date and time of the oldest and most recent test runs, the total number of runs, the total number of environments and the total number of test runs in each of the states of <span class="app-item">Passed</span>, <span class="app-item">Failed </span>and <span class="app-item">Unresolved </span>. Note that states with a value of zero are not displayed. The values in this panel reflect what is currently visible on the screen - i.e. , only data that has been fetched from the server and only data that  has not been filtered out - see <MadCap:xref class="link" href="#Filterin">Filtering test run rows</MadCap:xref>.</p>
+        <h3 class="title">Toolbar</h3>
+        <p><a data-lightbox="page-last-test-run/last-test-run-toolbar.png" href="page-last-test-run/last-test-run-toolbar.png"><img class="block-image" src="page-last-test-run/last-test-run-toolbar.png" /></a>
+        </p>
+        <p>The toolbar provides the standard row selection, row delete, page refresh and filter controls. See <MadCap:xref class="link" href="tm-ui-overview.htm">Test manager UI overview</MadCap:xref> for more details.</p>
+        <h3 class="title">The main panel </h3>
+        <p>The main panel consists of one row for each run of the test. Each row contains the following columns </p>
+        <dl>
+            <dt>
+                <img class="inline-img" src="../images/generic-select-row-disabled.png">
+                </img>&#160;&#160;&#160;<img class="inline-img" src="../images/generic-select-row-enabled.png" /></dt>
+            <dd>A checkbox used to select the row for deletion.</dd>
+            <dt>
+                <img class="inline-img" src="../images/star-disabled.png">
+                </img>
+                <img class="inline-img" src="../images/star-enabled.png" />
+            </dt>
+            <dd> The current value of the star flag for this test (both disabled and enabled icons shown here).</dd>
+            <dt><span class="app-item">Status</span>
+            </dt>
+            <dd> The test result status. See <MadCap:xref class="link" href="../../working-with-test-batches/test-batch-status-values.htm#Test">Test status</MadCap:xref> for a list of possible values.</dd>
+            <dt><span class="app-item"> Batch name</span>
+            </dt>
+            <dd> The name of the <MadCap:glossaryTerm glossTerm="EyesTerms.Term7">batch</MadCap:glossaryTerm> in which this test ran.</dd>
+            <dt><span class="app-item"> OS</span>
+            </dt>
+            <dd> The operating system the test ran on.</dd>
+            <dt><span class="app-item">Browser</span>
+            </dt>
+            <dd> The browser the test ran on.</dd>
+            <dt><span class="app-item">Viewport</span>
+            </dt>
+            <dd> The viewport size when the test run started.</dd>
+            <dt><span class="app-item">Duration</span>
+            </dt>
+            <dd> The amount of time the test ran in minutes.</dd>
+            <dt><span class="app-item">Branch</span>
+            </dt>
+            <dd> The <MadCap:glossaryTerm glossTerm="EyesTerms.Term10">branch</MadCap:glossaryTerm> the test ran on.</dd>
+            <dt><span class="app-item"> Step count</span>
+            </dt>
+            <dd> The number of steps in the test run. <MadCap:snippetText src="../../../Resources2/Snippets/phrases/this-colum-hidden-click-editor.flsnp" /></dd>
+            <dt><span class="app-item"> Is saved</span>
+            </dt>
+            <dd> This checkbox will be ticked if changes were made to the baseline in this test run and they were saved. <MadCap:snippetText src="../../../Resources2/Snippets/phrases/this-colum-hidden-click-editor.flsnp" /></dd>
+            <dt><span class="app-item"> Saved by</span>
+            </dt>
+            <dd> The name of the team member that most recently saved this test. <MadCap:snippetText src="../../../Resources2/Snippets/phrases/this-colum-hidden-click-editor.flsnp" /></dd>
+            <dt><span class="inline-img"><img src="../common/images/vertical-dot-menu.png" /></span> Row menu</dt>
+            <dd>
+				Clicking on the row menu of this test allows you to choose from the following actions:
+                <div class="pad-left"><dl><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Open batch</span></dt><dd> Switch to the <span class="app-page">Test results</span> page for this test run.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Delete</span></dt><dd> Delete all the information stored related to this test run.</dd></dl></div></dd>
+        </dl>
+        <h2 class="title">Deleting test runs </h2>
+        <MadCap:snippetBlock src="../howto/delete-test-runs.flsnp" />
+        <p class="box-note">This method of test result deletion only deletes the test results that you see on the screen. There may be more results on the server that have not yet been fetched. If more test results are available, and you want to delete them, then use the <span class="app-item">search beyond</span> button at the end of the list of tests to fetch more results  as necessary and then delete them as described above. </p>
+        <h2 class="title"><a name="Filterin"></a>Filtering test run rows</h2>
+        <div>
+			The filter offers the following criteria and options:
+		<dl><dt><span class="app-item">Batch Name</span></dt><dd> Enter free text, only test runs whose batch name includes the text you typed will be displayed.</dd><dt><span class="app-item">Ran before</span></dt><dd> Click in this field to open a date dialog and then choose a date. Only tests that ran before this date (non-inclusive) will be displayed.</dd><dt><span class="app-item">Quick select box</span></dt><dd> You can quickly choose to filter by one or more of the following options by clicking on the appropriate checkbox: 
+			<div class="pad-left"><dl><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Failed</span></dt><dd>Display test runs that have a status of <span class="app-item">Failed</span>.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Unresolved</span></dt><dd> Display test runs that have a status of <span class="app-item">Unresolved</span>.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Assigned to me</span></dt><dd>Display test runs that have been assigned to the  currently logged in user.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">New issues</span></dt><dd>Display test runs where new issues were reported.	</dd></dl></div></dd></dl></div>
+        <div>
+            <p>In the <span class="app-item">More filters</span> selection box you can choose from the following additional criteria:</p>
+            <dl>
+                <dt><span class="app-item">Assigned to</span>
+                </dt>
+                <dd> You can choose to see test runs that meet one or more of the following options:&#160; 
+					<div class="pad-left"><dl><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Assigned to me</span></dt><dd> The test run has been assigned to the  currently logged in user.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Assigned to anyone.</span></dt><dd> The test run is assigned.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Unassigned</span></dt><dd> The test run is not assigned to anyone.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Assigned to user</span></dt><dd> The test run is assigned to a user(s) selected from the list that appears here.
+				</dd></dl></div></dd>
+                <dt><span class="app-item">Branch</span>
+                </dt>
+                <dd> To see test runs for only specific branches, select the required branches from the list displayed.</dd>
+                <dt><span class="app-item">Browser</span>
+                </dt>
+                <dd> To see only tests that ran on specific types of browsers, select the required browsers from the list displayed.</dd>
+                <dt><span class="app-item"> Issues and remarks</span>
+                </dt>
+                <dd>Use this to  display test runs, where at least one step meets at least one of the selected criteria from the following list:
+				<div class="pad-left"><dl><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Failed issues</span></dt><dd>The test was flagged as <span class="app-item">Failed</span>&#160;by the user.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Has issues</span></dt><dd>  A step is annotated with an issue.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Has remarks</span></dt><dd> A step is annotated with a remark.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">New issues</span></dt><dd>  An issue was added to a step in  this test run (even if not saved).</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">New remarks</span></dt><dd> A remark was added to a step in  this test run.</dd></dl></div></dd>
+                <dt><span class="app-item"> OS</span>
+                </dt>
+                <dd> To see only test runs that ran under specific operating systems, select the relevant operating systems  from the list displayed.</dd>
+                <dt><span class="app-item">Regions</span>
+                </dt>
+                <dt> To see only the test runs whose set of regions where changed in this run (new, adjusted or deleted), select the <span class="app-item">Region changes</span> checkbox.</dt>
+                <dt><span class="app-item">Saved</span>
+                </dt>
+                <dd> To see only test runs in a particular  save state, select one or more of the following options:
+                <div class="pad-left"><dl><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Not modified</span></dt><dd> Nothing in the test run was modified (so there is nothing to save).</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Modified and not saved</span></dt><dd>  The test run was modified (e.g., added annotation, changed accept/reject state, etc.), but it has not been saved yet. </dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Modified and saved</span></dt><dd> The test run  was modified and saved. </dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Saved by me</span></dt><dd>The test run was modified and saved by the currently logged in user.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Saved by ....</span></dt><dd> The test run was modified and saved by a person selected from the list of people shown.</dd></dl></div></dd>
+                <dt><span class="app-item">Starred</span>
+                </dt>
+                <dd> Select to see test runs based on the star status of test and steps (&#160;Starred <span class="inline-img"><img src="../images/star-enabled.png" class="inline-img" /></span> or Unstarred <span class="inline-img"><img src="../images/star-disabled.png" class="inline-img" /></span>). See <MadCap:xref class="link" href="page-test-results/tm-test-result-stars.htm">Test results stars</MadCap:xref> for more information on test and step stars.
+                <div class="pad-left"><dl><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Starred</span></dt><dd> The test has a star, or one or more of its steps have a star. </dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Starred tests</span></dt><dd> The test is starred.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Starred steps</span></dt><dd>One or more steps of the test have a star. </dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Unstarred</span></dt><dd> Neither the test nor any of its steps have a star.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Unstarred tests</span></dt><dd> The test is not starred.</dd><dt><MadCap:snippetText src="../common/filter-option-bullet.flsnp" /><span class="app-item">Unstarred steps</span></dt><dd> None of the steps have a star.</dd></dl></div></dd>
+                <dt><span class="app-item">Step status</span>
+                </dt>
+                <dd> Choose to see tests which include at least one step in one or more states selected from the following possible states : <span class="app-item">Unresolved</span>, <span class="app-item">Accepted</span>, <span class="app-item">Rejected</span>, <span class="app-item">Matching</span>, <span class="app-item">Mismatching</span>, <span class="app-item">Missing</span>, <span class="app-item">New</span>, <span class="app-item">Resolved</span>.</dd>
+                <dt><span class="app-item">Test remarks</span>
+                </dt>
+                <dd> Select if you want to see a test only if it <span class="app-item">Has remarks</span> or<span class="app-item"> Doesn't have remarks</span>.</dd>
+                <dt><span class="app-item">Test status</span>
+                </dt>
+                <dd> Choose to see test runs are  in one of the selected states from the following list: <span class="app-item">Aborted</span>, <span class="app-item">Completed</span>, <span class="app-item">Failed</span>, <span class="app-item">New</span>, <span class="app-item">Passed</span>, <span class="app-item">Running</span>, <span class="app-item">Unresolved</span>. </dd>
+                <dt><span class="app-item">Viewport</span>
+                </dt>
+                <dd>To only see tests that ran with a specific viewport size, select the required size(s) from the list of sizes displayed. </dd>
+            </dl>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1900" MadCap:lastWidth="540">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">branches</h1>
+        <h2 class="title">new view</h2>
+        <p>removed the batch steps by test view</p>
+        <p>can now group the steps by a large variaty of different way - including by tests</p>
+        <p>This is hierarchical</p>
+        <h2 class="title">Branching</h2>
+        <p>why branches ?</p>
+        <p>- multiple application versions (never merge - as if separate applications)</p>
+        <p>- multiple executing environments (staging vs productions)</p>
+        <p>- keeps :master" builds "green"</p>
+        <p>-- feature branches - per developer merge to master when its ready</p>
+        <p>-- repository forks or clones every one has their own master</p>
+        <p>- a branch is a container of baselines</p>
+        <p>-- of any app, test, environment</p>
+        <p>-- of a specific team </p>
+        <p>branch is created</p>
+        <p>- when the test is run and is associated with that branch for the first time</p>
+        <p>- Or when you copy a baseline from one branch to another</p>
+        <p>by default created in the default branch (called default)</p>
+        <p>Associate test with branch by calling setBranchName, defaults to "default"</p>
+        <p>Eyes looks for a baseline in the tests branch,</p>
+        <p>if not found then </p>
+        <p>if defined setParentBranchName search there'</p>
+        <p>else search in default branch <span style="background-color: #ffff00;">(even if the branch was set ??????)</span></p>
+        <p>if not found then the test is considered new</p>
+        <p>Example</p>
+        <p>when tests end it is saved we get a first baseline with revision 1</p>
+        <p>if in the TM&#160;we make a change such as ignore region the revision number is updated</p>
+        <p>run on my-branch can't find - so got to parent - which is default and find the baseline</p>
+        <p>when b(1,3) is saved there is a reference to b(2,1) - <span style="background-color: #ffff00;">auto save works in the same way as today - seems to have said no</span></p>
+        <p>when we add an ignore region, or rerun the test then b(1,4) will be created</p>
+        <p>if on my-branch we create a test without something in the default then it will be created as new on that branch</p>
+        <p>when we create a new revision on the default b(1,5)&#160;there is a change (and potential conflict) with b(1,4)</p>
+        <h3 class="title">merging</h3>
+        <p>source branch and target branch</p>
+        <p>find the baselines in source that are new relative to target e.g. (1,4)&#160;and b(1,2) (test not save or not change won't be merged)</p>
+        <p>a merge can lead to a contradiction, a contradiction is defined as something that our algorithm can't work out for itself <span style="background-color: #ffff00;">(I think he means that the regions don't overlap but he didnt say this yet)</span>. </p>
+        <p>A&#160;merge will not proceed as long as there are any conflicts - this is tested at the point in time when te merge is being done.</p>
+        <p>conflict resolution is done by deciding if you "take the source baseline or the target baseline)</p>
+        <p>@ 43:18 Adam talsk about updating the source (and not the target - why are we intereseted in updating the source if we are merging to the target</p>
+        <p>@49:05 :&#160;question (from demo)&#160;target and source change gie a daa but should also give a time</p>
+        <p>@49:05 why doesnt target change say who the change was made by ?</p>
+        <p>@49:05 Can we know what the changes were ?</p>
+        <p>@52:45 - why is there a conflict and not just two ignore regions ?</p>
+        <p>I&#160;think a report that sqates what the differences are (in the image or or in the annotations)&#160;would make things clearer or rather less reliant on the sharp eyeness of the viewer</p>
+        <p>Couldn't see how he switched between the target and source - could we see them at the same time ?</p>
+        <p>Perhaps need four images source and target, image and baseline - the fact that they are shown in the same way (as two image )&#160;makes it less intuitive what you are seeing</p>
+        <p>can merge changes that were made via he TM&#160;- to merge changes in gthe images - need to rerun the test</p>
+    </body>
+</html>

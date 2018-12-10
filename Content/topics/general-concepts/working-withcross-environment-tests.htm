@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Working  with cross-environment tests</h1>
+        <p>The Eyes cross environment testing feature allows you to test your application on multiple platforms using a single, common baseline. This article explains how to do this in practice.</p>
+        <h2 class="title">Overview</h2>
+        <p>To understand how cross environment testing is done in Eyes, we must first understand two notions:</p>
+        <ul class="bulleted-list">
+            <li>The baseline signature</li>
+            <li>The environment name</li>
+        </ul>
+        <h3 class="title">The baseline signature</h3>
+        <p>The visual testing baseline consists of a set of images that are used as a basis of comparison to images captured during a test. A particular baseline is distinguished from other baselines by two types of information:</p>
+        <ul class="bulleted-list">
+            <li>Its name, which is composed of two parts, the application (app) name and the test name.</li>
+            <li>Its environment – the environment on which the test whose images were used to create the baseline ran. The environment is defined by three properties, the operating system the test ran on, the hosting application (e.g. browser) that ran the test and the viewport size of the application window.</li>
+        </ul>
+        <p>When a specific test is run on multiple platforms, all the platforms will have the same baseline name, but by default, the environment will be specific for each platform since potentially, the precise look and feel of an application can vary depending on the operating system, browser type, and viewport size. The outcome is that there is  a separate baseline for each environment tested.</p>
+        <p>Cross-environment testing provides you with a way to have a single baseline that is used for verifying multiple environments. While having to manage fewer baselines can be convenient, using a single baseline for multiple environments can potentially reduce the accuracy of the testing because the matching algorithm needs to allow for valid differences between the environments.</p>
+        <h3 class="title">The environment name</h3>
+        <p>Eyes provides a way to assign a name to a specific environment. For example, we can give the name “desktop browser” to the environment composed of the Chrome browser, running on Windows 10, in a viewport of 1500 x 960 pixels.</p>
+        <p>Eyes provides an SDK command that allows you to specify that a test should use a baseline that matches a specific named environment, instead of the baseline that matches the test environment. This is the basis for cross-environment tests since it allows you to specify for example that for a given test,  the baseline that matches the “desktop browser” environment should be used for verifying all runs of that test  irrespective of the OS, browser or viewport.</p>
+        <h2 class="title">Running cross-platform tests in practice</h2>
+        <div><span>Visual testing using cross-platform consists of the following steps:</span>
+            <ol class="numbered-list">
+                <li>Planning</li>
+                <li>Setting up the test in the SDK and Test Manager</li>
+                <li>Reviewing and resolving mismatches</li>
+            </ol>
+        </div>
+        <p>Each of these is expanded on in the next sections</p>
+        <h3 class="title">Planning</h3>
+        <p>The first step is to decide what environment will be the “master” environment. The considerations as to which environment to use are dependent on many factors, such as your user base, your toolset and more. Eyes does not have any specific preference as to which platform is used as a master. Let us assume that you have decided that the master will be the “desktop browser” environment we mentioned earlier - Windows 10, Chrome and a viewport size of 1500 x 960.</p>
+        <h3 class="title">Setting up the test</h3>
+        <div><span>The following are the basic steps you need to do when setting up a test to run in a cross-enviroment scenario:</span>
+            <ol class="numbered-list">
+                <li>First, you need to create a baseline for the master environment, which we refer to here as the master baseline. If you have an existing baseline that is suitable then you can use that and you don’t need to run a special test.</li>
+                <li>      Now we need to give the environment used by the baseline a name. One way of doing this is in the Test manager Environment page. Find the row with the OS, Browser, and viewport of the master baseline and in the 4th column with the header “Name” type in the name of your environment. If the name is allready used for a different environment you will get a warning and you can choose to either cancel or to change the environment that the name refers to. For a detailed description of the environment page see <MadCap:xref class="link" href="../test-manager/pages/tm-page-environments.htm">The Environment page</MadCap:xref><img class="block-image" src="images/cross-env-environments-page.png" /></li>
+                <li>Now change your test so that it will run against the master baseline by adding a call to 
+				<MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$setbaselineenvname," /> 
+					before the call to 
+				<MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$open," /> .</li><pre class="mpld-section" data-mpld-dir="HelloWorldEnvironment" data-mpld-file="HelloWorldEnvironment" data-mpld-section="set-baseline-env"></pre>
+                <li>      In most cases, since there since there are substantial visual differences between platforms, you will want to use a matching level of “Layout” by calling/assigning  <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$setmatchlevel," /> specifying the following command before the <MadCap:snippetText src="../../0quickInserts/lookupname.flsnp" MadCap:snippetVariables="MPLD.mpld-lookupname:eyes$open," /> :</li><pre class="mpld-section" data-mpld-dir="HelloWorldEnvironment" data-mpld-file="HelloWorldEnvironment" data-mpld-section="set-matchlevel"></pre>
+                <li>When the test runs in the same environment as the master baseline it is recommended that you use the Strict match level so that you will detect visual regressions that are ignored in the Layout matching level. </li>
+                <li>That’s it!</li>
+            </ol>
+        </div>
+        <h2 class="title">Reviewing and resolving mismatches</h2>
+        <p>After a test runs, if there are any mismatches, you will typically want to review them and decide what action to take. In a cross environment test, you work using all the usual Test manager features. The only difference is that when the test environment is different from the baseline environment you will not be able to update steps in the baseline, or define regions such as ignore or match level. These operations must be done on a test that ran in the same environment as the baseline so that all the images in the baseline, and operations those images, are from the same environment. On environments that are different from the baseline environment, you can still accept and reject steps and tests, and these are persisted, but they impact the status of the test results (passed/failed) and do not update the baseline information. </p>
+        <div><span>The Test manager indicates in various ways that the current test results were run against a baseline with a different environment and that the baseline cannot be updated.</span>
+            <ul class="bulleted-list">
+                <li> In the step editor, above the toolbar, you will see a statement such as
+                    <img class="block-image" src="images/crossenv-editor-title.png" />
+                
+                If you hover your mouse over the blue browser or OS words a popup will display the baseline and checkpoint browser, or the baseline and checkpoint OS respectively.</li>
+                <li>The usual save Icon is replaced with a “can’t save” icon.</li>
+                <img class="block-image" src="images/crossenv-editor-cantsave.png" />
+                
+                This indicates that you can’t update the baseline. If you try to click the button,  the editor will display a more detailed description of why the save can’t be done.
+                <li>In the Test results Batch details and Batch steps view, the steps thumbnails have an icon <span class="inline-img"><img src="images/crossenv-step-thumbnail-cantsave.png"></img></span> that indicates that you can’t update the baseline.
+                    <img class="block-image" src="images/crossenv-stepicon-cantsave.png" /></li></ul>
+        </div>
+        <!--
+        <div class="hidden"><a data-mpld-src="csharp" href="../../example-code/HelloWorldEnvironment/csharp/HelloWorldEnvironment.cs"></a><a data-mpld-src="java" href="../../example-code/HelloWorldEnvironment/java/src/main/java/com/applitools/ekb/HelloWorldEnvironment.java">(linked document is not in XML format)</a><a data-mpld-src="javascript" href="../../example-code/HelloWorldEnvironment/javascript/HelloWorldEnvironment.js"></a>
+        </div>
+-->
+        <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/docs/example-code";
+			var myFile = "HelloWorldEnvironment"; 
+			mpld.setDefaultFile(folder,myFile);
+			mpld.setDefaultLanguages("java,javascript,csharp");
+			mpldLookup.setup(mpld);
+			/*]]>*/
+		</script>
+    </body>
+</html>

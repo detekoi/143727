@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div>
+			You can either delete a single test or delete a number of steps in one go:
+	        <ul class="bulleted-list"><li>To delete a single test run, you can click on the Delete option from the row menu <span class="code"><img src="../common/images/vertical-dot-menu.png" class="inline-img" /></span> of a test run.</li><li>To delete multiple test runs, select the checkboxes of all the test run rows that you want to delete, and then click on the toolbar delete button <img src="../images/generic-delete-button.png" class="keyboard-shortcut" />. You can also first narrow down the list of test results using use the  filter <img src="../images/generic-filter-button.png" class="inline-img" /> , and then use the select all button <img src="../images/generic-select-rows-button.png" class="inline-img" />, followed by the delete button to delete the visible rows. See the article <MadCap:xref class="link" href="../pages/tm-ui-overview.htm#Select-Deselect"> Select/Deselect all visible rows</MadCap:xref> for some other tips on using the filter and select buttons efficiently.</li></ul></div>
+    </body>
+</html>

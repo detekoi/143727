@@ -1,0 +1,24 @@
+@import "variables";
+
+.navbar-underline {
+  &:before {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    height: 0;
+    opacity: 0;
+
+    background: $c-accent-2;
+    transition: height .2s, opacity .2s, background .2s;
+  }
+
+  &:hover {
+    &:before {
+      height: 4px;
+      opacity: 1;
+    }
+  }
+}

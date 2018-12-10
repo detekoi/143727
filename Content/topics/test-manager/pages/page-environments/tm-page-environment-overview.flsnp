@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body><span>
+					This page allows you to see all the different <MadCap:glossaryTerm glossTerm="EyesTerms.Term8">execution environments</MadCap:glossaryTerm> under which visual UI tests were run by your team. This page also provides a way to assign a name to a specific environment and to rename or delete existing names.</span>
+    </body>
+</html>

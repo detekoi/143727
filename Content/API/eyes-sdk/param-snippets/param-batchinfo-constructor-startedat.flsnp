@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>
+            <MadCap:snippetText src="param-batchinfo-startedat.flsnp" /> If the parameter is not passed then the run time will be the time at which the constructor was called.</p>
+    </body>
+</html>

@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link rel="stylesheet" href="/docs/Resources2/Stylesheets/mpld.css" />
+    </head>
+    <body>
+        <h1 class="title"><a name="top"></a>
+				Walkthrough : Running a visual UI test and reviewing test results
+			</h1>
+        <p>This article will give you hands-on experience of using Eyes by walking you through an example of writing and running a visual UI test using Selenium and the Eyes SDK and reviewing test results using the Eyes Test Manager. The main steps of the workflow that the article covers are:</p>
+        <ul class="bulleted-list">
+            <li><a class="link" href="#Building">
+				Setting up the test execution environment
+			</a>
+            </li>
+            <li><a class="link" href="#Running">
+				Running a test for the first time
+			</a>
+            </li>
+            <li><a class="link" href="#The">
+				Reviewing the results of a second test run
+			</a>
+            </li>
+            <li><a class="link" href="#Creating">
+				Creating a batch of two test results
+			</a>
+            </li>
+            <li><a class="link" href="#Introduc">
+				Adding some differences to a test
+			</a>
+            </li>
+            <li><a class="link" href="#Running2">
+				Running the tests with the differences
+			</a>
+            </li>
+            <li><a class="link" href="#Resolvin">
+				Resolving the differences in test results
+			</a>
+            </li>
+            <li><a class="link" href="#Running3">
+				Running the test against the updated baseline
+			</a>
+            </li>
+            <li><a class="link" href="#Using">
+				Using the Test Editor to investigate and resolve differences
+			</a>
+            </li>
+        </ul>
+        <h2 class="title">The Hello World web page</h2>
+        <p>
+				The test we're going to run executes a visual UI test on an example web page created 	by
+				<MadCap:variable name="General.CompanyName" />
+				If you surf to
+				<a class="link" href="[%=sitespecific.HelloWorld2Site%]" target="_blank">[%=sitespecific.HelloWorld2Site%]</a>
+				you will see the following screen:
+			</p><a data-lightbox="img3" href="../../Resources2/Images/examples/hello-world-2-screen-1.png"><img class="block-image" src="../../Resources2/Images/examples/hello-world-2-screen-1.png" /></a>
+        <p>Enter your name in the text field, and then click the button that says "Click me".</p>
+        <p>The screen will now look like this:</p><a data-lightbox="img4" href="../../Resources2/Images/examples/hello-world-2-screen-2.png"><img class="block-image" src="../../Resources2/Images/examples/hello-world-2-screen-2.png" /> </a>
+        <h2 class="title">Let's automate it!</h2>
+        <p>The test code we're going to write will do exactly what you just did, but will also take screenshots after each keyboard or mouse event so that we can visually validate them to ensure that the result is consistent every time we run the test.</p>
+        <p>Here is an outline of what the test code does:</p>
+        <ol class="numbered-list">
+            <li>Open the web page</li>
+            <li>Take an initial screenshot</li>
+            <li>Enter some text</li>
+            <li>Take a screenshot after the text is entered</li>
+            <li>Click the button</li>
+            <li>Take a screenshot after the click</li>
+        </ol>
+        <p>Our program will run this test twice,  once with a viewport size of 1024 x 768 and a second time with a viewport size of 500 x 900.</p>
+        <p>
+				This example is an extended version of the example used in  the overview article
+				<a class="link" href="overview-writing-tests-with-eyes.htm">Writing tests with the Eyes SDK</a>
+				. Since the code is very similar, we won't explain the code here.
+			</p>
+        <h2 class="title"><a name="Building"></a>
+				Setting up the test execution environment
+			</h2>
+        <p>To run these test you will need:</p>
+        <ul class="bulleted-list">
+            <li>An Aplitools Eyes API key</li>
+            <li>A Chrome Driver</li>
+            <li> The <MadCap:variable name="General.ProductClientAPI" /></li>
+            <li>The Example code</li>
+        </ul>
+        <h3 class="title">Obtain your API key</h3>
+        <p>
+				In order to execute visual UI tests, you must obtain an API key that identifies your account and provides you with test execution permissions. If you don’t have an Applitools account yet or if you don’t know how to obtain your API key, follow the instructions in the article
+				<a class="link" href="obtain-api-key.htm">How to obtain your API&#160;key</a>
+				.<![CDATA[		]]></p>
+        <h3 class="title">Getting the Chrome Driver</h3>
+        <p>
+				In order to run the test you will need a chrome browser and the chrome webdriver. To obtain these, follow the instruction here
+				<a class="link" href="https://sites.google.com/a/chromium.org/chromedriver/getting-started" target="_blank">https://sites.google.com/a/chromium.org/chromedriver/getting-started</a>
+				. Make sure you install the webdriver in a folder that appears in your PATH environment.
+			</p>
+        <h3 class="title">Getting the SDK</h3>
+        <p>You will need the Eyes SDK for the programing language of your choice:</p>
+        <MadCap:snippetBlock src="getting-the-sdk.flsnp" />
+        <h3 class="title">Getting the code</h3>
+        <p>Copy the code below, in your preferred language into a file of the appropriate type.</p><pre class="mpld-section" data-mpld-section="eyes-helloworld2-all"></pre>
+        <h3 class="title">Customizing the code</h3>
+        <p>If you have a dedicated site then make the change described below:</p><pre class="mpld-section" data-mpld-section="eyes-helloworld2-server-url"></pre>
+        <h2 class="title"><a name="Running"></a>
+				Running a test for the first time
+			</h2>
+        <p>Now let's run the test for the first time. After you start running the test in your IDE or console, a browser will open, and you will see it changing its size twice - once for each viewport size. After the test completes you should see on your run time console output similar to this:</p><pre xml:space="preserve" class="ekb-console-output"><code class="hljs nohighlight">
+New Baseline Created: 3 steps
+results at https://eyes.applitools.com/app/batches/00000251885689413314/00000251885689412658?accountId=mvdQ30vIlkiU8F-usoJS4w~~
+New Baseline Created: 3 steps
+results at https://eyes.applitools.com/app/batches/00000251885689375737/00000251885689375389?accountId=mvdQ30vIlkiU8F-usoJS4w~~
+</code></pre>
+        <p>If you see "All steps passed" or "Test Failed" instead of "New Baseline Created", then this means that a baseline already exists for this test and application name. This may be because you, or someone else from your team, ran this example previously. To fix this, change the test name to something unique by editing the following line which appears near the top of the code.</p><pre class="mpld-section" data-mpld-section="eyes-helloworld2-testname"></pre>
+        <p>
+				Run the test again and when you see the "New Baseline Created" on the console,  copy the first URL from the console and paste it into a browser.  The Test Manager will start up with the test already loaded (you might need to log in first). Alternatively, if the test manager is not yet open in a browser, type the URL
+				<a class="link" href="https://applitools.com/users/login" target="_blank">https://applitools.com/users/login</a>
+				into your browser, log in, and the Test Manager will start. If the Test Manager is already open before running the test click the 'update batch button'
+				<img class="inline-img" src="../../Resources2/Images/applitools/batch-update-button.png" />
+				to see the new test results.
+			</p>
+        <p>
+				In the Batch entries list on the left, you  should see two batch entries - one for each test in this test run  Click on the first entry, click the "test details view" icon
+				<img class="inline-img" src="../../Resources2/Images/applitools/batch-view-test-details.png" />
+				, and you will see a row with the test name:
+			</p><a data-lightbox="img5" href="../../Resources2/Images/helloworld2/after-run-1-closed.png"><img class="block-image" src="../../Resources2/Images/helloworld2/after-run-1-closed.png" /></a>
+        <p>Click on  the test name, and the Test Manager will display the steps of the test.</p><a data-lightbox="img6" href="../../Resources2/Images/helloworld2/after-run-1-open.png"><img class="block-image" src="../../Resources2/Images/helloworld2/after-run-1-open.png" /></a>
+        <p>
+				Note that the batch has a status of
+				<img class="inline-img" src="../../Resources2/Images/applitools/batch-status-002-passed.PNG" />
+				,
+				the test has a status of
+				<img class="inline-img" src="../../Resources2/Images/applitools/test-status-01-new.PNG" />
+				, and all three steps have a new step
+				
+				icon and "Accepted"
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-thumbs_up.png" />
+				icon in the top left corner. This is what we expect. The test and steps are marked as new since there was no existing baseline for this test, and Eyes has automatically accepted all the steps and saved the baseline.
+			</p>
+        <h2 class="title"><a name="The"></a>
+				Reviewing the results of a second test run
+			</h2>
+        <p>Now run the test again. This time you should see something like this on the console:</p><pre class="ekb-console-output"><code class="hljs nohighlight">All steps passed:     3 steps
+results at https://eyes.applitools.com/app/batches/00000251885688837901/00000251885688837518?accountId=mvdQ30vIlkiU8F-usoJS4w~~
+All steps passed:     3 steps
+results at https://eyes.applitools.com/app/batches/00000251885688825008/00000251885688824836?accountId=mvdQ30vIlkiU8F-usoJS4w~~</code></pre>
+        <p>
+				Press the 'update batch' button
+				<img class="inline-img" src="../../Resources2/Images/applitools/batch-update-button.png" />
+				in the Test Manager, and the steps of the test should look like the screenshot below.
+			</p><a data-lightbox="img8" href="../../Resources2/Images/helloworld2/after-run-2.png"><img class="block-image" src="../../Resources2/Images/helloworld2/after-run-2.png" /></a>
+        <p>
+				Note that the batch and test status have a value of "Passed" and that all the steps have the matched icon
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-same.png" />
+				in the top left corner of the step image, indicating that checkpoint image matched the baseline image. This time, however, there is no default "Accepted"  icon
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-thumbs_up.png" />
+				. Apart from the first run, this icon will only be displayed for a step after you explicitly accept that step.
+			</p>
+        <h2 class="title"><a name="Creating"></a>
+				Creating a batch of two test results
+			</h2>
+        <p>Till now,  the two test runs appeared in the Test Manager as two separate entities in the batch list. The runs are actually the same test (the same sequence of events) that was run twice with a different viewport size each time, so it makes sense to batch them together. To do this, change your code as instructed below:</p><pre class="mpld-section" data-mpld-section="eyes-helloworld2-batch"></pre>
+        <p>Now if we run the test again and look at the Test Manager we will see a single entry "Hello World 2 Batch", and there are two test results (two rows) on the main panel. If you look at the "Viewport" column, you can see the viewport that was used in each  run.</p><a data-lightbox="img9" href="../../Resources2/Images/helloworld2/after-batch-closed.png"><img class="block-image" src="../../Resources2/Images/helloworld2/after-batch-closed.png" /></a>
+        <h2 class="title"><a name="Introduc"></a>
+				Adding some differences to a test
+			</h2>
+        <p>Now let's change the test so that there will be some differences for Eyes to discover. We'll do this in a few ways in order to demonstrate the three basic types of mismatches that Eyes can detect.</p>
+        <ol class="numbered-list">
+            <li>We'll change the graphic look of the application by adding "?diff2" to the website URL - this is just a trick in the web application that forces it to produce some changes for this demo.</li>
+            <li>We'll remove the first checkpoint from the code.</li>
+            <li>We'll add an additional checkpoint after the last checkpoint of the test.</li>
+        </ol>
+        <p>
+				In the code sample, there is a function called
+				<code><span>test01Changed()</span></code>
+				that implements these differences. Change the value of the flag in your code as described in the comment below, so that the changed version of the function will be executed instead of the original function.
+			</p><pre class="mpld-section" data-mpld-section="eyes-helloworld2-change"></pre>
+        <h2 class="title"><a name="Running2"></a>
+				Running the tests with the differences
+			</h2>
+        <p>
+				Now run the test again. This time we will see in the console the following lines that
+				<MadCap:variable name="General.ProductName" />
+				indicate that Eyes has detected four failed steps:
+			</p><pre xml:space="preserve" class="ekb-console-output"> <code class="hljs nohighlight">
+Test Failed: 4 steps, matches=0 missing=1 mismatches=3 
+results at https://eyes.applitools.com/app/batches/00000251889993686590/00000251889993686356?accountId=mvdQ30vIlkiU8F-usoJS4w~~
+Test Failed: 4 steps, matches=0 missing=1 mismatches=3 
+results at https://eyes.applitools.com/app/batches/00000251889993671516/00000251889993671329?accountId=mvdQ30vIlkiU8F-usoJS4w~~
+			</code></pre>
+        <p>
+				In the
+				<MadCap:variable name="General.ProductUI" />
+				, after pressing the 'update batch button',
+				<img class="inline-img" src="../../Resources2/Images/applitools/batch-update-button.png" />
+				, we will see the single batch entry with the
+			<img class="inline-img" src="../../Resources2/Images/applitools/batch-status-001-unresolved.PNG" />
+				status. Click on it, and you will see the two test results in the main panel, both with the
+			<img class="inline-img" src="../../Resources2/Images/applitools/test-status-04-unresolved.PNG" />
+				status. Click on the first test so that it expands to show all of its steps. The screenshot below shows what you should see.
+			</p><a data-lightbox="img11" href="../../Resources2/Images/helloworld2/after-changes.png"><img class="block-image" src="../../Resources2/Images/helloworld2/after-changes.png" /></a>
+        <p>
+				The first step has a "missing step"
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-missing.png" />
+				icon in the top-left corner since we skipped the first checkpoint. The second and third steps have a "mismatch"
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-diff.png" />
+				icon caused by differences in the output which we forced by adding the "?diff2" to the URL. The fourth step has a "new step"
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-new-orange.png" />
+				icon because of the extra checkpoint that we added at the end of the test.
+			</p>
+        <h2 class="title"><a name="Resolvin"></a>
+				Resolving the differences in test results
+			</h2>
+        <p>
+				Since Eyes has found differences, the next step is to "resolve" them. As a minimum, resolving the steps means going through each step that is in an "unresolved" (orange) state and either accepting it or rejecting it. Accepting a step means that the step is considered as having passed the check. In the case of a mismatch
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-diff.png" />
+				or new checkpoint
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-new-orange.png" />
+				, the accept also means that the baseline should be updated from the checkpoint image. In the case where a checkpoint is marked as missing
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-missing.png" />
+				, accepting the step means that baseline image should be removed from the sequence of images. Rejecting a step means that the step has failed the check; the baseline image will either remain as is. See the article
+				<a class="link" href="overview-reviewing-test-results.htm">Reviewing test results and updating the baseline</a>
+				for a full description of what Eyes does when you accept and reject steps.
+			</p>
+        <p>For the purposes of our demonstration let's accept all the steps in the first test (with the viewport of 1024x768) and reject all the steps in the second test (with the viewport of 500x900).</p>
+        <p>When you place your cursor over the step thumbnail, a toolbar will be displayed as below.</p><a data-lightbox="img12" href="../../Resources2/Images/applitools/accept-reject-in-step-thumbnail_diffs.png"><img class="block-image" src="../../Resources2/Images/applitools/accept-reject-in-step-thumbnail_diffs.png" /></a>
+        <p>
+				Press the
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-thumbs_up.png" />
+				button to accept the step and the
+				<img class="inline-img" src="../../Resources2/Images/applitools/step-thumbs-down.png" />
+				button to reject the step.
+			</p>
+        <p>Some things to note:</p>
+        <ol class="numbered-list">
+            <li>As long as any step in a test is in an "unresolved" (orange) state, the test and batch state will be Unresolved.</li>
+            <li>Once all the steps of a test have been accepted or rejected the test status will have a status of "Passed" with a check mark if all the steps passed or "Failed" with a check mark if one or more steps are marked as failed. The batch status is Failed since one of the tests failed.</li>
+            <li>Both the test passed and the test failed status have a "diffs" status to indicate that differences were found in at least one step.</li>
+            <div><a data-lightbox="img13" href="../../Resources2/Images/applitools/test-status-11-passed-diffs-checked.png"><img class="block-image" src="../../Resources2/Images/applitools/test-status-11-passed-diffs-checked.png" /></a><a data-lightbox="img14" href="../../Resources2/Images/applitools/test-status-05-failed-diffs-checked.PNG"><img class="block-image" src="../../Resources2/Images/applitools/test-status-05-failed-diffs-checked.PNG" /></a>
+            </div>
+            <li>There are various indication on the screen that signal that you have made changes to the baseline and that these changes need to be saved. These are marked by the green arrows in the screen image below:</li><a data-lightbox="img15" href="../../Resources2/Images/test-manager-screenshots/tm_need_to_save.png"><img class="block-image" src="../../Resources2/Images/test-manager-screenshots/tm_need_to_save.png" /></a>
+        </ol>
+        <p>Note the green arrows that show some of the places where the need to save is signaled.</p>
+        <p>
+				Press the Save baseline button
+				<img class="inline-img" src="../../Resources2/Images/applitools/save-button-closeup.png" />
+				and note the changes in the saved status.
+			</p>
+        <h2 class="title"><a name="Running3"></a>
+				Running the test against the updated baseline
+			</h2>
+        <p>
+				If you run the test again, then the second test will fail as it did previously. This is what we expect since we rejected all the steps, so the baseline was not updated and therefor
+				<MadCap:variable name="General.ProductName" />
+				found the same mismatches.
+			</p>
+        <p>Examining the results of the first test, we can see that there are now only three steps instead of four. Eyes has not displayed a step  that signaled a missing checkpoint, since we accepted the missing checkpoint. The last step is no longer marked as "new" since we accepted it. However, the second and third test are still showing one difference.</p><a data-lightbox="img16" href="../../Resources2/Images/helloworld2/run-again-after-accept-reject.png"><img class="block-image" src="../../Resources2/Images/helloworld2/run-again-after-accept-reject.png" /></a>
+        <p>In the next section, we will look at some additional tools that Eyes provides to investigate and resolve these differences.</p>
+        <h2 class="title"><a name="Using"></a>
+				Using the Test Editor to investigate and resolve differences
+			</h2>
+        <p>
+				Click on the thumbnail of the second step of the first test (1024 x 768) and the Test Manager will open the "Test Editor". We will only describe here briefly a few of the basic functions available in this screen.
+				<span class="tbd">
+					For a full description see
+					<a class="link" href="../../2_ToDo/_tm-test-editor.htm">Test Editor overview</a>
+					.
+				</span></p>
+        <p>The Test Editor displays, and provides operations on, a single step of a test  at a time. It also provides a way to move the display to other steps in the test (described further on below).</p>
+        <h3 class="title">Viewing the checkpoint or baseline image</h3>
+        <p>
+				The Test Editor can display either the checkpoint image of the step or the baseline image  or both images side by side. Use the image toggle control
+				<img class="inline-img" src="../../Resources2/Images/test-editor/test-editor-toggle-image.png" />
+				to choose between these views by clicking on the triangle on the right of the control and selecting the view you want. You can also press the
+				<span class="keyboard-shortcut">T</span>
+				button to toggle between the checkpoint and baseline images.
+			</p><a data-lightbox="img17" href="../../Resources2/Images/test-editor/test-editor-toggle-image-with-menu.png"><img class="block-image" src="../../Resources2/Images/test-editor/test-editor-toggle-image-with-menu.png" /></a>
+        <h3 class="title">Identifying the differences</h3>
+        <p>There are several ways to make the differences in a step standout:</p>
+        <ol class="numbered-list">
+            <li>If the “diffs” layer is enabled, then the impacted pixels are colored in pink.</li><a data-lightbox="img18" href="../../Resources2/Images/test-editor/test-editor-diffs_marked_pink.png"><img class="block-image" src="../../Resources2/Images/test-editor/test-editor-diffs_marked_pink.png" /></a>
+            <p>
+					If the pinks areas are not visible, then you can enable them by enabling "Diffs" in the select visible layers control
+			<img class="inline-img" src="../../Resources2/Images/test-editor/test-editor-select-visible-layers-button.png" />.</p><a data-lightbox="img19" href="../../Resources2/Images/test-editor/test-editor-select-visible-layers-button-and-menu.png"><img class="block-image" src="../../Resources2/Images/test-editor/test-editor-select-visible-layers-button-and-menu.png" /></a>
+            <li>
+					If you press the “Highlight differences” control
+					<img class="inline-img" src="../../Resources2/Images/test-editor/test-editor-highlight-differences-button.png" />
+					, then the Test Manager will draw animated circles in the area with the diffs of the checkpoint image.
+				</li>
+            <li>
+					You can use the zoom in on next
+					<img class="inline-img" src="../../Resources2/Images/test-editor/test-editor-zoomin-next-diff-button.png" />
+					or previous
+					<img class="inline-img" src="../../Resources2/Images/test-editor/test-editor-zoomin-prev-diff-button.png" />
+					differences controls  to zoom the display to the next or previous mismatch area. You can do the same thing by using the shortcut keys
+					<span class="keyboard-shortcut">&lt;</span>
+					and
+					<span class="keyboard-shortcut">&gt;</span>
+					(without pressing shift so the actually keys are
+					<span class="keyboard-shortcut">,</span>
+					and
+					<span class="keyboard-shortcut">.</span>
+					but the arrow keys are easier to remember).
+				</li>
+            <li>
+					Some types of differences can easily be noticed if you toggle quickly and repeatedly between the checkpoint and baseline images (very convenient to do with the
+					<span class="keyboard-shortcut">T</span>
+					key).
+				</li>
+        </ol>
+        <p>Looking at the diffs found in steps two and three of the first test result you will see that they are caused by a text area that displays the time of day, which is different on every run, so Eyes detected a mismatch.</p>
+        <p>Eyes provides several ways to handle this situation. We will describe two of these in the next section.</p>
+        <h3 class="title">Ignoring dynamic data in application pages</h3>
+        <p>
+				The test manager provides a tool you can use to mark a region on the checkpoint and baseline image and to indicate how that area should be processed when comparing the two images. When you apply the region, you can immediately see the way that it impacts the differences on the results. When you save the baseline, these regions are saved in the context of the baseline and
+				<MadCap:variable name="General.ProductName" />
+				will apply the special processing to those regions in future test runs.
+			</p>
+        <p>We will demonstrate two options that will help us solve the mismatches found because of the dynamic time field in the second and third step.</p>
+        <p>
+				In the Test Editor, press the Add region button
+				<img class="inline-img" src="../../Resources2/Images/applitools/add-region-button.png" />
+				. A crosshair will appear on the screen, put your mouse at the top left of the text field with the time, click and drag the mouse to the bottom right of the text field and then release the mouse. Click the rectangular region that you just added, and you should see the following:
+			</p>
+        <p><a data-lightbox="img20" href="../../Resources2/Images/applitools/add-region-rectangle-clicked.png"><img class="block-image" src="../../Resources2/Images/applitools/add-region-rectangle-clicked.png" /></a>
+        </p>
+        <p>If the text to the right of the rectangle does not say "Ignore", then click on the triangle and select the ignore option.</p><a data-lightbox="img21" href="../../Resources2/Images/test-editor/test-editor-select-region-type.png"><img class="block-image" src="../../Resources2/Images/test-editor/test-editor-select-region-type.png" /></a>
+        <p>
+				You have now told Eyes that this area should be ignored when the images are compared in future test runs. You can see that the pixels that were previously highlighted in pink, are no longer highlighted. The request to ignore these areas will apply to all future tests after you click the save button. (Typically you press Save only when you finish all of you reviewing, otherwise you will impact tests that run in the meantime. Changes you made are persisted when you make them, not when you press save).
+			</p>
+        <p>
+				Press the reject button
+				<img class="inline-img" src="../../Resources2/Images/test-editor/test-editor-reject-button.png" />
+				(we don't want to change the baseline image), this does the usual reject action and also moves the Test Editor to the next (third) step.
+			</p>
+        <p>
+				In the third step, add another region in the same place as in the second step, but this time instead of defining an "Ignore" region  define a  "Layout" region. This tells
+				<MadCap:variable name="General.ProductName" />
+				that it should check that the text field is there and in the correct position and layout, but that it ignores the actual text.
+			</p>
+        <p>
+				Reject this step as well - Hint: you can use the shortcut
+				<span class="keyboard-shortcut">R</span>
+				key to do this (the
+				<span class="keyboard-shortcut">A</span>
+				key is used to accept the step).
+			</p>
+        <p>
+				Finally,  click the save button
+				<img class="inline-img" src="../../Resources2/Images/test-editor/test-editor-save-button.png" />
+				to save all the changes to the baseline and to return to the Test Manager.
+			</p>
+        <p>Now run the test again, and all the steps in the first test should now have a matched status. The second test will have the status as in the previous runs.</p>
+        <p>Note that the batch status is Unresolved since we have not yet resolved the second test - if you like, go ahead and resolve it the same way we resolved the first test.</p>
+        <h2 class="title"><a name="Moving"></a>
+				Moving to other steps in the test
+			</h2>
+        <p>
+				We've already described how when you click accept or reject in the test editor you will automatically be taken to the next step in the test. You can also move from test to test using the  time line displayed at the bottom of the test editor screen. On the time line, each step is represented by a small rectangle whose color indicates the state of the step (
+				<span style="color: #ffd700;">unresolved</span>
+				,
+				<span style="color: #00ff00;">accepted</span>
+				or
+				<span style="color: #ff4500;">rejected</span>
+				). You can click on any rectangle to view that step. You can also use the time line controls to the left of the time line , to jump to the  previous step, next step, previous unresolved step or next unresolved steps.
+			</p>
+        <p><a data-lightbox="img22" href="../../Resources2/Images/test-editor/test-editor-step-playback-control.png"><img class="block-image" src="../../Resources2/Images/test-editor/test-editor-step-playback-control.png" /></a>
+        </p>
+        <p>The play button plays simulates the test run by displaying all of the steps one after the other along with the user mouse and keyboard interactions that were made during the test.</p>
+        <h3 class="title">Keyboard shortcuts</h3>
+        <p>
+				We've mentioned several keyboard shortcuts that can help you work efficiently in Test Manager. To see all the available shortcuts press
+				<span class="keyboard-shortcut">?</span>
+				in one of the Test Manager screens.
+			</p>
+        <h2 class="title">Summary</h2>
+        <p>Congratulations! You now know how to:</p>
+        <ul class="bulleted-list">
+            <li>Run tests written with the Eyes SDK.</li>
+            <li>Batch multiple tests together.</li>
+            <li>Identify the three different types of mismatches.</li>
+            <li>Use the Test Editor to investigate and resolve the mismatches in a step., and to move from one step to another</li>
+            <li>Use “ignore” and “Layout” regions to prevent false diffs due to dynamic data</li>
+        </ul>
+        <script src="/docs/scripts/mpld.js">
+        </script>
+        <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/docs/example-code";
+			var myFile = "HelloWorld2"; 
+			mpld.setDefaultFile(folder,myFile);
+			/* data-mpld-lang, 	button name, 	sub folder name , 							file suffix */
+			mpld.addLanguage( "java",				"Java",			"java/src/main/java/com/applitools/ekb","	.java");
+			mpld.addLanguage("javascript",			"Javascript",	"javascript",								".js");
+			mpld.addLanguage("ruby",		 	    "Ruby",	        "ruby",							        	".rb");
+			mpld.addLanguage("python",		 	    "Python",	    "python",							        ".py");
+			mpld.addLanguage("csharp",		 	    "C#",	  		"csharp",							        ".cs");
+			mpld.addLanguage("php",		 	   		"PHP",	    	"PHP",							       		".php");
+		/*]]>*/</script>
+    </body>
+</html>

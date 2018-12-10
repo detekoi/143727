@@ -1,0 +1,135 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Applitools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="hellohorldhomdiffs.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<!-
+differences to show
+1) change in tag name - change button to link
+2) change in attribute - change class name that changes font size of Welcome to your first Applitools Eyes test!!! 
+3) change in element path - same as 7
+4) change in bounding box - same as 2
+5) change in CSS - same as 2
+6) change due to inline styles - same as 7
+7) change in text - change text of Enter your name, put in span and make it bold
+-->
+<body>
+    <div class="demo-page center">
+        <div class="section">
+            <div class="fancy title primary">
+                <span style="color:#ff0000;">H</span><span style="color:#ff4000;">e</span><span style="color:#ff7f00;">l</span><span style="color:#ffbf00;">l</span><span style="color:#ffff00;">o</span><span style="color:#00ff00;"> </span><span style="color:#00ff80;">w</span><span style="color:#00ffff;">o</span><span style="color:#0080ff;">r</span><span style="color:#0000ff;">l</span><span style="color:#4600ff;">d</span><span style="color:#8b00ff;">!</span>
+            </div>
+            <div class="fancy title diff2">
+                <span style="color:#8b00ff;">H</span><span style="color:#4600ff;">e</span><span style="color:#0000ff;">l</span><span style="color:#0080ff;">l</span><span style="color:#00ffff;">o</span><span style="color:#00ff80;"> </span><span style="color:#00ff00;">w</span><span style="color:#ffff00;">o</span><span style="color:#ffbf00;">r</span><span style="color:#ff7f00;">l</span><span style="color:#ff4000;">d</span><span style="color:#ff0000;">!</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <p id="welcome">Welcome to your first Applitools Eyes test!!!</p>
+
+            <p style="margin-bottom: 0;">
+                Add <a href="https://applitools.com/helloworld?diff1">?diff1</a> to the end of the url to make the time field below dynamic (time)
+                random.
+            </p>
+            <p>Add <a href="https://applitools.com/helloworld?diff2">?diff2</a> to the end of the url to simulate additional differences.</p>
+
+            <p>
+                <span class="primary">HH:MM:SS.sss</span>
+                <span class="diff1 diff2 random-value">HH:MM:SS.sss</span>
+            </p>
+        </div>
+
+        <div id="enter-name-section" class="section enter-name-section">
+            Enter Your Name : <input id="name" type="text" name="name"><br>
+        </div>
+
+        <div id="button-id" class="section button-section">
+            <button >Click me!</button>
+        </div>
+        
+        <div class="section hidden-section image-section">
+            <p id="dest"> </p>
+
+            <img class="primary" src="./image_1.jpg">
+            <img class="primary diff1" src="./image_1.jpg">
+            <img class="diff2" src="./image_2.jpg">
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+
+        function rmScript(text) {
+            var SCRIPT_REGEX = /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi;
+            while (SCRIPT_REGEX.test(text)) {
+                text = text.replace(SCRIPT_REGEX, "");
+            }
+            return text;
+        }
+
+        var hiddenEl = document.querySelector(".hidden-section");
+        var randomEl = document.querySelector(".random-value");
+        var time;
+        var d ;
+
+        //randomEl.innerHTML = (Math.random() * (999999 - 100000) + 100000) >> 0;
+
+        if (~window.location.href.indexOf("diff1")) {
+            document.querySelector(".demo-page").classList.add("diff1");
+        }
+        else if (~window.location.href.indexOf("diff2")) {
+            document.querySelector(".demo-page").classList.add("diff2");
+        } else if (~window.location.href.indexOf("diff3")) {
+            var d;
+            // dom diff change 2,4,5
+            d = document.querySelector("#welcome");
+            d.classList.add("larger")
+            
+            //dom 3,6,7
+            d = document.querySelector("#enter-name-section");
+            d.innerHTML = "Please " + d.innerHTML;
+            d.style.color = "#0000FF";
+
+            // dom change 1
+            d = document.querySelector("#button-id");
+            d.innerHTML = '<a  href="javascript:myHandler()">Please click me!</a>'
+
+        } else {
+            d = document.querySelector("#welcome");
+            d.classList.add("smaller")
+        }
+
+        document.querySelector("#button").addEventListener("click", clickHandler)
+
+        function clickHandler(e) {
+            var $name = $("#name");
+            var value = rmScript($name[0].value);
+            if (/^[ \t]*$/.test(value)) {
+                value = " PLEASE ENTER YOUR NAME";
+            } else {
+                value = "Hi There  " + $name[0].value;
+            }
+            d = new Date();
+            time = d.getHours()+":"+d.getMinutes()+":"+d.getSeconds()+"."+d.getMilliseconds();
+            randomEl.innerHTML = time;
+            document.querySelector("#dest").innerHTML = value;
+
+            if (hiddenEl.classList.contains("hidden-section")) {
+                hiddenEl.classList.remove("hidden-section");
+            }
+            else {
+                hiddenEl.classList.add("hidden-section");
+
+            }
+        }
+    </script>
+
+</body>
+</html>

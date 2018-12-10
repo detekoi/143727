@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+		<h1 class="title">How to organize your tests with batches</h1>
+		<p>Eyes&#160;allows you to group multiple tests into a unit called a “batch”. Batching tests together can make analysis and management of your test results easier and more convenient by adding a level of organization to your test results. Eyes also has features that operate on the tests in a batch as a whole, such as filtering, deletion, and grouping by similarity.
+		<span class="tbd"><MadCap:snippetText src="../../0quickInserts/_for-more-info.flsnp" /><a class="link" href="../../2_ToDo/_2test-manager-batch-commands.htm">test-manager-batch-commands</a>.</span></p>
+		<p>You use the&#160;Eyes SDK&#160;to associate tests with a batch when the test is run. After the tests run, you can use the&#160;Eyes Test Manager&#160;to search for and select the batch you are interested in and see the results of all the tests as a unit. You can view the results in various ways, ranging from a detailed report of every test to a view that gathers all the steps together irrespective of the ways the individual tests were structured and run.</p>
+		<p>The Eyes Test Manager displays batch information as follows: </p>
+		<p>The Test Manager window is divided into two main parts. The left panel displays a Batch List which lists your Teams batches. There are tools to search and filter the batch list and to delete batches from the list. Clicking on an entry in the batch list makes it the “current batch”. </p>
+		<p>The panel on the right shows information about the current batch. At the top, of the panel, there is summary information about the batch as a whole, and underneath that, you can choose what Test Manager should display in the main panel. You can choose between various available views that focus on the batch summary, tests, steps,  or remarks and issues as well as filter by various criteria. <span class="tbd"><MadCap:snippetText src="../../0quickInserts/_for-more-info.flsnp" /><a class="link" href="../test-manager/pages/tm-page-test-results-views.htm">
+		Test Manager Views</a>.</span><![CDATA[  ]]></p>
+		<p>The main part of the left panel is a scrollable list of batch entries. Initially, 30 entries are displayed, if you scroll down to the end of the list, then you get access to older batches. When you click on any element in this scrollable list Test Manager loads the information about that batch into the right panel. Each entry in the list displays the name of the batch, when the first test in the batch ran, and a summary of the test status. It also shows if the test information has been changed and not saved. </p>
+		<p>Above the Batch list, Test Manager displays the number of batches currently displayed in the batch list. It also displays a “Load latest batches” icon which will flash if new batches are available that are not yet in the list. Clicking on this button will update the list with the latest batches.&#160; There are additional controls that allow you to filter the batches in the batch list and to delete selected batches.</p>
+		<p>You can drag the right edge of the batch list to the right to enlarge it if your batch names are large. The panel is extended when your cursor is hovering over the batch list.</p>
+		<p>You can read more about batch related features in the following articles:</p>
+		<ul class="bulleted-list">
+			<li><a class="link" href="how-to-group-tests-into-batches.htm">How to group tests into batches using the SDK</a>.
+			<span>This article describes how to use command in the Eyes SDK to define that multiple tests should be assigned to the same batch.</span></li>
+			<li><a class="link" href="understanding-the-batch-status.htm">Understanding the batch status.</a>.<span>This article describes the various values that the Test Manager displays as the batch status and what they mean.</span></li>
+			<li><a class="link" href="how-to-filter-and-search-batches.htm">How to filter and search batches</a>.<span>This article describes how to use the Test Manager to look for particular batches based on criteria you choose such as its name or status.</span></li>
+			<li><a class="link" href="how-to-rename-a-batch.htm">How to rename a batch</a>.<span> This article describes how to change the name of a particular batch.</span></li>
+			<li><a class="link" href="how-to-delete-batches.htm">How to delete batches</a>.<span>This article describes how to delete one or more batches from the Eyes system.</span></li>
+		</ul>
+    </body>
+</html>

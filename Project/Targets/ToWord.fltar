@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="MsWord"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  conditions="General.Internal,General.Online,General.ToDo,General.PDF"
+  MasterPageLayout="/Content/Resources/PageLayouts/8_5X11/simple_A4.flpgl"
+  ConditionTagExpression="include[General.Internal or General.Online or General.PDF or General.ToDo] exclude[&quot;General.Not for Output&quot;] "
+  PatchHeadingLevels="true"
+  PreCompileScaledImages="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/ekb-private.css"
+  MasterPage="/Content/Resources/MasterPages/OtherTopicsFixedSideMenu.flmsp"
+  EmbedImages="true"
+  MasterStylesheetOverride="true"
+  OutputFile="helloWorldExample.v2.docx"
+  OutputFolder="C:\Users\User\OneDrive - Applitools">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    GenerateXPS="false"
+    DisableMasterPageUsage="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/4Review.fldes" />
+  </Destinations>
+</CatapultTarget>

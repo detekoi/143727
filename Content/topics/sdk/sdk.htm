@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="title">The Eyes SDK</h1>
+        <p>The <MadCap:variable name="General.ProductClientAPI" />  allow you to programmatically define and run your visual UI&#160;tests. Libraries are available for different test platforms and  programing languages. </p>
+        <p>For a list of overview articles and examples see the <MadCap:xref class="link" href="sdk-user-guide.htm">SDK&#160;User Guide.</MadCap:xref></p>
+        <p>To quickly get started writing your first test see <a class="link" href="https://www.applitools.com/resources/tutorial">Get Started</a></p>
+        <div><span>For platform specific documentation see:</span>
+            <ul class="bulleted-list">
+                <li id="most-recent-sdk"><a id="most-recent-sdk-link" class="link">My most recent SDK</a>
+                </li>
+                <li>
+                    <MadCap:xref class="link" href="../../API/eyes-sdk/indexm/sdk-platformIndex-selenium.htm">Selenium SDKs</MadCap:xref>
+                </li>
+				<li>
+					<MadCap:xref class="link" href="../../API/eyes-sdk/indexm/sdk-platformIndex-selenium4.htm">Selenium 4 SDKs</MadCap:xref>
+				</li>
+                <MadCap:conditionalText MadCap:conditions="General.Internal">
+                    <li class="tbd">
+                        <MadCap:xref class="link" href="../../API/eyes-sdk/indexm/sdk-platformIndex-appium.htm">Appium SDKs</MadCap:xref>
+                    </li>
+                </MadCap:conditionalText>
+            </ul>
+        </div>
+        <p>Documentation for other platforms is in progress.</p>
+        <script type="text/javascript">
+		/*<![CDATA[*/
+		
+			$(document).ready(function(){
+				var curPlatform = mpld.getCurrentPlatform();		 
+				var curLang = mpld.getCurrentLanguage();
+		
+				if (curPlatform && curLang) {
+					var curPlatformName = mpld.getPlatformName(curPlatform);
+					var curLanguageName = mpld.getLanguageName(curLang);
+					var $ele = $("#most-recent-sdk-link");
+					
+					var path = mpldLookup.getMainIndex(curPlatform,curLang);
+					var text = $ele.text() + " : " + curPlatformName  + " " + curLanguageName;
+					$ele.html(text);
+					var href = window.location.href;
+					var hrefhead = href.replace(/^(.*)\/docs.*$/,"$1");
+					path = hrefhead + path;
+					$ele.prop("href", path);
+				} else {
+					$("#most-recent-sdk").hide();
+				}
+			})
+		/*]]>*/
+		</script>
+    </body>
+</html>

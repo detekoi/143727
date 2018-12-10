@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="False"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="True"
+  AddContinuedLinks="False"
+  AddContinuedFromLinks="False"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="False"
+  UseMinCharLimit="false"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2018-01-28T16:07:17.2400777+02:00"
+  AutoFitTables="true"
+  Stylesheet="../../Content/Resources/Stylesheets/ekb-private.css"
+  LastImport="2018-01-28T16:07:35.4736640+02:00">
+  <Files>
+    <Url
+      Source="../../../../OneDrive - Applitools/Tests and Steps as units of comparison.v3.doc"
+      AbsoluteSource="file:///C:/Users/User/OneDrive - Applitools/Tests and Steps as units of comparison.v3.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/import-word/How Eyes compares checkpoints.png"
+      TimeStamp="28-Jan-18 4:07:17 PM" />
+    <Url
+      Source="../../Content/Resources/Images/import-word/How Eyes compares checkpoints_1.png"
+      TimeStamp="28-Jan-18 4:07:17 PM" />
+    <Url
+      Source="../../Content/Resources/Images/import-word/How Eyes compares checkpoints_2.png"
+      TimeStamp="28-Jan-18 4:07:17 PM" />
+    <Url
+      Source="../../Content/import-word/How Eyes compares checkpoints.htm"
+      TimeStamp="28-Jan-18 4:07:17 PM" />
+    <Url
+      Source="../TOCs/import-word_1.fltoc"
+      TimeStamp="28-Jan-18 4:07:17 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/ekb-private_1.css"
+      TimeStamp="28-Jan-18 4:07:17 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading1"
+      To="h1.(MS Word Style)" />
+    <Map
+      From="Heading2"
+      To="h2.(MS Word Style)" />
+    <Map
+      From="Heading3"
+      To="h3.(MS Word Style)" />
+    <Map
+      From="Heading4"
+      To="h4.(MS Word Style)" />
+    <Map
+      From="Heading5"
+      To="h5.(MS Word Style)" />
+    <Map
+      From="Heading6"
+      To="h6.(MS Word Style)" />
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="code_java hljs"
+      To="pre.(MS Word Style)" />
+    <Map
+      From="h1"
+      To="h1.title" />
+    <Map
+      From="h2"
+      To="h2.title" />
+    <Map
+      From="h2_title"
+      To="h2.title" />
+    <Map
+      From="p"
+      To="p" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+    <Map
+      From="Heading 6"
+      To="h6.Heading 6" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+    <Map
+      From="span"
+      To="span" />
+    <Map
+      From="span_ekb-code-inline"
+      To="span.(MS Word Style)" />
+    <Map
+      From="span_ekb-code-inline_1"
+      To="span.(MS Word Style)" />
+    <Map
+      From="span_ekb-code-intitle"
+      To="span.(MS Word Style)" />
+    <Map
+      From="span_internal"
+      To="span.(MS Word Style)" />
+    <Map
+      From="span_tbd"
+      To="span.(MS Word Style)" />
+    <Map
+      From="u"
+      To="u.(MS Word Style)" />
+    <Map
+      From="u_1"
+      To="u.(MS Word Style)" />
+    <Map
+      From="variable"
+      To="u.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="p" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="p_ekb-inserted-image" />
+    <StyleName
+      Name="li" />
+    <StyleName
+      Name="Heading 3" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="u" />
+  </UsedCharacterStyles>
+</MsWordImport>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div>The returned array consists of one object for each step in the results. This object consists of the following fields:
+</div>
+        <dl class="mpld-paramdef parameters-list">
+            <dt class="mpld-paramdef-name"><span class="mpld-paramdef-name-label"></span><span class="mpld-paramdef-name-value"><span class="code-label">by</span></span><span class="mpld-paramdef-is-optional"></span>
+            </dt>
+            <dd class="mpld-paramdef-type"><span class="mpld-paramdef-type-label">Type:</span><span class="mpld-paramdef-type-value"><span class="code-label">By</span></span>
+            </dd>
+            <dd class="mpld-paramdef-descr"><span class="mpld-paramdef-descr-label"></span><span class="mpld-paramdef-descr-value"><MadCap:snippetBlock src="../../param-snippets/fluent-by.flsnp" /></span>
+            </dd>
+            <dt class="mpld-paramdef-name"><span class="mpld-paramdef-name-label"></span><span class="mpld-paramdef-name-value"><span class="code-label">frameNameOrId</span></span><span class="mpld-paramdef-is-optional"></span>
+            </dt>
+            <dd class="mpld-paramdef-type"><span class="mpld-paramdef-type-label">Type:</span><span class="mpld-paramdef-type-value"><span class="code-label">string</span></span>
+            </dd>
+            <dd class="mpld-paramdef-descr"><span class="mpld-paramdef-descr-label"></span><span class="mpld-paramdef-descr-value">The name or id of the frame element.</span>
+            </dd>
+            <dt class="mpld-paramdef-name"><span class="mpld-paramdef-name-label"></span><span class="mpld-paramdef-name-value"><span class="code-label">index</span></span><span class="mpld-paramdef-is-optional"></span>
+            </dt>
+            <dd class="mpld-paramdef-type"><span class="mpld-paramdef-type-label">Type:</span><span class="mpld-paramdef-type-value"><span class="code-label">int</span></span>
+            </dd>
+            <dd class="mpld-paramdef-descr"><span class="mpld-paramdef-descr-label"></span><span class="mpld-paramdef-descr-value">The index of the iframe (as in Selenium By Index).</span>
+            </dd>
+            <dt class="mpld-paramdef-name"><span class="mpld-paramdef-name-label"></span><span class="mpld-paramdef-name-value"><span class="code-label">frameReference</span></span><span class="mpld-paramdef-is-optional"></span>
+            </dt>
+            <dd class="mpld-paramdef-type"><span class="mpld-paramdef-type-label">Type:</span><span class="mpld-paramdef-type-value"><span class="code-label">IWebElement</span></span>
+            </dd>
+            <dd class="mpld-paramdef-descr"><span class="mpld-paramdef-descr-label"></span><span class="mpld-paramdef-descr-value"><MadCap:snippetBlock src="../../param-snippets/fluent-webelement.flsnp" /></span>
+            </dd>
+        </dl>
+        <div>
+        </div>
+    </body>
+</html>

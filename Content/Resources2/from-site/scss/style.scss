@@ -1,0 +1,159 @@
+@import "reset";
+@import "common/common";
+@import "common/effects";
+@import "common/fonts";
+@import "common/forms";
+@import "common/layout";
+@import "common/menus";
+@import "common/variables";
+@import "components/artwork";
+@import "components/checkbox";
+@import "components/code-highlighter";
+@import "components/features";
+@import "components/filters";
+@import "components/footer";
+@import "components/loader";
+@import "components/modal";
+@import "components/navbar";
+@import "components/notification";
+@import "components/page";
+@import "components/password-strength";
+@import "components/steps-container";
+@import "components/table";
+@import "components/tooltip";
+@import "components/vendor-icons";
+@import "components/video-player";
+@import "pages/about";
+@import "pages/account";
+@import "pages/apply";
+@import "pages/article";
+@import "pages/case-studies";
+@import "pages/careers";
+@import "pages/contact";
+@import "pages/customers";
+@import "pages/demo";
+@import "pages/documentation";
+@import "pages/docs-article";
+@import "pages/docs-sdk-page";
+@import "pages/features";
+@import "pages/homepage";
+@import "pages/landing";
+@import "pages/landing2";
+@import "pages/legal";
+@import "pages/news";
+@import "pages/not-supported";
+@import "pages/pricing";
+@import "pages/request-demo";
+@import "pages/resources";
+@import "pages/storybook";
+@import "pages/storybook-tutorial";
+@import "pages/tutorial";
+@import "pages/thank-you";
+@import "pages/whats-new";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-width: $screen-xs-min;
+  line-height: 1.5rem;
+  background: $c-background-1;
+  color: $c-text-1;
+
+  font-family: $font-family;
+  font-size: $font-m;
+}
+
+h1 {
+  line-height: 3.2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  font-size: 2.75rem;
+  font-weight: 400;
+
+  &.title {
+    color: $c-primary-1;
+  }
+}
+
+h2 {
+  line-height: 1.9rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  font-size: 1.75rem;
+  font-weight: 500;
+
+  &.title {
+    color: $c-primary-1;
+  }
+}
+
+h3 {
+  line-height: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+
+  &.title {
+    color: $c-primary-1;
+  }
+}
+
+h4 {
+  line-height: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  &.title {
+    color: $c-primary-1;
+  }
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+input, textarea {
+  font-size: $font-m;
+  font-family: $font-family;
+}
+
+button {
+  font-size: $font-m;
+}
+
+@media (max-width: $screen-sm-max) {
+  h1 {
+    font-size: 2.62rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 1.31rem;
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  h1 {
+    font-size: 2.25rem;
+    line-height: 2.8rem;
+  }
+
+  h2 {
+    font-size: 1.18rem;
+    line-height: 1.6rem;
+  }
+}

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">Root cause analysis</h1>
+        <h2 class="title">Overview</h2>
+        <p>The Root Cause Analysis (RCA)&#160;feature can   provide insight to the cause of visual mismatches reported by Eyes. When a test is run, Eyes stores the DOM&#160;and CSS that generated the checkpoint along with the checkpoint image, and when a baseline is saved Eyes stores the DOM and CSS&#160;along with the updated baseline image. In the Test manager, when you view diffs between a baseline and checkpoint image, you can display differences between the checkpoint and baseline DOM and CSS&#160;information, and this can be helpful when trying to understand the cause of the visual difference. RCA&#160;is available in the <span class="app-page">Test editor</span>, and on the <a class="link" href="tm-compare-baselines-editor.htm"><span class="app-page"> Compare baseline </span> </a>page. For brevity we will refer to both of these tools as "the editor".</p>
+        <MadCap:snippetText src="../../../0quickInserts/imgSnippet.flsnp" MadCap:snippetVariables="SnippetParams.imgSnippetStcPath:root-cause-analysis-images/dom-diffs-1st-example.png,;SnippetParams.imgSnippetName:dom-diffs-1st-example," />
+        <p class="box-note">RCA is only available for DOM&#160;based web applications.</p>
+        <h2 class="title">Viewing RCA</h2>
+        <p>The editor displays RCA&#160;information when you click on a pink area that flags a visual difference in the checkpoint or baseline image  panels (called here "diff"). The editor compares the DOM&#160;and CSS&#160;information stored with the images, and displays significant differences for any DOM&#160;elements that could impact the diff. RCA&#160;also allows you to manually select the elements whose DOM and CSS&#160;information will be compared. The following sections describe  how to do this in detail,</p>
+        <h3 class="title">Opening the RCA panel</h3>
+        <p>Open the RCA panel by clicking on the <span class="inline-img"><img src="root-cause-analysis-images/dom-diffs-show-dom-diffs.png" /> </span> button in the top toolbar. You can also open and close the RCA panel by using the  <span class="keyboard-shortcut">I</span> shortcut key. </p>
+        <p>If you see a message that indicates that DOM information is not available then proceed as described in the article <MadCap:xref class="link" href="rca-trouble-shooting.htm">Root Cause Analysis trouble shooting</MadCap:xref>.</p>
+        <h3 class="title">Viewing RCA by mismatch</h3>
+        <div><span>To view the changes in the DOM&#160;elements and their CSS&#160;attributes that may have caused a  diff :</span>
+            <ul class="numbered-list">
+                <li>Click  within the pink area indicating the diff, in either the checkpoint or the baseline image. </li>
+                <li>The RCA&#160;panel displays the names of the baseline and checkpoint elements that overlay that area. It follows this with a list that consists of both these and other elements, that have DOM&#160;and CSS&#160;differences that may have caused the visual difference.</li>
+                <li>If you click on a non-pink area, or if <MadCap:variable name="General.ProductName" /> does not find relevant DOM&#160;elements, then an appropriate message is displayed in the RCA&#160;panel instead of the DOM and CSS&#160;information.</li>
+            </ul>
+        </div>
+        <h3 class="title">Viewing RCA by DOM&#160;element selection</h3>
+        <div>In addition to having the editor identify the DOM&#160;element that may have caused a visual difference, you can also specify explicitly the DOM&#160;elements to be compared :&#160;<ul class="numbered-list"><li>Click on the select element control <span class="inline-img"><img src="root-cause-analysis-images/dom-diffs-select-element.png" /></span> at the top of the DOM diff panel, or use the <span class="keyboard-shortcut">SHIFT&#160;+&#160;E</span> key combination.</li><li>Hover your mouse over the checkpoint or baseline image. As you do so, the editor highlights the bounding boxes of the element under the cursor. The editor highlight the content box in blue, the padding and border box in green and the margins in orange in the same way as is done in Chrome DevTools.</li><li>When you click on the image, the editor highlights the current element and updates the RCA panel to reflect the differences between the newly selected element and the previously selected element in the other (baseline or checkpoint)&#160;image. The select element control is cleared <img src="root-cause-analysis-images/dom-diffs-select-element.png" />. after you select the element, so to change the element, or select an element in the other window, click the control again.</li></ul></div>
+        <h2 class="title">The RCA panel</h2>
+        <p>Initially the RCA panel displays a message that instructs you to click on a diff, i.e. on a pink area in the checkpoint or baseline images. After you have clicked a diff, the RCA&#160;panel displays a list of elements that may have impacted that diff. If you manually selected a checkpoint and/or baseline element, then the list of elements reflect the differences between the currently selected elements.</p>
+        <p>At the top of the panel you can see the tag names of the selected elements in the baseline and checkpoint and any ID&#160;and class information that is available :</p>
+        <img src="root-cause-analysis-images/dom-diffs-chosen-elements.png" class="block-image" />
+        <div>The example above shows that both elements have a <span class="code-label">&lt;p&gt;</span> tag and an ID of <span class="code-label">welcome</span>. The baseline has a class of <span class="code-label">smaller </span>and the checkpoint a class of <span class="code-label">larger</span>.Note that the tag name is colored black, the ID&#160;is colored orange, and the class is colored blue. You can:
+        <ul class="bulleted-list"><li>Click on the element names to display the image for that element, zoomed in to that element.  See <MadCap:xref class="link" href="#Zoom">Zoom in on the compared element</MadCap:xref> for details. </li><li>Hover over the name to see the full DOM&#160;path of the element and access a control to copy it to your copy/paste buffer, see <MadCap:xref class="link" href="#Copying">Copying RCA information</MadCap:xref> below.</li></ul></div>
+        <div class="block-image"><span>Underneath the elements tag name, you can see a list of elements, that have DOM&#160;or CSS&#160;differences that may have impacted the selected diff. The  editor displays:</span>
+            <ul class="bulleted-list">
+                <li>The checkpoint DOM&#160;path and any differences between that path and the path of the corresponding baseline element.</li>
+                <li>A list of one  or more DOM&#160;and CSS&#160;differences.</li>
+            </ul>
+            <p> <img src="root-cause-analysis-images/dom-diffs-panel-overview.png" class="block-image" /></p>
+            <p>The color of the text or the text background  indicates the differences between the checkpoint and the baseline. Values that are colored green were added in the checkpoint DOM with respect to the baseline DOM, and values colored red were removed from the checkpoint DOM. In some cases, values are displayed even though they  are identical in the baseline and checkpoint (e.g. the element path, box dimensions, CSS&#160;Rules) - in these cases the values  are not colored.</p>
+        </div>
+        <h3 class="title"><a name="Types"></a>Types of DOM Differences</h3>
+        <div><span> The following are examples of the types of difference displayed by the <MadCap:variable name="General.ProductUI" />:</span>
+            <dl>
+                <dt class="sub-header">Tag changes
+				</dt>
+                <dd>
+                    <img class="block-image" src="root-cause-analysis-images/dom-diffs-general-tag.png" />
+                </dd>
+                <dd>The element tag has changed from<span class="code-label"> &lt;button&gt;</span> in the baseline (red) to an <span class="code-label">&lt;a&gt;</span> in the checkpoint (green). Unchanged IDs and classes are drawn in orange. </dd>
+                <dt class="sub-header">Attribute changes </dt>
+                <dd>
+                    <img class="block-image" src="root-cause-analysis-images/dom-diffs-attributes.png" />
+                </dd>
+                <dd>In this example the class "smaller" in the baseline DOM&#160;has been replaced by the class "larger" in the checkpoint DOM.  You can also see this in the attributes box, where the "-" in the red box indicates that the class was in the baseline and was removed from the checkpoint, and the "+" in the green box indicates that the "larger" class was added in the checkpoint. You can also see this in the element path where "smaller" is colored in red and crossed out and larger is colored green.</dd>
+                <dt class="sub-header">Bounding box changes</dt>
+                <dd>
+                    <img class="block-image" src="root-cause-analysis-images/dom-diffs-bounding-box.png" />
+                    <img class="block-image" src="root-cause-analysis-images/dom-diffs-bounding-box2.png" />
+                </dd>
+                <dd>
+                In the upper example the left coordinate is 854.5 in the baseline and 864.5 in the checkpoint, the top coordinate (17)&#160;is identical in both DOMs and the width and height are different (121.5 x 50 in the baseline, 111.5 x 40 in the checkpoint). In the bottom example only the width is different:
+				</dd>
+                <dt class="sub-header">CSS property changes. </dt>
+                <dd>
+                    <img class="block-image" src="root-cause-analysis-images/dom-diffs-css-rules.png" />
+                </dd>
+                <dd>In this example, the RCA panel indicates that the CSS <span class="code-label">background </span>property in a CSS rule related to the selected element has changed. Note that when displaying CSS&#160;rules differences, the  editor displays all the properties of the rule. The properties that are different are shaded in red or green, and the properties that are identical are shown unshaded. </dd>
+                <dt class="sub-header"> Textual change </dt>
+                <dd> <img class="block-image" src="root-cause-analysis-images/dom-diffs-text.png" /></dd>
+                <dd>In this case, the text node of the element has changed (and become more polite !).</dd>
+            </dl>
+        </div>
+        <h3 class="title"><a name="Zoom"></a>Zoom in on the compared element</h3>
+        <p>If you click on the selected element name, at the top of the RCA&#160;panel, then the editor switches to the appropriate image window if it is not visible, and adjusts the zoom so that the element fills the window.</p>
+        <h3 class="title">Identifying the elements being compared</h3>
+        <p>To see the bounding boxes of DOM elements in the list, overlaid on the images, hover the mouse over an element in the list of DOM&#160;differences, as you do so, the editor overlays the checkpoint and baseline images with the bounding boxes of the element pointed to in the list.</p>
+        <h3 class="title"><a name="Copying"></a>Copying RCA information</h3>
+        <p>To obtain a URL&#160;that will reproduce the RCA&#160;information currently shown in the editor, click on the Share RCA <img src="root-cause-analysis-images/dom-diffs-share.png" class="inline-img" /> control. The editor copies the URL to your clipboard and you can paste it anywhere convenient (e.g. a comment, issue, or email). When this URL&#160;is copied into the browser address bar, the relevant editor will open, displaying the step, selected elements and RCA&#160;information that were displayed when the URL&#160;was generated.</p>
+        <p>If you hover  over the checkpoint or baseline element name at the top of the panel the full path name of the element will be displayed, and a copy control <img src="root-cause-analysis-images/dom-diffs-copy.png" class="inline-img" /> will appear to the right of the name: </p>
+        <img class="block-image" src="root-cause-analysis-images/dom-doffs-copy-path.png" />
+        <p>To copy the text of the full path of the element to the clipboard, click the <img src="root-cause-analysis-images/dom-diffs-copy.png" class="inline-img" />icon, you can then paste it into the editor comment or issue report or copy it to some other application such other an e-mail.</p>
+        <h3 class="title">Close RCA panel</h3>
+        <p>You can close the RCA panel by clicking on the <img src="root-cause-analysis-images/dom-diffs-close-panel.png" class="inline-img" /> button at the top of the RCA&#160;panel,  by clicking on the <span class="app-item">Show RCA</span> button <img src="root-cause-analysis-images/dom-diffs-show-dom-diffs.png" class="inline-img" />, toolbar, or by using the <span class="keyboard-shortcut">I</span> shortcut key.</p>
+    </body>
+</html>

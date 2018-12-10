@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+	<body>
+		<h1>Deprecated API</h1>
+		<p>The method <span id="deprecated-method"></span> has been deprecated.</p>
+		<p><span id="deprecated-message"></span></p>
+
+	<script>
+        var urlParams = decodeURIComponent(window.location.href);
+            urlParams = urlParams.replace("\\#","#");
+            urlParams = urlParams.split("?");
+            urlKeys = urlParams[1].split("&");
+            let method = undefined;
+            let msg = "";
+            for (keyvalue of urlKeys) {
+                let pair = keyvalue.split('='); 
+                if (pair[0] == "method") {
+                    method = pair[1];
+                } else if (pair[0] == "msg") {
+                    msg = pair[1]; 
+                } else {
+                    console.log("deprecated bad key value ", keyvalue)
+                }
+            }
+            console.log(`method = ${method}, msg = ${msg}`);            
+            document.getElementById("deprecated-method").innerText  = method;
+            document.getElementById("deprecated-message").innerText = msg;
+	</script>
+    </body>
+</html>

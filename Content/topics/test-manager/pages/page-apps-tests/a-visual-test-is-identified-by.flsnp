@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="89" MadCap:lastWidth="689">
+    <head>
+    </head>
+    <body>
+        <p>A visual UI test is uniquely identified by the application and test names that you pass to the  <MadCap:variable name="General.ProductClientAPI" />  &#160; <span class="code">open()</span>&#160;method. </p>
+    </body>
+</html>

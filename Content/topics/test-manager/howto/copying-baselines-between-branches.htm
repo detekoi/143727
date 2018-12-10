@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3140" MadCap:lastWidth="436">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">Copying baselines between branches</h1>
+        <p>You can copy baselines from one branch to another branch. Each copied baselines become the latest revision of the destination baseline, and will be used as a reference for test runs that match that baseline.  If a baseline with the same execution environment already exists in the target baselines, it will be quietly overwritten. Note that  copying a baseline is different from branching in various ways. One of the main difference is that with branching you can merge the new branch back to the original branch, whereas once you copy a baseline to another branch it loses any relationship with the source baseline. <span class="tbd">TBD&#160;- we need to explain briefly how they are different - what are the differences and the key use cases for each operation ?)</span></p>
+        <p>You can copy baselines from either the <span class="app-page">branch baselines </span>page or from the <span class="app-page">test baseline</span> page. In both cases navigate to the baseline that you want to copy <u>from</u>:</p>
+        <h3 class="title">Navigating to the <span class="app-page">branch baseline</span> page.</h3>
+        <ol>
+            <li>Navigate to the <span class="app-page">Branch baselines</span> page using the <span class="app-item">Page navigator</span>.</li>
+            <li>Select the branch with the baseline you want to copy.</li>
+        </ol>
+        <h3 class="title">Navigating to the <span class="app-page">test baseline</span> page</h3>
+        <MadCap:snippetBlock src="../common/navigate-to-test-baselines-page.flsnp" />
+        <p>These pages are very similar, the difference is that the Branch baselines page contains baselines for all the tests in the branch and the test baselines page only shows the baselines for the test you chose on the Apps &amp;&#160;test page.</p>
+        <p>Now initiate the copy by taking the following steps: </p>
+        <ul class="numbered-list">
+            <li>Make sure you are in baseline-detail view <img src="../pages/page-branch-baselines/resources/button-baseline-details-view.png" class="inline-img" />. </li>
+            <li>Select the baselines you want to copy using the checkboxes on each row or by using the filter tool and the select toggle tools in the toolbar.</li>
+            <li>Click the <img src="../pages/page-branch-baselines/resources/button-baseline-copy-to-branch.png" /> tool on the toolbar. </li>
+            <li><MadCap:variable name="General.ProductName" /> will display a dialog that allows you to select the target branch from all the existing branches. Note that the current branch will be grayed out. </li>
+            <li>You can type text in the dialog text box and the list of branches will be narrowed down to the branches that contain the text you typed.</li>
+            <li> Click on the destination branch, and then click <span class="app-item">copy to branch</span> to proceed with the copy or <span class="app-item">Cancel</span> to cancel the copy operation. </li>
+        </ul>
+    </body>
+</html>

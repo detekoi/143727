@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlImport
+  KeepSourceLinks="false"
+  ProjectName="Eyes Knowledge base"
+  ProjectFolder="C:\Users\User\Documents\eyes-knowledgebase-source\"
+  AutoSync="false"
+  SourceFolders=""
+  ImportResources="false"
+  ImportResourcesLocation="NoImport"
+  ImportTopics="specific"
+  ImportLinkedHtmlFiles="false"
+  LastImport="2018-02-15T14:32:38.0841354+02:00"
+  ImportTopicsLocation="Content/A3_API/E_Eyes_SDK/">
+  <Files>
+    <Url
+      Source="../../../website/public/docs/content/a3_api/e_eyes_sdk/allmethods.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/website/public/docs/content/a3_api/e_eyes_sdk/allmethods.htm" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/A3_API/E_Eyes_SDK/allmethods.htm"
+      TimeStamp="15-Feb-18 2:32:34 PM" />
+    <Url
+      Source="../TOCs/allmethods.fltoc"
+      TimeStamp="15-Feb-18 2:32:38 PM" />
+  </GeneratedFiles>
+</HtmlImport>

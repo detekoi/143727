@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.draft">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">Introduction to the Eyes SDK</h1>
+        <p>You use the Eyes SDK to implement visual tests. The 
+		<a><span class="code-label" data-mpld-lookup="eyes"> Eyes </span></a>
+			class provides the main methods you need to initiate a test, customize the environment, configure and execute check points, terminate the test and get the results. In this overview we will overview the main method that you need, describing them by the following categorize:</p>
+        <ol class="bulleted-list">
+            <li>The test infrastructure. Setting up and terminating a test.</li>
+            <li>Creating a checkpoint.</li>
+            <li>Customize the environment. Use these methods to adapt Eyes to your working environment.</li>
+            <li>Setup check point processing. </li>
+            <li>Executing Checkpoints. Use these to initiate image capture of the screen and to initiate server processing of the image. </li>
+            <li>&#160;</li>
+        </ol>
+        <h3 class="title"> Test infrastructure</h3>
+        <p>The methods in this category are used to initialize and terminate a test. A test will always use the following methods: </p>
+        <ul class="bulleted-list">
+            <li>{{{methodref \"eyes\"}}}</li>
+            <li>{{{methodref \"open\"}}}</li>
+            <li>{{{methodref \"close\"}}}</li>
+            <li>{{{methodref \"abortifnotclosed\"}}}</li>
+        </ul>
+        <p>Some basic rules for the use of this infrastructure:</p>
+        <ul class="numbered-list">
+            <li>All your check must be called between the {{{methodref \"open\"}}} method and the {{{methodref \"close\"}}} method. When we use the word <i>test</i> formally, we are referring to these set of checkpoints. The test is uniquely identified by the  application name and test name provided as parameters to the {{{methodref \"open\"}}} method.</li>
+            <li>You can execute multiple tests on a single Eyes object, but not concurrently.</li>
+            <li>All the checkpoints must be run in the context of an execution handler that calls {{{methodref \"abortifnotclosed\"}}} to ensure that the test is terminated even if there is an exception of some sort.</li>
+        </ul>
+        <p>Here is some example code,&#160;the reference page for the {{{methodref \"open\"}}} method describes this code in greater detail.</p>
+        <h3 class="title"> Creating checkpoints</h3>
+        <p>There are two styles of creating checkpoints:</p>
+        <ol class="bulleted-list">
+            <li>The Fluent interface, in which a series of methods are chained together to define the area to be matched (the target area), special configurations for that checkpoint and sub-regions that need special handling. </li>
+            <li>The legacy interface where different methods are use for the different target types and for configuration.</li>
+            <li>Here are a few examples of what similar calls to these two interfaces look like.</li>
+            <li>To use the Fluent interface you will need to use </li>
+            <li>The {{{methodref \"eyes$check\"}}} method which takes as a parameter one of the static methods defined in the class</li>
+            <li>{{{classref \"target\"}} , which define the top level area to check, and to which you can optionally append calls to other methods taken from</li>
+            <li>the {{{checksettings\"}}} class, that configure the type of matching and define regions that need to get special handling.</li>
+        </ol>
+        <p>The legacy check methods are:</p>
+        <p>{{{insertgroup \"checkLegacy''' }}}</p>
+        <h3 class="title">Setup</h3>
+        <p>A number of methods are provided that are used to configure Eyes to your working environment. In general you should call these before the call to {{{methodref \"open\" }}}. If you run multiple tests on the same Eyes instance, then call these methods before every open, </p>
+        <p>Target Configuration</p>
+        <p>Some methods are used to adjust the capturing mechanisms or the matching algorithm. You use these in special circumstances where your application has some special needs, especially where the information displayed is dynamic.</p>
+        <p>If you use the Fluent API, then you use these methods to setup the default handling, and per target handling can be done using the appropriate methods in the Fluent API. If you are using the legacy interface, then you can use these methods to change the settings for a particular target, but then you will need to restore the previous values for the targets that follow.</p>
+        <p>The following methods and properties are provided by Eyes:</p>
+        <p>{{{insertgroup \"config'' }}}</p>
+        <h3 class="title">Organizing your tests</h3>
+        <p>In the simplest case, you can execute all your checkpoints in the context of a single test, i.e. between a single open and method. If you have many checkpoints you may decide to split them up amongst multiple tests. How you do this is up to you, but two typical considerations are when or how frequently you want to run the particular checkpoints, and who needs to review the results and deal with any mismatches.</p>
+        <h3 class="title">Grouping by application</h3>
+        <p>You can group multiple tests together by defining that they are part of the same application. The Test Manager allows you to group and filter test results and other information by application name, so if you have a large number of tests, and you typically want to deal only with a subset of them at a time, then assigning each test to an appropriate application can be useful. You can either supply the application name as part of the open call or you can use the {{{methodref \"eyes$setappname\" }}} {{{methodorProp \"eyes$setappname\" }}} globally and pass a default value to the open call to indicate that the globally set application name should be used.</p>
+        <h3 class="title"> Grouping by batch</h3>
+        <p>You can also group tests by making them part of the same batch. This means that the results will be displayed, summarized and can be managed  together in the Test Manager on the Test Results page.  By default each test runs as a separate batch. To join multiple tests to be part of the same batch use the {{{methodref \"setbatch\" }}} {{{methodOrProperty\"setbatch\" }}}. For more information see <MadCap:xref class="link" href="../../topics/working-with-test-batches/working-with-test-batches-in-overview.htm">Working with test batches.</MadCap:xref></p>
+        <h3 class="title">Baselines</h3>
+        <p>The baseline defines </p>
+    </body>
+</html>

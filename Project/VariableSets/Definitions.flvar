@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment="See glossary"
+    Name="match area"
+    EvaluatedDefinition="match area">match area</Variable>
+  <Variable
+    Comment=""
+    Name="page"
+    EvaluatedDefinition="Page">Page</Variable>
+  <Variable
+    Name="Eyes Server"
+    Comment=""
+    EvaluatedDefinition="Eyes Server">Eyes Server</Variable>
+  <Variable
+    Name="uiuser"
+    Comment="what we call the person that uses the UI"
+    EvaluatedDefinition="you">you</Variable>
+  <Variable
+    Name="Programer"
+    Comment=""
+    EvaluatedDefinition="you">you</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="" />
+</CatapultVariableSet>

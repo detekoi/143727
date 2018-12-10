@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Create, delete and rename environments</h1>
+        <p>An execution environment is defined by the combination of browser type, operating system and viewport size used in a test. You can assign a name to any execution environment, and then use the SDK&#160;to specify  that the test should use a baseline whose execution environment matches the environment identified by the name.</p>
+        <div>
+            You can see all the environment variations that have been run by your team on the <span class="app-page"> <a href="../pages/tm-page-environments.htm">Environment Page</a> </span> page. On this page you can also:
+            <ol class="bulleted-list"><li>Assign a new name to an environment.</li><li>Delete an existing name.</li><li>Change a name.</li></ol></div>
+        <p>Each of these operations is described below.</p>
+        <h2 class="title"><a name="AssignEnvName"></a>Assign an environment name</h2>
+        <div>
+            To give a name to a particular combination of browser, operating system, and viewport size:
+            <ol class="numbered-list"><li>Find the environment you want to name. <MadCap:snippetText src="../../../Resources2/Snippets/phrases/you-can-use-sort-filter-group.flsnp" /> See the <span class="app-page"><MadCap:xref href="../pages/tm-page-environments.htm">Environment</MadCap:xref></span> page for more details.</li><li>Click in the <span class="app-item">Name </span>column on that row .</li><li>Type the name and hit enter to finalize the name change. You can hit  the escape key to abort the name change.</li></ol><p>You can assign more than one name to any row.</p></div>
+        <h2 class="title"><a name="DeleteEnvName"></a>Delete an environment name</h2>
+        <p>To delete an environment name click the X to the right of the name:</p>
+        <p><a data-lightbox="page-env-name-delete" href="../pages/page-environments/images/page-env-name-delete.png"><img class="block-image" src="../pages/page-environments/images/page-env-name-delete.png" /></a>
+        </p>
+        <p>If the list of execution variations is sorted by name, then the row whose name was removed will move to the appropriate position in the table.</p>
+        <h2 class="title"><a name="RenameEnvName"></a>Change an environment name</h2>
+        <p>To change an environment name, select the part you want to change , and then type the new text. You can also add text by clicking in the name and start typing. If the first key that you press is backspace or delete, then the entire name will be deleted, once you start typing these keys have their usual erasing functionality.</p>
+        <p>If the new name is already assigned to a different environment variation, then you will get a dialog warning, press the confirm button to proceed with the rename or the cancel button to abort the rename process.</p>
+        <p>If the list of execution variations is sorted by name, then the row whose name was changed will move to the appropriate position in the table.</p>
+        <h2 class="title"><a name="Delete"></a>Delete one or more execution environments</h2>
+        <p>To delete one or more rows in the list of execution environment variations , click the checkbox on the lines you want to delete and click the delete <span class="inline-img"><img src="../images/generic-delete-button.png" /> </span>&#160;button. Alternatively, you can use the filter <img src="../images/generic-filter-button.png" class="inline-img" /> &#160;to narrow down the list to a specific subset of browser types, operating system, and viewport sizes, and then click the select all visible rows button <span class="inline-img"><img src="../images/generic-select-rows-button.png" /> </span>&#160;followed by the <span class="inline-img"><img src="../images/generic-delete-button.png" /> </span>button. See  <MadCap:xref class="link" href="../pages/tm-ui-overview.htm#Select-Deselect"> Select/Deselect all visible rows </MadCap:xref>  for more details.</p>
+        <p>Note that this deletion operation only deletes the name from the list. It does not impact test result or baselines in any way. The name will reappear if a test is run again with that particular execution environment variation.</p>
+    </body>
+</html>

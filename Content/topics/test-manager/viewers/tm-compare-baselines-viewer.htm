@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="11" MadCap:lastHeight="7924" MadCap:lastWidth="2006">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">The Compare baselines viewer</h1>
+        <p>This viewer is opened from the <span class="app-page">baseline history</span> page when comparing two revisions of a baseline. See <MadCap:xref class="link" href="../howto/compare-two-baseline-revisions.htm">Compare two baseline revisions</MadCap:xref> for a description of what can be compared and how to open this viewer.</p>
+        <div>Using the tools in the viewer, you can:
+	        <ul class="bulleted-list"><li>See the baseline images and their attributes.</li><li>See various types of user annotations overlaid on the image.</li><li>Control what information is displayed.</li><li>Find the baseline steps that are  different in the two baselines.</li><li>Find the image pixels and user annotations that are different in a given step.</li></ul></div>
+        <h2 class="title">Layout</h2>
+        <p>The screenshot below shows the compare baseline editor after it has been opened from the <span class="app-page">compare &amp; merge</span> page.</p><a data-lightbox="compare-baselines-viewer" href="resources/compare-baselines-viewer.png"><img class="block-image" src="resources/compare-baselines-viewer.png" /></a>
+        <MadCap:snippetBlock src="tm-step-compare-baseline-layout-text.flsnp" />
+        <h2 class="title">Information</h2>
+        <div>You can see information about the baselines in three place:
+			<ol class="numbered-list"><li>In the summary panel:
+        <div class="padded-section"><a data-lightbox="compare-baselines-viewer-summary" href="resources/compare-baselines-viewer-summary.png"><img class="block-image" src="resources/compare-baselines-viewer-summary.png" /></a></div>
+        The information shown is :&#160;the name of the test (<span class="app-item">Helo World test</span>),  the application name (<span class="app-item">Helo World App</span>), the branch (<span class="app-item">default</span>) and the execution environment.
+</li><li>To the left of the target image the page displays :
+        <div class="padded-section"><a data-lightbox="compare-baselines-viewer-summary-target" href="resources/compare-baselines-viewer-summary-target.png"><img class="block-image" src="resources/compare-baselines-viewer-summary-target.png"></img></a></div>
+        The information shown is :&#160;the &#160;step number and tag (<span class="app-item">1/3</span><span class="app-item"> Before enter name</span>), the match level of the step (<span class="app-item">Strict</span>) the date the baseline was saved and who it was saved by. The same type of information is displayed to the left of the source image.</li><li>If you click on the information button  <span class="inline-img"><img src="resources/button-compare-editor-information.png" class="inline-img" /></span> in the toolbar then  a dialog will open with the following information:		        
+		        <ul class="bulleted-list"><li>The application and test names</li><li>The execution environment (Browser, OS, Viewport size)</li><li>Details of the source and target baselines (ID, Revision number, Saved, Saved by, Branch)</li></ul></li></ol></div>
+        <h2 class="title">Finding differences</h2>
+        <MadCap:snippetBlock src="tm-viewer-finding-differences.flsnp" />
+        <h2 class="title">Match level</h2>
+        <MadCap:snippetBlock src="tm-match-level-control.flsnp" />
+        <h2 class="title">Wrapping up</h2>
+        <p>To exit the baseline compare editor and go back to the page from which you opened the editor, discarding any changes, press the browser back button or the <MadCap:variable name="General.ProductUI" /> return button:</p>
+        <p>
+            <img src="resources/back-button.png" />
+        </p>
+        <p class="box-warning">Exiting this way, and not via the save button, means that any changes that you have made in the baseline compare editor will be lost.</p>
+    </body>
+</html>

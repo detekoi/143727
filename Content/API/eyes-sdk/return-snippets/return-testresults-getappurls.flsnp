@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p data-mpld-lang="java csharp selenium4-javascript">
+			See <code><a class="link" href="#"> <span data-mpld-lookup="sessionurls">sessionurls</span></a></code>
+		</p>
+		<div data-mpld-lang="selenium-javascript">
+		The returned object has two properties, both are strings in the form of a URL:
+			<dl>
+				<dt> <code>batch</code></dt>
+				<dd> If you paste this URL into a browser then the browser will open the Test manager, displaying the batch results and all of its tests. </dd>
+				
+				<dt> <code>session</code></dt>
+				<dd> If you paste this URL into a browser then the browser will open the Test manager, displaying the batch results, with the focus on the test of this test result. </dd>
+			</dl>
+		</div>
+    </body>
+</html>

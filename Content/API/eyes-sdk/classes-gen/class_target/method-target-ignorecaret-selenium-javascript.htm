@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditionTagExpression="include[General.Online]">
+    <head>
+        <!-- TEMPLATE VERSION 1.2 6/3/2018 -->
+		<title> ignoreCaret</title>
+    </head>
+    <body>
+		<div class="mpld-api">
+
+			<h1 class="title" id="mpld-api-method"> ignoreCaret method</h1>
+			<div class="mpld-select-language">
+				<span class="mpld-header-label">Class: </span>
+				<a class="link mpld-header-field" href="../../index-gen/class-target-selenium-javascript.htm">Target</a>
+				<span class="mpld-header-label">Platform: </span>
+				<a class="link mpld-header-field" href="../../indexm/sdk-platformIndex-selenium.htm">Selenium</a>
+				<span class="mpld-header-label" id="mpld-select-language-label">Language: </span>
+				<span id="mpld-select-language-field" class="mpld-header-field">  JavaScript </span>
+				<div class="dropdown-menu">
+					<div class="mpld-dropdown">
+						<a href="javascript:void(0)" 
+							id="change-language-text"  
+							class="link mpld-dropdown-button"> 
+							other languages
+							<span class="fa fa-angle-down"></span>
+						</a>
+						<div id="change-language-menu" class="mpld-dropdown-content"></div>                                          
+					</div>
+				</div>
+			</div>
+
+				<div>Use this method to tell Eyes that for this target it should detect mismatch artifacts caused by a blinking cursor and not report them as mismatches.</div>
+				<div></div>
+				
+				
+				<h2 class="title" id="mpld-api-syntax">Syntax</h2>
+<pre ><code class="hljs">
+eyes.check(Target.ignoreCaret(ignoreCaret))
+</code></pre>
+
+				<h3 class="title" id="mpld-api-params">Parameters</h3>
+				<!-- start parametersTemplate -->
+				<dl class="mpld-paramdef parameters-list">     <dt class="mpld-paramdef-name">
+				         <span class="mpld-paramdef-name-label"></span>
+				         <span class="mpld-paramdef-name-value"><span class ="code-label">ignoreCaret</span></span>
+				     </dt>
+				     <dd class="mpld-paramdef-type">
+				       <span class="mpld-paramdef-type-label">Type:</span>
+				       <span class="mpld-paramdef-type-value"><span class ="code-label">boolean</span></span>
+				       <span class="mpld-paramdef-is-optional"></span>
+				     </dd>
+				     <dd class="mpld-paramdef-descr">
+				       <span class="mpld-paramdef-descr-label"></span>
+				       <span class="mpld-paramdef-descr-value">If this parameter has a value of true,
+				then Eyes will detect artifacts caused by a blinking cursor and will not report a mismatch.
+				If it has a value false, then no blinking cursor detection is done.
+				If no parameter is passed then the default value is true - so the cursor artifacts will be ignored.</span>
+				     </dd>
+				</dl>
+				<!-- parametersTemplate -->
+				<h3 class="title" id="mpld-api-return">Return value</h3>
+                <!-- pre compile start -->
+                	<dl class="mpld-paramdef">
+						<dt class="mpld-paramdef-type">  
+							<span class="mpld-paramdef-type-label"> Type: </span>
+							<span class="mpld-paramdef-type-value"> <span class ="code-label">Target</span> </span>				
+						</dt>
+                        <dd class="mpld-paramdef-descr">
+							    
+                        </dd>
+					</dl>
+			
+<h2 class="title">Remarks</h2>
+
+You may only call this method once in a given chain.
+This method overrides for the current target, the global default setting or the setting set explicitly using the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$setignorecaret$morp">lookupid</span></a>.
+
+
+<!-- Not working yet
+-->
+		</div>
+
+		<script src="/docs/scripts/mpldlookup.js"></script>
+		<script>
+			mpld.setPagePlatFormLanguage("selenium", "javascript");
+			mpldLookup.setPagePlatFormLanguage("selenium", "javascript");
+		</script>
+    </body>
+</html>

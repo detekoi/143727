@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditionTagExpression="include[General.Online]">
+    <head>
+        <!-- TEMPLATE VERSION 1.2 6/3/2018 -->
+		<title> abortIfNotClosed</title>
+    </head>
+    <body>
+		<div class="mpld-api">
+
+			<h1 class="title" id="mpld-api-method"> abortIfNotClosed method</h1>
+			<div class="mpld-select-language">
+				<span class="mpld-header-label">Class: </span>
+				<a class="link mpld-header-field" href="../../index-gen/class-eyes-selenium-java.htm">Eyes</a>
+				<span class="mpld-header-label">Platform: </span>
+				<a class="link mpld-header-field" href="../../indexm/sdk-platformIndex-selenium.htm">Selenium</a>
+				<span class="mpld-header-label" id="mpld-select-language-label">Language: </span>
+				<span id="mpld-select-language-field" class="mpld-header-field">  Java </span>
+				<div class="dropdown-menu">
+					<div class="mpld-dropdown">
+						<a href="javascript:void(0)" 
+							id="change-language-text"  
+							class="link mpld-dropdown-button"> 
+							other languages
+							<span class="fa fa-angle-down"></span>
+						</a>
+						<div id="change-language-menu" class="mpld-dropdown-content"></div>                                          
+					</div>
+				</div>
+			</div>
+
+				<div>Call this in an exception handler that encloses the entire test to catch cases where <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$open">lookupid</span></a> was called, an exception is thrown,
+and execution stops without calling <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a>.</div>
+				<div>This method does all the cleanup normally done by <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a>.
+If this method is called, and <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a> has not been called, 
+then the test will have a status of <i>Aborted</i> in the Test Manager.</div>
+				
+				
+				<h2 class="title" id="mpld-api-syntax">Syntax</h2>
+<pre ><code class="hljs">
+eyes.abortIfNotClosed()
+</code></pre>
+
+				<h3 class="title" id="mpld-api-params">Parameters</h3>
+				<!-- start parametersTemplate -->
+				This method does not take any parameters.
+				<!-- parametersTemplate -->
+				<h3 class="title" id="mpld-api-return">Return value</h3>
+                <!-- pre compile start -->
+                	<dl class="mpld-paramdef">
+						<dt class="mpld-paramdef-type">  
+							<span class="mpld-paramdef-type-label"> Type: </span>
+							<span class="mpld-paramdef-type-value"> <span class ="code-label">void</span> </span>				
+						</dt>
+                        <dd class="mpld-paramdef-descr">
+							    
+                        </dd>
+					</dl>
+			
+<h2 class="title">Remarks</h2>
+
+None.
+
+
+<!-- Not working yet
+-->
+			<h2 class="title">Example </h2> 
+			<MadCap:snippetBlock src="../../methodexample-snippets/basicexample.flsnp" />
+		</div>
+
+		<script src="/docs/scripts/mpldlookup.js"></script>
+		<script>
+			mpld.setPagePlatFormLanguage("selenium", "java");
+			mpldLookup.setPagePlatFormLanguage("selenium", "java");
+		</script>
+    </body>
+</html>

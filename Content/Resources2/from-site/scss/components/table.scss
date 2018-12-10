@@ -1,0 +1,44 @@
+@import "../common/variables";
+
+table {
+  width: 100%;
+  border: 1px solid $c-background-4;
+
+  thead {
+    tr {
+      border-bottom: 1px solid $c-background-4;
+    }
+
+    td {
+      background: $c-background-2;
+      color: $c-primary-1;
+
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  tbody {
+    tr {
+      &:not(:last-child) {
+        border-bottom: 1px solid $c-background-4;
+      }
+    }
+
+    td {
+      background: $c-background-1;
+    }
+  }
+
+  td {
+    padding: 20px 30px;
+
+    &:not(:last-child) {
+      border-right: 1px solid $c-background-4;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="9591" MadCap:lastWidth="673">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="title">How to filter and search batches</h1>
+        <p>The batch list has an entry for every batch that has run in the past or is currently running. You can use filtering so that the batch list will only display a subset of the batches based on various criteria. Filtering makes it easy to find batches with a particular name or to find tests in a particular state or condition. You can also use filtering to find batches you want to delete and then delete them in one command (See&#160;<a class="link" href="how-to-delete-batches.htm">How to Delete Batches</a>).</p>
+        <p>You can filter batches by one of three categories either in isolation or combined:</p>
+        <ul class="bulleted-list">
+            <li>Batches whose name contains some text that you provide. </li>
+            <li>Batches whose status is in a given state (one or more of Running, Passed, Failed, Unresolved).</li>
+            <li>Batches that include tests that are in a given state (one or more of Running, Passed, Failed, Unresolved, Diffs, New, Aborted, Changed, Starred, New issues, New Remarks).</li>
+        </ul>
+        <p>Each of the categories can be active or not. The text category is active if it is not empty, the batch and test status are active if the list of states contains at least one required state. Test Manager will display the batches that meet all of the active categories. </p>
+        <p>In other words, Eyes does an AND on the active categories and an OR on the possible options in each category. </p>
+        <p>For example, you can ask to see the batches that meet the following criteria:</p>
+        <ul class="bulleted-list">
+            <li>The batch name includes the string "MyBatch"</li>
+            <li>AND&#160; the Batch status is "Unresolved" OR “Failed”</li>
+            <li>AND&#160;the Batch has tests with "Diffs" OR tests that "Aborted" OR&#160;"Failed."</li>
+        </ul>
+        <h2 class="title">Setting the filter</h2>
+        <p>To filter the list of batch entries do as follows:</p>
+        <ol class="numbered-list">
+            <li>Press the Filter Batches icon in the Batch Control panel.</li>
+            <img src="../../Resources2/Images/test-manager-screenshots/tm-screenshot-batch-filter-icon.png" class="block-image" />
+            <li>The Test Manager will then display the Filter dialog.</li>
+            <img src="../../Resources2/Images/test-manager-screenshots/tm-batch-filter-dialog-opened.png" class="block-image" />
+            <li>At the top of the Dialog, there is a text box (where it says Match batch name). If you type any string here, then after you press the Apply button, the batch list will only include batches whose name contains the string you entered.</li>
+            <li>The four checkboxes underneath the text box allow you to quickly choose to filter by one or more of four common text status values - batches with unresolved tests, batches with failed tests, batches with new tests and batches with unsaved tests.</li>
+            <li>Underneath the checkboxes, you can click on “More Filters", and can then choose either the Batch status category or the Test status category.</li>
+            <img src="../../Resources2/Images/test-manager-screenshots/tm-batch-filter-dialog-more-filters.png" class="block-image" />
+            <li> Clicking on one of these will display and allow you to select the options relevant to that category.</li>
+            <ol class="numbered-list">
+                <li> For batches </li>
+                <img src="../../Resources2/Images/test-manager-screenshots/tm-batch-filter-dialog-more-filters-batch.png" class="block-image" />
+                <li> For tests (the list is scrollable and includes Running, Passed, Failed, 	Unresolved, Diffs, New, Aborted, Changed, Starred, New Issues, New Remarks)		</li>
+                <img src="../../Resources2/Images/test-manager-screenshots/tm-batch-filter-dialog-more-filters-test.png" class="block-image" />
+            </ol>
+            <li> If you want to filter by both categories, then first select one category and choose the options that you want. Then, change the selection to the other category and choose the options of that category that you want.</li>
+            <li>Underneath the Filter category selection button, Test Manager displays the options you have selected. To the right of each option is an X – if you press it, then that option will be removed from the relevant list.<img src="../../Resources2/Images/test-manager-screenshots/batch-filter-dialog.png" class="block-image" /></li>
+            <li>Once you have set the criteria you want, press "Apply", and&#160;Test Manager will update the batch list so that only batches that meet the criteria you chose are displayed. </li>
+            <li>If instead of clicking "Aply" you click outside of the Filter Dialog, then it will be canceled, and any changes you have made will be discarded.</li>
+        </ol>
+        <p>When you set a filter, Test Manager displays the 30 most recent batches that meet the criteria of the filter. When you scroll down to the end of the list, if there are older batches that meet the filter criteria and are not yet displayed, then you will see a button that says&#160; “Search Beyond &lt;date&gt;” where the &lt;date&gt; is the date when the last batch in the list ran. Press that button, and more entries will be displayed.</p>
+        <img src="../../Resources2/Images/test-manager-screenshots/tm-batch-list-search-beyond.png" class="block-image" />
+        <h2 class="title">Seeing the current filter status</h2>
+        <p>The Test Manager displays two indications in the Batch Management Panel when filtering is active. The words "Filtering is on" appears and the <img src="../../Resources2/Images/applitools/filter-batch-button.png" class="inline-img" /> button is highlighted.</p>
+        <img src="../../Resources2/Images/test-manager-screenshots/filter-status-filtering-on.png" class="block-image" />
+        <p>Hovering over this field will show the list of test and batch status values that are being filtered for.</p>
+        <img src="../../Resources2/Images/test-manager-screenshots/batch-filter-status-hover.png" class="block-image" />
+        <p>If no filter is currently set, then you will see the following. </p>
+        <img src="../../Resources2/Images/test-manager-screenshots/filter-status-filtering-off.png" class="block-image" />
+        <h2 class="title">Changing the Batch Filter</h2>
+        <p>If the filter is on, you can change the current filter by clicking on the <img class="inline-img" src="../../Resources2/Images/applitools/filter-batch-button.png" />button again.</p>
+        <p>If you have multiple filter criteria, you can quickly  remove only one particular criteria by placing your cursor over the "Filtering is on" icon. You will see the list of currently selected test and batch criteria. Click the X&#160;to the right of the criteria(s) you want to cancel.  The "Apply" and “Cancel" buttons will appear. If you click “Apply” then the batch list is updated to reflect the remaining criteria, if you click “Cancel” then the set of criteria remains as they are at the moment.</p>
+        <img src="../../Resources2/Images/test-manager-screenshots/batch-filter-status-hover.png" class="block-image" />
+        <h2 class="title">Canceling the Batch Filter</h2>
+        <p>If you click the X to the right of the "Filtering is on" icon then filtering will be canceled and the most recent set of batches will be displayed. </p>
+    </body>
+</html>

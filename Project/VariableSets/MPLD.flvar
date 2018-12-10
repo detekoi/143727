@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="mpld-section"
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Comment=""
+    Name="mpld-dir"
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="mpld-file"
+    Comment=""
+    EvaluatedDefinition="" />
+  <Variable
+    Name="mpld-langid"
+    Comment=""
+    EvaluatedDefinition="" />
+  <Variable
+    Name="mpld-platformid"
+    Comment=""
+    EvaluatedDefinition="" />
+  <Variable
+    Name="mpld-lookupname"
+    Comment=""
+    EvaluatedDefinition="" />
+</CatapultVariableSet>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Resources | Applitools</title>
+        <meta name="description" content="Automated Visual Software Testing" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type="text/javascript" src="../from-site/scripts/libs.min.js">
+        </script>
+        <script type="text/javascript" src="../from-site/scripts/app.min.js">
+        </script>
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Applitools Eyes" />
+        <meta name="twitter:description" content="Automated visual application testing and monitoring" />
+        <meta name="twitter:image" content="../from-site/images/social/applitools_logo.png" />
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Applitools Eyes" />
+        <meta property="og:description" content="Automated visual application testing and monitoring" />
+        <meta property="og:image" content="../from-site/images/social/applitools_logo.png" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:site_name" content="Applitools" />
+        <meta property="”og:type”" content="”website”/" />
+        <meta property="og:url" content="https://applitools.com/" />
+        <link rel="icon" href="../from-site/images/favicon.ico" />
+        <link href="../from-site/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../from-site/site-header.flsnp" />
+        <MadCap:snippetBlock src="../from-site/site-hamburger-menu.flsnp" />
+        <div class="page ">
+            <div class="docs page-container">
+                <div class="visible">
+                    <MadCap:searchBarProxy data-mc-skin="/Project/Skins/HomeSearchBar.flskn" />
+                </div>
+                <div class="content-top">
+                    <div class="nocontent">
+                        <div class="MCBreadcrumbsBox_0 breadcrumbs"><a href="/docs" class="MCBreadcrumbsLink">Documentation</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Search</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <MadCap:bodyProxy />
+                </div>
+            </div>
+            <MadCap:snippetBlock src="../from-site/site-footer.flsnp" />
+        </div>
+        <MadCap:snippetBlock src="../from-site/trackers.flsnp" />
+    </body>
+</html>

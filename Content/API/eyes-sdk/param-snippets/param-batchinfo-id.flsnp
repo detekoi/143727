@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The unique id of the batch. If the id is not specified explicitly, then if the environment variable <span class="code-label">APPLITOOLS_BATCH_ID</span> is defined then its value will be used as the id. If the environment variable is not defined then an internal unique id will be generated and used.You can see how to use the batch id in this article <MadCap:xref class="link" href="../../../topics/working-with-test-batches/batching-tests-in-a-distributed-environment.htm">Batching Tests in a distributed environment</MadCap:xref></p>
+    </body>
+</html>

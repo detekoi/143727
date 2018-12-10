@@ -1,0 +1,121 @@
+@import "./variables";
+
+.demo-page {
+  min-width: 301px;
+  max-width: 625px;
+  margin: 0 auto;
+  text-align: center;
+
+ p {
+    margin-bottom: 20px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  button {
+    padding: 8px 16px;
+    background: #98aac4;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #a5b8d4;
+  }
+
+  .a-button-section {
+    display: none;
+  }
+  .enter-name-section-diff {
+    display: none;
+  }
+  &.diff1 {
+    .section {
+      .primary {
+        display: none;
+      }
+
+      .diff1 {
+        display: inline;
+      }
+
+      .title.primary {
+        display: block;
+      }
+    }
+  }
+
+  &.diff2 {
+    .section {
+      .primary {
+        display: none;
+      }
+
+      .diff2 {
+        display: inline;
+      }
+
+      .title.diff2 {
+        display: block;
+      }
+    }
+
+    .button-section {
+      text-align: right;
+    }
+  }
+
+  .larger {
+        font-size: 36px;
+        font-weight: bold;
+  }
+  
+  &.diff3 {
+    .a-button-section {
+        display: block;
+    }
+    .button-section {
+        display: none;
+    }
+    .enter-name-section{
+        display: none;
+    }
+    .enter-name-section-diff{
+        display: block;
+    }    
+  }
+  .image-section img {
+    margin-top: 20px;
+  }
+
+  .fancy {
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+  .title {
+    margin-bottom: 20px;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+  }
+
+  .section {
+    padding: 5px;
+    background: #fff;
+  }
+
+  .section {
+    .diff1, .diff2 {
+      display: none;
+    }
+  }
+
+  .hidden-section {
+    display: none;
+  }
+}

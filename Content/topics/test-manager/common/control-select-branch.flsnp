@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="734" MadCap:lastWidth="630">
+    <head>
+    </head>
+    <body>
+        <p>The <span class="app-item">branch selector</span> control is used to select the  branch from which the information  displayed on this page is taken. </p>
+        <p> To choose the branch, click on the <span class="app-item">branch selector</span>  and select the branch whose baselines you want to see. The list includes all the branches defined by your team. </p>
+        <p><a data-lightbox="page-branch-select-branch-control" href="images/page-branch-select-branch-control.png"><img class="block-image" src="images/page-branch-select-branch-control.png" /></a>
+            <p>You can type text in the search box, and the list will be updated to display only branches whose name includes the text in the search box.</p>
+            <p>After you have selected the branch, the control displays the name of the currently displayed branch.</p>
+        </p>
+    </body>
+</html>

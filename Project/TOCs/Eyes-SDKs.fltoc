@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Versions="1">
+  <TocEntry
+    Title="Selenium SDK reference guide"
+    Link="/Content/API/eyes-sdk/indexm/sdk-platformIndex-selenium.htm">
+    <TocEntry
+      Title="C# classes index"
+      Link="/Content/API/eyes-sdk/index-gen/classindex-selenium-csharp.htm">
+      <TocEntry
+        Title="Eyes class"
+        Link="/Content/API/eyes-sdk/index-gen/class-eyes-selenium-csharp.htm">
+        <TocEntry
+          Title="AbortIfNotClosed"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-abortifnotclosed-selenium-csharp.htm" />
+        <TocEntry
+          Title="AddProperty"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-addproperty-selenium-csharp.htm" />
+        <TocEntry
+          Title="AgentId"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setagentid-selenium-csharp.htm" />
+        <TocEntry
+          Title="ApiKey"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setapikey-selenium-csharp.htm" />
+        <TocEntry
+          Title="AppName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setappname-selenium-csharp.htm" />
+        <TocEntry
+          Title="BaselineBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselinebranchname-selenium-csharp.htm" />
+        <TocEntry
+          Title="Batch"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setbatch-selenium-csharp.htm" />
+        <TocEntry
+          Title="BranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setbranchname-selenium-csharp.htm" />
+        <TocEntry
+          Title="Check"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-check-selenium-csharp.htm" />
+        <TocEntry
+          Title="CheckElement"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelement-selenium-csharp.htm" />
+        <TocEntry
+          Title="CheckFrame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkframe-selenium-csharp.htm" />
+        <TocEntry
+          Title="CheckRegion"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregion-selenium-csharp.htm" />
+        <TocEntry
+          Title="CheckRegionInFrame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregioninframe-selenium-csharp.htm" />
+        <TocEntry
+          Title="CheckWindow"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkwindow-selenium-csharp.htm" />
+        <TocEntry
+          Title="ClearProperties"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-clearproperties-selenium-csharp.htm" />
+        <TocEntry
+          Title="Close"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-close-selenium-csharp.htm" />
+        <TocEntry
+          Title="CompareWithParentBranch"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setcomparewithparentbranch-selenium-csharp.htm" />
+        <TocEntry
+          Title="DefaultMatchSettings"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setdefaultmatchsettings-selenium-csharp.htm" />
+        <TocEntry
+          Title="Eyes"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-eyes-selenium-csharp.htm" />
+        <TocEntry
+          Title="ForceFullPageScreenshot"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setforcefullpagescreenshot-selenium-csharp.htm" />
+        <TocEntry
+          Title="GetViewportSize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getviewportsize-selenium-csharp.htm" />
+        <TocEntry
+          Title="HideCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidecaret-selenium-csharp.htm" />
+        <TocEntry
+          Title="HideScrollbars"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidescrollbars-selenium-csharp.htm" />
+        <TocEntry
+          Title="IgnoreCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setignorecaret-selenium-csharp.htm" />
+        <TocEntry
+          Title="InRegion"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-inregion-selenium-csharp.htm" />
+        <TocEntry
+          Title="IsDisabled"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setisdisabled-selenium-csharp.htm" />
+        <TocEntry
+          Title="MatchTimeout"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchtimeout-selenium-csharp.htm" />
+        <TocEntry
+          Title="Open"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-open-selenium-csharp.htm" />
+        <TocEntry
+          Title="ParentBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setparentbranchname-selenium-csharp.htm" />
+        <TocEntry
+          Title="Proxy"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setproxy-selenium-csharp.htm" />
+        <TocEntry
+          Title="SaveDiffs"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavediffs-selenium-csharp.htm" />
+        <TocEntry
+          Title="SaveFailedTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavefailedtests-selenium-csharp.htm" />
+        <TocEntry
+          Title="SaveNewTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavenewtests-selenium-csharp.htm" />
+        <TocEntry
+          Title="ScaleRatio"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setscaleratio-selenium-csharp.htm" />
+        <TocEntry
+          Title="ServerUrl"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setserverurl-selenium-csharp.htm" />
+        <TocEntry
+          Title="SetLogHandler"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setloghandler-selenium-csharp.htm" />
+        <TocEntry
+          Title="SetScrollToRegion"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setscrolltoregion-selenium-csharp.htm" />
+        <TocEntry
+          Title="SetViewportSize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setviewportsize-selenium-csharp.htm" />
+        <TocEntry
+          Title="StitchMode"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchmode-selenium-csharp.htm" />
+        <TocEntry
+          Title="StitchOverlap"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchoverlap-selenium-csharp.htm" />
+        <TocEntry
+          Title="WaitBeforeScreenshots"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setwaitbeforescreenshots-selenium-csharp.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="SeleniumCheckSettings class"
+        Link="/Content/API/eyes-sdk/index-gen/class-checksettings-selenium-csharp.htm">
+        <TocEntry
+          Title="Content"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-content-selenium-csharp.htm" />
+        <TocEntry
+          Title="Exact"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-exact-selenium-csharp.htm" />
+        <TocEntry
+          Title="Floating"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-floating-selenium-csharp.htm" />
+        <TocEntry
+          Title="Frame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-frame-selenium-csharp.htm" />
+        <TocEntry
+          Title="Fully"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-fully-selenium-csharp.htm" />
+        <TocEntry
+          Title="Ignore"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignore-selenium-csharp.htm" />
+        <TocEntry
+          Title="IgnoreCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignorecaret-selenium-csharp.htm" />
+        <TocEntry
+          Title="Layout"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-layout-selenium-csharp.htm" />
+        <TocEntry
+          Title="MatchLevel"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-matchlevel-selenium-csharp.htm" />
+        <TocEntry
+          Title="Region"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-region-selenium-csharp.htm" />
+        <TocEntry
+          Title="Strict"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-strict-selenium-csharp.htm" />
+        <TocEntry
+          Title="Timeout"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-timeout-selenium-csharp.htm" />
+        <TocEntry
+          Title="WithName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-withname-selenium-csharp.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="StepInfo class"
+        Link="/Content/API/eyes-sdk/index-gen/class-stepinfo-selenium-csharp.htm"></TocEntry>
+      <TocEntry
+        Title="Target class"
+        Link="/Content/API/eyes-sdk/index-gen/class-target-selenium-csharp.htm">
+        <TocEntry
+          Title="Frame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_target/method-target-frame-selenium-csharp.htm" />
+        <TocEntry
+          Title="Region"
+          Link="/Content/API/eyes-sdk/classes-gen/class_target/method-target-region-selenium-csharp.htm" />
+        <TocEntry
+          Title="Window"
+          Link="/Content/API/eyes-sdk/classes-gen/class_target/method-target-window-selenium-csharp.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="TestResults class"
+        Link="/Content/API/eyes-sdk/index-gen/class-testresults-selenium-csharp.htm">
+        <TocEntry
+          Title="BatchId"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchid-selenium-csharp.htm" />
+        <TocEntry
+          Title="ContentMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getcontentmatches-selenium-csharp.htm" />
+        <TocEntry
+          Title="Delete"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-delete-selenium-csharp.htm" />
+        <TocEntry
+          Title="Duration"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getduration-selenium-csharp.htm" />
+        <TocEntry
+          Title="ExactMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getexactmatches-selenium-csharp.htm" />
+        <TocEntry
+          Title="Id"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getid-selenium-csharp.htm" />
+        <TocEntry
+          Title="IsNew"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-isnew-selenium-csharp.htm" />
+        <TocEntry
+          Title="IsPassed"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-ispassed-selenium-csharp.htm" />
+        <TocEntry
+          Title="LayoutMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getlayoutmatches-selenium-csharp.htm" />
+        <TocEntry
+          Title="Matches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getmatches-selenium-csharp.htm" />
+        <TocEntry
+          Title="Mismatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getmismatches-selenium-csharp.htm" />
+        <TocEntry
+          Title="Missing"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getmissing-selenium-csharp.htm" />
+        <TocEntry
+          Title="NoneMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getnonematches-selenium-csharp.htm" />
+        <TocEntry
+          Title="StartedAt"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstartedat-selenium-csharp.htm" />
+        <TocEntry
+          Title="Status"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstatus-selenium-csharp.htm" />
+        <TocEntry
+          Title="Steps"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getsteps-selenium-csharp.htm" />
+        <TocEntry
+          Title="StepsInfo"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstepsinfo-selenium-csharp.htm" />
+        <TocEntry
+          Title="StrictMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstrictmatches-selenium-csharp.htm" />
+        <TocEntry
+          Title="Url"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-geturl-selenium-csharp.htm" />
+        <TocEntry
+          Title="hostDisplaySize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostdisplaysize-selenium-csharp.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="JavaScript classes index"
+      Link="/Content/API/eyes-sdk/index-gen/classindex-selenium-javascript.htm">
+      <TocEntry
+        Title="Eyes class"
+        Link="/Content/API/eyes-sdk/index-gen/class-eyes-selenium-javascript.htm">
+        <TocEntry
+          Title="abortIfNotClosed"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-abortifnotclosed-selenium-javascript.htm" />
+        <TocEntry
+          Title="addMouseTrigger"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-addmousetrigger-selenium-javascript.htm" />
+        <TocEntry
+          Title="addProperty"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-addproperty-selenium-javascript.htm" />
+        <TocEntry
+          Title="addSessionEventHandler"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-addsessioneventhandler-selenium-javascript.htm" />
+        <TocEntry
+          Title="check"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-check-selenium-javascript.htm" />
+        <TocEntry
+          Title="checkElement"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelement-selenium-javascript.htm" />
+        <TocEntry
+          Title="checkElementBy"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelementby-selenium-javascript.htm" />
+        <TocEntry
+          Title="checkFrame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkframe-selenium-javascript.htm" />
+        <TocEntry
+          Title="checkRegion"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregion-selenium-javascript.htm" />
+        <TocEntry
+          Title="checkRegionBy"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregionby-selenium-javascript.htm" />
+        <TocEntry
+          Title="checkRegionByElement"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregionbyelement-selenium-javascript.htm" />
+        <TocEntry
+          Title="checkRegionInFrame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregioninframe-selenium-javascript.htm" />
+        <TocEntry
+          Title="checkWindow"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkwindow-selenium-javascript.htm" />
+        <TocEntry
+          Title="close"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-close-selenium-javascript.htm" />
+        <TocEntry
+          Title="getAgentId"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getagentid-selenium-javascript.htm" />
+        <TocEntry
+          Title="getApiKey"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getapikey-selenium-javascript.htm" />
+        <TocEntry
+          Title="getAppName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getappname-selenium-javascript.htm" />
+        <TocEntry
+          Title="getBaselineBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getbaselinebranchname-selenium-javascript.htm" />
+        <TocEntry
+          Title="getBatch"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getbatch-selenium-javascript.htm" />
+        <TocEntry
+          Title="getBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getbranchname-selenium-javascript.htm" />
+        <TocEntry
+          Title="getDefaultMatchSettings"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getdefaultmatchsettings-selenium-javascript.htm" />
+        <TocEntry
+          Title="getDefaultMatchTimeout"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getdefaultmatchtimeout-selenium-javascript.htm" />
+        <TocEntry
+          Title="getForceFullPageScreenshot"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getforcefullpagescreenshot-selenium-javascript.htm" />
+        <TocEntry
+          Title="getForcedImageRotation"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getrotation,getforcedimagerotation-selenium-javascript.htm" />
+        <TocEntry
+          Title="getHideScrollbars"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-gethidescrollbars-selenium-javascript.htm" />
+        <TocEntry
+          Title="getHostOS"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-gethostos-selenium-javascript.htm" />
+        <TocEntry
+          Title="getHostingApp"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-gethostapp,gethostingapp-selenium-javascript.htm" />
+        <TocEntry
+          Title="getIgnoreCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getignorecaret-selenium-javascript.htm" />
+        <TocEntry
+          Title="getIsDisabled"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getisdisabled-selenium-javascript.htm" />
+        <TocEntry
+          Title="getIsOpen"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getisopen-selenium-javascript.htm" />
+        <TocEntry
+          Title="getLogHandler"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getloghandler-selenium-javascript.htm" />
+        <TocEntry
+          Title="getParentBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getparentbranchname-selenium-javascript.htm" />
+        <TocEntry
+          Title="getPositionProvider"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getpositionprovider-selenium-javascript.htm" />
+        <TocEntry
+          Title="getProxy"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getproxy-selenium-javascript.htm" />
+        <TocEntry
+          Title="getSaveDebugScreenshots"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavedebugscreenshots-selenium-javascript.htm" />
+        <TocEntry
+          Title="getSaveFailedTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavefailedtests-selenium-javascript.htm" />
+        <TocEntry
+          Title="getSaveNewTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavenewtests-selenium-javascript.htm" />
+        <TocEntry
+          Title="getScaleRatio"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getscaleratio-selenium-javascript.htm" />
+        <TocEntry
+          Title="getScrollRootElement"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getscrollrootelement-selenium-javascript.htm" />
+        <TocEntry
+          Title="getServerUrl"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getserverurl-selenium-javascript.htm" />
+        <TocEntry
+          Title="getStitchMode"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getstitchmode-selenium-javascript.htm" />
+        <TocEntry
+          Title="getViewportSize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getviewportsize-selenium-javascript.htm" />
+        <TocEntry
+          Title="getWaitBeforeScreenshots"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getwaitbeforescreenshots-selenium-javascript.htm" />
+        <TocEntry
+          Title="isCompareWithParentBranch"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-iscomparewithparentbranch-selenium-javascript.htm" />
+        <TocEntry
+          Title="isIgnoreBaseline"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-isignorebaseline-selenium-javascript.htm" />
+        <TocEntry
+          Title="open"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-open-selenium-javascript.htm" />
+        <TocEntry
+          Title="replaceWindow"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-replacewindow-selenium-javascript.htm" />
+        <TocEntry
+          Title="setAgentId"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setagentid-selenium-javascript.htm" />
+        <TocEntry
+          Title="setApiKey"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setapikey-selenium-javascript.htm" />
+        <TocEntry
+          Title="setBaselineBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselinebranchname-selenium-javascript.htm" />
+        <TocEntry
+          Title="setBatch"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setbatch-selenium-javascript.htm" />
+        <TocEntry
+          Title="setBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setbranchname-selenium-javascript.htm" />
+        <TocEntry
+          Title="setCompareWithParentBranch"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setcomparewithparentbranch-selenium-javascript.htm" />
+        <TocEntry
+          Title="setDefaultMatchSettings"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setdefaultmatchsettings-selenium-javascript.htm" />
+        <TocEntry
+          Title="setDefaultMatchTimeout"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setdefaultmatchtimeout-selenium-javascript.htm" />
+        <TocEntry
+          Title="setForceFullPageScreenshot"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setforcefullpagescreenshot-selenium-javascript.htm" />
+        <TocEntry
+          Title="setForcedImageRotation"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setrotation,setforcedimagerotation-selenium-javascript.htm" />
+        <TocEntry
+          Title="setHideScrollbars"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidescrollbars-selenium-javascript.htm" />
+        <TocEntry
+          Title="setHostOS"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-sethostos-selenium-javascript.htm" />
+        <TocEntry
+          Title="setHostingApp"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-sethostapp,sethostingapp-selenium-javascript.htm" />
+        <TocEntry
+          Title="setIgnoreBaseline"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setignorebaseline-selenium-javascript.htm" />
+        <TocEntry
+          Title="setIgnoreCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setignorecaret-selenium-javascript.htm" />
+        <TocEntry
+          Title="setImageCut"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setimagecut-selenium-javascript.htm" />
+        <TocEntry
+          Title="setIsDisabled"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setisdisabled-selenium-javascript.htm" />
+        <TocEntry
+          Title="setLogHandler"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setloghandler-selenium-javascript.htm" />
+        <TocEntry
+          Title="setParentBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setparentbranchname-selenium-javascript.htm" />
+        <TocEntry
+          Title="setProxy"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setproxy-selenium-javascript.htm" />
+        <TocEntry
+          Title="setSaveDebugScreenshots"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavedebugscreenshots-selenium-javascript.htm" />
+        <TocEntry
+          Title="setSaveFailedTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavefailedtests-selenium-javascript.htm" />
+        <TocEntry
+          Title="setSaveNewTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavenewtests-selenium-javascript.htm" />
+        <TocEntry
+          Title="setScaleRatio"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setscaleratio-selenium-javascript.htm" />
+        <TocEntry
+          Title="setScrollRootElement"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setscrollrootelement-selenium-javascript.htm" />
+        <TocEntry
+          Title="setServerUrl"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setserverurl-selenium-javascript.htm" />
+        <TocEntry
+          Title="setStitchMode"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchmode-selenium-javascript.htm" />
+        <TocEntry
+          Title="setViewportSize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setviewportsize-selenium-javascript.htm" />
+        <TocEntry
+          Title="setWaitBeforeScreenshots"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setwaitbeforescreenshots-selenium-javascript.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="TestResults class"
+        Link="/Content/API/eyes-sdk/index-gen/class-testresults-selenium-javascript.htm">
+        <TocEntry
+          Title="appName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getappname-selenium-javascript.htm" />
+        <TocEntry
+          Title="batchId"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchid-selenium-javascript.htm" />
+        <TocEntry
+          Title="batchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchname-selenium-javascript.htm" />
+        <TocEntry
+          Title="branchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getbranchname-selenium-javascript.htm" />
+        <TocEntry
+          Title="contentMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getcontentmatches-selenium-javascript.htm" />
+        <TocEntry
+          Title="duration"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getduration-selenium-javascript.htm" />
+        <TocEntry
+          Title="exactMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getexactmatches-selenium-javascript.htm" />
+        <TocEntry
+          Title="hostApp"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostapp-selenium-javascript.htm" />
+        <TocEntry
+          Title="hostDisplaySize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostdisplaysize-selenium-javascript.htm" />
+        <TocEntry
+          Title="hostOS"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostos-selenium-javascript.htm" />
+        <TocEntry
+          Title="id"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getid-selenium-javascript.htm" />
+        <TocEntry
+          Title="isAborted"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-isaborted-selenium-javascript.htm" />
+        <TocEntry
+          Title="isDifferent"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-isdifferent-selenium-javascript.htm" />
+        <TocEntry
+          Title="isNew"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-isnew-selenium-javascript.htm" />
+        <TocEntry
+          Title="isPassed"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-ispassed-selenium-javascript.htm" />
+        <TocEntry
+          Title="layoutMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getlayoutmatches-selenium-javascript.htm" />
+        <TocEntry
+          Title="matches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getmatches-selenium-javascript.htm" />
+        <TocEntry
+          Title="mismatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getmismatches-selenium-javascript.htm" />
+        <TocEntry
+          Title="missing"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getmissing-selenium-javascript.htm" />
+        <TocEntry
+          Title="name"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getname-selenium-javascript.htm" />
+        <TocEntry
+          Title="noneMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getnonematches-selenium-javascript.htm" />
+        <TocEntry
+          Title="startedAt"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstartedat-selenium-javascript.htm" />
+        <TocEntry
+          Title="status"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstatus-selenium-javascript.htm" />
+        <TocEntry
+          Title="steps"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getsteps-selenium-javascript.htm" />
+        <TocEntry
+          Title="stepsInfo"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstepsinfo-selenium-javascript.htm" />
+        <TocEntry
+          Title="strictMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstrictmatches-selenium-javascript.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Java classes index"
+      Link="/Content/API/eyes-sdk/index-gen/classindex-selenium-java.htm">
+      <TocEntry
+        Title="Eyes class"
+        Link="/Content/API/eyes-sdk/index-gen/class-eyes-selenium-java.htm">
+        <TocEntry
+          Title="Eyes"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-eyes-selenium-java.htm" />
+        <TocEntry
+          Title="abortIfNotClosed"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-abortifnotclosed-selenium-java.htm" />
+        <TocEntry
+          Title="addMouseTrigger"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-addmousetrigger-selenium-java.htm" />
+        <TocEntry
+          Title="addProperty"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-addproperty-selenium-java.htm" />
+        <TocEntry
+          Title="addSessionEventHandler"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-addsessioneventhandler-selenium-java.htm" />
+        <TocEntry
+          Title="addTextTrigger"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-addtexttrigger-selenium-java.htm" />
+        <TocEntry
+          Title="check"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-check-selenium-java.htm" />
+        <TocEntry
+          Title="checkElement"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelement-selenium-java.htm" />
+        <TocEntry
+          Title="checkFrame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkframe-selenium-java.htm" />
+        <TocEntry
+          Title="checkRegion"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregion-selenium-java.htm" />
+        <TocEntry
+          Title="checkRegionInFrame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregioninframe-selenium-java.htm" />
+        <TocEntry
+          Title="checkWindow"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-checkwindow-selenium-java.htm" />
+        <TocEntry
+          Title="clearProperties"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-clearproperties-selenium-java.htm" />
+        <TocEntry
+          Title="clearSessionEventHandlers"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-clearsessioneventhandlers-selenium-java.htm" />
+        <TocEntry
+          Title="close"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-close-selenium-java.htm" />
+        <TocEntry
+          Title="getAgentId"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getagentid-selenium-java.htm" />
+        <TocEntry
+          Title="getApiKey"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getapikey-selenium-java.htm" />
+        <TocEntry
+          Title="getAppName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getappname-selenium-java.htm" />
+        <TocEntry
+          Title="getBaselineBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getbaselinebranchname-selenium-java.htm" />
+        <TocEntry
+          Title="getBatch"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getbatch-selenium-java.htm" />
+        <TocEntry
+          Title="getBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getbranchname-selenium-java.htm" />
+        <TocEntry
+          Title="getDebugScreenshotsPath"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getdebugscreenshotspath-selenium-java.htm" />
+        <TocEntry
+          Title="getDebugScreenshotsPrefix"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getdebugscreenshotsprefix-selenium-java.htm" />
+        <TocEntry
+          Title="getDefaultMatchSettings"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getdefaultmatchsettings-selenium-java.htm" />
+        <TocEntry
+          Title="getDefaultServerUrl"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getdefaultserverurl-selenium-java.htm" />
+        <TocEntry
+          Title="getDevicePixelRatio"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getdevicepixelratio-selenium-java.htm" />
+        <TocEntry
+          Title="getDriver"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getdriver-selenium-java.htm" />
+        <TocEntry
+          Title="getForceFullPageScreenshot"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getforcefullpagescreenshot-selenium-java.htm" />
+        <TocEntry
+          Title="getHideCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-gethidecaret-selenium-java.htm" />
+        <TocEntry
+          Title="getHideScrollbars"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-gethidescrollbars-selenium-java.htm" />
+        <TocEntry
+          Title="getHostApp"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-gethostapp,gethostingapp-selenium-java.htm" />
+        <TocEntry
+          Title="getHostOS"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-gethostos-selenium-java.htm" />
+        <TocEntry
+          Title="getIgnoreCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getignorecaret-selenium-java.htm" />
+        <TocEntry
+          Title="getIsDisabled"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getisdisabled-selenium-java.htm" />
+        <TocEntry
+          Title="getIsOpen"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getisopen-selenium-java.htm" />
+        <TocEntry
+          Title="getLogHandler"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getloghandler-selenium-java.htm" />
+        <TocEntry
+          Title="getMatchTimeout"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getmatchtimeout-selenium-java.htm" />
+        <TocEntry
+          Title="getParentBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getparentbranchname-selenium-java.htm" />
+        <TocEntry
+          Title="getPositionProvider"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getpositionprovider-selenium-java.htm" />
+        <TocEntry
+          Title="getProxy"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getproxy-selenium-java.htm" />
+        <TocEntry
+          Title="getRotation"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getrotation,getforcedimagerotation-selenium-java.htm" />
+        <TocEntry
+          Title="getSaveDebugScreenshots"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavedebugscreenshots-selenium-java.htm" />
+        <TocEntry
+          Title="getSaveDiffs"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavediffs-selenium-java.htm" />
+        <TocEntry
+          Title="getSaveFailedTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavefailedtests-selenium-java.htm" />
+        <TocEntry
+          Title="getSaveNewTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavenewtests-selenium-java.htm" />
+        <TocEntry
+          Title="getScaleRatio"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getscaleratio-selenium-java.htm" />
+        <TocEntry
+          Title="getScrollToRegion"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getscrolltoregion-selenium-java.htm" />
+        <TocEntry
+          Title="getServerUrl"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getserverurl-selenium-java.htm" />
+        <TocEntry
+          Title="getStitchMode"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getstitchmode-selenium-java.htm" />
+        <TocEntry
+          Title="getStitchOverlap"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getstitchoverlap-selenium-java.htm" />
+        <TocEntry
+          Title="getViewportSize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getviewportsize-selenium-java.htm" />
+        <TocEntry
+          Title="getWaitBeforeScreenshots"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-getwaitbeforescreenshots-selenium-java.htm" />
+        <TocEntry
+          Title="open"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-open-selenium-java.htm" />
+        <TocEntry
+          Title="removeSessionEventHandler"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-removesessioneventhandler-selenium-java.htm" />
+        <TocEntry
+          Title="setAgentId"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setagentid-selenium-java.htm" />
+        <TocEntry
+          Title="setApiKey"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setapikey-selenium-java.htm" />
+        <TocEntry
+          Title="setAppName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setappname-selenium-java.htm" />
+        <TocEntry
+          Title="setBaselineBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselinebranchname-selenium-java.htm" />
+        <TocEntry
+          Title="setBatch"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setbatch-selenium-java.htm" />
+        <TocEntry
+          Title="setBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setbranchname-selenium-java.htm" />
+        <TocEntry
+          Title="setDebugScreenshotsPath"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setdebugscreenshotspath-selenium-java.htm" />
+        <TocEntry
+          Title="setDebugScreenshotsPrefix"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setdebugscreenshotsprefix-selenium-java.htm" />
+        <TocEntry
+          Title="setDefaultMatchSettings"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setdefaultmatchsettings-selenium-java.htm" />
+        <TocEntry
+          Title="setExplicitViewportSize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setexplicitviewportsize-selenium-java.htm" />
+        <TocEntry
+          Title="setForceFullPageScreenshot"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setforcefullpagescreenshot-selenium-java.htm" />
+        <TocEntry
+          Title="setHideCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidecaret-selenium-java.htm" />
+        <TocEntry
+          Title="setHideScrollbars"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidescrollbars-selenium-java.htm" />
+        <TocEntry
+          Title="setHostApp"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-sethostapp,sethostingapp-selenium-java.htm" />
+        <TocEntry
+          Title="setHostOS"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-sethostos-selenium-java.htm" />
+        <TocEntry
+          Title="setIgnoreCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setignorecaret-selenium-java.htm" />
+        <TocEntry
+          Title="setImageCut"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setimagecut-selenium-java.htm" />
+        <TocEntry
+          Title="setIsDisabled"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setisdisabled-selenium-java.htm" />
+        <TocEntry
+          Title="setLogHandler"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setloghandler-selenium-java.htm" />
+        <TocEntry
+          Title="setMatchTimeout"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchtimeout-selenium-java.htm" />
+        <TocEntry
+          Title="setParentBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setparentbranchname-selenium-java.htm" />
+        <TocEntry
+          Title="setProxy"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setproxy-selenium-java.htm" />
+        <TocEntry
+          Title="setRotation"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setrotation,setforcedimagerotation-selenium-java.htm" />
+        <TocEntry
+          Title="setSaveDebugScreenshots"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavedebugscreenshots-selenium-java.htm" />
+        <TocEntry
+          Title="setSaveDiffs"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavediffs-selenium-java.htm" />
+        <TocEntry
+          Title="setSaveFailedTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavefailedtests-selenium-java.htm" />
+        <TocEntry
+          Title="setSaveNewTests"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavenewtests-selenium-java.htm" />
+        <TocEntry
+          Title="setScaleRatio"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setscaleratio-selenium-java.htm" />
+        <TocEntry
+          Title="setScrollToRegion"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setscrolltoregion-selenium-java.htm" />
+        <TocEntry
+          Title="setServerUrl"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setserverurl-selenium-java.htm" />
+        <TocEntry
+          Title="setStitchMode"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchmode-selenium-java.htm" />
+        <TocEntry
+          Title="setStitchOverlap"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchoverlap-selenium-java.htm" />
+        <TocEntry
+          Title="setViewportSize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setviewportsize-selenium-java.htm" />
+        <TocEntry
+          Title="setWaitBeforeScreenshots"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-setwaitbeforescreenshots-selenium-java.htm" />
+        <TocEntry
+          Title="testWindow"
+          Link="/Content/API/eyes-sdk/classes-gen/class_eyes/method-eyes-testwindow-selenium-java.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="SeleniumCheckSettings class"
+        Link="/Content/API/eyes-sdk/index-gen/class-checksettings-selenium-java.htm">
+        <TocEntry
+          Title="content"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-content-selenium-java.htm" />
+        <TocEntry
+          Title="exact"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-exact-selenium-java.htm" />
+        <TocEntry
+          Title="floating"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-floating-selenium-java.htm" />
+        <TocEntry
+          Title="frame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-frame-selenium-java.htm" />
+        <TocEntry
+          Title="fully"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-fully-selenium-java.htm" />
+        <TocEntry
+          Title="ignore"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignore-selenium-java.htm" />
+        <TocEntry
+          Title="ignoreCaret"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignorecaret-selenium-java.htm" />
+        <TocEntry
+          Title="layout"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-layout-selenium-java.htm" />
+        <TocEntry
+          Title="matchLevel"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-matchlevel-selenium-java.htm" />
+        <TocEntry
+          Title="region"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-region-selenium-java.htm" />
+        <TocEntry
+          Title="strict"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-strict-selenium-java.htm" />
+        <TocEntry
+          Title="timeout"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-timeout-selenium-java.htm" />
+        <TocEntry
+          Title="withName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_checksettings/method-checksettings-withname-selenium-java.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="StepInfo class"
+        Link="/Content/API/eyes-sdk/index-gen/class-stepinfo-selenium-java.htm">
+        <TocEntry
+          Title="HasBaselineImage" />
+        <TocEntry
+          Title="HasCurrentImage"
+          Link="/Content/API/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-hascurrentimage-selenium-java.htm" />
+        <TocEntry
+          Title="getBaselineImage"
+          Link="/Content/API/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getbaselineimage-selenium-java.htm" />
+        <TocEntry
+          Title="getCurrentImage"
+          Link="/Content/API/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getcurrentimage-selenium-java.htm" />
+        <TocEntry
+          Title="getDiffImage"
+          Link="/Content/API/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getdiffimage-selenium-java.htm" />
+        <TocEntry
+          Title="getName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getname-selenium-java.htm" />
+        <TocEntry
+          Title="getStep"
+          Link="/Content/API/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getstep-selenium-java.htm" />
+        <TocEntry
+          Title="isDifferent" />
+      </TocEntry>
+      <TocEntry
+        Title="Target class"
+        Link="/Content/API/eyes-sdk/index-gen/class-target-selenium-java.htm">
+        <TocEntry
+          Title="frame"
+          Link="/Content/API/eyes-sdk/classes-gen/class_target/method-target-frame-selenium-java.htm" />
+        <TocEntry
+          Title="region"
+          Link="/Content/API/eyes-sdk/classes-gen/class_target/method-target-region-selenium-java.htm" />
+        <TocEntry
+          Title="window"
+          Link="/Content/API/eyes-sdk/classes-gen/class_target/method-target-window-selenium-java.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="TestResults class"
+        Link="/Content/API/eyes-sdk/index-gen/class-testresults-selenium-java.htm">
+        <TocEntry
+          Title="delete"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-delete-selenium-java.htm" />
+        <TocEntry
+          Title="getAppName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getappname-selenium-java.htm" />
+        <TocEntry
+          Title="getBatchId"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchid-selenium-java.htm" />
+        <TocEntry
+          Title="getBatchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchname-selenium-java.htm" />
+        <TocEntry
+          Title="getBranchName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getbranchname-selenium-java.htm" />
+        <TocEntry
+          Title="getContentMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getcontentmatches-selenium-java.htm" />
+        <TocEntry
+          Title="getDuration"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getduration-selenium-java.htm" />
+        <TocEntry
+          Title="getExactMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getexactmatches-selenium-java.htm" />
+        <TocEntry
+          Title="getHostApp"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostapp-selenium-java.htm" />
+        <TocEntry
+          Title="getHostDisplaySize"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostdisplaysize-selenium-java.htm" />
+        <TocEntry
+          Title="getHostOS"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostos-selenium-java.htm" />
+        <TocEntry
+          Title="getId"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getid-selenium-java.htm" />
+        <TocEntry
+          Title="getLayoutMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getlayoutmatches-selenium-java.htm" />
+        <TocEntry
+          Title="getMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getmatches-selenium-java.htm" />
+        <TocEntry
+          Title="getMismatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getmismatches-selenium-java.htm" />
+        <TocEntry
+          Title="getMissing"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getmissing-selenium-java.htm" />
+        <TocEntry
+          Title="getName"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getname-selenium-java.htm" />
+        <TocEntry
+          Title="getNoneMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getnonematches-selenium-java.htm" />
+        <TocEntry
+          Title="getStartedAt"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstartedat-selenium-java.htm" />
+        <TocEntry
+          Title="getStatus"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstatus-selenium-java.htm" />
+        <TocEntry
+          Title="getSteps"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getsteps-selenium-java.htm" />
+        <TocEntry
+          Title="getStepsInfo"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstepsinfo-selenium-java.htm" />
+        <TocEntry
+          Title="getStrictMatches"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-getstrictmatches-selenium-java.htm" />
+        <TocEntry
+          Title="getUrl"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-geturl-selenium-java.htm" />
+        <TocEntry
+          Title="isAborted"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-isaborted-selenium-java.htm" />
+        <TocEntry
+          Title="isDifferent"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-isdifferent-selenium-java.htm" />
+        <TocEntry
+          Title="isNew"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-isnew-selenium-java.htm" />
+        <TocEntry
+          Title="isPassed"
+          Link="/Content/API/eyes-sdk/classes-gen/class_testresults/method-testresults-ispassed-selenium-java.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Appium SDK reference guide"
+    Link="/Content/API/eyes-sdk/indexm/sdk-platformIndex-appium.htm"></TocEntry>
+</CatapultToc>

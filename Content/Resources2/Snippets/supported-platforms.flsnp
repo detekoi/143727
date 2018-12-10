@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="13" MadCap:lastHeight="1242" MadCap:lastWidth="486">
+    <head>
+    </head>
+    <body>
+        <div class="tutorial">
+            <div class="panel">
+                <div class="step env-picker">
+                    <div class="multi-header">
+                    </div>
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col col-1-2 col-md-1 col-sm-1 col-xs-1">
+                                <div class="row">
+                                    <div class="col col-1-2 col-sm-1-2 col-xs-1">
+                                        <div class="env-type-title">
+                                            <div class="env-icon">
+                                                <img src="../from-site/web.svg" />
+                                            </div>
+                                            <label class="title">Web</label>
+                                        </div>
+                                        <ul class="v-menu">
+                                            <li>
+										Selenium Java
+									
+                                </li>
+                                            <li>
+										Selenium Javascript
+									
+                                </li>
+                                            <li>
+										Selenium C#
+									
+                                </li>
+                                            <li>
+										Selenium PHP
+									
+                                </li>
+                                            <li>
+										Selenium Python
+									
+                                </li>
+                                            <li>
+										Selenium Ruby
+									
+                                </li>
+											<li>
+												React Storybook
+											</li>
+											<li>
+												 WebdriverIO
+											</li>
+                                            <li>
+										Watir
+									
+                                </li>
+                                            <li>
+										Capybara
+									
+                                </li>
+                                            <li>
+										Protractor
+								
+                                </li>
+                                            <li>
+										UFT/QTP
+								
+                                </li>
+                                            <li>
+										LeanFT C#
+								
+                                </li>
+                                            <li>
+										LeanFT Javascript
+								
+                                </li>
+                                            <li>
+										Coded UI
+									
+                                </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col col-1-2 col-sm-1-2 col-xs-1">
+                                        <div class="env-type-title">
+                                            <div class="env-icon">
+                                                <img src="../from-site/mobile.svg" />
+                                            </div>
+                                            <label class="title">Mobile</label>
+                                        </div>
+                                        <ul class="v-menu">
+                                            <li>
+										Appium native C#
+								
+                                </li>
+                                            <li>
+										Appium native Java
+									
+                                </li>
+                                            <li>
+										Appium native Javascript
+								
+                                </li>
+                                            <li>
+										Appium native PHP
+									
+                                </li>
+                                            <li>
+										Appium native Python
+								
+                                </li>
+                                            <li>
+										Appium native Ruby
+									
+                                </li>
+                                            <li>
+										Appium web C#
+								
+                                </li>
+                                            <li>
+										Appium web Java
+									
+                                </li>
+                                            <li>
+										Appium web Javascript
+									
+                                </li>
+                                            <li>
+										Appium web PHP
+									
+                                </li>
+                                            <li>
+										Appium web Python
+								
+                                </li>
+                                            <li>
+										Appium web Ruby
+								
+                                </li>
+                                            <li>
+										XCUI (Objective-C)
+								
+                                </li>
+                                            <li>
+										XCUI (Swift)
+									
+                                </li>
+                                            <li>
+										Espresso
+									
+                                </li>
+											<li>
+												Calabash iOS
+												</li>
+											<li>
+												Calabash Android
+												</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-1-2 col-md-1 col-sm-1 col-xs-1">
+                                <div class="row">
+                                    <div class="col col-1-2 col-sm-1-2 col-xs-1">
+                                        <div class="env-type-title">
+                                            <div class="env-icon">
+                                                <img src="../from-site/screenshots.svg" />
+                                            </div>
+                                            <label class="title">Screenshots</label>
+                                        </div>
+                                        <ul class="v-menu">
+                                            <li>
+										CLI
+								
+                                </li>
+                                            <li>
+										C#
+								
+                                </li>
+                                            <li>
+										Java
+									
+                                </li>
+                                            <li>
+										Javascript
+									
+                                </li>
+                                            <li>
+										PHP
+									
+                                </li>
+                                            <li>
+										Python
+								
+                                </li>
+                                            <li>
+										Ruby
+									
+                                </li>
+											<li>
+												XCTest (Objective-C)
+												</li>
+											<li>
+											XCTest (swift)
+											</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col col-1-2 col-sm-1-2 col-xs-1">
+                                        <div class="env-type-title">
+                                            <div class="env-icon">
+                                                <img src="../from-site/other.svg" />
+                                            </div>
+                                            <label class="title">Other</label>
+                                        </div>
+                                        <ul class="v-menu">
+                                            <li>
+										Windows UFT
+								
+                                </li>
+                                            <li>
+										Windows Coded UI
+									
+                                </li>
+                                            <li>
+										Windows Apps
+								
+                                </li>
+                                            <li>
+										PDF Forms
+								
+                                </li>
+                                            <li>
+										REST API
+								
+                                </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>
+		If you do not use one the frameworks listed above then you can verify your app by passing screenshots that you captured yourself to one of the screenshot SDKs.
+	</p>
+        </div>
+    </body>
+</html>

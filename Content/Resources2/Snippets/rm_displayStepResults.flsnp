@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="996" MadCap:lastWidth="903">
+    <head>
+    </head>
+    <body>
+        <table style="width: 100%;">
+            <col style="width: 248px;" />
+            <col style="width: 619px;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="../Images/applitools/step_state_01_step-new-pass-up.png" />
+                    </td>
+                    <td>
+                        <p>The <img src="../Images/applitools/step-new-orange.png" /> sign at the top left indicates that this is a new step</p>
+                        <p>The <img src="../Images/applitools/step-thumbs_up.png" /> underneath indicates that the step has been resolved (typically automatically)</p>
+                        <p>The <span style="color: #3cb371; font-weight: bold;">green </span>bar to the left indicates that the step has passed the visual UI test.</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Images/applitools/step_state_02_step-same-pass-up.png" />
+                    </td>
+                    <td>
+                        <p>The  <img src="../Images/applitools/step-same.png" /> sign at the top left indicates that no differences were found.</p>
+                        <p>The <img src="../Images/applitools/step-thumbs_up.png"></img> underneath indicates that the step has been resolved (typically automatically)</p>
+                        <p>The <span style="color: #3cb371; font-weight: bold;">green </span>bar to the left indicates that the step has passed the visual UI test.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Images/applitools/step_state_04_step-diff-unresolved.png" />
+                    </td>
+                    <td>
+                        <p>The <img src="../Images/applitools/step-diff.png" /> sign at the top left indicates that mismatches (diffs) were found. The areas marked in <span style="color: #da70d6; font-weight: bold;">pink </span>mark the diffs.</p>
+                        <p>The <span style="color: #ff8c00; font-weight: bold;">orange</span>bar to the left indicates that the step is unresolved (so there is no <img src="../Images/applitools/step-thumbs_up.png" />or <img src="../Images/applitools/step-thumbs-down.png" />).</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Images/applitools/step_state_08_step_missing_unresolved.png" />
+                    </td>
+                    <td>The <img src="../Images/applitools/step-missing.png" />sign at the top left indicates that there is a baseline image with no corresponding check point. <p>The <span style="color: #ff8c00; font-weight: bold;">orange</span>bar to the left indicates that the step is unresolved (so there is no <img src="../Images/applitools/step-thumbs_up.png" />or <img src="../Images/applitools/step-thumbs-down.png" />)</p></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

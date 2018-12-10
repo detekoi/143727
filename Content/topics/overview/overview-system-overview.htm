@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1 class="title"><a name="top"></a>System Overview </h1>
+        <div><span>The system consists of the following major components:</span>
+            <ul class="bulleted-list">
+                <li>The Application Under Test (AUT).</li>
+                <li>A&#160;test suite that exercises the AUT and verifies its correctness</li>
+                <li>The <MadCap:variable name="General.ProductName" /> SDK,&#160;called in the test suite code to trigger screenshot capture and visual checking</li>
+                <li>An application Driver, such as Selenium or Appium that provides a way for the test suite to send events to the AUT.&#160;The <MadCap:variable name="General.ProductClientAPI" /> also uses the Driver to capture the AUT&#160;screenshots</li>
+                <li>The <MadCap:variable name="Definitions.Eyes Server" />, receives and stores the AUT screenshots from the SDK, compares them to stored baseline images and reports  the differences</li>
+                <li>The <MadCap:variable name="General.ProductUI" />, allows  users to review the test results, report bugs and manage the baseline images</li>
+            </ul>
+        </div>
+        <p>The description below explains how the components interact to run a test, and to allow Testers to view and manage the test results.</p><a data-lightbox="img1" href="../../Resources2/Figures/F0001-ecosystem.png"><img src="../../Resources2/Figures/F0001-ecosystem.png" class="block-image" /></a>
+		The numbers below refer to the labeled arrows in the diagram.
+        <ul class="table-list"><li><span class="table-list-item-name">1:</span> Testers run the test suite  and the code typically repeats the following  steps for multiple application states:</li><li><span class="table-list-item-name">2.1:</span> Simulate user actions (e.g. mouse click, keyboard entry) by using a driver such as Selenium or Appium</li><li><span class="table-list-item-name">2.2:</span> Call an <MadCap:variable name="General.ProductClientAPI" /> API to  perform a visual checkpoint</li><li><span class="table-list-item-name">2.2a:</span> <MadCap:variable name="General.ProductClientAPI" /> uses the Driver to obtain the screenshot</li><li><span class="table-list-item-name">2.2b:</span> <MadCap:variable name="General.ProductClientAPI" /> then sends the image to the <MadCap:variable name="Definitions.Eyes Server" /> where it, and the other checkpoint images, are compared to the baseline images previously stored on the Server</li><li><span class="table-list-item-name">3:</span>After the images in the test have been processed, the <MadCap:variable name="Definitions.Eyes Server" /> replies with information such as  whether any differences were found and a link to the <MadCap:variable name="General.ProductName" /> site where the results can be viewed.</li><li><span class="table-list-item-name">4:</span> Testers use the <MadCap:variable name="General.ProductUI" /> to view the test results, update the baselines, mark bugs and annotate regions that need special handling. After having viewed all of the results, testers save the baseline which then becomes the basis for comparison in the next test run.</li></ul><p><MadCap:variable name="General.CompanyName" /> provides a set of SDKs that supports a wide variety of popular web, mobile and desktop test automation frameworks, with support for various application driver infrastructures, programming languages and for all common platforms, browsers, and operating systems. These SDKs do not interact directly with the AUT, so <MadCap:variable name="General.ProductName" /> is totally independent of how the application is implemented and deployed.</p><p>See <a class="link" href="../general-concepts/supported-platforms.htm">Supported platforms</a> for a list of the hardware and development environments that are supported.</p><p><MadCap:variable name="General.ProductName" /> services can be provided in different server configurations to meet your organization's needs, ranging from multi-tenant public cloud to a dedicated cloud   or on-premises servers. The SDK/Server based architecture ensures that the Application and test suite code and deployment are totally independent and isolated from the Server.  For example the application can sit behind a firewall, and the <MadCap:variable name="Definitions.Eyes Server" /> does not need direct access in order to obtain the screenshots.</p><!-- see https://forums.madcapsoftware.com/viewtopic.php?f=12&t=17180 --><script>/* <![CDATA[ */
+			function removeLineItemValues() {
+			// Remove 'value' attribute from all list items in all ordered lists
+			$( 'ol > li' ).removeAttr('value');
+			}
+			removeLineItemValues();
+		/* ]]> */</script></body>
+</html>

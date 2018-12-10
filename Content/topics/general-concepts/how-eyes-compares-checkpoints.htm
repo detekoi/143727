@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="1520" MadCap:lastWidth="495">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="title">How Eyes compares checkpoints and baseline images </h1>
+        <p>As the application under test evolves, so do its tests. New checkpoints are added to test new functionality and checkpoints are removed because the application functionality or flow has changed.</p>
+        <p>Instead of having a static association between every checkpoint and a corresponding baseline image, Eyes compares a <u class="u">sequence</u> of images captured by checkpoints to a <u class="u">sequence</u> of baseline images, allowing for the fact that checkpoints may have been removed or added. Then, very much like a textual "diff"&#160;program, Eyes find images that have been added and removed as well as images that have a corresponding baseline image and either match or mismatch. Eyes then gives the user the tools to both verify existing checkpoints as well as to ensure that the set of baseline images is up-to-date. </p>
+        <h2 class="title">Tests results and steps</h2>
+        <p>When a visual UI test executes, Eyes verifies the entire sequence of checkpoints against the sequence of baseline images. The result of this verification, the test result, consists of a sequence of steps, each denoting a missing checkpoint, a new checkpoint, a checkpoint that matches its baseline counterpart or one that differs from it.</p>
+        <p>For example, the baseline of a test may consist of the following five images:</p>
+        <p>
+            <img src="../../Resources2/Images/import-word/How Eyes compares checkpoints.png" style="visibility: visible;width: 322px;height: 30px;" />
+        </p>
+        <p>Now imagine that the application and test have been changed, and the test generates a different sequence of images, for example:</p>
+        <p>
+            <img src="../../Resources2/Images/import-word/How Eyes compares checkpoints_1.png" style="visibility: visible;width: 394px;height: 32px;" />
+        </p>
+        <p>Comparing the two sequences, we can see that:</p>
+        <ul class="bulleted-list">
+            <li>Image B&#160;has been removed</li>
+            <li>Image C has changed to C1 </li>
+            <li>Images F and G have been added</li>
+            <li>Images A, D, and E&#160;have not changed and are in the same order</li>
+        </ul>
+        <p>Eyes will detect these differences, and it will generate a sequence of steps, as follows:</p>
+        <p>
+            <img src="../../Resources2/Images/import-word/How Eyes compares checkpoints_2.png" style="visibility: visible;width: 443px;height: 128px;" />
+        </p>
+        <p>Each such step represents one of the four possible outcomes:</p>
+        <ul class="table-list">
+            <li><span class="table-list-item-name">Match:</span> 
+			Eyes has found a baseline and checkpoint image that match each other.</li>
+            <li><span class="table-list-item-name">Diff:</span> Eyes has found a baseline and checkpoint image that correspond to each other, but there are mismatches.</li>
+            <li><span class="table-list-item-name">Missing:</span>
+			 Eyes has detected that an existing baseline image has no corresponding checkpoint image.</li>
+            <li><span class="table-list-item-name">New:</span> Eyes has detected a new checkpoint image, i.e., an image in the captured sequence which has no corresponding </li>
+        </ul>
+        <h3 class="title">Notes</h3>
+        <p>While you can freely add and remove checkpoints, Eyes assumes that the order of captured images that are <u class="u">not</u> new does not change. If you change the order of two checkpoints, then depending on the content of these checkpoints, Eyes could report two missing steps and two new steps, or it could report two steps with mismatches.</p>
+        <p>When you define a checkpoint in the code, you can optionally provide a name for that checkpoint. The name is intended to be descriptive, so as to allow users to easily and conveniently navigate and search within the test results. Eyes does not take the name into account when matching checkpoint and baseline images. The name is optional, does not need to be unique, and you can freely change it without impacting the testability of the code.</p>
+    </body>
+</html>

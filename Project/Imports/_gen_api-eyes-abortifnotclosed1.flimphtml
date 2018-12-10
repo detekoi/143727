@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlImport
+  KeepSourceLinks="true"
+  ProjectName="Eyes Knowledge base"
+  ProjectFolder="C:\Users\User\Documents\eyes-knowledgebase-source\"
+  AutoSync="false"
+  SourceFolders=""
+  ImportResources="false"
+  ImportResourcesLocation="NoImport"
+  ImportTopics="content"
+  ImportLinkedHtmlFiles="false"
+  LastImport="2018-02-18T08:49:59.7431728+02:00"
+  ImportTopicsLocation="Content/">
+  <Files>
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-abortifnotclosed.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-abortifnotclosed.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-addmousetrigger.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-addmousetrigger.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-addproperty.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-addproperty.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-addtexttrigger.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-addtexttrigger.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-check.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-check.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-checkelement.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-checkelement.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-checkframe.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-checkframe.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-checkregion.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-checkregion.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-checkregioninframe.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-checkregioninframe.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-checkwindow.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-checkwindow.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-clearproperties.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-clearproperties.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-close.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-close.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getagentid.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getagentid.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getapikey.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getapikey.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getappname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getappname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getappoutput.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getappoutput.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getbaseagentid.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getbaseagentid.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getbaselineenvname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getbaselineenvname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getbaselinename.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getbaselinename.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getbatch.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getbatch.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getbranchname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getbranchname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getdebugscreenshotspath.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getdebugscreenshotspath.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getdebugscreenshotsprefix.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getdebugscreenshotsprefix.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getdebugscreenshotsprovider.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getdebugscreenshotsprovider.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getdefaultmatchsettings.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getdefaultmatchsettings.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getdefaultserverurl.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getdefaultserverurl.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getdevicepixelratio.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getdevicepixelratio.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getdriver.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getdriver.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getelementpositionprovider.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getelementpositionprovider.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getenvname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getenvname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getfailurereports.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getfailurereports.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getforcefullpagescreenshot.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getforcefullpagescreenshot.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-gethidescrollbars.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-gethidescrollbars.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-gethostapp.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-gethostapp.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-gethostos.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-gethostos.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getignorecaret.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getignorecaret.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getisdisabled.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getisdisabled.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getisopen.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getisopen.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getloghandler.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getloghandler.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getmatchlevel.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getmatchlevel.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getmatchtimeout.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getmatchtimeout.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getparentbranchname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getparentbranchname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getpositionprovider.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getpositionprovider.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getproxy.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getproxy.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getregion.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getregion.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getrotation.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getrotation.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getsavedebugscreenshots.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getsavedebugscreenshots.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getsavefailedtests.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getsavefailedtests.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getsavenewtests.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getsavenewtests.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getscaleratio.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getscaleratio.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getscrolltoregion.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getscrolltoregion.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getserverurl.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getserverurl.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getstitchmode.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getstitchmode.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getstitchoverlap.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getstitchoverlap.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getviewportsize.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getviewportsize.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-getwaitbeforescreenshots.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-getwaitbeforescreenshots.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-open.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-open.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-run.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-run.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setagentid.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setagentid.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setapikey.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setapikey.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setappenvironment.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setappenvironment.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setappname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setappname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setbaselineenvname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setbaselineenvname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setbaselinename.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setbaselinename.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setbatch.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setbatch.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setbranchname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setbranchname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setdebugscreenshotspath.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setdebugscreenshotspath.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setdebugscreenshotsprefix.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setdebugscreenshotsprefix.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setdefaultmatchsettings.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setdefaultmatchsettings.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setenvname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setenvname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setexplicitviewportsize.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setexplicitviewportsize.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setfailurereports.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setfailurereports.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setforcefullpagescreenshot.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setforcefullpagescreenshot.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-sethidescrollbars.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-sethidescrollbars.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-sethostapp.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-sethostapp.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-sethostos.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-sethostos.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setignorecaret.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setignorecaret.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setimagecut.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setimagecut.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setisdisabled.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setisdisabled.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setloghandler.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setloghandler.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setmatchlevel.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setmatchlevel.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setmatchtimeout.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setmatchtimeout.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setparentbranchname.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setparentbranchname.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setproxy.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setproxy.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setregiontocheck.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setregiontocheck.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setrotation.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setrotation.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setsavedebugscreenshots.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setsavedebugscreenshots.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setsavefailedtests.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setsavefailedtests.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setsavenewtests.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setsavenewtests.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setscaleratio.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setscaleratio.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setscrolltoregion.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setscrolltoregion.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setserverurl.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setserverurl.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setstitchmode.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setstitchmode.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setstitchoverlap.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setstitchoverlap.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-setwaitbeforescreenshots.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-setwaitbeforescreenshots.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-shouldstitchcontent.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-shouldstitchcontent.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-testresponsetime.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-testresponsetime.htm" />
+    <Url
+      Source="../../Private/apiextract/tools/out/_gen_api-eyes-testwindow.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out/_gen_api-eyes-testwindow.htm" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/_gen_api-eyes-abortifnotclosed.htm"
+      TimeStamp="18-Feb-18 8:49:38 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-addmousetrigger.htm"
+      TimeStamp="18-Feb-18 8:49:38 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-addproperty.htm"
+      TimeStamp="18-Feb-18 8:49:38 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-addtexttrigger.htm"
+      TimeStamp="18-Feb-18 8:49:38 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-check.htm"
+      TimeStamp="18-Feb-18 8:49:38 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-checkelement.htm"
+      TimeStamp="18-Feb-18 8:49:38 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-checkframe.htm"
+      TimeStamp="18-Feb-18 8:49:39 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-checkregion.htm"
+      TimeStamp="18-Feb-18 8:49:39 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-checkregioninframe.htm"
+      TimeStamp="18-Feb-18 8:49:39 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-checkwindow.htm"
+      TimeStamp="18-Feb-18 8:49:39 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-clearproperties.htm"
+      TimeStamp="18-Feb-18 8:49:39 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-close.htm"
+      TimeStamp="18-Feb-18 8:49:40 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getagentid.htm"
+      TimeStamp="18-Feb-18 8:49:40 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getapikey.htm"
+      TimeStamp="18-Feb-18 8:49:40 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getappname.htm"
+      TimeStamp="18-Feb-18 8:49:40 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getappoutput.htm"
+      TimeStamp="18-Feb-18 8:49:40 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getbaseagentid.htm"
+      TimeStamp="18-Feb-18 8:49:40 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getbaselineenvname.htm"
+      TimeStamp="18-Feb-18 8:49:41 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getbaselinename.htm"
+      TimeStamp="18-Feb-18 8:49:41 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getbatch.htm"
+      TimeStamp="18-Feb-18 8:49:41 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getbranchname.htm"
+      TimeStamp="18-Feb-18 8:49:41 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getdebugscreenshotspath.htm"
+      TimeStamp="18-Feb-18 8:49:41 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getdebugscreenshotsprefix.htm"
+      TimeStamp="18-Feb-18 8:49:41 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getdebugscreenshotsprovider.htm"
+      TimeStamp="18-Feb-18 8:49:42 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getdefaultmatchsettings.htm"
+      TimeStamp="18-Feb-18 8:49:42 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getdefaultserverurl.htm"
+      TimeStamp="18-Feb-18 8:49:42 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getdevicepixelratio.htm"
+      TimeStamp="18-Feb-18 8:49:42 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getdriver.htm"
+      TimeStamp="18-Feb-18 8:49:42 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getelementpositionprovider.htm"
+      TimeStamp="18-Feb-18 8:49:42 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getenvname.htm"
+      TimeStamp="18-Feb-18 8:49:43 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getfailurereports.htm"
+      TimeStamp="18-Feb-18 8:49:43 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getforcefullpagescreenshot.htm"
+      TimeStamp="18-Feb-18 8:49:43 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-gethidescrollbars.htm"
+      TimeStamp="18-Feb-18 8:49:43 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-gethostapp.htm"
+      TimeStamp="18-Feb-18 8:49:43 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-gethostos.htm"
+      TimeStamp="18-Feb-18 8:49:43 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getignorecaret.htm"
+      TimeStamp="18-Feb-18 8:49:43 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getisdisabled.htm"
+      TimeStamp="18-Feb-18 8:49:44 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getisopen.htm"
+      TimeStamp="18-Feb-18 8:49:44 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getloghandler.htm"
+      TimeStamp="18-Feb-18 8:49:44 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getmatchlevel.htm"
+      TimeStamp="18-Feb-18 8:49:44 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getmatchtimeout.htm"
+      TimeStamp="18-Feb-18 8:49:44 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getparentbranchname.htm"
+      TimeStamp="18-Feb-18 8:49:44 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getpositionprovider.htm"
+      TimeStamp="18-Feb-18 8:49:45 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getproxy.htm"
+      TimeStamp="18-Feb-18 8:49:45 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getregion.htm"
+      TimeStamp="18-Feb-18 8:49:45 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getrotation.htm"
+      TimeStamp="18-Feb-18 8:49:45 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getsavedebugscreenshots.htm"
+      TimeStamp="18-Feb-18 8:49:45 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getsavefailedtests.htm"
+      TimeStamp="18-Feb-18 8:49:45 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getsavenewtests.htm"
+      TimeStamp="18-Feb-18 8:49:46 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getscaleratio.htm"
+      TimeStamp="18-Feb-18 8:49:46 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getscrolltoregion.htm"
+      TimeStamp="18-Feb-18 8:49:46 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getserverurl.htm"
+      TimeStamp="18-Feb-18 8:49:46 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getstitchmode.htm"
+      TimeStamp="18-Feb-18 8:49:46 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getstitchoverlap.htm"
+      TimeStamp="18-Feb-18 8:49:46 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getviewportsize.htm"
+      TimeStamp="18-Feb-18 8:49:46 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-getwaitbeforescreenshots.htm"
+      TimeStamp="18-Feb-18 8:49:47 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-open.htm"
+      TimeStamp="18-Feb-18 8:49:47 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-run.htm"
+      TimeStamp="18-Feb-18 8:49:47 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setagentid.htm"
+      TimeStamp="18-Feb-18 8:49:47 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setapikey.htm"
+      TimeStamp="18-Feb-18 8:49:47 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setappenvironment.htm"
+      TimeStamp="18-Feb-18 8:49:48 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setappname.htm"
+      TimeStamp="18-Feb-18 8:49:48 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setbaselineenvname.htm"
+      TimeStamp="18-Feb-18 8:49:48 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setbaselinename.htm"
+      TimeStamp="18-Feb-18 8:49:48 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setbatch.htm"
+      TimeStamp="18-Feb-18 8:49:48 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setbranchname.htm"
+      TimeStamp="18-Feb-18 8:49:49 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setdebugscreenshotspath.htm"
+      TimeStamp="18-Feb-18 8:49:49 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setdebugscreenshotsprefix.htm"
+      TimeStamp="18-Feb-18 8:49:49 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setdefaultmatchsettings.htm"
+      TimeStamp="18-Feb-18 8:49:49 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setenvname.htm"
+      TimeStamp="18-Feb-18 8:49:49 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setexplicitviewportsize.htm"
+      TimeStamp="18-Feb-18 8:49:50 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setfailurereports.htm"
+      TimeStamp="18-Feb-18 8:49:50 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setforcefullpagescreenshot.htm"
+      TimeStamp="18-Feb-18 8:49:50 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-sethidescrollbars.htm"
+      TimeStamp="18-Feb-18 8:49:50 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-sethostapp.htm"
+      TimeStamp="18-Feb-18 8:49:51 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-sethostos.htm"
+      TimeStamp="18-Feb-18 8:49:51 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setignorecaret.htm"
+      TimeStamp="18-Feb-18 8:49:51 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setimagecut.htm"
+      TimeStamp="18-Feb-18 8:49:51 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setisdisabled.htm"
+      TimeStamp="18-Feb-18 8:49:51 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setloghandler.htm"
+      TimeStamp="18-Feb-18 8:49:52 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setmatchlevel.htm"
+      TimeStamp="18-Feb-18 8:49:52 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setmatchtimeout.htm"
+      TimeStamp="18-Feb-18 8:49:52 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setparentbranchname.htm"
+      TimeStamp="18-Feb-18 8:49:52 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setproxy.htm"
+      TimeStamp="18-Feb-18 8:49:52 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setregiontocheck.htm"
+      TimeStamp="18-Feb-18 8:49:53 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setrotation.htm"
+      TimeStamp="18-Feb-18 8:49:53 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setsavedebugscreenshots.htm"
+      TimeStamp="18-Feb-18 8:49:53 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setsavefailedtests.htm"
+      TimeStamp="18-Feb-18 8:49:53 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setsavenewtests.htm"
+      TimeStamp="18-Feb-18 8:49:53 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setscaleratio.htm"
+      TimeStamp="18-Feb-18 8:49:54 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setscrolltoregion.htm"
+      TimeStamp="18-Feb-18 8:49:54 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setserverurl.htm"
+      TimeStamp="18-Feb-18 8:49:54 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setstitchmode.htm"
+      TimeStamp="18-Feb-18 8:49:54 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setstitchoverlap.htm"
+      TimeStamp="18-Feb-18 8:49:54 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-setwaitbeforescreenshots.htm"
+      TimeStamp="18-Feb-18 8:49:55 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-shouldstitchcontent.htm"
+      TimeStamp="18-Feb-18 8:49:55 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-testresponsetime.htm"
+      TimeStamp="18-Feb-18 8:49:55 AM" />
+    <Url
+      Source="../../Content/_gen_api-eyes-testwindow.htm"
+      TimeStamp="18-Feb-18 8:49:55 AM" />
+    <Url
+      Source="../TOCs/_gen_api-eyes-abortifnotclosed1.fltoc"
+      TimeStamp="18-Feb-18 8:49:58 AM" />
+  </GeneratedFiles>
+</HtmlImport>

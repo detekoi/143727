@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The result of the test can be obtained from the object returned. 
+			<span data-mpld-lang="csharp">
+				See
+		 <MadCap:xref class="link" href="../index-gen/class-testresults-selenium-csharp.htm">TestResults class </MadCap:xref> for a list of what information can be obtained from this object.
+				</span><span data-mpld-lang="java">
+						See 
+			<MadCap:xref class="link" href="../index-gen/class-testresults-selenium-java.htm">TestResults class 
+					</MadCap:xref> 
+			for a list of what information can be obtained from this object.
+</span></p>
+    </body>
+</html>

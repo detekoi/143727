@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+
+<head><title>Selenium SDK</title></head>
+<body>
+<h1>Eyes Selenium SDK classes</h1><div class="mpld-select-language">
+<span class="mpld-header-label">Platform: </span>
+<a class="link mpld-header-field" href="../indexm/sdk-platformIndex-selenium.htm">Selenium</a>
+	<span id="mpld-select-language-label">Language: </span>
+	<span id="mpld-select-language-field">  C# </span>
+	<div class="dropdown-menu">
+		<div class="mpld-dropdown">
+			<a href="javascript:void(0)" 
+				id="change-language-text" 
+				class="link mpld-dropdown-button"> 
+				other languages
+				<span class="fa fa-angle-down"></span>
+			</a>
+			<div id="change-language-menu" class="mpld-dropdown-content"></div>    
+		</div>
+	</div>
+</div>   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-apiurls-selenium-csharp.htm"><span class ="code-label">ApiUrls</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">An object of this class is contained in the  <a class ="link" href="#"><span class="code-label" data-mpld-lookup="stepinfo">lookupid</span></a> object
+which is in itself an object in the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults">lookupid</span></a> object returned by the 
+<a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a> method.The methods
+in this class are used to retrieve a URI that can be used with the REST API
+to obtain information about a particular step.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-appurls-selenium-csharp.htm"><span class ="code-label">AppUrls</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">An object of this class is contained in the  <a class ="link" href="#"><span class="code-label" data-mpld-lookup="stepinfo">lookupid</span></a> object
+which is in itself an object in the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults">lookupid</span></a> object returned by the 
+<a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a> method.The properties in this class are used to retrieve a URI that can be used in a browser
+to open the Test Manager on a page that displays information about a particular step.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-batchinfo-selenium-csharp.htm"><span class ="code-label">BatchInfo</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">Call <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$setbatch">lookupid</span></a> with an object of this class to cofigure the batch for one or more tests.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-configuration-selenium-csharp.htm"><span class ="code-label">Configuration</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">This class is used to create a configuration object that is passed to <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$open">lookupid</span></a>.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-eyes-selenium-csharp.htm"><span class ="code-label">Eyes</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">This class provides the main methods used to execute tests and checkpoints.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-checksettings-selenium-csharp.htm"><span class ="code-label">SeleniumCheckSettings</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">The methods in this class are used as part of the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$check">lookupid</span></a> Fluent API,
+to configure and execute checkpoints.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-sessionurls-selenium-csharp.htm"><span class ="code-label">SessionUrls</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">An object of this class is returned as part of the information in the 
+ <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults">lookupid</span></a> class. This class provides URIs that can be used in a browser
+to display the Test manager batch and test results for this test.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-stepinfo-selenium-csharp.htm"><span class ="code-label">StepInfo</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">When a test terminates, the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a> method returns an object
+with methods/properties defined by the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults">lookupid</span></a> class.
+Within the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults">lookupid</span></a> there is an array of objects which have the properties defined by the class <a class ="link" href="#"><span class="code-label" data-mpld-lookup="stepinfo">lookupid</span></a>.
+Each element of this array describes information for one step in the test.The properties in this class are used to retrieve information for a given step in the test results.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-target-selenium-csharp.htm"><span class ="code-label">Target</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">This class provides methods that are used to define the checkpoint target
+(the entire window, region, element etc. to the Fluent API <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$check">lookupid</span></a> method.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/index-gen/class-testresults-selenium-csharp.htm"><span class ="code-label">TestResults</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">Encapsulates the results of a visual test including summary information and checkpoint-specific details.
+An object of this class is returned by the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a>  method upon test completion.
+     </dd>
+   </dl>
+<script src="/docs/scripts/mpldlookup.js"></script>
+<script>
+mpld.setPagePlatFormLanguage("selenium", "csharp");
+mpldLookup.setPagePlatFormLanguage("selenium", "csharp");
+</script>   </body>
+</html>

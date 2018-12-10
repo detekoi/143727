@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p data-mpld-lang="java,csharp,selenium4-javascript">The size of the viewport</p>
+        <p data-mpld-lang="selenium-javascript">The size of the viewport passed as an object.</p>
+        <p data-mpld-lang="python" class="code-label">The size of the viewport passed as an object {'width':, 'height':}</p>
+    </body>
+</html>

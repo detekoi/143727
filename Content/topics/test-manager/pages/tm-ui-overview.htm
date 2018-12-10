@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">Test manager UI overview</h1>
+        <p>This page provides a general description of the <MadCap:variable name="General.ProductUI" /> GUI and it's main elements. You will find that many of the pages and editors have a common look and feel, this page summarizes the basic controls and tools that you will find on many of the pages.</p>
+        <h3 class="title">The page navigator</h3>
+        <p>This control is used to navigate between the main pages of the test manager, and shows the name of the current page. See <MadCap:xref class="link" href="../common/tm-page-navigator.htm">The page navigator</MadCap:xref> for more information.</p>
+        <h3 class="title">The branch selector</h3>
+        <p>You will find this control on pages that show information that is branch specific. The branch selector is used to select and display the current branch. When you change the current branch, it will apply to all pages that have a branch navigator. See <MadCap:xref class="link" href="../common/control-select-branch.htm">Selecting a branch on a page</MadCap:xref> for more information.</p>
+        <h3 class="title">
+            <img class="inline-img" src="../images/generic-filter-button.png" /> Filter control</h3>
+        <p>Many pages that display information allow you to filter the data so that you can focus on the data that meets criteria you specify. On these pages, clicking the  <span class="app-item"><img src="../images/generic-filter-button.png" /> </span>&#160;button will allow you to select from multiple criteria, where each criteria may have one or more options. An item will be displayed by the filter if, for every criterion that has  one or more option selected, that item matches  one of those options.</p>
+        <p>The set of criteria that you can choose from depends on the page.</p>
+        <h3 class="title"><span class="inline-img"><img src="../images/generic-group-by-button.png" class="inline-img"></img></span> Group by control</h3>
+        <p>Pages that display information often provide a "group by" control. This allows you to organize the information hierarchically, based on various criteria. For example, you can show test results grouped by the browser, and within each browser, they can be further grouped by operating system. Clicking the <span class="inline-img"><img src="../images/generic-group-by-button.png" class="inline-img" /></span> icon opens a dialog with all the criteria defined for that page, after you click a criteria the data will be grouped by that criteria. Clicking on the <span class="inline-img">+</span> again, will allow you to select different criteria and then the data will be displayed hierarchically, the top level will be  first criteria you chose, and the next level will be the second criteria you chose. You can have as many layers as there are criteria.</p>
+        <h3 class="title">
+            <img class="inline-img" src="../images/update-test-list.png">
+            </img> Page refresh </h3>
+        <p>This button appears on various pages where the information displayed may become out of date as test runs in the background, and more information, such as test results, become available. The button is animated when more data is available. When you click on it, the screen will be updated with the latest information available.</p>
+        <h3 class="title"><a name="Select-Deselect"></a>
+            <img class="inline-img" src="../images/generic-select-rows-button.png" /> Select/Deselect all visible rows </h3>
+        <p>On pages that display rows of data, this button allows you to select or deselect all the visible rows. Click on the checkbox to toggle the current state, click on the triangle menu icon to choose between selecting all of the visible items or none of them.</p>
+        <p>For example, on many pages this feature can be used together with a <MadCap:xref class="link" href="#Delete">Delete selected rows &#160;</MadCap:xref>button (see below)&#160;to delete the selected rows. </p>
+        <div>
+            This button is often used  together with the filter tool, to select or deselect rows that have some required attributes.
+            <ol class="bulleted-list"><li>To select rows with required attributes, use the filter to set the appropriate attributes, and then select "All" from the menu. </li><li>To select all rows <u>apart</u> from those with the required attributes, first choose "All" from the menu, then apply the appropriate filter, then choose "None" from the menu, and finally turn the filter off.</li></ol></div>
+        <p>Usually the items being selected also have a checkbox and you can use that to fine tune which items are selected.</p>
+        <h3 class="title"><a name="Delete"></a>
+            <img class="inline-img" src="../images/generic-delete-button.png" /> Delete selected items</h3>
+        <p>On many pages you can select items and then click on this button to delete them. Depending on the page you may, or may not get a warning dialog.</p>
+        <h3 class="title">The step thumbnail. </h3>
+        <p><a data-lightbox="generic-step-thumbnail" href="../images/generic-step-thumbnail.png"><img class="block-image" src="../images/generic-step-thumbnail.png" /> </a>
+        </p>
+        <p>You will find this control on several pages and views. In all these pages it shows a small thumbnail of either the baseline image or the captured image and sometimes other information. On same page, other features are also available when you hover over the thumbnail:</p><a data-lightbox="generic-step-thumbnail-full.png" href="../images/generic-step-thumbnail-full.png"><img class="block-image" src="../images/generic-step-thumbnail-full.png" /> </a>
+        <ol class="bulleted-list">
+            <li>A dialog is displayed to the right of the image that provides additional information.</li>
+            <li>A button bar is available at the bottom that offers various features and a menu button <span class="inline-img"><img src="../common/images/vertical-dot-menu.png"></img></span>. </li>
+            <li>You can enlarge the image by clicking on it. This will open a viewer or editor that allows you to zoom in on parts of the images, as well as other page specific functionality.</li>
+        </ol>
+        <h3 class="title">Step timeline control</h3>
+        <p><a data-lightbox="generic-viewer-timeline" href="../viewers/resources/generic-viewer-timeline.png"><img class="block-image" src="../viewers/resources/generic-viewer-timeline.png" /></a>
+        </p>
+        <p> This control is available in various editors that give you access to the steps of a test or baseline. Th playback control provides a way to navigate between the steps of a test, and to "play them back" as an animation. See <MadCap:xref class="link" href="../viewers/tm-viewer-editor-timeline-control.htm">Test editor timeline control</MadCap:xref> for more details.</p>
+        <h3 class="title">Select visible layer control</h3>
+        <p><a data-lightbox="viewer-show-layers-menu" href="../viewers/resources/viewer-show-layers-menu.png"><img class="block-image" src="../viewers/resources/viewer-show-layers-menu.png" /></a>
+        </p>
+        <p>This control is available in several viewers and editors, and allows you to control what information is overlaid on the baseline or captured image. You can choose to view or not differences, remarks and issues, regions and the viewport borders. See <MadCap:xref class="link" href="../viewers/tm-viewer-select-visible-layers.htm">Test editor select visible layer </MadCap:xref> for more information</p>
+        <h3 class="title">Editor image zoom level</h3>
+        <p><a data-lightbox="viewer-zoom-toolbar" href="../viewers/resources/viewer-zoom-toolbar.png"><img class="block-image" src="../viewers/resources/viewer-zoom-toolbar.png" /></a>
+        </p>
+        <p>This control is available in several viewers and editors, and allows you to control the zoom level of the baseline or captured image. See <MadCap:xref class="link" href="../viewers/tm-viewer-editor-zoom-controls.htm">Test editor zoom controls</MadCap:xref> for more details.</p>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlImport
+  KeepSourceLinks="true"
+  ProjectName="Eyes Knowledge base"
+  ProjectFolder="C:\Users\User\Documents\eyes-knowledgebase-source\"
+  AutoSync="false"
+  SourceFolders=""
+  ImportResources="false"
+  ImportResourcesLocation="NoImport"
+  ImportTopics="content"
+  ImportLinkedHtmlFiles="false"
+  LastImport="2018-02-26T14:36:59.0899527+02:00"
+  ImportTopicsLocation="Content/">
+  <Files>
+    <Url
+      Source="../../../website/public/docs/index.htm"
+      AbsoluteSource="file:///C:/Users/User/Documents/website/public/docs/index.htm" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/index.htm"
+      TimeStamp="26-Feb-18 2:36:53 PM" />
+    <Url
+      Source="../TOCs/index.fltoc"
+      TimeStamp="26-Feb-18 2:36:58 PM" />
+  </GeneratedFiles>
+</HtmlImport>

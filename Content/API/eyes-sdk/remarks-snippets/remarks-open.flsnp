@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>
+        After making a call to this method, you must eventually call 
+			<code><a class="link"><span data-mpld-lookup="close"></span></a></code> 
+			(in case of a normal completion) or  
+			<code><a class="link"><span data-mpld-lookup="abortifnotclosed"></span></a></code>
+			 (in case of an aborted exception) method. Only after this, you can call
+			 <code><a class="link"><span data-mpld-lookup="open"></span></a></code> 
+			again on the same Eyes object.
+</p>
+		<div data-mpld-lang="csharp">
+        <span >
+			You can define the various test parameters in a number of ways:</span>
+        <ul class="bulleted-list">
+            <li>Pass this method the application name, test name and (optionally) the viewport parameters</li>
+            <li>Pass this method a configuration object setup with values for the above three parameters and other configuration properties.</li>
+            <li>Pass only a driver, the above parameters are taken from the default configuration. The default configuration is setup using the various properties.</li>
+        </ul>
+        <p class="box-warning">When running multiple tests on a common Eyes variable, you should only use one of these methods. </p>
+			</div>
+    </body>
+</html>

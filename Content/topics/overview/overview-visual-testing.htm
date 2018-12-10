@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1 class="title"><a name="top"></a>Overview of visual UI testing</h1>
+        <p>Visual testing is a form of regression test that ensures that screens that were correct have not changed unexpectedly. </p>
+        <p>Visual testing of an application is done by running an application, and saving screen snapshots at key points called checkpoints. These screenshots are then compared  to  previously stored baseline images, and  any visually significant differences are reported.</p>
+        <p> Implementing visual UI testing typically involves four basic steps:</p>
+        <ol class="numbered-list">
+            <li>Write a test that exercises your Application&#160;UI by sending simulated mouse and keyboard events in order to enter various states, and capturing a screenshot in each of these states.</li>
+            <li>Compare the captured screenshots to previously captured <i>baseline images</i>.</li>
+            <li>Review the resulting differences and :
+				<ol class="lower-alpha-list"><li>Identify cases where differences were caused by a new feature that does not appear in the baseline image and "accept" the new screenshot so that from this point forward it is used as the new baseline image for that checkpoint.</li><li>Identify cases where differences indicate a bug that needs to be fixed, report the issue and "reject" the image - meaning that the baseline image  is not updated and remains as is.</li></ol></li>
+            <li>Save the baseline updates, so that they are used for the next test run.</li>
+        </ol>
+        <p>The very first time a test is run, there are no baseline images, so the screenshots that are captured are adopted as the baseline images. On subsequent runs, the flow is as described above. </p>
+        <p>This process is illustrated in the diagram below and the description that follows it. </p>
+        <div><a data-lightbox="overview-workflow" href="../../Resources2/Figures/overview-workflow_10.png"><img class="block-image" src="../../Resources2/Figures/overview-workflow_10.png" /></a>
+            <div>
+                <div class="sub-header"> <strong>First run</strong></div>
+                <ul class="table-list pad-left">
+                    <li> <span class="table-list-item-name">1.</span>
+							 First you write a test script that exercises your UI. For example, you simulate 3 UI&#160;states and for each UI&#160;state execute a  Checkpoint.</li>
+                    <li> <span class="table-list-item-name">2.</span>
+							 Then you run the test for the 1st time. </li>
+                    <li> <span class="table-list-item-name">3.</span>
+							 Since there is no existing baseline, all the checkpoints are reported as "new" steps.</li>
+                    <li> <span class="table-list-item-name">4.</span>
+							 All the images captured during this run are automatically stored, and are then used as the baseline images in future tests that are run on this baseline.</li>
+                </ul>
+                <div class="sub-header"><strong>Subsequent runs </strong>
+                </div>
+                <ul class="table-list pad-left">
+                    <li> <span class="table-list-item-name">5.</span>
+							 You make some changes to the application and / or test code.</li>
+                    <li> <span class="table-list-item-name">6.</span>
+							 You run the test again and the differences are detected. In this example the differences are marked as <span style="color: #ff0000;">1F</span>&#160;and <span style="color: #ff0000;">3B</span> in the figure.</li>
+                    <li> <span class="table-list-item-name">7a.</span>
+							 In the first case (1F), you review the results and decide that the difference is due to the addition of a new feature. You accept the image,  and once the baseline is saved, the newly captured image will be used as the new baseline image.</li>
+                    <li> <span class="table-list-item-name">7b.</span>
+							 In the second case you decide that the difference results from a bug. You report the bug and reject the image. As such the current baseline image should be retained.</li>
+                    <li> <span class="table-list-item-name">8.</span>
+							 Finally you save the baseline and then it will be used as the basis for comparison in the next test run, which now contains the new baseline image, 1F.</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

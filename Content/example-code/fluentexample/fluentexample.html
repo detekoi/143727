@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#random {
+	min-width : 100px;
+}
+.frames {
+    clear:left;
+}
+
+</style>
+<div id="testCountdown" class="testArea">
+    <p>Start time    : <span id="start-time" > </span> </p>
+    <label>Countdown : </label> <input id="countdown"></input>
+</div>
+
+<div id="testFloat" class="testArea">
+    <button id="button" onclick="clickFunction()">click for a Random Number!</button>
+    <span id="random" > </span> 
+    <img id = "image" src = "./applitools.png"></img></p> 
+</div>
+
+<div class="frames" >
+<iframe id="frame1" src="./fluentexample.html"> </iframe>
+</div>
+<div class="frames" >
+<iframe id="frame2" src="./lotsoftext.html"> </iframe>
+</div>
+
+<script>
+
+var start = new Date(Date.now());
+var count = 0;
+document.getElementById("start-time").innerHTML = start.toTimeString();
+function clickFunction() {
+	var num = 100 + Math.round(Math.random() * 2000);
+    document.getElementById("random").innerHTML = num;
+}
+
+var countdown = document.getElementById("countdown");
+// Execute a function when the user releases a key on the keyboard
+
+countdown.addEventListener("keyup", function(event) {
+  // Cancel the default action, if needed
+  var interval;
+  event.preventDefault();
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    var num = Number(countdown.value);
+    if (!isNaN(num)) {
+        if (interval) {
+            clearInterval(interval);
+        }
+        start = Date.now();
+        interval = setInterval(function () {
+        var delta = num - (Date.now() - start); 
+        countdown.value = delta;
+        if (delta <= 0 ) {
+            countdown.value = "Done !";
+            clearInterval(interval);
+            interval = undefined;
+            }
+        }, 200);
+     }
+  }
+});
+
+</script>
+
+</body>
+</html>

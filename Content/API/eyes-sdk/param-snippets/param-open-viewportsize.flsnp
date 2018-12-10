@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <MadCap:snippetBlock src="param-viewportsize.flsnp" />
+        <p>Defines the viewport size of the browser that will be set before the start of the test.  If this parameter is not provided then the viewport size will be based on the default browser window size. See
+		 <MadCap:xref class="link" href="../../../topics/general-concepts/using-viewports-in-eyes.htm">Using viewports in Eyes</MadCap:xref> for more details.</p>
+    </body>
+</html>

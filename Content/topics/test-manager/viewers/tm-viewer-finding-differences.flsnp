@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3180" MadCap:lastWidth="1059">
+    <head>
+    </head>
+    <body>
+        <div>The editor provides various ways to  identify the differences between the two baselines easily and efficiently:
+            <ol class="bulleted-list"><li>Use the step navigator to view the steps one by one in either direction. You can also step  only through the steps that don't match, and you can move to any arbitrary step.</li><li>Steps that are different have a mismatch <img src="resources/mismatch-icon.png" class="inline-img" /> icon near the top left corner of the image. Steps that are the same have a match <img src="resources/match-icon.png" class="inline-img" /> icon.</li><li>Pixels and annotations that are different in the target and source are colored in pink.</li><li>You can use the <span class="app-item">highlighting control</span> to quickly find where the differences are in the images and annotations.</li></ol></div>
+        <p>These are explained in further detail below.</p>
+        <h3 class="title">Step navigator</h3>
+        <MadCap:snippetBlock src="tm-step-navigator-overview.flsnp" />
+        <h3 class="title">Diff navigator</h3>
+        <MadCap:snippetBlock src="tm-diff-navigator.flsnp" />
+        <h3 class="title">Annotations</h3>
+        <div>A step in the two baselines being compared can be different in two ways:	        <ul class="bulleted-list"><li>Differences in the captured image. The pixels that are different are highlighted in pink. </li><li>Differences in user annotations. Remarks, comments, and match level regions which are different in the two baselines, or only appear in one baseline are colored in a dark pink - see the table below for examples:</li></ul></div>
+        <table style="width: 100%;">
+            <col style="width: 126px;" />
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <th>Annotation </th>
+                    <th>Same in both baselines</th>
+                    <th>Different or only in one baseline</th>
+                </tr>
+                <tr>
+                    <td><span class="app-item">Remark</span>
+                    </td>
+                    <td>
+                        <img src="resources/remark-same.png" />
+                    </td>
+                    <td>
+                        <img src="resources/remark-different.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="app-item">Issues</span>
+                    </td>
+                    <td>
+                        <img src="resources/comment-same.png" />
+                    </td>
+                    <td>
+                        <img src="resources/comment-different.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="app-item">Ignore region</span>
+                    </td>
+                    <td>
+                        <img src="resources/ignore-region-same.png" />
+                    </td>
+                    <td>
+                        <img src="resources/ignore-region-different.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="app-item">Floating region</span>
+                    </td>
+                    <td>
+                        <img src="resources/floating-region.png" />
+                    </td>
+                    <td>
+                        <img src="resources/floating-region.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="app-item">Layout region</span>
+                    </td>
+                    <td>
+                        <img src="resources/layout-region.png" />
+                    </td>
+                    <td>
+                        <img src="resources/layout-diff.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="app-item">Strict region</span>
+                    </td>
+                    <td>
+                        <p>
+                            <img src="resources/strict-region.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <img src="resources/strict-diff.png" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

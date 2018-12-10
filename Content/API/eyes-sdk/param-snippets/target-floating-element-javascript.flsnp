@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+		<p>An object with the following structure:</p>
+<pre>
+{
+   element,        // Webdriver.WebElement, EyesRemoteWebElement or, webdriver.By object
+   maxLeftOffset,  // number
+   maxRightOffset, // number 
+   maxUpOffset,    // number 
+   maxDownOffset,  // number
+}			
+</pre>
+    </body>
+</html>

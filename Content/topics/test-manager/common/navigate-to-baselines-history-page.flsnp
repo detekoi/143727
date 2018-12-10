@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="612" MadCap:lastWidth="663">
+    <head>
+    </head>
+    <body>
+        <p>The baseline history page shows all the revisions of a baseline.  You navigate to this page from a page that shows baseline information, namely:</p>
+        <ul class="bulleted-list">
+            <li><span class="app-page">Branch baselines</span> in the <span class="app-page">baseline details</span> view.</li>
+            <li><span class="app-page">Test baselines</span> in the <span class="app-page">baseline details</span> view.</li>
+        </ul>
+        <p>In both cases, navigate to the baseline history page by  using the row menu <img src="images/vertical-dot-menu.png" /> <span class="app-item">Show history </span> option on the baseline whose history you want to see, for example on the <span class="app-page">test baselines</span> page:</p>
+        <p><a data-lightbox="menu-show-history" href="images/menu-show-history.png"><img class="block-image" src="images/menu-show-history.png" /></a>
+        </p>
+    </body>
+</html>

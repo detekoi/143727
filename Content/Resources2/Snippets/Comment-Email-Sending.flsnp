@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h2 class="title"> class="title">Sending an e-mail with a link to a comment</h2>
+        <p>You can send an email notification  with a link to the comment to anyone in your team as defined in the <MadCap:variable name="General.ProductUI" /> Amin panel. This allows the receiver  to view the test image in <MadCap:variable name="General.ProductUI" /> , and to do operations such as viewing the image, adding comment or remove themselves from getting further notifications concerning that comment. </p>
+        <p>There are two ways to notify someone. In both cases you type in the comment dialog description field. </p>
+        <ul>
+            <li>You can either start typing their name (starting with a capital letter)&#160;and after two characters the system will prompt you with the name and you can just press enter.</li>
+            <li>You can type a @ and then. <MadCap:variable name="General.ProductUI" /> will open a menu with names available from your mailing list, whereas you can:<ul><li> scroll through this list using the scroll bar and click on the name you want.</li><li>use the up and down arrow keys and press enter on the name you want</li><li>type a few more letters after the @. <MadCap:variable name="General.ProductUI" /> will filter the list so that it only includes names that contain the series of characters that follow the @. </li></ul></li>
+        </ul>
+    </body>
+</html>

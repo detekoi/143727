@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The name of the batch. If a <code><span data-mpld-lookup="nullconst"></span></code>
+	 is passed then the name will be taken from the environment variable <span class="code-label">APPLITOOLS_BATCH_NAME</span>. <span class="tbd">If the environment variable is not defined the name of the name of the test is used.",</span></p>
+    </body>
+</html>

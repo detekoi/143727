@@ -1,0 +1,5 @@
+{
+    "require": {
+        "applitools/eyes.sdk.php": "dev-master"
+    }
+}

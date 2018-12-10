@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/index.htm"
+  MasterToc="/Project/TOCs/Online Output-sdk.fltoc"
+  MasterStylesheet="/Content/Resources2/Stylesheets/ekb-release.css"
+  MasterStylesheetOverride="true"
+  MenuSkin="/Project/Skins/SideMenu.flskn"
+  TopicToolbarSkin="/Project/Skins/TopicToolBar.flskn"
+  SearchBarSkin="/Project/Skins/HomeSearchBar.flskn"
+  SearchResultsSkin="/Project/Skins/SearchResults.flskn"
+  MakeFileLowerCase="true"
+  UseCustomTopicFileExtension="true"
+  ReplaceSpacesWithUnderscores="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

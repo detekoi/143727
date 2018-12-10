@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The status of a batch is derived from the status of all the tests in the batch. The batch status appears in two places in the <MadCap:variable name="General.ProductUI" />:</p>
+        <ul>
+            <li>It  is displayed  as part of every entry in the batch list </li>
+            <li>It is displayed for the current batch entry.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Show me</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>[A] Status for each Batch Entry </li>
+                    <li>[B] Status of the current Batch</li>
+                    <li>[C] Status of the tests in the current batch</li>
+                </ul>
+                <img src="../Images/test-manager-screenshots/tm-screenshot-batch-and-test-status.png" class="block-image" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>The status has two parts - the Matching Status of the run (has the test run, did it pass or fail) and the Baseline Status - has the Tester made any baseline changes and do they need saving.</p>
+        <h2 class="title"> The Matching Status</h2>
+        <p>The following table summarizes the possible batch status values in order of precedence, and how they are derived from the status of the batch tests:</p>
+        <MadCap:snippetBlock src="batch-status-values-table.flsnp" />
+        <h2 class="title"> The baseline status</h2>
+        <p>
+If the Tester has made any changes to any test in the batch, i.e. has pressed accept <img src="../Images/applitools/step-thumbs_up.png" class="img-inline" /> or reject <img src="../Images/applitools/step-thumbs-down.png" class="img-inline" />, reported an issue and so on, and has not yet pressed the save button <img src="../Images/applitools/save-button-closeup.png" class="img-inline" /> then:</p>
+        <div>
+            <ul>
+                <li> An "Unsaved" indication is displayed to the right of the batch entry item in the batch entries list.
+				<img src="../Images/applitools/batch-status-006-unsaved.png" class="block-image" /></li>
+                <li> In the "Current Batch Information" Pane the number of unsaved steps is displayed:</li>
+                <img src="../Images/test-manager-screenshots/tm-screenshot-current-batch-info-pane.png" class="block-image" />
+            </ul>
+        </div>
+    </body>
+</html>

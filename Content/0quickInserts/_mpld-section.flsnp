@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="111" MadCap:lastWidth="627" MadCap:conditions="General.Not for Output">
+    <head>
+        <script src="/scripts/jquery.min.js">
+        </script>
+        <link rel="stylesheet" href="/scripts/mpld.css" />
+        <script src="/scripts/mpld.js"> <![CDATA[ ]]></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js">
+        </script>
+    </head>
+    <body><pre class="mpld-section" data-mpld-dir="dir" data-mpld-file="file" data-mpld-section="eyes-check"></pre>
+        <p> Replace the data-mpld-* with what you need</p>
+        <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/example-code";
+			var myFile = "HelloWorldBatchID"; 
+			mpld.setDefaultFile(folder,myFile);
+			/* data-mpld-lang, 	button name, 	sub folder name , 							file suffix */
+			mpld.addLanguage( "java",				"Java",			"java/src/main/java/com/applitools/ekb","	.java");
+			mpld.addLanguage("javascript",			"Javascript",	"javascript",								".js");
+			mpld.addLanguage("ruby",		 	    "Ruby",	        "ruby",							        	".rb");
+			mpld.addLanguage("python",		 	    "Python",	    "python",							        ".py");
+			mpld.addLanguage("csharp",		 	    "C#",	  		"csharp",							        ".cs");
+			mpld.addLanguage("php",		 	   		"PHP",	    	"PHP",							       		".php");
+			/*]]>*/
+		</script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+</head>
+<body>
+		<p>The region matchlevel methods 
+			
+			<span data-mpld-lang="java,csharp">
+				<code><a class="link" href="#"> <span data-mpld-lookup="checksettings$strict">checksettings$strict</span>(regions)</a></code>,
+				<code><a class="link" href="#"> <span data-mpld-lookup="checksettings$layout">checksettings$layout</span>(regions)</a></code>.,
+				<code><a class="link" href="#"> <span data-mpld-lookup="checksettings$content">checksettings$content</span>(regions)</a></code>. 
+			</span>
+			
+			<span data-mpld-lang="selenium4-javascript">
+				<code><a class="link" href="#"> <span data-mpld-lookup="checksettings$strictregions">checksettings$strictregions</span>(regions)</a></code>,
+				<code><a class="link" href="#"> <span data-mpld-lookup="checksettings$layoutregions">checksettings$layoutregions</span>(regions)</a></code>.,
+				<code><a class="link" href="#"> <span data-mpld-lookup="checksettings$contentregions">checksettings$contentregions</span>(regions)</a></code>
+			</span>
+			
+should not overlap each other or the regions defined using
+			<span data-mpld-lang="java,csharp">
+				<code><a class="link" href="#"> <span data-mpld-lookup="checksettings$ignore">checksettings$ignoreregion</span>(regions)</a></code>. 
+			</span>
+			<span data-mpld-lang="selenium4-javascript">
+				<code><a class="link" href="#"> <span data-mpld-lookup="checksettings$ignoreregions">checksettings$ignoreregions</span>(regions)</a></code>. 
+			</span>
+			If they overlap each other, or regions that defined using the Test Manager then the results is undefined.
+		</p>
+</body>
+</html>

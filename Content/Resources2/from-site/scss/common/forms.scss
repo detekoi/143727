@@ -1,0 +1,170 @@
+@import "variables";
+
+.form {
+  opacity: 1;
+  transition: opacity .2s;
+
+  .form-row {
+    position: relative;
+    margin-bottom: 14px;
+
+    .textbox-link {
+      position: absolute;
+      right: 10px;
+      top: 11px;
+
+      color: $c-text-3;
+      font-size: $font-s;
+    }
+  }
+
+  .file-input {
+    display: flex;
+    align-items: center;
+
+    .input-wrapper {
+      flex-grow: 0;
+      flex-shrink: 0;
+
+      input[type="file"] {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+      }
+
+      label {
+        border: 1px solid silver;
+        border-radius: 3px;
+        padding: 4px 7px;
+        display: inline-block;
+        cursor: pointer;
+
+        &:hover {
+          color: $c-accent-2;
+          border-color: $c-accent-2;
+        }
+
+        i {
+          margin-left: 5px;
+        }
+      }
+    }
+
+    .file-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-left: 10px;
+      white-space: nowrap;
+    }
+  }
+  .separator {
+    text-align: center;
+
+    &:before, &:after {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 45%;
+      height: 1px;
+      background: $c-background-4;
+    }
+
+    &:after {
+      right: 0;
+      left: auto;
+    }
+  }
+
+  .form-actions {
+    text-align: right;
+  }
+
+  .textbox {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    resize: none;
+
+    border-radius: 4px;
+  }
+
+  .validation-error {
+    color: $c-red-1;
+    font-size: $font-s;
+  }
+
+  .btn-social {
+    width: 100%;
+  }
+
+  .form-error, .form-success {
+    max-height: 0;
+    padding: 0 5px;
+    margin-bottom: 0;
+
+    background: $c-red-1;
+    color: $c-text-7;
+
+    overflow: hidden;
+    transition: max-height .2s, padding .2s, margin .2s;
+
+    .link {
+      color: $c-text-6;
+      text-decoration: underline;
+    }
+  }
+
+  .form-success {
+    background: $c-green-1;
+  }
+
+  &.busy {
+    opacity: 0.5;
+  }
+
+  &.has-errors {
+    .form-error {
+      max-height: 100px;
+      margin-bottom: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+
+  &.submitted {
+    .form-success {
+      max-height: 100px;
+      margin-bottom: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+
+  .hint {
+    font-size: $font-s;
+    color: $c-text-3;
+  }
+
+  .valid + .validation-error:not(.active) + .hint, .validation-error.active + .hint {
+    display: none;
+  }
+
+}
+
+.textbox {
+  padding: 3px 5px;
+  border: 1px solid $c-background-7;
+  outline: none;
+
+  &::-ms-clear {
+    display: none;
+  }
+}
+
+textarea.textbox {
+  height: 100px;
+}

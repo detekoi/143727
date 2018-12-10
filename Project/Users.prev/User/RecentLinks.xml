@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecentLinks>
+    <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
+        <Link Value="C:\Users\User\Dropbox\EKB_madcap_flare\Eyes Knowledge base\Eyes Knowledge base\Content\Resources\Images\F0001-ecosysem-v1.png" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
+        <Link Value="C:\Users\User\Dropbox\EKB_madcap_flare\Eyes Knowledge base\Eyes Knowledge base\Content\From_template\A_Getting Started\Getting Started.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
+        <Link Value="C:\Users\User\Dropbox\EKB_madcap_flare\Eyes Knowledge base\Eyes Knowledge base\Content\A2_Concepts\D_Managing tests and Results\B1_Baselines.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
+</RecentLinks>

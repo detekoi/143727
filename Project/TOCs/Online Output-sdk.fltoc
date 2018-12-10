@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Link="/Content/index.htm"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/topics/overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/overview/overview-visual-testing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/overview/overview-system-overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/overview/obtain-api-key.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/overview/overview-writing-tests-with-eyes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/overview/overview-reviewing-test-results.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/overview/walkthough-example.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/topics/test-manager/tm-overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/test-manager/pages/tm-page-test-results.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/pages/tm-page-test-results-views.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          StartSection="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1_WIP/test-manager/_g2_tm-test-results-batch-steps-view.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.ToDo" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1_WIP/test-manager/_g3_tm-test-results-batch-summary-view.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.ToDo" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-test-results-remarks-issues-view.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.ToDo" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-view-test-result-step-thumbnail.htm"
+          conditions="General.ToDo" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-view-test-result-filtering.htm"
+          conditions="General.ToDo" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-view-test-result-grouping.htm"
+          conditions="General.ToDo"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-test-editor.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.ToDo"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-test-viewer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.ToDo"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/viewers/root-cause-analysis.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/viewers/rca-trouble-shooting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/view-the-latest-run-of-a-test.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/view-test-run-that-updated-baseline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-view-test-result-baseline.htm"
+          conditions="General.ToDo" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/working-with-test-batches/working-with-test-batches-in-tm.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/topics/working-with-test-batches/understanding-the-batch-status.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/topics/working-with-test-batches/test-batch-status-values.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/topics/working-with-test-batches/how-to-filter-and-search-batches.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/topics/working-with-test-batches/how-to-rename-a-batch.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/topics/working-with-test-batches/how-to-delete-batches.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            StartSection="false"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same"
+            ChapterNumberReset="continue"
+            ComputeToc="false"
+            ReplaceMergeNode="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/topics/test-manager/howto/delete-test-runs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/topics/test-manager/pages/page-test-results/tm-test-result-stars.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-process-test-results-overview.htm"
+          conditions="General.ToDo">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/2_ToDo/_tm-accept-reject-diffs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            conditions="General.ToDo" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/2_ToDo/_tm-reporting-issues.htm"
+            conditions="General.ToDo" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/2_ToDo/_tm-adding-remarks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            conditions="General.ToDo" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/2_ToDo/_tm-assigning-a-test-result.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            conditions="General.ToDo" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/2_ToDo/_tm-test-result-adding-stars.htm"
+            conditions="General.ToDo" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/2_ToDo/_tm-view-changing-match-sensitivity.htm"
+            conditions="General.ToDo" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/test-manager/pages/tm-page-last-test-runs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/test-manager/pages/tm-page-apps-and-tests.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/rename-application.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/rename-a-test.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/delete-applications.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Deleting test names"
+          Link="/Content/topics/test-manager/howto/delete-test-name.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/test-manager/pages/tm-page-branch-baselines.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/viewers/tm-compare-baselines-viewer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/pages/page-branch-baselines/view-baseline-details.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/pages/page-branch-baselines/view-baseline-steps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/pages/page-branch-baselines/view-baseline-issues-remarks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/viewers/tm-baseline-viewer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/pages/tm-page-test-baselines.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/pages/tm-page-baseline-history.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/compare-two-baseline-revisions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/pages/page-branch-baselines/baseline-filtering-grouping.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/save-a-revision-as-the-latest-revision.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/copying-baselines-between-branches.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/deleting-baselines.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/display-test-baselines.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/test-manager/pages/tm-page-environments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/howto/manage-environments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/API/eyes-sdk/howto/test-against-named-environment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/test-manager/pages/tm-page-compare-merge-branches.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/viewers/tm-compare-baselines-editor.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/test-manager/pages/tm-ui-overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/viewers/tm-viewer-editor-timeline-control.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/viewers/tm-viewer-select-visible-layers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/viewers/tm-viewer-editor-zoom-controls.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-view-view-impact-of-match-sensitivity.htm"
+          conditions="General.ToDo" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/2_ToDo/_tm-test-editor-highlighting-the-differences.htm"
+          conditions="General.ToDo" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/common/control-select-branch.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/test-manager/common/navigate-to-baselines-history.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/topics/general-concepts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/general-concepts/using-viewports-in-eyes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/general-concepts/how-eyes-compares-checkpoints.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/general-concepts/supported-platforms.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/working-with-test-batches/working-with-test-batches-in-overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/general-concepts/working-withcross-environment-tests.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/topics/sdk/sdk.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/sdk/sdk-user-guide.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/working-with-test-batches/how-to-group-tests-into-batches.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/topics/working-with-test-batches/batching-tests-in-a-distributed-environment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/sdk/the-eyes-sdk-check-fluent-api.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/example-code/fluentexample/eyes-fluent-api-example.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Eyes-SDK-selenium"
+        Link="/Project/TOCs/Eyes-SDK-selenium.fltoc"
+        ReplaceMergeNode="true"
+        conditions="General.SDK" />
+      <TocEntry
+        Title="Eyes-SDK-selenium4"
+        Link="/Project/TOCs/Eyes-SDK-selenium4.fltoc"
+        conditions="General.SDK"
+        ReplaceMergeNode="true" />
+      <TocEntry
+        Title="Eyes-SDK-appium"
+        Link="/Project/TOCs/Eyes-SDK-appium.fltoc"
+        ReplaceMergeNode="true"
+        conditions="General.SDK" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/topics/integrations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/integrations/vsts-integration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/topics/integrations/github-integration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/topics/integrations/github-integration-ci-setup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Z_Internal/gettoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="General.withToc" />
+</CatapultToc>

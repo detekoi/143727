@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="436" MadCap:lastWidth="617">
+    <head>
+    </head>
+    <body>
+        <ul class="numbered-list">
+            <li> Navigate to the <span class="app-page">Apps &amp;&#160;tests</span> page.</li>
+            <li>Find the test application in the left panel and click on it. The main panel will be updated with all the tests of the application. </li>
+            <li>Look for the test name of the test you want and click on it (or choose <span class="app-item">Show baselines</span> from the row menu <img src="images/vertical-dot-menu.png" class="inline-img" /> ).</li>
+            <li>The display will change to the <span class="app-page">Test Baselines</span> page, which displays all the baselines associated with that test on the default branch (or the last branch you used on any page).</li>
+            <li>Select the branch you want from the <span class="app-item">branch selector</span>.</li>
+            <li>The main panel of the page shows a list of all the baselines for the selected application, test and branch.</li>
+        </ul>
+    </body>
+</html>

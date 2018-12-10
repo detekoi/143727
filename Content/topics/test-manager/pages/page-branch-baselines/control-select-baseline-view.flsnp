@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="259" MadCap:lastWidth="638">
+    <head>
+    </head>
+    <body>
+        <ul class="table-list">
+            <li><span class="table-list-item-name"><img src="resources/button-baseline-details-view.png" /></span>
+                <MadCap:xref class="link" href="view-baseline-details.htm">The baseline details view</MadCap:xref>.
+				Displays information and operations about the baselines.
+		</li>
+            <li><span class="table-list-item-name"><img src="resources/button-baseline-steps-view.png" /></span>
+                <MadCap:xref class="link" href="view-baseline-steps.htm">The baseline steps view</MadCap:xref>.
+				 Displays the baselines step thumbnails, allows you to open the step and baseline viewers.
+		</li>
+            <li><span class="table-list-item-name"><img src="resources/button-baseline-issues-remarks-view.png" /></span>
+                <MadCap:xref class="link" href="view-baseline-issues-remarks.htm">The baseline issues and remarks view</MadCap:xref>.
+				Displays the remarks and issues added to the baselines.
+			</li>
+        </ul>
+    </body>
+</html>

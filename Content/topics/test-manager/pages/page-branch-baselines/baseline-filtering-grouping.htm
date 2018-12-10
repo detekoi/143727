@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="6113" MadCap:lastWidth="666">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">Filtering and grouping in baseline views</h1>
+        <p>&#160;</p>
+        <p>On many pages, <MadCap:variable name="General.ProductName" />
+			provides  the <span class="app-item">filter </span>and <span class="app-item">group by</span> tools to enable you  to organize the information presented on that page in a way that simplifies looking for and analyzing information.</p>
+        <p>This article describes the  options available with these tool on the <span class="app-page"><a href="../tm-page-branch-baselines.htm"> branch baseline</a></span> and 
+		<span class="app-page"><a href="../tm-page-test-baselines.htm"> test baseline</a></span> pages:		
+		
+		</p>
+        <h3 class="title"><a name="Filterin"></a>
+			Filtering the baseline detail or step detail view
+		
+		
+		</h3>
+        <p>
+			In the baseline details view
+			
+			
+			<img src="resources/button-baseline-details-view.png" class="inline-img" />,		and the baseline steps view
+			
+			
+			<img src="resources/button-baseline-steps-view.png" class="inline-img" />
+,			you can use the filter tool to only display baselines and step that you are interested in. </p>
+        <p>
+			When you click on the
+filter tool 			
+			
+			<img src="resources/button-baseline-filter.png" class="inline-img"></img>
+			 in the toolbar, the dialog below will be displayed:
+		
+		
+		</p>
+        <p><a data-lightbox="branch-baselines-filter-dialog" href="resources/branch-baselines-filter-dialog.png"><img class="block-image" src="resources/branch-baselines-filter-dialog.png" /></a>
+        </p>
+        <p>This dialog allows you to choose one or more options for one or more criteria. As you select options, the information in the view will be updated to show only steps/baselines where  at least one option in every criterion that you specify matches the relevant baseline or step attribute. </p>
+        <p>You can choose from one or more of the following criteria:</p>
+        <dl>
+            <dt><span class="app-item">Filter</span>
+            </dt>
+            <dd>Type some text in the box, and items will only be displayed if the typed text matches one of the following baseline/step attributes:
+		            <ul class="bulleted-list"><li><span class="app-item">step tag </span>(the text that appears under the thumbnail)</li><li><span class="app-item">app</span></li><li><span class="app-item">branch </span></li><li><span class="app-item">test name</span></li><li><span class="app-item">OS</span></li><li><span class="app-item">browser</span></li><li><span class="app-item">viewport</span></li></ul></dd>
+            <p>The quick select box allows you to select the following criteria:</p>
+            <dt><span class="app-item">Saved by me</span>
+            </dt>
+            <dd>Check this checkbox to see only baselines that were saved by the currently logged in user.</dd>
+            <dt><span class="app-item">Saved by others</span>
+            </dt>
+            <dd>	Check this checkbox to see only baselines that were saved by someone other than the currently logged in user (including automatically saved tests).</dd>
+            <dt><span class="app-item">Has issues</span>
+            </dt>
+            <dd>Check this checkbox to see only baselines that have issues.</dd>
+            <dt><span class="app-item">Has remarks</span>
+            </dt>
+            <dd>Check this checkbox to see only baselines that have remarks.</dd>
+            <p>You can access additional criteria by clicking on the <span class="app-item">More filters...</span> field</p>
+            <dt><span class="app-item">App</span>
+            </dt>
+            <dd>In the list of applications, check each of the applications that you want to see.</dd>
+            <dt><span class="app-item">Browser</span>
+            </dt>
+            <dd>In the list of browsers, check each of the browsers that you want to see.</dd>
+            <dt><span class="app-item">Issues and Remarks</span>
+            </dt>
+            <dd>Check <span class="app-item">Has issues</span> to see issues, check <span class="app-item">Has remarks</span> to see remarks. </dd>
+            <dt><span class="app-item">OS</span>
+            </dt>
+            <dd>In the list of operating systems, check each operating system variations you want to see.</dd>
+            <dt>Saved by</dt>
+            <dd>	Check<span class="app-item">Saved by me</span>, <span class="app-item">Saved by others</span> or one or more names from the list of names.</dd>
+            <dt><span class="app-item">Viewport</span>
+            </dt>
+            <dd>	Check one or more viewport size that you want to see from the list of available viewport sizes.</dd>
+        </dl>
+        <p>
+			The current criteria are displayed at the bottom of the filter dialog. You can remove any criteria by clicking on the
+			<img src="resources/button-filter-criteria-cancel.png" />
+			icon to the right of the criteria.
+		</p>
+        <p>
+            <img src="resources/filter-with-chosen-options.png" />
+        </p>
+        <p>
+			At the bottom of the dialog, you can check the "show entire baselines" check-box. This means that information will be shown for 
+			<u>all</u> 	steps in the baseline if
+			at least one step  meets the filter criteria.	</p>
+        <p>Click outside of the filter dialog to close it.
+		</p>
+        <p>
+			You can cancel the filtering by clicking the
+						<span class="inline-img"><img src="resources/group-by-X.png" /></span>
+			"to the right of "Filtering is on" in the toolbox.
+This will also close the filter dialog if it is open.		</p>
+        <p><a data-lightbox="page-branch-baselines/resources/filtering-is-on.png" href="resources/filtering-is-on.png"><img class="block-image" src="resources/filtering-is-on.png" /></a>
+        </p>
+        <p>
+			If you hover over the <span class="app-item">Filtering is on</span> you will see a list of all the criteria, you can cancel any specific criteria by clicking on the		
+			<span class="inline-img"><img src="resources/group-by-X.png" /></span>
+			to the right of that criteria.
+		</p>
+        <p><a data-lightbox="page-branch-baselines/resources/filtering-is-on-hover.png" href="resources/filtering-is-on-hover.png"><img class="block-image" src="resources/filtering-is-on-hover.png" /></a>
+        </p>
+        <h3 class="title"><a name="Using"></a>
+			Using the group by tool in baseline views</h3>
+        <p>In the Baseline details view
+			<img src="resources/button-baseline-details-view.png" class="inline-img" />
+			and the Baseline steps view
+			<img src="resources/button-baseline-steps-view.png" class="inline-img" />
+			you can use the
+			<img src="resources/button-group-by.png" class="inline-img" />
+			control to arrange the baselines (in baseline details view) or steps (in baseline steps view) in hierarchical groups based on one or more of the following criteria :
+		</p>
+        <dl>
+            <dt><span class="app-item">App</span>
+            </dt>
+            <dd>Steps or baselines have the same application name.</dd>
+            <dt><span class="app-item">Baseline</span>
+            </dt>
+            <dd>Steps are in the same baseline (baseline steps view only).</dd>
+            <dt> <span class="app-item">Browser	</span></dt>
+            <dd> Steps or baselines ran in the same browser </dd>
+            <dt> <span class="app-item">OS	</span></dt>
+            <dd> Steps or baselines ran on the same operating system name.		</dd>
+            <dt><span class="app-item"> Saved by</span><![CDATA[	]]></dt>
+            <dd> The baselines or steps of baselines were saved by a specific team member.	</dd>
+            <dt> <span class="app-item">Step </span></dt>
+            <dd> The steps represent the same checkpoint (baseline steps view only)	</dd>
+            <dt> <span class="app-item">Viewport</span></dt>
+            <dd> The baselines or steps ran with the same viewport size.		</dd>
+        </dl>
+        <p>
+			To choose a criterion, click on the
+			<span class="inline-img"><img src="resources/group-by-plus.png" class="inline-img" /></span>
+			and select the attribute you want; you can repeat this a number of times and
+			<MadCap:variable name="General.ProductName" />
+			will display a hierarchical tree arranged in the order that you requested.
+		</p>
+        <p>For example, to see what variety of execution environment types your baselines have been tested against you can choose:</p>
+        <p>
+            <img src="resources/group-by-example.png" />
+        </p>
+        <p>
+			You can remove any criterion by clicking on the			
+			<img src="resources/group-by-X.png" class="inline-img" />
+			 to the right of that criterion.
+		</p>
+        <p>You can drag any criterion to the left or to the right in order to change the order of the hierarchy.</p>
+    </body>
+</html>

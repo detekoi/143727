@@ -1,0 +1,160 @@
+Compare C:\Users\User\Documents\eyes-knowledgebase-source\Development\apiextract\tools\gen\classes-gen with C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen
+15-Nov-18 12:30:39 PM
+Filename,Folder,Comparison result,Left Date,Right Date,Extension
+method-checksettings-ignorecaret-selenium-csharp.htm,class_checksettings,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:08:22 PM,htm
+method-checksettings-matchlevel-selenium-csharp.htm,class_checksettings,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:08:22 PM,htm
+method-checksettings-matchlevel-selenium-java.htm,class_checksettings,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:08:22 PM,htm
+method-checksettings-matchlevel-selenium-javascript.htm,class_checksettings,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:08:22 PM,htm
+method-checksettings-matchlevel-selenium4-javascript.htm,class_checksettings,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:08:22 PM,htm
+method-checksettings-senddom-selenium4-javascript.htm,class_checksettings,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-configuration-appname-selenium-csharp.htm,class_configuration,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-configuration-batch-selenium-csharp.htm,class_configuration,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-abortifnotclosed-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-abortifnotclosed-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-abortifnotclosed-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-abortifnotclosed-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-checkelement-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkelement-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkelement-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkelement-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkframe-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkframe-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkframe-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkframe-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkregion-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkregion-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkregion-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkregion-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkwindow-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkwindow-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkwindow-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-checkwindow-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-close-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-eyes-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-eyes-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-eyes-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-eyes-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getapikey-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getapikey-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getapikey-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getapikey-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getbaselineenvname-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 7:26:44 PM,htm
+method-eyes-getbaselineenvname-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 7:26:44 PM,htm
+method-eyes-getbaselineenvname-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 7:26:44 PM,htm
+method-eyes-getbaselineenvname-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 7:26:44 PM,htm
+method-eyes-getdebugscreenshotspath-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getdebugscreenshotspath-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getdebugscreenshotsprefix-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getdebugscreenshotsprefix-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getdriver-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getdriver-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getforcefullpagescreenshot-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getforcefullpagescreenshot-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getforcefullpagescreenshot-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getforcefullpagescreenshot-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-gethostapp-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-gethostapp-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-gethostapp-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getisdisabled-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getisdisabled-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getisdisabled-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getisdisabled-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getisopen-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getisopen-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getisopen-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getmatchtimeout-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getmatchtimeout-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getmatchtimeout-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getmatchtimeout-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getproxy-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 7:26:44 PM,htm
+method-eyes-getproxy-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getproxy-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-getsavedebugscreenshots-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getsavedebugscreenshots-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getsavedebugscreenshots-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getstitchmode-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-getstitchmode-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-getstitchmode-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-getstitchmode-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:42 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-getstitchoverlap-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getstitchoverlap-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getstitchoverlap-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getviewportsize-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-getwaitbeforescreenshots-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-getwaitbeforescreenshots-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-getwaitbeforescreenshots-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-getwaitbeforescreenshots-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:18 PM,htm
+method-eyes-open-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-setapikey-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-setapikey-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-setapikey-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-setapikey-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-setappname-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 7:26:44 PM,htm
+method-eyes-setappname-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 7:26:45 PM,htm
+method-eyes-setappname-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 7:26:45 PM,htm
+method-eyes-setbaselineenvname-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 7:26:45 PM,htm
+method-eyes-setbatch-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setbatch-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setbatch-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 6:53:23 PM,htm
+method-eyes-setbatch-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setdebugscreenshotspath-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setdebugscreenshotspath-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setdebugscreenshotsprefix-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setdebugscreenshotsprefix-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setexplicitviewportsize-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setexplicitviewportsize-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-sethostapp-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-sethostapp-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-sethostapp-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-sethostos-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-sethostos-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-sethostos-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setmatchlevel-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setmatchlevel-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setmatchlevel-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setmatchlevel-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setmatchtimeout-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setmatchtimeout-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setmatchtimeout-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setmatchtimeout-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setsavefailedtests-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setsavefailedtests-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setsavefailedtests-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setsavefailedtests-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setsavenewtests-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setsavenewtests-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setsavenewtests-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setsavenewtests-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setscaleratio-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setserverurl-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-setserverurl-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-setserverurl-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-eyes-setviewportsize-selenium-csharp.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setviewportsize-selenium-java.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setviewportsize-selenium-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-eyes-setviewportsize-selenium4-javascript.htm,class_eyes,Text files are different,* 15-Nov-18 11:57:41 AM,14-Nov-18 4:07:17 PM,htm
+method-proxysettings-proxysettings-selenium-java.htm,class_proxysettings,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-proxysettings-proxysettings-selenium4-javascript.htm,class_proxysettings,Text files are different,* 15-Nov-18 11:57:40 AM,14-Nov-18 4:07:16 PM,htm
+method-stepinfo-getisdifferent-selenium-csharp.htm,class_stepinfo,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-stepinfo-getisdifferent-selenium-java.htm,class_stepinfo,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-stepinfo-getisdifferent-selenium-javascript.htm,class_stepinfo,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-stepinfo-getisdifferent-selenium4-javascript.htm,class_stepinfo,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-testresults-getmismatches-selenium-csharp.htm,class_testresults,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-testresults-getmismatches-selenium-java.htm,class_testresults,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-testresults-getmismatches-selenium-javascript.htm,class_testresults,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-testresults-getmismatches-selenium4-javascript.htm,class_testresults,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-testresults-isaborted-selenium-java.htm,class_testresults,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-testresults-isaborted-selenium-javascript.htm,class_testresults,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-testresults-isaborted-selenium4-javascript.htm,class_testresults,Text files are different,* 15-Nov-18 11:57:39 AM,14-Nov-18 4:08:21 PM,htm
+method-checksettings-floating-selenium-csharp.htm,class_checksettings,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_checksettings,,* 06-Nov-18 2:57:59 PM,htm
+method-checksettings-floating-selenium-java.htm,class_checksettings,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_checksettings,,* 06-Nov-18 2:57:59 PM,htm
+method-checksettings-floating-selenium-javascript.htm,class_checksettings,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_checksettings,,* 06-Nov-18 2:57:59 PM,htm
+method-configuration-environmentname-selenium-csharp.htm,class_configuration,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_configuration,,* 18-Oct-18 3:41:52 PM,htm
+method-stepinfo-hasbaselineimage-selenium-csharp.htm,class_stepinfo,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_stepinfo,,* 06-Nov-18 2:57:59 PM,htm
+method-stepinfo-hasbaselineimage-selenium-java.htm,class_stepinfo,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_stepinfo,,* 06-Nov-18 2:57:59 PM,htm
+method-stepinfo-hasbaselineimage-selenium-javascript.htm,class_stepinfo,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_stepinfo,,* 06-Nov-18 2:57:59 PM,htm
+method-stepinfo-hascheckpointimage-selenium-csharp.htm,class_stepinfo,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_stepinfo,,* 06-Nov-18 2:57:59 PM,htm
+method-stepinfo-hascheckpointimage-selenium-javascript.htm,class_stepinfo,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_stepinfo,,* 06-Nov-18 2:57:59 PM,htm
+method-stepinfo-isdifferent-selenium-csharp.htm,class_stepinfo,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_stepinfo,,* 06-Nov-18 2:57:59 PM,htm
+method-stepinfo-isdifferent-selenium-java.htm,class_stepinfo,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_stepinfo,,* 06-Nov-18 2:57:59 PM,htm
+method-stepinfo-isdifferent-selenium-javascript.htm,class_stepinfo,Right only: C:\Users\User\Documents\eyes-knowledgebase-source\FlareProjects\Content\API\eyes-sdk\classes-gen\class_stepinfo,,* 06-Nov-18 2:57:59 PM,htm

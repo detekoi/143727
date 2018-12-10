@@ -1,0 +1,298 @@
+@import "../common/variables";
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: $z-navbar;
+
+  @media (max-width: $screen-md-max) {
+    position: absolute;
+  }
+}
+
+.side-navbar-menu {
+  background-color: $c-background-3;
+  bottom: 0;
+  top: 55px;
+  right: -15px;
+  overflow-y: auto;
+  position: fixed;
+  transition: left 0.3s, right 0.3s;
+  max-width: 80%;
+  min-width: 40%;
+  border-left: 1px solid $c-background-5;
+
+  li > *:not(.sub-menu) {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: block;
+    color: $c-text-1;
+    text-decoration: none;
+    font-size: $font-m;
+  }
+
+  li > a:hover {
+    color: $c-primary-1;
+  }
+
+  .sub-menu li {
+    padding-left: 20px;
+  }
+
+  .side-navbar-content {
+    padding: 10px 15px;
+  }
+}
+
+.page {
+  .navbar-container {
+    position: relative;
+    z-index: auto;
+  }
+
+  .navbar {
+    &.collapsed {
+      position: relative;
+      transform: none;
+    }
+  }
+}
+
+.navbar {
+  position: relative;
+  left: 0;
+  right: 0;
+  height: $navbar-height;
+
+  background: $c-background-1;
+  border-bottom: 1px solid $c-background-5;
+
+  text-align: right;
+  transition: transform .2s;
+
+  .logo {
+    float: left;
+    height: $navbar-height;
+    line-height: $navbar-height;
+    margin-left: 15px;
+
+    //TODO: remove the img selector after docs changes the logo to svg
+    img, svg {
+      width: 154px;
+      vertical-align: middle;
+    }
+  }
+
+  .link {
+    cursor: pointer;
+  }
+
+  .link, .btn {
+    text-transform: uppercase;
+  }
+
+  &.collapsed {
+    position: absolute;
+    transform: translateY(-100px);
+  }
+
+  &.empty {
+    border-bottom-color: transparent;
+  }
+
+  .btn-dropdown-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: $navbar-height;
+    height: 100%;
+    line-height: $navbar-height;
+    padding: 0;
+
+    background: $c-background-1;
+    font-size: $font-xxl;
+  }
+
+  .navbar-menu {
+    display: block;
+    margin-top: 17px;
+
+    .link, .btn {
+      display: block;
+      position: relative;
+      z-index: 0;
+
+      color: $c-primary-2;
+
+      padding: 8px 15px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: color .2s;
+
+      &.active {
+        color: $c-accent-2;
+      }
+
+      &:hover {
+        color: $c-accent-2;
+      }
+
+      &.emphasized {
+        border: 1px solid $c-primary-2;
+        border-radius: 7px;
+        overflow: hidden;
+      }
+    }
+
+    .btn-call-to-action {
+      color: $c-text-7;
+
+      &:hover {
+        color: $c-text-7;
+      }
+    }
+
+    .sub-menu {
+      padding: 18px 15px;
+
+      .link {
+        padding: 4px 0;
+        font-size: 14px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .horizontal-sub-menu {
+        display: flex;
+        .solutions {
+          width: 190px;
+        }
+        .key-features {
+          margin-right: 35px;
+        }
+      }
+    }
+
+    .resources-menu {
+      width: 155px;
+    }
+  }
+
+  .sub-menu {
+    display: none;
+    background-color: white;
+    border: 1px solid $c-background-5;
+    border-radius: 3px;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+
+    .link {
+      text-transform: none;
+    }
+
+    .header-section-title {
+      text-transform: uppercase;
+      font-size: 15px;
+      margin-top: 0;
+      margin-bottom: 5px;
+      font-weight: 800;
+    }
+  }
+
+  li:hover .sub-menu {
+    display: block;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    .btn-dropdown-menu {
+      display: none;
+    }
+
+    .navbar-menu {
+      float: right;
+
+      > li {
+        display: block;
+        position: relative;
+        float: left;
+      }
+
+      > li:hover {
+        .submenu {
+          display: block;
+        }
+      }
+
+      > li:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+
+      background: $c-background-3;
+      text-align: left;
+      box-shadow: $c-shadow-1;
+    }
+  }
+
+  @media (max-width: $screen-md-max) {
+    height: $navbar-height-mobile;
+
+    &.collapsed {
+      position: relative;
+      transform: none;
+    }
+
+    .logo {
+      height: $navbar-height-mobile;
+      line-height: $navbar-height-mobile;
+    }
+
+    .navbar-menu {
+      display: none;
+      position: absolute;
+      top: $navbar-height-mobile;
+      left: 0;
+      right: 0;
+      margin: 0;
+
+      background: $c-background-1;
+      border-bottom: 1px solid $c-background-5;
+      transition: visibility .5s;
+
+      font-size: $font-xl;
+
+      .link, .btn {
+        border: 0;
+        text-align: center;
+        border-radius: 0;
+
+        &:before {
+          display: none;
+        }
+      }
+
+      .btn-accent {
+        background: $c-background-1;
+      }
+    }
+
+    .btn-dropdown-menu {
+      line-height: $navbar-height-mobile;
+    }
+
+    .submenu {
+      display: none;
+    }
+  }
+}

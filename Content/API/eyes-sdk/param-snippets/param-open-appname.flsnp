@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The application name. This may be any string.</p>
+        <span data-mpld-lang="java csharp php"> You can set the application name globally using the,
+            <a class="link" href="#" ><span class="code-label" data-mpld-lookup="setappname" >setappname</span></a> 
+If you do, then set this parameter to a value of 
+			  <span data-mpld-lang="java php csharp" class="code-label">null</span><span data-mpld-lang="php python ruby" class="code-label">TBD</span>
+			to indicate that the global default should be used.
+		</span>
+    </body>
+</html>

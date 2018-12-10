@@ -1,0 +1,22 @@
+/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-isdifferent-selenium-java.html	/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getisdifferent-selenium-java.html
+/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-hascheckpointimage-selenium-csharp.html	/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethascheckpointimage-selenium-csharp.html
+/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-hasbaselineimage-selenium-csharp.html	/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethasbaselineimage-selenium-csharp.html
+/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-hasbaselineimage-selenium-java.html	/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethasbaselineimage-selenium-java.html
+/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-hasbaselineimage-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethasbaselineimage-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-isdisabled-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getisdisabled-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-isdisabled-selenium-java.html	/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getisdisabled-selenium-java.html
+/docs/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-timeout-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_target/method-target-timeout-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-region-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_target/method-target-region-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-matchlevel-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_target/method-target-matchlevel-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignorecaret-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_target/method-target-ignorecaret-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignore-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_target/method-targets-ignore-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-fully-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_target/method-target-fully-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-frame-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_target/method-target-frame-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-floating-selenium-javascript.html	/docs/api/eyes-sdk/classes-gen/class_target/method-target-floating-selenium-javascript.html
+ /docs/api/eyes-sdk/index-gen/class-checksettings-selenium-javascript.html	 /docs/api/eyes-sdk/index-gen/class-target-selenium-javascript.html
+/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavefailedtests-selenium-java.html	/docs/api/special/deprecatedAPImsg.htm&method=Selenim Java  eyes.setSaveFailedTests. Msg=Use eyes.setSaveDiffs instead.
+/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavefailedtests-selenium-javascript.html	/docs/api/special/deprecatedAPImsg.htm&method=Selenim Javascript  eyes.setSaveFailedTests. Msg=Use eyes.setSaveDiffs instead.
+/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavefailedtests-selenium-csharp.html	/docs/api/special/deprecatedAPImsg.htm&method=Selenim C#  eyes.SaveFailedTests. Msg=Use eyes.SaveDiffs instead.
+/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavefailedtests-selenium-java.html	/docs/api/special/deprecatedAPImsg.htm&method=Selenim Java  eyes.getSaveFailedTests. .
+/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavefailedtests-selenium-javascript.html	/docs/api/special/deprecatedAPImsg.htm&method=Selenim Javascript  eyes.getSaveFailedTests. Msg=Use eyes.setSaveDiffs instead.
+/docs/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavefailedtests-selenium-csharp.html	/docs/api/special/deprecatedAPImsg.htm&method=Selenim C#  eyes.SaveFailedTests.

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>   
+</head>
+   <body>
+<h1>StepInfo class </h1>
+<div class="mpld-select-language">
+<span class="mpld-header-label">Platform: </span>
+<a class="link mpld-header-field" href="../indexm/sdk-platformIndex-selenium.htm">Selenium</a>
+	<span id="mpld-select-language-label">Language: </span>
+	<span id="mpld-select-language-field">  C# </span>
+	<div class="dropdown-menu">
+		<div class="mpld-dropdown">
+			<a href="javascript:void(0)" 
+				id="change-language-text" 
+				class="link mpld-dropdown-button"> 
+				other languages
+				<span class="fa fa-angle-down"></span>
+			</a>
+			<div id="change-language-menu" class="mpld-dropdown-content"></div>    
+		</div>
+	</div>
+</div><div>When a test terminates, the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="eyes$close">lookupid</span></a> method returns an object
+with methods/properties defined by the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults">lookupid</span></a> class.
+Within the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults">lookupid</span></a> there is an array of objects which have the properties defined by the class <a class ="link" href="#"><span class="code-label" data-mpld-lookup="stepinfo">lookupid</span></a>.
+Each element of this array describes information for one step in the test.The properties in this class are used to retrieve information for a given step in the test results.</div>
+<div>You can access the array of objects with the step information using the <a class ="link" href="#"><span class="code-label" data-mpld-lookup="testresults$getstepsinfo$mOrP">lookupid</span></a></div>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getapiurls-selenium-csharp.htm"><span class ="code-label">ApiUrls</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use the object returned by this <span data-mpld-lookup-methodOrProp="stepinfo$getapiurls">method</span> to retrieve URLs for the baseline, checkpoint and diff images.
+You can obtain these images using the REST API.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getappurls-selenium-csharp.htm"><span class ="code-label">AppUrls</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use the object returned by this <span data-mpld-lookup-methodOrProp="stepinfo$getappurls">method</span> 
+to retrieve URLs you can use to open the Test Manager in a browser preloaded with this step.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethasbaselineimage-selenium-csharp.htm"><span class ="code-label">HasBaselineImage</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns whether the baseline has a baseline image for this step.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethascheckpointimage-selenium-csharp.htm"><span class ="code-label">HasCheckpointImage</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns whether there is a checkpoint image for this step.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getisdifferent-selenium-csharp.htm"><span class ="code-label">IsDifferent</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Use this method to if the checkpoint did not match a baseline image.
+     </dd>
+   </dl>
+   <dl class="mpld-paramdef parameters-list">
+     <dt class="mpld-paramdef-name-value"><a class="link" href="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getname-selenium-csharp.htm"><span class ="code-label">Name</span></a></dt>
+     <dd class="mpld-paramdef-descr-value">
+Returns the name (tag) assigned to the step (in the check method).
+     </dd>
+   </dl>
+<script src="/docs/scripts/mpldlookup.js"></script>
+<script>
+mpld.setPagePlatFormLanguage("selenium", "csharp");
+mpldLookup.setPagePlatFormLanguage("selenium", "csharp");
+</script>   </body>
+</html>

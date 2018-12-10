@@ -1,0 +1,252 @@
+@import "../common/variables";
+
+$footer-links-height: 150px;
+
+.footer {
+    padding-top: 20px;
+
+    background: $c-background-1;
+    // border-top: 1px solid $c-background-5;
+    font-size: $font-s;
+
+    @media screen and (max-width: $screen-sm-max) {
+        padding: 0;
+    }
+
+    .footer-top {
+        padding: 40px 0 95px;
+
+        @media screen and (max-width: $screen-md-max) {
+            padding: 40px 30px 95px;
+        }
+        @media screen and (max-width: $screen-sm-max) {
+            padding: 0;
+        }
+    }
+
+    .logo-accent {
+        width: 40px;
+
+        @media screen and (max-width: $screen-sm-max) {
+            display: none;
+        }
+    }
+
+    .footer-links {
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            .menu-holder {
+                vertical-align: top;
+                margin: 0 50px;
+
+                .title {
+                    font-family:'Merriweather-Bold';
+                    font-size: 20px;
+                    color: $c-blue-7;
+                    letter-spacing: -0.05px;
+                    line-height: 36px;
+
+                    margin-bottom: 25px;
+                    display: block;
+
+                    span.fa {
+                        display: none;
+                        font-size: 13px;
+                        float: right;
+                        margin-top: 10px;
+                    }
+                }
+
+                .link {
+                    font-family: 'proxima-rg';
+                    font-size: 17px;
+                    color: $c-teal;
+                    letter-spacing: -0.09px;
+                    line-height: 16px;
+
+                    margin-bottom: 15px;
+                    display: block;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: $c-blue-7;
+                    }
+                }
+            }
+        }
+        @media (max-width: $screen-sm-max) {
+
+            .menu-container {
+                display: block;
+                .col {
+                    height: 80px;
+                }
+
+                .menu-holder {
+                    margin: 0;
+                    border-bottom: 1px solid rgba(167, 169, 172, .53);
+
+                    .title {
+                        padding: 25px 30px;
+                        margin-bottom: 0;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+
+                        span.fa {
+                            display: block;
+
+                        }
+
+                        &.active {
+                            span.fa:before {
+                                content: "\f077";
+                            }
+                        }
+                    }
+                    .menu {
+                        padding: 0 30px 25px;
+                        display: none;
+                        
+                        .link {
+                            margin-bottom: 15px;
+                        }
+
+                        &.active {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+
+    .title {
+        color: $c-text-1;
+        font-weight: bold;
+    }
+
+    .menu {
+        line-height: 25px;
+
+        .link, link:visited {
+            color: $c-text-1;
+
+            &.disabled {
+                color: $c-text-5;
+            }
+        }
+    }
+
+    .footer-bottom {
+        background: #F5F5F5;
+        height: 106px;
+        margin-bottom: 0;
+        padding-top: 39px;
+
+        .social-networks {
+            white-space: nowrap;
+            float: left;
+
+            .social-button {
+                display: inline-block;
+                width: 28px;
+                height: 28px;
+                line-height: 28px;
+
+                background: $c-primary-3;
+                color: $c-text-6;
+                border-radius: 100%;
+
+                font-size: 18px;
+                text-decoration: none;
+                text-align: center;
+
+                &:not(:last-child) {
+                    margin-right: 22px;
+                }
+
+                &:hover {
+                    color: $c-text-7;
+                }
+            }
+
+            .social-button.fa-github {
+                font-size: 32px;
+                color: $c-primary-3;
+                vertical-align: top;
+                background: white;
+            }
+        }
+
+        .copyright {
+            float: right;
+
+            .item {
+                white-space: nowrap;
+                font-family: 'proxima-sb';
+                font-size: 14px;
+                color: $c-primary-2;
+                letter-spacing: -0.08px;
+                text-align: right;
+                line-height: 21px;
+                margin: 0 17px;
+                vertical-align: middle;
+
+                &.first {
+                    margin-left: 0;
+                }
+                &.last {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        @media screen and (max-width: $screen-md-max ) {
+            text-align: center;
+            height: auto;
+            padding-bottom: 30px;
+
+            .social-networks,
+            .copyright {
+                float: none;
+                width: 100%
+            }
+            .copyright {
+                margin-bottom: 30px;
+            }
+        }
+
+        @media screen and (max-width: $screen-sm-max) {
+            padding: 30px;
+            height: auto;;
+
+            .copyright {
+                .item {
+                    display: block;
+                    margin: 0 0 25px 0;;
+                    text-align: left;
+                }
+                .spacer {
+                    display: none;
+                }
+            }
+            .social-networks {
+                text-align: left;
+            }
+        }
+
+        @media (max-width: $screen-xs-max) {
+            .social-networks {
+                .social-button:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

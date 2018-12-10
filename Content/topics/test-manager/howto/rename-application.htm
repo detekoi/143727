@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link rel="stylesheet" href="../../../Resources2/Stylesheets/mpld.css" />
+    </head>
+    <body>
+        <h1 class="title">Rename an application</h1>
+        <p>
+            <MadCap:snippetText src="../pages/page-apps-tests/a-visual-test-is-identified-by.flsnp" />  You can rename both the application name and the test name. This article describes how to rename an application. See <MadCap:xref class="link" href="rename-a-test.htm">Rename a test</MadCap:xref>  for a description of how to rename a test.</p>
+        <p>Once you have renamed an application, <MadCap:variable name="General.ProductName" /> will only use the baselines associated with the applications' tests if the new application name is used. Note that existing test results and baselines will still refer to the original name. </p>
+        <p>To rename an application takes the steps described below. We use here as an example a case where your application is incorrectly named  "Helo World App", you notice the missing "l" and want to change the name to "Hel<span style="background-color: #ffff00;">l</span>o World App" .</p>
+        <ol class="numbered-list">
+            <li>In your test code, change the 2nd parameter of the open()&#160;method to "Hello World App".</li>
+            <div class="mpld-section" data-mpld-inline="1">
+                <!-- Java -->
+                <div data-mpld-lang="java"><pre class="mpld-code"><code>
+// Original  
+WebDriver driver = eyes.open(
+                        innerDriver, 
+                        "Helo World App", 
+                        "Hello World Test", 
+                        viewportSize);	
+// After rename application name
+WebDriver driver = eyes.open(
+                        innerDriver, 
+                        "Hello World App", 
+                        "Hello World Test", 
+                        viewportSize);			
+									</code></pre>
+                </div>
+                <!-- JavaScript -->
+                <div data-mpld-lang="javascript"><pre class="mpld-code"><code>
+// Original
+eyes.open(
+        innerDriver, 
+        'Helo World App', 
+        'Hello World Test', 
+        viewportSize);
+		
+// After rename application name
+eyes.open(
+        innerDriver, 
+        'HelLo World App', 
+        'Hello World Test', 
+        viewportSize);
+				</code></pre>
+                </div>
+                <!-- Csharp -->
+                <div data-mpld-lang="csharp"><pre class="mpld-code "><code>
+// Original
+var driver = eyes.Open(
+                    innerDriver, 
+                    "Helo World App", 
+                    "Hello World Test", 
+                    viewportSize);
+							
+// After rename application name
+var driver = eyes.Open(
+                    innerDriver, 
+                    "Hello World App", 
+                    "Hello World Test", 
+                    viewportSize);
+				</code></pre>
+                </div>
+                <!-- PHP -->
+                <div data-mpld-lang="php"><pre class="mpld-code "><code>
+// Original
+$this-&gt;driver = $eyes-&gt;open(
+                        $this-&gt;innerDriver, 
+                        'Helo World App', 
+                        'Hello World Test', 
+                        $viewportSize);	
+					
+// After rename application name
+$this-&gt;driver = $eyes-&gt;open(
+                        $this-&gt;innerDriver, 
+                        'Hello World App', 
+                        'Hello World Test', 
+                        $viewportSize);						
+				</code></pre>
+                </div>
+                <!-- Python -->
+                <div data-mpld-lang="python"><pre class="mpld-code"><code>
+# Original	
+driver = eyes.open(
+                driver=innerDriver, 
+                app_name='Helo World App', 
+                test_name='Hello World Test',
+                viewport_size = viewport_size)	
+		
+# After rename application name
+driver = eyes.open(
+                driver=innerDriver, 
+                app_name='Hello World App', 
+                test_name='Hello World Test',
+                viewport_size = viewport_size)		
+				</code></pre>
+                </div>
+                <!-- Ruby -->
+                <div data-mpld-lang="ruby"><pre class="mpld-code"><code>
+# Original
+driver = eyes.open( 
+                driver: inner_driver, 
+                app_name: 'Helo World App', 
+                test_name: 'Hello World Test',
+                viewport_size: viewport_size)
+		
+# After rename application name
+driver = eyes.open(driver: inner_driver, 
+                app_name: 'Hello World App',
+                test_name: 'Hello World Test',
+                viewport_size: viewport_size)
+				</code></pre>
+                </div>
+            </div>
+            <li>
+                <MadCap:snippetText src="../pages/page-apps-tests/find-app-in-app-and-test-page.flsnp" MadCap:snippetVariables="SnippetParams.appName:Helo World app," />
+            </li>
+            <li>Hover over the application entry until the <img src="../common/images/vertical-dot-menu.png" /> menu appears and then select  the <span class="app-item">Rename</span> option.</li>
+            <li>
+                <MadCap:snippetText src="../common/rename-dialog.flsnp" />
+            </li>
+        </ol><a data-lightbox="app-test-app-panel-rename" href="../pages/page-apps-tests/resources/app-test-app-panel-rename.png"><img class="block-image" src="../pages/page-apps-tests/resources/app-test-app-panel-rename.png" /></a>
+        <p>If the new name you provide was previously used as an application name, even if that application was deleted, the system will give you an error message and will not allow you to complete the rename operation.</p>
+        <p class="box-warning">After renaming an application, you must use the new name in all your tests as shown in the first step. Using the old name would create a new application, and therefore the test would be considered "new".</p>
+        <script src="/docs/scripts/mpld.js"> /*<![CDATA[*/ /*]]>*/</script>
+        <script>
+			mpld.setDefaultLanguages();
+	</script>
+    </body>
+</html>

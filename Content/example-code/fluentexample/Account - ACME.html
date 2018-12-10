@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://afternoon-savannah-68940.herokuapp.com/account/ -->
+<html class="no-js" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Account - ACME</title>
+		<meta name="viewport" content="width=device-width">
+		<link href="./Account - ACME_files/css" rel="stylesheet">
+		<link rel="stylesheet" href="./Account - ACME_files/site.css">
+        <style>
+        #myProgress {
+            width: 100%;
+            background-color: grey;
+        }
+        #myBar {
+            width: 1%;
+            height: 30px;
+            background-color: green;
+        }
+        #orders-list-desktop tr{
+              display:block;
+            }
+        #orders-list-desktop tbody{
+          display:block;
+          overflow:auto;
+          height:200px;
+          width:100%;
+        }
+
+        </style>
+	</head>
+	<body class="account ">
+	<header id="site-header">
+		<div class="container">
+			<div id="site-branding">
+				<a href="https://afternoon-savannah-68940.herokuapp.com/"><img src="./Account - ACME_files/logo-white.svg" alt="ACME logo" width="90" id="header-logo"></a>
+				<div id="slogan">You are our best partner.</div>
+			</div>
+			<nav id="site-navigation">
+				<ul>
+					<li class="desktop-only"><a href="https://afternoon-savannah-68940.herokuapp.com/account/#" class="active">Your Account</a></li>
+					<li class="desktop-only"><a href="https://afternoon-savannah-68940.herokuapp.com/account/#">Your Profile</a></li>
+					<li class="desktop-only"><a href="https://afternoon-savannah-68940.herokuapp.com/">Sign Out</a></li>
+					<li><a href="https://afternoon-savannah-68940.herokuapp.com/account/#" id="cart">0</a></li>
+					<li class="mobile-only"><a href="https://afternoon-savannah-68940.herokuapp.com/account/#">Menu</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<main id="site-main">
+		<section id="overview">
+			<div class="container">
+				<div id="user-menu">
+					<img data-volatile="1" src="./Account - ACME_files/avatar.png" alt="Adam" width="82">
+					<div class="menu">
+						<span  data-volatile="1" class="welcome eyes-dynamic">Hey, Adam!</span>
+						<button class="dropdown-toggle">Your Account</button>
+					</div>
+				</div>
+				<div id="snapshot">
+					<div class="snapshot-topic">
+						<h3>Your Orders</h3>
+						<span id="num-orders" data-volatile="1"> 2 </span> recent orders
+					</div>
+					<div class="snapshot-topic">
+						<h3>Account Balance</h3>
+						<span data-volatile="1" class="balance eyes-dynamic">-$37.95</span>
+						<a href="https://afternoon-savannah-68940.herokuapp.com/account/#">View Account</a>
+					</div>
+					<div class="w100"></div>
+					<div class="snapshot-topic">
+						<h3>Customer Since</h3>
+						<span id="customer-since" data-volatile="1"> 2016 </span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="order-history">
+			<div class="container">
+				<nav id="breadcrumbs">
+					<ul>
+						<li><a href="https://afternoon-savannah-68940.herokuapp.com/account/#">Your Account</a></li>
+						<li class="sep">&gt;</li>
+						<li class="active">Orders</li>
+					</ul>
+				</nav>
+				
+				<header id="history-header">
+					<h1>Your Orders</h1>
+					<div><span id="results-count" data-volatile="1">40</span> Records</div>
+					<form action="https://afternoon-savannah-68940.herokuapp.com/account/" id="records-search">
+						<label for="records-search-field">Search records...</label>
+						<input id="records-search-field" name="s" type="text" placeholder="Search records...">
+						<button>Go</button>
+					</form>
+				</header>
+
+				<ul id="tabs-nav">
+					<li><a href="https://afternoon-savannah-68940.herokuapp.com/account/#" class="active">Orders</a></li>
+					<li><a href="https://afternoon-savannah-68940.herokuapp.com/account/#">Active Orders</a></li>
+				</ul>
+
+				<div class="toolbar">
+					<div class="setting-menu showing">
+						<span class="label">Showing</span>
+						<button>Activity for past 90 days</button>
+					</div>
+					<div data-test="display-per-page" class="setting-menu hidden-xs">
+						<span class="label">Display</span>
+						<button>10</button>
+						<span class="sublabel">Per page</span>
+                        <nav id="nav-top" class="pages hidden-xs">
+                            <a id="navpage-1a" href="https://afternoon-savannah-68940.herokuapp.com/account/#" class="active navbar">1</a>
+                            <a id="navpage-2a" href="https://afternoon-savannah-68940.herokuapp.com/account/#">2</a>
+                            <a id="navpage-3a" href="https://afternoon-savannah-68940.herokuapp.com/account/#">3</a>
+                            <a id="navpage-4a" href="https://afternoon-savannah-68940.herokuapp.com/account/#">4</a>
+                        </nav>
+                    </div>
+				</div>
+				<div id="myProgress">
+                    <div id="myBar"></div>
+                </div>
+								<div id="olm-wrap">
+											<h2 class="order-date">Jun 15, 2017</h2>
+						<table class="orders-list-mobile orders-list">
+							<tbody>
+									<tr>
+										<td class="thumb"><img src="./Account - ACME_files/product-thumb-1.png" alt="product 01245"></td>
+										<td class="info">
+											<span class="item-name">Epic Flynit Sneaker</span><br>
+											Qty: 3<br>
+											June 15 | <em>Pending</em>	
+										</td>
+										<td class="last">
+											0001245<br>
+											&nbsp;<br>
+											<span class="item-price">-$150.00</span>
+										</td>
+									</tr>
+									<tr class="has-divider">
+										<td class="thumb"><img src="./Account - ACME_files/product-thumb-3.png" alt="product 02543"></td>
+										<td class="info">
+											<span class="item-name">Aquarian Jogging Pants</span><br>
+											Qty: 1<br>
+											June 15 | <em>Approved</em>	
+										</td>
+										<td class="last">
+											0002543<br>
+											&nbsp;<br>
+											<span class="item-price">-$200.00</span>
+										</td>
+									</tr>
+															</tbody>
+						</table>
+												<h2 class="order-date">Jun 05, 2017</h2>
+						<table class="orders-list-mobile orders-list"">
+							<tbody>
+																	<tr>
+										<td class="thumb"><img src="./Account - ACME_files/product-thumb-1.png" alt="product 01245"></td>
+										<td class="info">
+											<span class="item-name">Epic Flynit Sneaker</span><br>
+											Qty: 1<br>
+											June 05 | <em>Pending</em>	
+										</td>
+										<td class="last">
+											0001245<br>
+											&nbsp;<br>
+											<span class="item-price">-$150.00</span>
+										</td>
+									</tr>
+															</tbody>
+						</table>
+												<h2 class="order-date">May 25, 2017</h2>
+						<table class="orders-list-mobile  orders-list">
+							<tbody>
+																	<tr>
+										<td class="thumb"><img src="./Account - ACME_files/product-thumb-4.png" alt="product 09867"></td>
+										<td class="info">
+											<span class="item-name">NightFlyt Reflective Vest</span><br>
+											Qty: 1<br>
+											May 25 | <em>Approved</em>	
+										</td>
+										<td class="last">
+											0009867<br>
+											&nbsp;<br>
+											<span class="item-price">-$50.00</span>
+										</td>
+									</tr>
+															</tbody>
+						</table>
+												
+				</div>
+				
+				<table id="orders-list-desktop" class="orders-list">
+					<thead>
+						<tr>							<th id="col-date">Date</th>
+							<th id="col-thumb">Thumb</th>
+							<th id="col-pid">Product ID</th>
+							<th id="col-desc">Description</th>
+							<th id="col-qty">Quantity</th>
+							<th id="col-status">Status</th>
+							<th id="col-amt">Amount</th>
+						</tr>
+					</thead>
+					<tbody>
+							<tr>
+								<td class="date"> Jun 09, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-1.png" alt="product 01245aa"></td>
+								<td>0001245 aa</td>
+								<td>Epic Flynit Sneaker</td>
+								<td class="text-center">1</td>
+								<td>Pending</td>
+								<td>-$151.00</td>
+							</tr>
+							<tr>
+								<td class="date"> Jun 10, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-2.png" alt="product 32222bb"></td>
+								<td>0032222 bb</td>
+								<td>Moisture Wicking Socks</td>
+								<td class="text-center">3</td>
+								<td>Approved</td>
+								<td>-$72.00</td>
+							</tr>
+							<tr>
+								<td class="date"> Jun 11, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-3.png" alt="product 02543cc"></td>
+								<td>0002543 cc</td>
+								<td>Aquarian Jogging Pants</td>
+								<td class="text-center">1</td>
+								<td>Approved</td>
+								<td>-$203.00</td>
+							</tr>
+							<tr>
+								<td class="date"> May 12, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-4.png" alt="product 09867dd"></td>
+								<td>0009867 dd</td>
+								<td>NightFlyt Reflective Vest</td>
+								<td class="text-center">1</td>
+								<td>Approved</td>
+								<td>-$54.00</td>
+							</tr>
+							<tr>
+								<td class="date"> May 13, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-1.png" alt="product 01245ee"></td>
+								<td>0001245 ee</td>
+								<td>Epic Flynit Sneaker</td>
+								<td class="text-center">1</td>
+								<td>Pending</td>
+								<td>-$155.00</td>
+							</tr>
+							<tr>
+								<td class="date"> May 14, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-2.png" alt="product 32222ff"></td>
+								<td>0032222 ff</td>
+								<td>Moisture Wicking Socks</td>
+								<td class="text-center">3</td>
+								<td>Approved</td>
+								<td>-$76.00</td>
+							</tr>
+							<tr>
+								<td class="date"> May 15, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-3.png" alt="product 02543gg"></td>
+								<td>0002543 gg</td>
+								<td>Aquarian Jogging Pants</td>
+								<td class="text-center">1</td>
+								<td>Approved</td>
+								<td>-$207.00</td>
+							</tr>
+							<tr>
+								<td class="date"> May 16, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-4.png" alt="product 09867hh"></td>
+								<td>0009867 hh</td>
+								<td>NightFlyt Reflective Vest</td>
+								<td class="text-center">1</td>
+								<td>Approved</td>
+								<td>-$58.88</td>
+							</tr>
+							<tr>
+								<td class="date"> May 17, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-1.png" alt="product 01245ii"></td>
+								<td>0001245 ii</td>
+								<td>Epic Flynit Sneaker</td>
+								<td class="text-center">1</td>
+								<td>Pending</td>
+								<td>-$159.99</td>
+							</tr>
+							<tr>
+								<td class="date"> May 18, 2017</td>
+								<td><img src="./Account - ACME_files/product-thumb-1.png" alt="product 01245jj"></td>
+								<td>0001245 jj</td>
+								<td>Epic Flynit Sneaker</td>
+								<td class="text-center">1</td>
+								<td>Pending</td>
+								<td>-$150.00</td>
+							</tr>
+							</tbody>
+				</table>
+				
+				<div  class="toolbar bottom">
+					<nav  id="nav-bottom" class="pages">
+						<a id="navpage-1b" href="https://afternoon-savannah-68940.herokuapp.com/account/#" class="active">1</a>
+						<a id="navpage-2b" href="https://afternoon-savannah-68940.herokuapp.com/account/#">2</a>
+						<a id="navpage-3b" href="https://afternoon-savannah-68940.herokuapp.com/account/#">3</a>
+						<a id="navpage-4b" href="https://afternoon-savannah-68940.herokuapp.com/account/#">4</a>
+					</nav>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer id="site-footer">
+		<div class="container">
+			<div class="row">
+				<div id="tagline">We’ve been helping our customers succeed since the beginning. Without you, we can’t do what we do. You truly are our best partner.</div>
+				<div id="social">
+					<h2>Follow Us</h2>
+					<a href="https://afternoon-savannah-68940.herokuapp.com/account/#"><img src="./Account - ACME_files/icon-facebook.svg" alt="follow on Facebook"></a><a href="https://afternoon-savannah-68940.herokuapp.com/account/#"><img src="./Account - ACME_files/icon-twitter.svg" alt="follow on Twitter"></a>
+				</div>
+			</div>
+			<div class="row reversed">
+				<div id="colophon">
+					©2018 ACME Corporation. All Rights Reserved.				</div>
+				<div id="footer-nav">
+					<a href="https://afternoon-savannah-68940.herokuapp.com/account/#">Disclaimer</a><span class="sep">|</span><a href="https://afternoon-savannah-68940.herokuapp.com/account/#">Privacy Policy</a><span class="sep">|</span><a href="https://afternoon-savannah-68940.herokuapp.com/account/#">Support</a>				</div>
+			</div>
+		</div>
+	</footer>
+    <script>
+    var interval = 100;
+    function move(doThis) {
+    var elem = document.getElementById("myBar"); 
+    var width = 1;
+    var id = setInterval(frame, interval);
+    function frame() {
+        if (width >= 100) {
+            clearInterval(id);
+            doThis();
+        } else {
+            width++; 
+            elem.style.width = width + '%'; 
+        }
+    }
+}
+    
+    function getRand(low,hi) {
+        return(Math.round(low + Math.random() * (hi-low)));
+    }
+    var tableValues = [];
+         var table = document.getElementById("orders-list-desktop");
+        var tableValues = [];
+        //copy the tabel and then clear it
+        for (var i = 1, row; row = table.rows[i]; i++) {
+           //iterate through rows
+           //rows would be accessed using the "row" variable assigned in the for loop
+           tableValues[i] = [];
+           for (var j = 0, col; col = row.cells[j]; j++) {
+             //iterate through columns
+             tableValues[i][j] = col.innerText;
+             col.innerText = "";
+           }
+        }
+        var maxPages = 4;
+        var numPages = getRand(1,4);
+        document.getElementById("results-count").innerText = Math.round(numPages * 10 + numPages);
+        document.getElementById("customer-since").innerText = getRand(2000, 2018);
+
+        for (var n=1; n <= maxPages; n++)  {
+            if (n <= numPages) {
+                document.getElementById("navpage-"+n+"a").style.display = "inline";
+                document.getElementById("navpage-"+n+"b").style.display = "inline";
+            } else {
+                document.getElementById("navpage-"+n+"a").style.display = "none";
+                document.getElementById("navpage-"+n+"b").style.display = "none";
+            }
+        }
+    //wait some time and then fill the table, swapping two randow rows  
+    move(drawTable);
+    function drawTable() {
+        console.log("updating table");
+        var size = table.rows.length;
+        var offset = getRand(1,size-1);
+        //switch two rows to randomize it
+        console.log("offset=" +offset);
+        
+        //redraw the table and then switch two rows
+        for (var i = 1, row; row = table.rows[i]; i++) {
+            var index = 1 + (offset + i) % (size-1);
+           for (var j = 0, col; col = row.cells[j]; j++) {
+             col.innerText = tableValues[index][j];
+           }
+        }  
+    }
+    </script>
+	<!--- 
+		/* Colors */
+		Carets different
+		Active tab highlight different
+		Table borders instead of shading
+
+		/* Content */
+		been helping -> ben helping
+		$ -> £
+		Leading zeros in product ID removed
+		Year missing
+		Period missing in slogan
+		mon dd, yyyy -> dd/mm/yy
+		Column headers: "Product ID" and "Product"; "Quantity" and "Qty"; "Amount" and "Amt"
+		Your Account -> Account
+		ACCOUNT BALANCE -> ACCOUNT BALLANCE
+		CUSTOMER SINCE -> COSTUMER SINCE
+		Hey, Adam! -> Hey Adam
+		Disclaimer -> Disclamer
+		Epic Flynit Sneaker -> Epic Flynit Shoe
+
+		/* Images */
+		Avatar missing
+		Thumbs stretched
+		Cart icons cropped
+		Footer logo bigger
+
+		/* Position */
+		Rows 4 & 8 in product table has misaligned description
+		Space between snapshot details smaller
+		User menu aligned to top of avatar
+		Tagline closer to logo
+		Social logos swapped
+		Footer/breadcrumbs separators wider
+
+		/* Forms */
+		Button wider
+		Field narrower
+		Label icon missing
+
+		/* Responsive (using 600 x 1024)*/
+		No right margin in header
+		User menu caret crash
+		Search label narrower
+		View account link missing
+	-->
+
+
+</body></html>

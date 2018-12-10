@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?><CatapultToc
+ Versions="1">
+<TocEntry 
+   Title="Selenium 4 SDK reference guide"
+   Link="/Content/api/eyes-sdk/indexm/sdk-platformIndex-selenium4.htm" >
+<TocEntry 
+      Title="JavaScript classes index"
+      Link="/Content/api/eyes-sdk/index-gen/classindex-selenium4-javascript.htm" >
+<TocEntry 
+         Title="ApiUrls class"
+         Link="/Content/api/eyes-sdk/index-gen/class-apiurls-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="getBaselineImage"
+            Link="/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getbaselineimage-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getCheckpointImage"
+            Link="/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getcheckpointimage-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getCheckpointImageThumbnail"
+            Link="/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getcheckpointimagethumbnail-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getDiffImage"
+            Link="/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getdiffimage-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="AppUrls class"
+         Link="/Content/api/eyes-sdk/index-gen/class-appurls-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="getStep"
+            Link="/Content/api/eyes-sdk/classes-gen/class_appurls/method-appurls-getstep-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getStepEditor"
+            Link="/Content/api/eyes-sdk/classes-gen/class_appurls/method-appurls-getstepeditor-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="BatchInfo class"
+         Link="/Content/api/eyes-sdk/index-gen/class-batchinfo-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="BatchInfo"
+            Link="/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-batchinfo-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getId"
+            Link="/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-getid-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-getname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getStartedAt"
+            Link="/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-getstartedat-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="Eyes class"
+         Link="/Content/api/eyes-sdk/index-gen/class-eyes-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="Eyes"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-eyes-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="abortIfNotClosed"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-abortifnotclosed-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="addProperty"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-addproperty-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="check"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-check-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="checkElement"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelement-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="checkElementBy"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelementby-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="checkFrame"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkframe-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="checkRegion"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregion-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="checkRegionBy"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregionby-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="checkRegionByElement"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregionbyelement-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="checkWindow"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkwindow-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="clearProperties"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-clearproperties-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="close"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-close-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getAgentId"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getagentid-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getApiKey"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getapikey-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getAppName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getappname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getBaselineBranchName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbaselinebranchname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getBaselineEnvName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbaselineenvname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getBatch"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbatch-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getBranchName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbranchname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getDebugScreenshotsPath"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getdebugscreenshotspath-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getDebugScreenshotsPrefix"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getdebugscreenshotsprefix-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getDefaultServerUrl"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getdefaultserverurl-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getDevicePixelRatio"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getdevicepixelratio-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getDriver"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getdriver-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getForceFullPageScreenshot"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getforcefullpagescreenshot-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getHideScrollbars"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-gethidescrollbars-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getHostApp"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-gethostapp-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getHostOS"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-gethostos-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getIgnoreCaret"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getignorecaret-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getIsDisabled"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getisdisabled-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getIsOpen"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getisopen-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getMatchTimeout"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getmatchtimeout-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getParentBranchName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getparentbranchname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getProxy"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getproxy-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getRotation"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getrotation-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getSaveDebugScreenshots"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavedebugscreenshots-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getSaveDiffs"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavediffs-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getSaveFailedTests"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavefailedtests-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getSaveNewTests"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavenewtests-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getScaleRatio"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getscaleratio-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getScrollRootElement"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getscrollrootelement-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getScrollToRegion"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getscrolltoregion-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getSendDom"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsenddom-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getServerUrl"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getserverurl-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getStitchMode"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getstitchmode-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getStitchOverlap"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getstitchoverlap-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getViewportSize"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getviewportsize-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getWaitBeforeScreenshots"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getwaitbeforescreenshots-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="open"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-open-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="replaceWindow"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-replacewindow-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setAgentId"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setagentid-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setApiKey"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setapikey-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setAppName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setappname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setBaselineBranchName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselinebranchname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setBaselineEnvName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselineenvname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setBatch"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbatch-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setBranchName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbranchname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setDebugScreenshotsPath"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setdebugscreenshotspath-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setDebugScreenshotsPrefix"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setdebugscreenshotsprefix-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setExplicitViewportSize"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setexplicitviewportsize-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setForceFullPageScreenshot"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setforcefullpagescreenshot-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setHideScrollbars"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidescrollbars-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setHostApp"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethostapp-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setHostOS"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethostos-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setIgnoreCaret"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setignorecaret-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setIsDisabled"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setisdisabled-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setMatchLevel"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchlevel-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setMatchTimeout"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchtimeout-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setParentBranchName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setparentbranchname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setProxy"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setproxy-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setRotation"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setrotation-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setSaveDebugScreenshots"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavedebugscreenshots-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setSaveDiffs"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavediffs-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setSaveNewTests"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavenewtests-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setScaleRatio"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setscaleratio-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setScrollRootElement"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setscrollrootelement-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setScrollToRegion"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setscrolltoregion-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setSendDom"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsenddom-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setServerUrl"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setserverurl-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setStitchMode"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchmode-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setStitchOverlap"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchoverlap-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setViewportSize"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setviewportsize-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="setWaitBeforeScreenshots"
+            Link="/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setwaitbeforescreenshots-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="Location class"
+         Link="/Content/api/eyes-sdk/index-gen/class-location-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="Location"
+            Link="/Content/api/eyes-sdk/classes-gen/class_location/method-location-location-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="ProxySettings class"
+         Link="/Content/api/eyes-sdk/index-gen/class-proxysettings-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="ProxySettings"
+            Link="/Content/api/eyes-sdk/classes-gen/class_proxysettings/method-proxysettings-proxysettings-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getPassword"
+            Link="/Content/api/eyes-sdk/classes-gen/class_proxysettings/method-proxysettings-getpassword-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getUri"
+            Link="/Content/api/eyes-sdk/classes-gen/class_proxysettings/method-proxysettings-geturi-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getUsername"
+            Link="/Content/api/eyes-sdk/classes-gen/class_proxysettings/method-proxysettings-getusername-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="RectangleSize class"
+         Link="/Content/api/eyes-sdk/index-gen/class-rectanglesize-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="RectangleSize"
+            Link="/Content/api/eyes-sdk/classes-gen/class_rectanglesize/method-rectanglesize-rectanglesize-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="Region class"
+         Link="/Content/api/eyes-sdk/index-gen/class-region-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="Region"
+            Link="/Content/api/eyes-sdk/classes-gen/class_region/method-region-region-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="SeleniumCheckSettings class"
+         Link="/Content/api/eyes-sdk/index-gen/class-checksettings-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="content"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-content-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="contentRegions"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-contentregions-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="exact"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-exact-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="floating"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-floating-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="floatings"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-floatings-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="frame"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-frame-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="fully"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-fully-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="ignoreCaret"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignorecaret-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="ignoreRegions"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignoreregions-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="layout"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-layout-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="layoutRegions"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-layoutregions-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="matchLevel"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-matchlevel-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="region"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-region-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="strict"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-strict-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="strictRegions"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-strictregions-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="timeout"
+            Link="/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-timeout-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="SessionUrls class"
+         Link="/Content/api/eyes-sdk/index-gen/class-sessionurls-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="getBatch"
+            Link="/Content/api/eyes-sdk/classes-gen/class_sessionurls/method-sessionurls-getbatch-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getSession"
+            Link="/Content/api/eyes-sdk/classes-gen/class_sessionurls/method-sessionurls-getsession-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="StepInfo class"
+         Link="/Content/api/eyes-sdk/index-gen/class-stepinfo-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="getApiUrls"
+            Link="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getapiurls-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getAppUrls"
+            Link="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getappurls-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getHasBaselineImage"
+            Link="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethasbaselineimage-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getIsDifferent"
+            Link="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getisdifferent-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getname-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="Target class"
+         Link="/Content/api/eyes-sdk/index-gen/class-target-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="frame"
+            Link="/Content/api/eyes-sdk/classes-gen/class_target/method-target-frame-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="region"
+            Link="/Content/api/eyes-sdk/classes-gen/class_target/method-target-region-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="window"
+            Link="/Content/api/eyes-sdk/classes-gen/class_target/method-target-window-selenium4-javascript.htm" />
+      </TocEntry>
+<TocEntry 
+         Title="TestResults class"
+         Link="/Content/api/eyes-sdk/index-gen/class-testresults-selenium4-javascript.htm" >
+         <TocEntry 
+            Title="getAppName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getappname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getAppUrls"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getappurls-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getBatchId"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchid-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getBatchName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getBranchName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getbranchname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getDuration"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getduration-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getHostApp"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostapp-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getHostDisplaySize"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostdisplaysize-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getHostOS"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostos-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getId"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getid-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getIsAborted"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-isaborted-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getIsDifferent"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-isdifferent-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getIsNew"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-isnew-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getMatches"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmatches-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getMismatches"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmismatches-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getMissing"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmissing-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getName"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getname-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getStartedAt"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstartedat-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getStatus"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstatus-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getSteps"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getsteps-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getStepsInfo"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstepsinfo-selenium4-javascript.htm" />
+         <TocEntry 
+            Title="getUrl"
+            Link="/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-geturl-selenium4-javascript.htm" />
+      </TocEntry>
+   </TocEntry>
+</TocEntry>
+</CatapultToc>

@@ -1,0 +1,113 @@
+﻿@import "../from-site/scss/reset.scss";
+@import "../from-site/scss/common/common.scss";
+@import "../from-site/scss/common/effects.scss";
+@import "../from-site/scss/common/fonts.scss";
+@import "../from-site/scss/common/forms.scss";
+@import "../from-site/scss/common/layout.scss";
+@import "../from-site/scss/common/menus.scss";
+@import "../from-site/scss/common/variables";
+@import "../from-site/scss/components/code-highlighter.scss";
+@import "../from-site/scss/components/footer.scss";
+@import "../from-site/scss/components/navbar.scss";
+@import "../from-site/scss/components/page.scss";
+@import "../from-site/scss/components/table.scss";
+@import "../from-site/scss/components/tooltip.scss";
+@import "../from-site/scss/pages/documentation.scss";
+@import "../from-site/scss/pages/docs-article.scss";
+@import "../from-site/scss/pages/docs-sdk-page.scss";
+@import "../from-site/scss/pages/tutorial.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-width: $screen-xs-min;
+  line-height: 1.5rem;
+  background: $c-background-1;
+  color: $c-text-1;
+
+  font-family: $font-family;
+  font-size: $font-m;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1 {
+  line-height: 3.2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  /* font-size: 2.75rem; */
+  font-size: 36px;
+  font-weight: 400;
+  color: $c-primary-1;
+}
+
+h2 {
+  line-height: 1.9rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: $c-primary-1;
+}
+
+h3 {
+  line-height: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+   color: $c-primary-1;
+}
+
+h4 {
+  line-height: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $c-primary-1;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+input, textarea {
+  font-size: $font-m;
+  font-family: $font-family;
+}
+
+button {
+  font-size: $font-m;
+}
+
+@media (max-width: $screen-sm-max) {
+  h1 {
+    font-size: 2.62rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 1.31rem;
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  h1 {
+    font-size: 2.25rem;
+    line-height: 2.8rem;
+  }
+
+  h2 {
+    font-size: 1.18rem;
+    line-height: 1.6rem;
+  }
+}

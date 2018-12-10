@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="pad-left">
+            <dl>
+                <dt>
+                    <MadCap:snippetText src="../topics/test-manager/common/filter-option-bullet.flsnp" /> <span class="app-item">TBD1</span></dt>
+                <dd> TBD1</dd>
+                <dt>
+                    <MadCap:snippetText src="../topics/test-manager/common/filter-option-bullet.flsnp" /> <span class="app-item">TBD2</span></dt>
+                <dd> TBD2</dd>
+                <dt> <MadCap:snippetText src="../topics/test-manager/common/filter-option-bullet.flsnp" /><span class="app-item">TBD3</span></dt>
+                <dd> TBD3</dd>
+                <dt>
+                    <MadCap:snippetText src="../topics/test-manager/common/filter-option-bullet.flsnp" /> <span class="app-item">TBD4</span></dt>
+                <dd> TBD4</dd>
+            </dl>
+        </div>
+    </body>
+</html>

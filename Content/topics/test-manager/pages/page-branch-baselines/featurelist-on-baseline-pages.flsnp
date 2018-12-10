@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="319" MadCap:lastWidth="617">
+    <body>
+        <ol class="bulleted-list">
+            <li>
+				Delete baselines from a branch. See
+				<MadCap:xref class="link" href="../../howto/deleting-baselines.htm">Deleting baselines.</MadCap:xref></li>
+            <li>
+				Copy baselines  to another branch. See
+				<MadCap:xref class="link" href="../../howto/copying-baselines-between-branches.htm">Copying baselines between branches</MadCap:xref>.
+			</li>
+            <li>
+				View the history of a baseline. See
+				<MadCap:xref class="link" href="../tm-page-baseline-history.htm">The Baseline history page</MadCap:xref>				.			</li>
+            <li>
+				View the results of the test run that most recently used a baseline. See
+				<MadCap:xref class="link" href="../../howto/view-the-latest-run-of-a-test.htm">View the latest run of a test baseline</MadCap:xref>				.
+			</li>
+            <li>
+				View the results of the test run that most recently updated the selected baseline. See
+				<MadCap:xref class="link" href="../../howto/view-test-run-that-updated-baseline.htm">View a test run which updated a baseline results.</MadCap:xref></li>
+        </ol>
+    </body>
+</html>

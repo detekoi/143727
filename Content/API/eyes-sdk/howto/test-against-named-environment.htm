@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link rel="stylesheet" href="/docs/Resources2/Stylesheets/mpld.css" /> 
+    </head>
+    <body>
+        <h1 class="title">Run test against a baseline that matches an environment name</h1>
+        <p>Once you have defined an environment name for a specific <MadCap:glossaryTerm glossTerm="EyesTerms.Term8">execution environment</MadCap:glossaryTerm>, you can use the SDK&#160;to specify that a visual UI test should use a baseline whose execution environment matches the environment defined by that environment name. For example, if you have named an environment of Windows 10, Chrome 1024x876 to be "standard browser", and then use the SDK&#160;to specify that the baseline should match the environment name "standard browser" (see snippet below)&#160;then <MadCap:variable name="General.ProductName" /> will look for a baseline with the same application and test name as the test and with an environment of Windows 10, Chrome and a viewport size 1024 x 876 and use it as the baseline.</p><pre class="mpld-section" data-mpld-dir="HelloWorldEnvironment" data-mpld-file="HelloWorldEnvironment" data-mpld-section="set-baseline-env"></pre>
+        <p>If you specify a name that is not assigned to any environment, then the name will be automatically assigned to the environment in which the test is executing. If there is a baseline that matches that environment then it will be used.  If no baseline matches the environment specified, then as usual, the test result will be classified as "new" and by default a new baseline will be created and saved. </p>
+        <script src="/docs/scripts/mpld.js"> /*<![CDATA[*/ /*]]>*/</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js">
+        </script>
+        <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/docs/example-code";
+			var myFile = "HelloWorldEnvironment"; 
+			mpld.setDefaultFile(folder,myFile);
+			mpld.setDefaultLanguages();
+			/*]]>*/
+		</script>
+    </body>
+</html>

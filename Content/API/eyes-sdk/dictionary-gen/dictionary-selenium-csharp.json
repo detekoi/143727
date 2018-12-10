@@ -1,0 +1,822 @@
+{
+  "created": "2018-11-28T20:40:15.434Z",
+  "platformId": "selenium",
+  "langId": "csharp",
+  "symbols": {
+    "apiurls": {
+      "name": "ApiUrls",
+      "filename": "class-apiurls-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-apiurls-selenium-csharp.htm"
+    },
+    "apiurls$getbaselineimage": {
+      "name": "BaselineImage",
+      "filename": "method-apiurls-getbaselineimage-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getbaselineimage-selenium-csharp.htm"
+    },
+    "apiurls$getcheckpointimage": {
+      "name": "CheckpointImage",
+      "filename": "method-apiurls-getcheckpointimage-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getcheckpointimage-selenium-csharp.htm"
+    },
+    "apiurls$getcheckpointimagethumbnail": {
+      "name": "CheckpointImageThumbnail",
+      "filename": "method-apiurls-getcheckpointimagethumbnail-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getcheckpointimagethumbnail-selenium-csharp.htm"
+    },
+    "apiurls$getdiffimage": {
+      "name": "DiffImage",
+      "filename": "method-apiurls-getdiffimage-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_apiurls/method-apiurls-getdiffimage-selenium-csharp.htm"
+    },
+    "appurls": {
+      "name": "AppUrls",
+      "filename": "class-appurls-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-appurls-selenium-csharp.htm"
+    },
+    "appurls$getstep": {
+      "name": "Step",
+      "filename": "method-appurls-getstep-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_appurls/method-appurls-getstep-selenium-csharp.htm"
+    },
+    "appurls$getstepeditor": {
+      "name": "StepEditor",
+      "filename": "method-appurls-getstepeditor-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_appurls/method-appurls-getstepeditor-selenium-csharp.htm"
+    },
+    "batchinfo": {
+      "name": "BatchInfo",
+      "filename": "class-batchinfo-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-batchinfo-selenium-csharp.htm"
+    },
+    "batchinfo$batchinfo": {
+      "name": "BatchInfo",
+      "filename": "method-batchinfo-batchinfo-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-batchinfo-selenium-csharp.htm"
+    },
+    "batchinfo$getid": {
+      "name": "Id",
+      "filename": "method-batchinfo-getid-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-getid-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "batchinfo$setid": {
+      "name": "Id",
+      "filename": "method-batchinfo-setid-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-setid-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "batchinfo$getname": {
+      "name": "Name",
+      "filename": "method-batchinfo-getname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-getname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "batchinfo$setname": {
+      "name": "Name",
+      "filename": "method-batchinfo-setname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-setname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "batchinfo$getstartedat": {
+      "name": "StartedAt",
+      "filename": "method-batchinfo-getstartedat-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-getstartedat-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "batchinfo$setstartedat": {
+      "name": "StartedAt",
+      "filename": "method-batchinfo-setstartedat-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-setstartedat-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "batchinfo$tostring": {
+      "name": "ToString",
+      "filename": "method-batchinfo-tostring-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_batchinfo/method-batchinfo-tostring-selenium-csharp.htm"
+    },
+    "configuration": {
+      "name": "Configuration",
+      "filename": "class-configuration-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-configuration-selenium-csharp.htm"
+    },
+    "configuration$agentid": {
+      "name": "AgentId",
+      "filename": "method-configuration-agentid-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-agentid-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$appname": {
+      "name": "AppName",
+      "filename": "method-configuration-appname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-appname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$baselinebranchname": {
+      "name": "BaselineBranchName",
+      "filename": "method-configuration-baselinebranchname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-baselinebranchname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$baselineenvname": {
+      "name": "BaselineEnvName",
+      "filename": "method-configuration-baselineenvname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-baselineenvname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$batch": {
+      "name": "Batch",
+      "filename": "method-configuration-batch-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-batch-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$branchname": {
+      "name": "BranchName",
+      "filename": "method-configuration-branchname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-branchname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$forcefullpagescreenshot": {
+      "name": "ForceFullPageScreenshot",
+      "filename": "method-configuration-forcefullpagescreenshot-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-forcefullpagescreenshot-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$hidecaret": {
+      "name": "HideCaret",
+      "filename": "method-configuration-hidecaret-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-hidecaret-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$hidescrollbars": {
+      "name": "HideScrollbars",
+      "filename": "method-configuration-hidescrollbars-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-hidescrollbars-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$parentbranchname": {
+      "name": "ParentBranchName",
+      "filename": "method-configuration-parentbranchname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-parentbranchname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$savediffs": {
+      "name": "SaveDiffs",
+      "filename": "method-configuration-savediffs-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-savediffs-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$stitchmode": {
+      "name": "StitchMode",
+      "filename": "method-configuration-stitchmode-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-stitchmode-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$testname": {
+      "name": "TestName",
+      "filename": "method-configuration-testname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-testname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$viewportsize": {
+      "name": "ViewportSize",
+      "filename": "method-configuration-viewportsize-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-viewportsize-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "configuration$waitbeforescreenshots": {
+      "name": "WaitBeforeScreenshots",
+      "filename": "method-configuration-waitbeforescreenshots-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_configuration/method-configuration-waitbeforescreenshots-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes": {
+      "name": "Eyes",
+      "filename": "class-eyes-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-eyes-selenium-csharp.htm"
+    },
+    "eyes$abortifnotclosed": {
+      "name": "AbortIfNotClosed",
+      "filename": "method-eyes-abortifnotclosed-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-abortifnotclosed-selenium-csharp.htm"
+    },
+    "eyes$addproperty": {
+      "name": "AddProperty",
+      "filename": "method-eyes-addproperty-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-addproperty-selenium-csharp.htm"
+    },
+    "eyes$setagentid": {
+      "name": "AgentId",
+      "filename": "method-eyes-setagentid-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setagentid-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getagentid": {
+      "name": "AgentId",
+      "filename": "method-eyes-getagentid-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getagentid-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getapikey": {
+      "name": "ApiKey",
+      "filename": "method-eyes-getapikey-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getapikey-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setapikey": {
+      "name": "ApiKey",
+      "filename": "method-eyes-setapikey-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setapikey-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getappname": {
+      "name": "AppName",
+      "filename": "method-eyes-getappname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getappname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setappname": {
+      "name": "AppName",
+      "filename": "method-eyes-setappname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setappname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setbaselinebranchname": {
+      "name": "BaselineBranchName",
+      "filename": "method-eyes-setbaselinebranchname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselinebranchname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getbaselinebranchname": {
+      "name": "BaselineBranchName",
+      "filename": "method-eyes-getbaselinebranchname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbaselinebranchname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getbaselineenvname": {
+      "name": "BaselineEnvName",
+      "filename": "method-eyes-getbaselineenvname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbaselineenvname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setbaselineenvname": {
+      "name": "BaselineEnvName",
+      "filename": "method-eyes-setbaselineenvname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbaselineenvname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setbatch": {
+      "name": "Batch",
+      "filename": "method-eyes-setbatch-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbatch-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getbatch": {
+      "name": "Batch",
+      "filename": "method-eyes-getbatch-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbatch-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setbranchname": {
+      "name": "BranchName",
+      "filename": "method-eyes-setbranchname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setbranchname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getbranchname": {
+      "name": "BranchName",
+      "filename": "method-eyes-getbranchname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getbranchname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$check": {
+      "name": "Check",
+      "filename": "method-eyes-check-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-check-selenium-csharp.htm"
+    },
+    "eyes$checkelement": {
+      "name": "CheckElement",
+      "filename": "method-eyes-checkelement-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkelement-selenium-csharp.htm"
+    },
+    "eyes$checkframe": {
+      "name": "CheckFrame",
+      "filename": "method-eyes-checkframe-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkframe-selenium-csharp.htm"
+    },
+    "eyes$checkregion": {
+      "name": "CheckRegion",
+      "filename": "method-eyes-checkregion-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkregion-selenium-csharp.htm"
+    },
+    "eyes$checkwindow": {
+      "name": "CheckWindow",
+      "filename": "method-eyes-checkwindow-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-checkwindow-selenium-csharp.htm"
+    },
+    "eyes$clearproperties": {
+      "name": "ClearProperties",
+      "filename": "method-eyes-clearproperties-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-clearproperties-selenium-csharp.htm"
+    },
+    "eyes$close": {
+      "name": "Close",
+      "filename": "method-eyes-close-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-close-selenium-csharp.htm"
+    },
+    "eyes$getdevicepixelratio": {
+      "name": "DevicePixelRatio",
+      "filename": "method-eyes-getdevicepixelratio-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getdevicepixelratio-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$eyes": {
+      "name": "Eyes",
+      "filename": "method-eyes-eyes-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-eyes-selenium-csharp.htm"
+    },
+    "eyes$setforcefullpagescreenshot": {
+      "name": "ForceFullPageScreenshot",
+      "filename": "method-eyes-setforcefullpagescreenshot-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setforcefullpagescreenshot-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getforcefullpagescreenshot": {
+      "name": "ForceFullPageScreenshot",
+      "filename": "method-eyes-getforcefullpagescreenshot-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getforcefullpagescreenshot-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getviewportsize": {
+      "name": "GetViewportSize",
+      "filename": "method-eyes-getviewportsize-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getviewportsize-selenium-csharp.htm"
+    },
+    "eyes$gethidecaret": {
+      "name": "HideCaret",
+      "filename": "method-eyes-gethidecaret-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-gethidecaret-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$sethidecaret": {
+      "name": "HideCaret",
+      "filename": "method-eyes-sethidecaret-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidecaret-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$sethidescrollbars": {
+      "name": "HideScrollbars",
+      "filename": "method-eyes-sethidescrollbars-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-sethidescrollbars-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$gethidescrollbars": {
+      "name": "HideScrollbars",
+      "filename": "method-eyes-gethidescrollbars-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-gethidescrollbars-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setignorecaret": {
+      "name": "IgnoreCaret",
+      "filename": "method-eyes-setignorecaret-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setignorecaret-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getignorecaret": {
+      "name": "IgnoreCaret",
+      "filename": "method-eyes-getignorecaret-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getignorecaret-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$inregion": {
+      "name": "InRegion",
+      "filename": "method-eyes-inregion-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-inregion-selenium-csharp.htm"
+    },
+    "eyes$setisdisabled": {
+      "name": "IsDisabled",
+      "filename": "method-eyes-setisdisabled-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setisdisabled-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getisdisabled": {
+      "name": "IsDisabled",
+      "filename": "method-eyes-getisdisabled-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getisdisabled-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setmatchlevel": {
+      "name": "MatchLevel",
+      "filename": "method-eyes-setmatchlevel-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchlevel-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setmatchtimeout": {
+      "name": "MatchTimeout",
+      "filename": "method-eyes-setmatchtimeout-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setmatchtimeout-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getmatchtimeout": {
+      "name": "MatchTimeout",
+      "filename": "method-eyes-getmatchtimeout-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getmatchtimeout-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$open": {
+      "name": "Open",
+      "filename": "method-eyes-open-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-open-selenium-csharp.htm"
+    },
+    "eyes$getparentbranchname": {
+      "name": "ParentBranchName",
+      "filename": "method-eyes-getparentbranchname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getparentbranchname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setparentbranchname": {
+      "name": "ParentBranchName",
+      "filename": "method-eyes-setparentbranchname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setparentbranchname-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getpositionprovider": {
+      "name": "PositionProvider",
+      "filename": "method-eyes-getpositionprovider-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getpositionprovider-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setproxy": {
+      "name": "Proxy",
+      "filename": "method-eyes-setproxy-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setproxy-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getproxy": {
+      "name": "Proxy",
+      "filename": "method-eyes-getproxy-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getproxy-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setsavediffs": {
+      "name": "SaveDiffs",
+      "filename": "method-eyes-setsavediffs-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavediffs-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getsavediffs": {
+      "name": "SaveDiffs",
+      "filename": "method-eyes-getsavediffs-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavediffs-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getsavefailedtests": {
+      "name": "SaveFailedTests",
+      "filename": "method-eyes-getsavefailedtests-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavefailedtests-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setsavenewtests": {
+      "name": "SaveNewTests",
+      "filename": "method-eyes-setsavenewtests-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setsavenewtests-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getsavenewtests": {
+      "name": "SaveNewTests",
+      "filename": "method-eyes-getsavenewtests-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getsavenewtests-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setscaleratio": {
+      "name": "ScaleRatio",
+      "filename": "method-eyes-setscaleratio-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setscaleratio-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getscaleratio": {
+      "name": "ScaleRatio",
+      "filename": "method-eyes-getscaleratio-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getscaleratio-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getserverurl": {
+      "name": "ServerUrl",
+      "filename": "method-eyes-getserverurl-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getserverurl-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setserverurl": {
+      "name": "ServerUrl",
+      "filename": "method-eyes-setserverurl-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setserverurl-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setscrolltoregion": {
+      "name": "SetScrollToRegion",
+      "filename": "method-eyes-setscrolltoregion-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setscrolltoregion-selenium-csharp.htm"
+    },
+    "eyes$setviewportsize": {
+      "name": "SetViewportSize",
+      "filename": "method-eyes-setviewportsize-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setviewportsize-selenium-csharp.htm"
+    },
+    "eyes$getstitchmode": {
+      "name": "StitchMode",
+      "filename": "method-eyes-getstitchmode-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getstitchmode-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setstitchmode": {
+      "name": "StitchMode",
+      "filename": "method-eyes-setstitchmode-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchmode-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getstitchoverlap": {
+      "name": "StitchOverlap",
+      "filename": "method-eyes-getstitchoverlap-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getstitchoverlap-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setstitchoverlap": {
+      "name": "StitchOverlap",
+      "filename": "method-eyes-setstitchoverlap-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setstitchoverlap-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$setwaitbeforescreenshots": {
+      "name": "WaitBeforeScreenshots",
+      "filename": "method-eyes-setwaitbeforescreenshots-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-setwaitbeforescreenshots-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "eyes$getwaitbeforescreenshots": {
+      "name": "WaitBeforeScreenshots",
+      "filename": "method-eyes-getwaitbeforescreenshots-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_eyes/method-eyes-getwaitbeforescreenshots-selenium-csharp.htm",
+      "isprop": "1"
+    },
+    "checksettings": {
+      "name": "SeleniumCheckSettings",
+      "filename": "class-checksettings-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-checksettings-selenium-csharp.htm"
+    },
+    "checksettings$content": {
+      "name": "Content",
+      "filename": "method-checksettings-content-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-content-selenium-csharp.htm"
+    },
+    "checksettings$exact": {
+      "name": "Exact",
+      "filename": "method-checksettings-exact-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-exact-selenium-csharp.htm"
+    },
+    "checksettings$floating": {
+      "name": "Floating",
+      "filename": "method-checksettings-floating-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-floating-selenium-csharp.htm"
+    },
+    "checksettings$frame": {
+      "name": "Frame",
+      "filename": "method-checksettings-frame-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-frame-selenium-csharp.htm"
+    },
+    "checksettings$fully": {
+      "name": "Fully",
+      "filename": "method-checksettings-fully-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-fully-selenium-csharp.htm"
+    },
+    "checksettings$ignore": {
+      "name": "Ignore",
+      "filename": "method-checksettings-ignore-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignore-selenium-csharp.htm"
+    },
+    "checksettings$ignorecaret": {
+      "name": "IgnoreCaret",
+      "filename": "method-checksettings-ignorecaret-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-ignorecaret-selenium-csharp.htm"
+    },
+    "checksettings$layout": {
+      "name": "Layout",
+      "filename": "method-checksettings-layout-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-layout-selenium-csharp.htm"
+    },
+    "checksettings$matchlevel": {
+      "name": "MatchLevel",
+      "filename": "method-checksettings-matchlevel-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-matchlevel-selenium-csharp.htm"
+    },
+    "checksettings$region": {
+      "name": "Region",
+      "filename": "method-checksettings-region-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-region-selenium-csharp.htm"
+    },
+    "checksettings$setscrollrootelement": {
+      "name": "ScrollRootElement",
+      "filename": "method-checksettings-setscrollrootelement-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-setscrollrootelement-selenium-csharp.htm"
+    },
+    "checksettings$strict": {
+      "name": "Strict",
+      "filename": "method-checksettings-strict-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-strict-selenium-csharp.htm"
+    },
+    "checksettings$timeout": {
+      "name": "Timeout",
+      "filename": "method-checksettings-timeout-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-timeout-selenium-csharp.htm"
+    },
+    "checksettings$withname": {
+      "name": "WithName",
+      "filename": "method-checksettings-withname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_checksettings/method-checksettings-withname-selenium-csharp.htm"
+    },
+    "sessionurls": {
+      "name": "SessionUrls",
+      "filename": "class-sessionurls-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-sessionurls-selenium-csharp.htm"
+    },
+    "sessionurls$getbatch": {
+      "name": "Batch",
+      "filename": "method-sessionurls-getbatch-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_sessionurls/method-sessionurls-getbatch-selenium-csharp.htm"
+    },
+    "sessionurls$getsession": {
+      "name": "Session",
+      "filename": "method-sessionurls-getsession-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_sessionurls/method-sessionurls-getsession-selenium-csharp.htm"
+    },
+    "stepinfo": {
+      "name": "StepInfo",
+      "filename": "class-stepinfo-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-stepinfo-selenium-csharp.htm"
+    },
+    "stepinfo$getapiurls": {
+      "name": "ApiUrls",
+      "filename": "method-stepinfo-getapiurls-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getapiurls-selenium-csharp.htm"
+    },
+    "stepinfo$getappurls": {
+      "name": "AppUrls",
+      "filename": "method-stepinfo-getappurls-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getappurls-selenium-csharp.htm"
+    },
+    "stepinfo$gethasbaselineimage": {
+      "name": "HasBaselineImage",
+      "filename": "method-stepinfo-gethasbaselineimage-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethasbaselineimage-selenium-csharp.htm"
+    },
+    "stepinfo$gethascheckpointimage": {
+      "name": "HasCheckpointImage",
+      "filename": "method-stepinfo-gethascheckpointimage-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-gethascheckpointimage-selenium-csharp.htm"
+    },
+    "stepinfo$getisdifferent": {
+      "name": "IsDifferent",
+      "filename": "method-stepinfo-getisdifferent-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getisdifferent-selenium-csharp.htm"
+    },
+    "stepinfo$getname": {
+      "name": "Name",
+      "filename": "method-stepinfo-getname-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_stepinfo/method-stepinfo-getname-selenium-csharp.htm"
+    },
+    "target": {
+      "name": "Target",
+      "filename": "class-target-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-target-selenium-csharp.htm"
+    },
+    "target$frame": {
+      "name": "Frame",
+      "filename": "method-target-frame-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-frame-selenium-csharp.htm"
+    },
+    "target$region": {
+      "name": "Region",
+      "filename": "method-target-region-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-region-selenium-csharp.htm"
+    },
+    "target$window": {
+      "name": "Window",
+      "filename": "method-target-window-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_target/method-target-window-selenium-csharp.htm"
+    },
+    "testresults": {
+      "name": "TestResults",
+      "filename": "class-testresults-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/index-gen/class-testresults-selenium-csharp.htm"
+    },
+    "testresults$getappurls": {
+      "name": "AppUrls",
+      "filename": "method-testresults-getappurls-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getappurls-selenium-csharp.htm"
+    },
+    "testresults$getbatchid": {
+      "name": "BatchId",
+      "filename": "method-testresults-getbatchid-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getbatchid-selenium-csharp.htm"
+    },
+    "testresults$delete": {
+      "name": "Delete",
+      "filename": "method-testresults-delete-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-delete-selenium-csharp.htm"
+    },
+    "testresults$getduration": {
+      "name": "Duration",
+      "filename": "method-testresults-getduration-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getduration-selenium-csharp.htm"
+    },
+    "testresults$getid": {
+      "name": "Id",
+      "filename": "method-testresults-getid-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getid-selenium-csharp.htm"
+    },
+    "testresults$isnew": {
+      "name": "IsNew",
+      "filename": "method-testresults-isnew-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-isnew-selenium-csharp.htm"
+    },
+    "testresults$getmatches": {
+      "name": "Matches",
+      "filename": "method-testresults-getmatches-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmatches-selenium-csharp.htm"
+    },
+    "testresults$getmismatches": {
+      "name": "Mismatches",
+      "filename": "method-testresults-getmismatches-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmismatches-selenium-csharp.htm"
+    },
+    "testresults$getmissing": {
+      "name": "Missing",
+      "filename": "method-testresults-getmissing-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getmissing-selenium-csharp.htm"
+    },
+    "testresults$getstartedat": {
+      "name": "StartedAt",
+      "filename": "method-testresults-getstartedat-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstartedat-selenium-csharp.htm"
+    },
+    "testresults$getstatus": {
+      "name": "Status",
+      "filename": "method-testresults-getstatus-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstatus-selenium-csharp.htm"
+    },
+    "testresults$getsteps": {
+      "name": "Steps",
+      "filename": "method-testresults-getsteps-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getsteps-selenium-csharp.htm"
+    },
+    "testresults$getstepsinfo": {
+      "name": "StepsInfo",
+      "filename": "method-testresults-getstepsinfo-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-getstepsinfo-selenium-csharp.htm"
+    },
+    "testresults$geturl": {
+      "name": "Url",
+      "filename": "method-testresults-geturl-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-geturl-selenium-csharp.htm"
+    },
+    "testresults$gethostdisplaysize": {
+      "name": "hostDisplaySize",
+      "filename": "method-testresults-gethostdisplaysize-selenium-csharp.htm",
+      "url": "/Content/api/eyes-sdk/classes-gen/class_testresults/method-testresults-gethostdisplaysize-selenium-csharp.htm"
+    },
+    "webelement": {
+      "name": "IWebElement"
+    },
+    "by": {
+      "name": "By"
+    },
+    "stitchmode$css": {
+      "name": "StitchModes.CSS"
+    },
+    "stitchmode$scroll": {
+      "name": "StitchMode.Scroll"
+    },
+    "nullconst": {
+      "name": "null"
+    },
+    "trueconst": {
+      "name": "true"
+    },
+    "falseconst": {
+      "name": "false"
+    },
+    "matchlevel$none": {
+      "name": "MatchLevel.None"
+    },
+    "matchlevel$layout": {
+      "name": "MatchLevel.Layout"
+    },
+    "matchlevel$content": {
+      "name": "MatchLevel.Content"
+    },
+    "matchlevel$strict": {
+      "name": "MatchLevel.Strict"
+    },
+    "matchlevel$exact": {
+      "name": "MatchLevel.Exact"
+    }
+  }
+}

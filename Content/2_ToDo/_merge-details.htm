@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2578" MadCap:lastWidth="698">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">Merging branches</h1>
+        <p>This article provides you with information that may be helpful to you for understanding what options you have when merging two branches in <MadCap:variable name="General.ProductName" />. The description below first defines the basic rules that define Eyes behavior, and then summarizes the possible actions you can take in various circumstances and the expected outcome. </p>
+        <h2 class="title">The rules</h2>
+        <p>The basic rules that govern how a merge is done are as follows:        </p>
+        <p>Eyes never combines source and target images. The way to update baseline images so that they reflect the expected outcome of merged source and target code is to run a visual UI test on the combined code, view the result and accept the images that need resolution .</p>
+        <p><MadCap:variable name="General.ProductClientAPI" /> will always take images and annotations for a given step from the same baseline - either the source, or the target, and will never combined the annotations from two different baselines.</p>
+        <p>When eyes does a compare operation it can find that a particular baseline has no conflict, and can be combined automatically. This can only happen if the source branch was originally branched from the target branch and <MadCap:variable name="General.ProductName" /> can identify steps that were in the original baseline and were changed in either the source or to the target (but not both). If the user does not explicitly request to use the source or the target , then these updated steps will be used in the merged target "as is".</p>
+        <p>If Eyes finds a conflict between the source and target, then you can either choose to take the source or the target. If you choose to take the source then you can specify whether the annotations are to be taken from the source, the target or some mix. The images will always be taken from the source in this case.</p>
+        <table style="width: 100%;">
+            <col />
+            <col />
+            <col style="width: 309px;" />
+            <tbody>
+                <tr>
+                    <th>Status</th>
+                    <th>User choice</th>
+                    <th>Target after merge</th>
+                </tr>
+                <tr>
+                    <td>New</td>
+                    <td>default</td>
+                    <td>For all steps the image and annotation are  from the source</td>
+                </tr>
+                <tr>
+                    <td>Changed</td>
+                    <td>Default</td>
+                    <td>For each step the image and annotation are either from the target or from the source</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>New</p>
+                        <p>Changed</p>
+                        <p>Resolved</p>
+                    </td>
+                    <td>take target baseline/ ignore change</td>
+                    <td>All images and annotations will come from the source.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Conflict</p>
+                    </td>
+                    <td>
+                        <p>take source baseline</p>
+                    </td>
+                    <td>For all steps the image and annotation are  either from the source or from the target.</td>
+                </tr>
+                <tr>
+                    <td>New</td>
+                    <td>New</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Changed</td>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Confluict</td>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

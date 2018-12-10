@@ -1,0 +1,16 @@
+{
+  "name": "helloworldsimple",
+  "version": "1.0.1",
+  "description": "simple test of the Applitools Hellow world example",
+  "main": "HelloWorldEnvironment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yonatan Lehman",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.43.1",
+    "eyes.selenium": "0.0.83",
+    "selenium-webdriver": "^3.6.0"
+  }
+}

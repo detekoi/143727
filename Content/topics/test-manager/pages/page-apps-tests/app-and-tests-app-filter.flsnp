@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="770" MadCap:lastWidth="443">
+    <head>
+    </head>
+    <body>
+        <ol class="bulleted-list">
+            <li>Select the <span class="app-item">Filter Apps </span>control in the application panel and start typing (e.g., "App" below). </li>
+            <li>As you type, the list of applications will be updated so that only applications whose name contains that string you typed are displayed (the search is case-insensitive). </li>
+            <li> An <img src="resources/filter-cancel.png" class="inline-img" /> appears to the right of the text when the filter is active. </li>
+            <li>To see all the applications again, click the <img src="resources/filter-cancel.png" class="inline-img" />  or delete the entire string.</li>
+        </ol>
+        <p>Below, you can see an example screenshot where the list of applications only lists applications whose name contains the letters "App".</p>
+        <p><a data-lightbox="app-test-app-filter.png" href="resources/app-test-app-filter.png"><img class="block-image" src="resources/app-test-app-filter.png" /></a>
+        </p>
+    </body>
+</html>

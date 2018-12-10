@@ -1,0 +1,68 @@
+.demo-page {
+  min-width: 301px;
+  max-width: 625px;
+  margin: 0 auto;
+  text-align: center; }
+  .demo-page p {
+    margin-bottom: 20px; }
+  .demo-page img {
+    max-width: 100%; }
+  .demo-page button {
+    padding: 8px 16px;
+    background: #98aac4;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer; }
+  .demo-page button:hover {
+    background: #a5b8d4; }
+  .demo-page .a-button-section {
+    display: none; }
+  .demo-page .enter-name-section-diff {
+    display: none; }
+  .demo-page.diff1 .section .primary {
+    display: none; }
+  .demo-page.diff1 .section .diff1 {
+    display: inline; }
+  .demo-page.diff1 .section .title.primary {
+    display: block; }
+  .demo-page.diff2 .section .primary {
+    display: none; }
+  .demo-page.diff2 .section .diff2 {
+    display: inline; }
+  .demo-page.diff2 .section .title.diff2 {
+    display: block; }
+  .demo-page.diff2 .button-section {
+    text-align: right; }
+  .demo-page .larger {
+    font-size: 18px;
+    font-weight: bold; }
+    .demo-page .smaller {
+        font-size: 16px;
+        font-weight: bold;
+    }
+  .demo-page.diff3 .a-button-section {
+    display: block; }
+  .demo-page.diff3 .button-section {
+    display: none; }
+  .demo-page.diff3 .enter-name-section {
+    display: none; }
+  .demo-page.diff3 .enter-name-section-diff {
+    display: block; }
+  .demo-page .image-section img {
+    margin-top: 20px; }
+  .demo-page .fancy {
+    font-family: 'Gloria Hallelujah', cursive; }
+  .demo-page .title {
+    margin-bottom: 20px;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase; }
+  .demo-page .section {
+    padding: 5px;
+    background: #fff; }
+  .demo-page .section .diff1, .demo-page .section .diff2 {
+    display: none; }
+  .demo-page .hidden-section {
+    display: none; }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="679" MadCap:lastWidth="757">
+    <head>
+    </head>
+    <body>
+        <dl>
+            <dt> Summary panel</dt>
+            <dd> Displays the test and application name, the test branch, and the details of the <MadCap:glossaryTerm glossTerm="EyesTerms.Term8">execution environment</MadCap:glossaryTerm>.
+			<p><a data-lightbox="viewer-summary-pane" href="resources/viewer-summary-pane.png"><img src="resources/viewer-summary-pane.png" class="block-image" /></a></p></dd>
+            <dt> Zoom Controls </dt>
+            <dd> Allows you to change the size of the displayed image(s). This allows you to choose from seeing the entire image on the one hand, to zoom in on a particular detail on the other.  For more details see <MadCap:xref class="link" href="tm-viewer-editor-zoom-controls.htm">Test editor zoom controls</MadCap:xref>.</dd>
+            <dt> Visible layer selector</dt>
+            <dd> Allows you to select what information is overlaid on the baseline image(s). You can choose between Diffs, Remarks &amp;&#160;Issues, Regions and the Viewport Size. For more details see <MadCap:xref class="link" href="tm-viewer-select-visible-layers.htm">Test editor select visible layer.</MadCap:xref></dd>
+            <dd>Diffs Navigator. These tools help </dd>
+            <dt> Timeline navigator</dt>
+            <dd> Allows you to change which step of the test is displayed. For more details see <MadCap:xref class="link" href="tm-viewer-editor-timeline-control.htm">Test editor timeline control</MadCap:xref>.</dd>
+        </dl>
+    </body>
+</html>

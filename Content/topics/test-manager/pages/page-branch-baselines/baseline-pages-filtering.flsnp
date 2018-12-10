@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2319" MadCap:lastWidth="746">
+    <head>
+    </head>
+    <body>
+        <p>You can use the filter tool to select criteria so that the page will only display baselines that  meet the criteria that you specify. </p>
+        <p>When you click on the <img src="resources/button-baseline-filter.png" /> icon in the toolbar the following dialog will be displayed:</p>
+        <p><a data-lightbox="branch-baselines-filter-dialog" href="resources/branch-baselines-filter-dialog.png"><img class="block-image" src="resources/branch-baselines-filter-dialog.png" /></a>
+        </p>
+        <p>You can specify criteria as follows:</p>
+        <ul class="table-list">
+            <li><span class="table-list-item-name">Filter</span> Type in text, and only items whose application or test name contains this text will be displayed.</li>
+        </ul>
+        <p> The quick select box allows you to select the following criteria:</p>
+        <ul class="table-list">
+            <li><span class="table-list-item-name">Saved by me</span> Check this checkbox to see only baselines that were saved by the currently logged in user.</li>
+            <li><span class="table-list-item-name">Saved by others</span> Check this checkbox to see only baselines that were saved by someone other than the currently logged in user (including automatically saved tests).</li>
+            <li><span class="table-list-item-name">Has issue</span> Check this checkbox to see only baselines that have issues.</li>
+            <li><span class="table-list-item-name">Has remarks</span> Check this checkbox to see only baselines that have remarks.</li>
+        </ul>
+        <p> You can access additional criteria by clicking on the "More filters" field....</p>
+        <ul class="table-list">
+            <li><span class="table-list-item-name">App</span> Check all the applications that you want to see. </li>
+            <li><span class="table-list-item-name">Browser</span> Check all the browsers that you want to see.</li>
+            <li><span class="table-list-item-name">Issues and Remarks</span> Check the checkboxes to indicate if you want to see issues and if you want to see remarks.</li>
+            <li><span class="table-list-item-name">OS</span> Check all the operating system variations you want to see.</li>
+            <li><span class="table-list-item-name">Saved by</span> Check "Saved by me", "Saved by others" or a particular name from the list of names.</li>
+            <li><span class="table-list-item-name">Viewport</span>Check the viewport size you want to see from the list of available viewport sizes.</li>
+        </ul>
+        <p>The current criteria are displayed at the bottom of the filter dialog. You can remove any criteria by clicking on the <img src="resources/button-filter-criteria-cancel.png" /> icon to the right of the criteria.</p>
+        <p>
+            <img src="resources/filter-with-chosen-options.png" />
+        </p>
+        <p>At the bottom of the dialog, you can check the "show entire baselines" check-box. This means that information will be shown for <u>all</u> steps if <u>one or more</u> steps meet the chosen criteria.</p>
+        <p> You can cancel all filtering by clicking the <span class="inline-img"><img src="resources/group-by-X.png"></img> <![CDATA[ ]]></span>"to the right of "Filtering is on" in the toolbox.</p><a data-lightbox="resources/filtering-is-on.png" href="resources/filtering-is-on.png"><img class="block-image" src="resources/filtering-is-on.png" /></a>
+        <p>If you hover over the "Filtering is on" you can cancel specific criteria by clicking on the <span class="inline-img"><img src="resources/group-by-X.png" /> </span>to the right of that criteria.</p><a data-lightbox="resources/filtering-is-on-hover.png" href="resources/filtering-is-on-hover.png"><img class="block-image" src="resources/filtering-is-on-hover.png" /></a>
+    </body>
+</html>

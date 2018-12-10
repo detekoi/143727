@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1685" MadCap:lastWidth="746">
+    <head>
+    </head>
+    <body>
+        <p class="table-list-item-name"><MadCap:variable name="General.ProductName" /> provides various tools to help you arrange and filter the set of baselines or steps. In particular, it provides three tools that can be used together: </p>
+        <ul class="table-list">
+            <li><span class="table-list-item-name"><img src="resources/button-baseline-filter.png" class="table-list-item-name" /></span> Click on this tool to filter the baseline information by various criteria such as particular application or test names, execution environment variants, which team member saved the baseline, and if the baselines have remarks or issues. This tool is available in all baselines views. See <MadCap:xref class="link" href="#Filterin">Filtering the baseline detail or step detail view</MadCap:xref></li>
+            <li><span class="table-list-item-name"><img src="resources/button-group-by.png" /></span> This tool allows you to organize the information into a hierarchy based on various criteria such as application name, test name,  execution environment, who it was saved by and more. The tool is available in baseline details and baseline step view.  See <MadCap:xref class="link" href="#Using">Using Group by</MadCap:xref> for more information.</li>
+            <li><span class="table-list-item-name"><img src="resources/button-column-sort-up.png" /> &#160;<img src="resources/button-column-sort-down.png" /></span> In baseline details view you can click any column to sort the baselines by the information in that column. See <MadCap:xref class="link" href="#Sorting">Sorting the baseline list view</MadCap:xref> for more information.</li>
+        </ul>
+        <h3 class="title"><a name="Using"></a>Using Group by</h3>
+        <p>In the Baseline details view <img src="resources/button-baseline-details-view.png" class="inline-img" /> and the Baseline steps view <img src="resources/button-baseline-steps-view.png" class="inline-img" /> you can use the <img src="resources/button-group-by.png" class="inline-img" /> control to arrange the baselines (in baseline details view) or steps (in baseline steps view)&#160;in hierarchical groups based on one or more of the following criteria :</p>
+        <ul class="table-list">
+            <li> <span class="table-list-item-name">App </span>Steps or baselines have the same application name.</li>
+            <li> <span class="table-list-item-name">Baseline </span>Steps are in the same baseline together (baseline steps view only).</li>
+            <li> <span class="table-list-item-name">Browser </span>Steps or baselines have the same Browser name.</li>
+            <li> <span class="table-list-item-name">OS </span>Steps or baselines have the same operating system name.</li>
+            <li> <span class="table-list-item-name">Saved by </span>The baselines or steps of baselines were saved by a specific team member.</li>
+            <li> <span class="table-list-item-name">Step </span>The steps represent the same checkpoint (baseline steps view only) <span class="tbd">TBD is this based on the tag name ? what if the tag name is duplicated or the same checkpoint has different names in different baselines ?</span></li>
+            <li> <span class="table-list-item-name">Test Name </span>Steps  have the same test name (even if the application name is different).  <span class="tbd">TBD&#160;is this the same as test ?</span></li>
+            <li> <span class="table-list-item-name">Viewport </span>The baselines or steps ran with the same viewport size.</li>
+        </ul>
+        <p>click on the <span class="inline-img"><img src="resources/group-by-plus.png" class="inline-img" /></span> and select the attribute you want; you can repeat this a number of times and  <MadCap:variable name="General.ProductName" /> &#160;will display a hierarchical tree arranged in the order that you requested.</p>
+        <p>For example, to see what variety of execution environment types your baselines have been tested against you can choose:</p>
+        <p><a data-lightbox="groupby-viewport-browser-os" href="resources/groupby-viewport-browser-os.png"><img class="block-image" src="resources/groupby-viewport-browser-os.png" /></a>
+        </p>
+        <p>You can remove any criteria by clicking on the <img src="resources/group-by-X.png" class="inline-img" />.</p>
+        <p>You can drag any of the criteria to the left or to the right in order to change the order of the hierarchy.</p>
+    </body>
+</html>

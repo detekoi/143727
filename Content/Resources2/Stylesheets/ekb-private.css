@@ -1,0 +1,29 @@
+﻿/*<meta conditions="" />*/
+
+MadCap|popupBody
+{
+	width: auto;
+	max-width: 500;
+}
+
+MadCap|breadcrumbsProxy
+{
+	mc-breadcrumbs-count: 9;
+}
+
+MadCap|xref.link
+{
+	mc-format: ;
+}
+
+.docs dd {
+	margin-bottom: 15px; 
+}
+
+.docs dd > ul:last-child, .docs dd > ol:last-child {
+     margin-bottom: 0; 
+}
+  
+.docs .pad-left, .docs dd { 
+  	padding-left: 20px; 
+}

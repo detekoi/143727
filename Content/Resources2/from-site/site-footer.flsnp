@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="421" MadCap:lastWidth="722">
+    <head>
+    </head>
+    <body>
+        <div class="footer">
+			<div class="footer-bottom">
+	            <div class="page-container clearfix">
+                    <div class="copyright">
+						<a class="link item first" href="https://applitools.com/terms-of-use">Terms &amp; Conditions</a>
+						<a class="link item" href="https://applitools.com/privacy-policy">Privacy Policy</a>
+						<a class="link item last" href="https://applitools.com/gdpr">GDPR</a>
+						<span class="item">© 2018 Applitools. All rights reserved.</span>
+                    </div>
+				</div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1342" MadCap:lastWidth="1040">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">installing-an-environment</h1>
+        <p>
+            <MadCap:xref class="link" href="../0quickInserts/under-construction.htm">This Page is Under-Construction</MadCap:xref>
+        </p>
+        <h2 class="title"> class="title"&gt;Java</h2>
+        <p>Sample pom.xml code</p><pre><p>&lt;project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;
+  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+
+  &lt;groupId&gt;com.applitools.ekb&lt;/groupId&gt;
+  &lt;artifactId&gt;examplecode&lt;/artifactId&gt;
+  &lt;version&gt;1.0&lt;/version&gt;
+  &lt;packaging&gt;jar&lt;/packaging&gt;
+
+  &lt;name&gt;examplecode&lt;/name&gt;
+  &lt;url&gt;http://maven.apache.org&lt;/url&gt;
+
+  &lt;properties&gt;
+    &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;
+  &lt;/properties&gt;
+
+  &lt;dependencies&gt;
+    &lt;dependency&gt;
+      &lt;groupId&gt;com.applitools&lt;/groupId&gt;
+      &lt;artifactId&gt;eyes-selenium-java3&lt;/artifactId&gt;
+      &lt;version&gt;RELEASE&lt;/version&gt;
+    &lt;/dependency&gt;
+  &lt;/dependencies&gt;
+&lt;/project&gt;</p></pre>
+        <h2 class="title"> class="title"&gt;Javascript</h2>
+        <p>To get a working enviroment do</p>
+        <ol class="numbered-list">
+            <li>install node for Javascript</li>
+            <li>in a command tool do
+				<ol class="numbered-list"><li>npm init</li><li><p>npm install eyes.selenium --save-dev</p><p>npm install selenium-webdriver</p><p>npm install chromedriver</p><p>then do node helloworldsimple</p></li></ol></li>
+        </ol>
+        <h2 class="title"> class="title"&gt;Ruby</h2>
+        <p>gem install eyes_selenium</p>
+        <h2 class="title">Python</h2>
+        <p>pip install --trusted-host pypi.python.org eyes-selenium</p>
+        <h2 class="title"> class="title"&gt;PHP</h2>
+        <p>composer update</p>
+        <p>download selenium server and run it (port 3000 must be free)</p>
+        <p>run</p>
+        <p>java -jar selenium-server-standalone-3.8.1.jar</p>
+        <p>&#160;</p>
+    </body>
+</html>

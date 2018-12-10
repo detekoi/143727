@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="2" MadCap:lastHeight="3891" MadCap:lastWidth="640">
+    <head>
+        <link rel="stylesheet" href="/docs/Resources2/Stylesheets/mpld.css" />
+    </head>
+    <body>
+        <h1 class="title">Using viewports in Eyes</h1>
+        <p>The viewport is the visible area of an application within the application window. The viewport size can impact the layout of a page. For example, changing the width of the browser might change the way a paragraph of text is rendered. If the page is designed to be responsive, elements such as menus may be displayed in different ways, fonts size may change, and images may be scaled. Note that the notion viewport is platform specific, for example on mobile phones the user does not control the size of the browser window.</p>
+        <h2 class="title">How does the viewport impact your tests?</h2>
+        <p>Since the visual look of a page can be dependent on the viewport size, Eyes maintains an independent baseline (i.e., sequence of baseline images) for every viewport size.</p>
+        <p>On platforms that allow control over the window size, such as desktop browsers, if the viewport size is defined explicitly in the test using the SDK, then when the test calls the open() method, Eyes calculates and adjust the operating window size so that the viewport size will be the dimensions requested. On platforms where the user can't control the viewport size, for example on mobile phones, you should not set the viewport size explicitly.</p>
+        <p>On the first run of a test, Eyes stores the viewport size, along with the operating system and application platform, as the execution environment of the baseline. By default, on subsequent test runs, Eyes compares the checkpoint images to the baselines images taken from the baseline whose execution environment matches the execution environment of the current run.</p>
+        <h2 class="title">Using the SDK to set the viewport size</h2>
+        <p>Setting the viewport size is optional. If you do not set a viewport size, then Eyes will work with whatever viewport size is set by the application or by the underlying infrastructure.</p>
+        <p>The Eyes SDK provides two ways to set the viewport size. One way is to pass the size as a parameter to the <span class="code-label">open</span> method. This parameter is optional.</p><pre class="mpld-section" data-mpld-section="eyes-set-viewport-in-open"></pre>
+        <p>You can also set the size using the SDK method <span class="code-label">setViewportSize</span>.</p><pre class="mpld-section" data-mpld-section="eyes-set-viewport-explicit"></pre>
+        <p>In this case, you should not pass a viewport size to the open call (the parameter is optional).</p>
+        <p>To set the viewport size attribute of the <u>baseline</u>, you should call this method before calling the Eyes open method. </p>
+        <p>If you call <span class="code-label">setViewportSize</span> <u>after</u> calling the open method, then this will only change the physical window size and will not impact the baseline definition. However, it may change the layout, and hence the content of the screenshot captured, so you should do this consistently in all runs of the tests otherwise you might get mismatches.</p>
+        <p>The call to open will abort the test and throw an exception if the viewport size is set to a size that results in an operating system window that is larger than the desktop. This can happen if the browser and operating system window add extra toolbars or panels. It can also happen if your operating system scales the display. For example, if the display is scaled by 200%, then setting a viewport size of 800x600 would imply a minimal window size of 1600x1200. To avoid problems related to browser differences it is advisable to use a viewport size that is smaller (say about 50 pixels)&#160;less than the maximum value.</p>
+        <h2 class="title">Obtaining the viewport size</h2>
+        <p>You can obtain the current viewport size using the SDK method</p><pre class="mpld-section" data-mpld-section="eyes-get-viewport-size"></pre>
+        <script src="/docs/scripts/mpld.js">
+        </script>
+        <script type="text/javascript">/*<![CDATA[*/			
+			var folder = "/docs/example-code";
+			var myFile = "HelloWorldBatchID"; 
+			mpld.setDefaultFile(folder,myFile);
+			/* data-mpld-lang, 	button name, 	sub folder name , 							file suffix */
+			mpld.addLanguage( "java",				"Java",			"java/src/main/java/com/applitools/ekb",  ".java");
+			mpld.addLanguage("javascript",			"Javascript",	"javascript",								".js");
+			mpld.addLanguage("ruby",		 	    "Ruby",	        "ruby",							        	".rb");
+			mpld.addLanguage("python",		 	    "Python",	    "python",							        ".py");
+			mpld.addLanguage("csharp",		 	    "C#",	  		"csharp",							        ".cs");
+			mpld.addLanguage("php",		 	   		"PHP",	    	"PHP",							       		".php");
+			/*]]>*/
+			</script>
+    </body>
+</html>

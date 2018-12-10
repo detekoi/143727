@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlImport
+  KeepSourceLinks="true"
+  ProjectName="Eyes Knowledge base"
+  ProjectFolder="C:\Users\User\Documents\eyes-knowledgebase-source\"
+  AutoSync="false"
+  SourceFolders="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out"
+  ImportResources="false"
+  ImportResourcesLocation="NoImport"
+  ImportTopics="specific"
+  ImportLinkedHtmlFiles="false"
+  LastImport="2018-02-15T22:43:02.0823754+02:00"
+  ImportTopicsLocation="Content/A3_API/E_Eyes_SDK/gen/">
+  <Files>
+    <Url
+      Source="../../Private/apiextract/tools/out"
+      AbsoluteSource="file:///C:/Users/User/Documents/eyes-knowledgebase-source/Private/apiextract/tools/out" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/A3_API/E_Eyes_SDK/gen/out/_gen_api-eyes-getapikey.htm"
+      TimeStamp="15-Feb-18 10:42:53 PM" />
+    <Url
+      Source="../../Content/A3_API/E_Eyes_SDK/gen/out/_gen_api-eyes-open.htm"
+      TimeStamp="15-Feb-18 10:42:53 PM" />
+    <Url
+      Source="../../Content/A3_API/E_Eyes_SDK/gen/out/_gen_api-eyes-setapikey.htm"
+      TimeStamp="15-Feb-18 10:42:53 PM" />
+    <Url
+      Source="../TOCs/out.fltoc"
+      TimeStamp="15-Feb-18 10:43:01 PM" />
+  </GeneratedFiles>
+</HtmlImport>

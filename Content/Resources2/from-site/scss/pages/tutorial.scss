@@ -1,0 +1,244 @@
+@import "../common/variables";
+
+.tutorial {
+  .step {
+    margin-bottom: 80px;
+  }
+
+  .welcome-message {
+    h1 {
+          color: $c-text-6;
+    }
+    p {
+          color: $c-text-6;
+    }
+    .logo {
+      position: relative;
+      float: left;
+
+      img {
+      }
+    }
+
+    h1.title {
+      margin: 0 0 30px 95px;
+      line-height: 40px;
+      font-size: 40px;
+      font-weight: 800;
+    }
+
+    .subtitle {
+      line-height: 26px;
+      font-size: 20px;
+    }
+
+    @media (max-width: $screen-sm-max) {
+      margin-bottom: 70px;
+
+      .logo img {
+        width: 65px;
+      }
+
+      h1.title {
+        margin-left: 80px;
+        line-height: 35px;
+        font-size: 37px;
+      }
+    }
+
+    @media (max-width: $screen-xs-max) {
+      margin-bottom: 50px;
+
+      .logo img {
+        width: 55px;
+      }
+
+      h1.title {
+        margin-left: 66px;
+        line-height: 29px;
+        font-size: 23px;
+      }
+
+      .subtitle {
+        font-size: 19px;
+      }
+    }
+  }
+
+  .env-picker {
+    .link:not(.disabled) {
+      color: $c-text-1;
+
+      &:hover, &.active {
+        color: $c-primary-1;
+        text-decoration: none;
+      }
+    }
+
+    label.title {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: $screen-md-max) {
+      margin-bottom: 50px;
+
+      .col .row .col {
+        margin-bottom: 70px;
+      }
+    }
+
+    @media (max-width: $screen-xs-max) {
+    }
+  }
+
+  .install-sdk-container {
+    .option {
+      margin-bottom: 20px;
+    }
+
+    .option-title {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+  }
+
+  .sample-code-container {
+  }
+
+  p.multi-header-subtitle {
+    @extend .readable;
+
+    margin-bottom: 40px;
+
+    .code {
+      color: $c-text-1;
+    }
+  }
+
+  .env-icon {
+    position: relative;
+    width: 78px;
+    height: 61px;
+    margin-bottom: 15px;
+
+    img {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .video-container {
+    iframe {
+      width: 100%;
+      height: 630px;
+    }
+  }
+
+  @media (max-width: $screen-lg-max) {
+    .video-container iframe {
+      height: 513px;
+    }
+  }
+
+  @media (max-width: $screen-md-max) {
+    .video-container iframe {
+      height: 400px;
+    }
+  }
+
+  @media (max-width: $screen-sm-max) {
+    .video-container iframe {
+      height: 327px;
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    .video-container iframe {
+      height: 220px;
+    }
+  }
+}
+
+.video-tutorial {
+  .video-tutorial-item {
+    padding: 40px 0;
+
+    background: $c-background-1;
+    color: $c-text-1;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $c-background-5;
+    }
+  }
+
+  .video {
+    display: block;
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .video-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+
+    background: $c-text-1;
+    color: $c-text-7;
+    border: 2px solid $c-text-7;
+    border-radius: 100%;
+    box-shadow: $c-shadow-2;
+
+    .fa {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: 1px;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .video-details {
+    margin-left: 20px;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: $screen-sm-max) {
+    .video {
+      margin-bottom: 20px;
+    }
+
+    .video-details {
+      margin-left: 0;
+    }
+  }
+
+  @media (min-width: $screen-sm-min) AND (max-width: $screen-sm-max) {
+    .video {
+      height: 300px;
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    .video {
+      height: 200px;
+    }
+  }
+}

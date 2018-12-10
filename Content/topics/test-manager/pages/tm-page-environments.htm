@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>The Environment page</h1>
+        <p>This article describes the <span class="app-page">Environments </span>page. <MadCap:snippetText src="page-environments/tm-page-environment-overview.flsnp" /></p>
+        <p>Once you have named an execution environment, you can use the  SDK to specify that a test should run against a baseline that matches the environment of that name. See <MadCap:xref class="link" href="../../../API/eyes-sdk/howto/test-against-named-environment.htm">Test against a baseline that matches an environment name </MadCap:xref> for more information as to how to do this.</p>
+        <div>You can achieve the following tasks on the <span class="app-page">Environments </span>page - click on any link for more details:
+        <ol class="bulleted-list"><li><MadCap:xref class="link" href="../howto/manage-environments.htm#AssignEnvName">Assigning an environment name</MadCap:xref></li><li><MadCap:xref class="link" href="../howto/manage-environments.htm#DeleteEnvName">Delete an environment name</MadCap:xref></li><li><MadCap:xref class="link" href="../howto/manage-environments.htm#RenameEnvName">Change an environment name</MadCap:xref></li><li><MadCap:xref class="link" href="../howto/manage-environments.htm#Delete">Delete one or more execution variations</MadCap:xref></li></ol></div>
+        <h2 class="title">Page layout</h2>
+        <p>You navigate to the <span class="app-page">Environments </span>&#160;page using the page navigator. The page consists of a summary panel, a toolbar, and a table of all the execution environments and their names.</p>
+        <p><a data-lightbox="page-environment-overview" href="page-environments/images/page-environment-overview.png"><img class="block-image" src="page-environments/images/page-environment-overview.png" /> </a>
+        </p>
+        <h3 class="title">Summary panel</h3>
+        <p>The summary panel displays the total number of environments, the number of different browser types and operating systems, and the number of viewport size variations.</p>
+        <p><a data-lightbox="page-environment-summary-panel" href="page-environments/images/page-environment-summary-panel.png"><img class="block-image" src="page-environments/images/page-environment-summary-panel.png" /></a>
+        </p>
+        <h3 class="title">Toolbar</h3>
+        <p><a data-lightbox="page-environment-toolbar-panel" href="page-environments/images/page-environment-toolbar-panel.png"><img class="block-image" src="page-environments/images/page-environment-toolbar-panel.png" /></a>
+        </p>
+        <p>The toolbar provides the standard row selection, row delete, page refresh and filter controls. See <MadCap:xref class="link" href="tm-ui-overview.htm">Test manager UI overview</MadCap:xref> for more details.</p>
+        <h3 class="title"><a name="Environm"></a>Environment information</h3>
+        <p>The main part of the window consists of a table with a row for every combination of browser type, operating system and viewport size under which a test was run. There are columns for the <span class="app-item">Browser</span>, <span class="app-item">OS&#160;</span>and <span class="app-item">Viewport</span>, and a column for the <span class="app-item">Name </span>that is assigned to that variation. The <span class="app-item">Name </span>column will be empty if a name is not currently assigned to that environment.</p>
+        <p><a data-lightbox="page-environment-main-panel" href="page-environments/images/page-environment-main-panel.png"><img class="block-image" src="page-environments/images/page-environment-main-panel.png" /></a>
+        </p>
+        <p>You car organize the contents of the table as follows: </p>
+        <ul class="table-list">
+            <li>
+                <img src="../images/generic-filter-button.png" class="table-list-item-name" /> <span class="table-list-item-text">You can filter rows to search for text that appears in any of the columns, or you can select to see specific values for the <span class="app-item">Browser</span>, <span class="app-item">OS&#160;</span>and <span class="app-item">Viewport </span>size.</span></li>
+            <li><span class="table-list-item-name"><img src="../images/generic-sort-column.png" class="table-list-item-name"></img></span><span class="table-list-item-text">You can sort on any column by clicking on the column name, click again to sort in the opposite direction. The currently selected column is marked with the <img src="../images/generic-sort-column.png" class="inline-img"></img>icon.</span>
+            </li>
+            <li><span class="table-list-item-name"><img src="../images/generic-group-by-button.png" class="table-list-item-name" /></span> <span class="table-list-item-text">You can organize the rows into a hierarchy by  <span class="app-item">Browser</span>, <span class="app-item">OS&#160;</span>and <span class="app-item">Viewport </span>size</span></li>
+        </ul>
+        <p class="box-note">The fact that a row is displayed does not mean that the system currently includes test results or baselines with that environment. If you want to know if a test result or baseline with this environment exists, then you can use the filtering options on the <span class="app-page">Test results</span> and <span class="app-page">Branch baselines </span>pages respectively. </p>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-03-26T13:49:36.5071056+03:00"
+  ProjectName="Eyes Knowledge base"
+  ProjectFolder="C:\Users\User\Documents\eyes-knowledgebase-source\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources2/Stylesheets/style-cutdown.css"
+  LastImport="2018-03-26T13:52:16.7281022+03:00">
+  <Files>
+    <Url
+      Source="../../../../Downloads/github-integration.docx"
+      AbsoluteSource="file:///C:/Users/User/Downloads/github-integration.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/github-integration/Applitools Eyes GitHub integration.png"
+      TimeStamp="26-Mar-18 1:52:09 PM" />
+    <Url
+      Source="../../Content/Resources/Images/github-integration/Applitools Eyes GitHub integration_1.png"
+      TimeStamp="26-Mar-18 1:52:09 PM" />
+    <Url
+      Source="../../Content/Resources/Images/github-integration/Applitools Eyes GitHub integration_2.png"
+      TimeStamp="26-Mar-18 1:52:09 PM" />
+    <Url
+      Source="../../Content/Resources/Images/github-integration/Applitools Eyes GitHub integration_3.png"
+      TimeStamp="26-Mar-18 1:52:09 PM" />
+    <Url
+      Source="../../Content/Resources/Images/github-integration/Applitools Eyes GitHub integration_4.png"
+      TimeStamp="26-Mar-18 1:52:09 PM" />
+    <Url
+      Source="../../Content/github-integration/Applitools Eyes GitHub integration.htm"
+      TimeStamp="26-Mar-18 1:52:09 PM" />
+    <Url
+      Source="../TOCs/github-integration.fltoc"
+      TimeStamp="26-Mar-18 1:52:09 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/style-cutdown.css"
+      TimeStamp="26-Mar-18 1:52:09 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.title" />
+    <Map
+      From="Heading 2"
+      To="h2.title" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+    <Map
+      From="Heading 6"
+      To="h6.Heading 6" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles />
+</MsWordImport>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The time in Msec to retry capturing an image that has differences.</p><span data-mpld-lang="php">Not passing the parameter, or passing null means that the default timeout time is used</span>
+    </body>
+</html>

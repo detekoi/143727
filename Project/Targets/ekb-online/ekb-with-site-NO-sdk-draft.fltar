@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MoveOutputContentToRoot="true"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  MasterPage="/Content/Resources2/MasterPages/topics.flmsp"
+  ResultsPerPage="10"
+  Skin="(none)"
+  DefaultUrl="/Content/index.htm"
+  MasterToc="/Project/TOCs/Online Output-sdk.fltoc"
+  DisableAutoSync="false"
+  MenuSkin="/Project/Skins/SideMenu.flskn"
+  TopicToolbarSkin="/Project/Skins/TopicToolBar.flskn"
+  SearchBarSkin="/Project/Skins/HomeSearchBar.flskn"
+  ReplaceSpacesWithUnderscores="true"
+  ConditionTagExpression="include[General.draft or General.Online] exclude[General.Internal or &quot;General.Not for Output&quot; or General.PDF or General.SDK or General.ToDo] "
+  TopNavTocPath="false"
+  ExcludeUnreferencedContent="false"
+  MasterStylesheetOverride="true"
+  MakeFileLowerCase="true"
+  AliasFile="/Project/Advanced/alias.flali"
+  SearchEngine="MadCapSearch"
+  EquationsOutputType="PNG"
+  MinifyJavaScript="true"
+  PartialWordSearch="true"
+  UseCustomTopicFileExtension="true"
+  CustomTopicFileExtension="html"
+  SearchResultsSkin="/Project/Skins/SearchResults.flskn"
+  MasterStylesheet="/Content/Resources2/Stylesheets/ekb-draft.css"
+  ExcludeNonWords="true"
+  EnableSitemap="false"
+  SitemapWebUrl=""
+  GenerateAllSkins="true"
+  conditions="General.draft,General.Online">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/standalone-website.fldes"
+      Publish="true" />
+  </Destinations>
+</CatapultTarget>

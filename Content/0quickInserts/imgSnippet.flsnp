@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="106" MadCap:lastWidth="587">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body><a data-lightbox="[%=SnippetParams.imgSnippetName%]" href="[%=SnippetParams.imgSnippetStcPath%]"><img class="block-image" src="[%=SnippetParams.imgSnippetStcPath%]" /></a>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>This object describes the region.
+		<span data-mpld-lang="javascript">Create it using GeometryUtils.createRegion(left, top, width, height)</span>.</p>
+    </body>
+</html>

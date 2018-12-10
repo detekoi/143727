@@ -1,0 +1,31 @@
+@import "variables";
+
+ul.h-menu {
+  @extend .clearfix;
+
+  display: block;
+  float: left;
+
+  > li {
+    display: block;
+    float: left;
+  }
+}
+
+ul.v-menu {
+  > li {
+    line-height: 1.4;
+  }
+}
+
+ol.bullets, ul.bullets {
+  padding-left: 40px;
+  margin-bottom: 20px;
+  list-style: initial;
+}
+
+ol.decimal {
+  padding-left: 40px;
+  margin-bottom: 20px;
+  list-style: decimal;
+}

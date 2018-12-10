@@ -1,0 +1,88 @@
+/*<meta conditions="" />*/
+
+span.mpld-area-show
+{
+	display: inline;
+}
+
+.mpld-area-show
+{
+	display: block;
+}
+
+.mpld-area-hide
+{
+	display: none;
+}
+
+.mpld-buttons
+{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.mpld-code
+{
+	background-color: inherit;
+}
+
+.mpld-button
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	color: inherit;
+	background-color: inherit;
+}
+
+.mpld-tmplt-method-block
+{
+	
+}
+
+code.mpld-tmplt-method-block.hljs
+{
+	
+}
+
+.mpld-tmplt-method-ptype
+{
+	margin-left: 2em;
+	min-width: 8em;
+	border: 0;
+}
+
+.mpld-tmplt-method-pname
+{
+	padding-left: 1em;
+	border: 0;
+}
+
+.mpld-paramdef
+{
+	padding-left: 2em;
+}
+
+.mpld-paramdef-name
+{
+	
+}
+
+.mpld-paramdef-type
+{
+	
+}
+
+.mpld-paramdef-desc
+{
+	
+}
+
+table.mpld-tmplt-method-block tbody tr:not(:last-child),
+table.mpld-tmplt-method-block thead tr,
+table.mpld-tmplt-method-block td:not(:last-child)
+{
+	border: 0;
+}
+

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="4889" MadCap:lastWidth="1217">
+    <head>
+    </head>
+    <body>
+        <h1 class="title">The Baseline history page</h1>
+        <p>The baseline history page shows all the revisions of a baseline. The first baseline revision is created when the baseline is created, and another revision is created every time you click on the <span class="app-item">Save</span> button. Using the controls on this page, you can see the baseline images and annotations of all the steps of the baseline, in all the revisions.</p>
+        <p>Here is a list of the tasks that you can do on this page; click on the link to read the relevant article.</p>
+        <ol class="bulleted-list">
+            <li>
+                <MadCap:xref class="link" href="../howto/compare-two-baseline-revisions.htm">Compare two baseline revisions</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref class="link" href="../howto/view-the-latest-run-of-a-test.htm">View the latest run of a test baseline</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref class="link" href="../howto/view-test-run-that-updated-baseline.htm">View a test run which updated a baseline results</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref class="link" href="../howto/save-a-revision-as-the-latest-revision.htm">Save a revision as the latest revision </MadCap:xref>
+            </li>
+        </ol>
+        <h2 class="title">Navigating to the baseline history page</h2>
+        <MadCap:snippetBlock src="../common/navigate-to-baselines-history-page.flsnp" />
+        <h2 class="title">Page layout</h2>
+        <p><a data-lightbox="page-history-overview" href="../images/page-history-overview.png"><img class="block-image" src="../images/page-history-overview.png" /></a>
+        </p>
+        <p>The baseline history page consists of a summary panel, a filter and a list of the revisions of the baseline.</p>
+        <h3 class="title">The summary panel </h3>
+        <p> The summary panel at the top of the baseline history page displays the application and test names, the branch and the execution environment parameters. </p>
+        <h3 class="title">The main panel </h3>
+        <p>The main panel is laid out as a table with a row for each revision and columns with the following information about each revision:</p>
+        <dl>
+            <dt> <span class="app-item">Saved</span></dt>
+            <dd> The date and time when the revision was saved.</dd>
+            <dt><span class="app-item"> Saved by</span>
+            </dt>
+            <dd> The name of the team member that saved the baseline (blank for the first revision if it was created autocratically).</dd>
+            <dt> <span class="app-item">Revision</span></dt>
+            <dd> A&#160;unique number that represents this specific revision of this baseline. If you put the cursor over this number, you will see an <img src="page-baseline-history/revision-copy-icon.png" class="inline-img" /> icon.&#160;Clicking the icon will copy the revision number into the copy/paste buffer. This can be used later to compare a different revision to this revision. See <MadCap:xref class="link" href="../howto/copying-baselines-between-branches.htm">Copying baselines between branches</MadCap:xref>.</dd>
+            <dt> <span class="table-list-item-name">Test runs</span></dt>
+            <dd> The number of runs that were made using this baseline as a reference (not including the first run, where it was created). </dd>
+            <dt>
+                <img src="page-baseline-history/page-baseline-history-revision-menu.png" class="inline-img" />
+            </dt>
+            <dd>This menu appears when you hover the cursor over any row. It provides options to:</dd>
+            <ol class="bulleted-list">
+                <li><![CDATA[  ]]><MadCap:xref class="link" href="../howto/compare-two-baseline-revisions.htm">Compare two baseline revisions</MadCap:xref></li>
+                <li>
+                    <MadCap:xref class="link" href="../howto/save-a-revision-as-the-latest-revision.htm">Save a revision as the latest revision </MadCap:xref>
+                </li>
+                <li>
+                    <MadCap:xref class="link" href="../howto/view-test-run-that-updated-baseline.htm">View the results of the test run which updated a baseline</MadCap:xref>
+                </li>
+                <li>
+                    <MadCap:xref class="link" href="../howto/view-the-latest-run-of-a-test.htm">View the results of the latest run of a baseline</MadCap:xref>
+                </li>
+            </ol>
+        </dl>
+        <h3 class="title">The filter tool</h3>
+        <p>You can filter the list of revisions in two ways, individually or in combination:</p>
+        <ul class="table-list">
+            <li><span class="table-list-item-name"><img src="page-baseline-history/filter-saved-before.png" /></span> <span class="table-list-item-text">Click on this control and select a date. The table will be updated, so that only revisions that were saved on or before this date or will be displayed.</span></li>
+            <li><span class="table-list-item-name"><img src="page-baseline-history/filter-saved-by.png" /></span> <span class="table-list-item-text">Click on this control and select a team member.  The table will be updated, so that only revisions that were saved by the chosen team member will be displayed.</span></li>
+        </ul>
+        <p class="table-list-item-text">Once you've selected one or both of these filters they display your choice:</p>
+        <p>
+            <img src="page-baseline-history/filter-saved-before-with-date.png" />
+        </p>
+        <p>Click the <img src="page-baseline-history/x.png" /> in the date or name control to cancel that filter.</p>
+        <h3 class="title"><a name="View"></a>View the revision steps</h3>
+        <p>if you click on any revision row, then it will expand to show the step thumbnail. As in other places in the application:</p>
+        <ul class="bulleted-list">
+            <li> You can hover over the step thumbnail to see details about the step.</li>
+            <li>You can click on the step thumbnail to open the baseline viewer with that step. See <MadCap:xref class="link" href="../viewers/tm-baseline-viewer.htm">Test Manager baseline viewer</MadCap:xref>.</li>
+            <li>You can use the step menu to open the step or baseline viewer.</li>
+            <p><a data-lightbox="page-history-step-menu" href="../images/page-history-step-menu.png"><img class="block-image" src="../images/page-history-step-menu.png" /></a>
+            </p>
+        </ul>
+    </body>
+</html>

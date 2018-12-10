@@ -1,0 +1,11 @@
+    var webdriver = require('selenium-webdriver');
+    var By = webdriver.By
+
+    innerDriver = new webdriver.Builder()
+        .withCapabilities(webdriver.Capabilities.chrome())
+        .build();
+    await innerDriver.get(website);
+    let a = innerDriver.findElement(By.css("body"))
+    let b = 0;
+    
+    

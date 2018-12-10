@@ -1,0 +1,81 @@
+﻿@import "../common/variables";
+
+.docs {
+  #mpld-api-method {
+    font-size: 44px;
+    line-height: 45px;
+    margin-bottom: 3px;
+  }
+
+  .mpld-select-language {
+    display: inline-flex;
+    font-size: 13px;
+    margin-bottom: 15px;
+
+    .dropdown-menu {
+      margin-left: 6px;
+      position: relative;
+    }
+
+    .dropdown-menu::before {
+      content: "|";
+      position: absolute;
+      left: -11px;
+    }
+
+    .mpld-dropdown-button:hover + .mpld-dropdown-content, .mpld-dropdown-content:hover {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      border: 1px solid #d9d9d9;
+      border-radius: 3px;
+      position: absolute;
+      padding: 10px;
+      text-align: left;
+      top: 22px;
+    }
+
+    .mpld-dropdown-content {
+      display: none;
+    }
+	
+    .mpld-header-label {
+       margin-right: 5px;   
+    }
+    
+    .mpld-header-field {
+       margin-left: 0px; 
+       margin-right: 23px;  
+       font-weight: 700;       
+    }
+    
+    #mpld-select-language-field {
+      margin-left: 0px;
+    }
+
+    #mpld-select-language-field, .mpld-dropdown-button {
+      font-weight: bold;
+    }
+  }
+
+  
+  .mpld-paramdef-type-label {
+    font-weight: 500;
+    margin-right: 7px;
+  }
+
+  .mpld-paramdef-name-value .code-label {
+    font-size: 17px;
+  }
+
+  dd.mpld-paramdef-type {
+    margin-bottom: 3px;
+  }
+
+  
+  .mpld-menu-entry:hover {
+    text-decoration: underline;
+    display:block;
+  }
+
+}

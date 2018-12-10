@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MoveOutputContentToRoot="false"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  ResultsPerPage="10"
+  Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+  MasterToc="/Project/TOCs/Online Output.fltoc"
+  DisableAutoSync="false"
+  MenuSkin="/Project/Skins/SideMenu.flskn"
+  TopicToolbarSkin="/Project/Skins/TopicToolBar.flskn"
+  SearchBarSkin="/Project/Skins/HomeSearchBar.flskn"
+  ReplaceSpacesWithUnderscores="true"
+  ConditionTagExpression="include[General.Internal or General.Online or General.ToDo] exclude[&quot;General.Not for Output&quot; or General.PDF] "
+  TopNavTocPath="true"
+  ExcludeUnreferencedContent="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/ekb-no-site.css"
+  MasterStylesheetOverride="true"
+  MakeFileLowerCase="true"
+  AliasFile="/Project/Advanced/alias.flali"
+  SearchEngine="MadCapSearch"
+  OutputFile="index.html"
+  EquationsOutputType="PNG"
+  MinifyJavaScript="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations></Destinations>
+</CatapultTarget>

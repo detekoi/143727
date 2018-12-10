@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="imgSnippetName"
+    EvaluatedDefinition="name for lightbox tbd">name for lightbox tbd</Variable>
+  <Variable
+    Name="imgSnippetStcPath"
+    Comment=""
+    EvaluatedDefinition="img path tbd">img path tbd</Variable>
+  <Variable
+    Name="appName"
+    Comment="The name of an application mentioed in a snippet"
+    EvaluatedDefinition="Hello World app">Hello World app</Variable>
+</CatapultVariableSet>
